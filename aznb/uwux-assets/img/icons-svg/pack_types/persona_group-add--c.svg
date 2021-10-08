@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="persona_group-add--c" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+
+<style type="text/css">
+	/*
+	Classes Used by IE and MSEdge with Mono Parent Color Fallback for IE
+	Chrome, Chromium Edge, and Firefox use the 'fill' Attributes Over the Classes
+	==============================================================================  */
+	.persona_group-add--color1{
+		fill: currentColor;
+		fill: var(--color-1, currentColor);
+	}
+	.persona_group-add-plus_inner-opacity { opacity:0.5; enable-background: new; }
+</style>
+
+
+<g id="persona_group-add" class="persona_group-add--color1" fill="var(--color-1, currentColor)">
+	<path id="plus-inner" class="persona_group-add-plus_inner-opacity" opacity="0.5" d="M144.2,91.6h-36v-36c0-4.6-3.7-8.3-8.3-8.3l0,0c-4.6,0-8.3,3.7-8.3,8.3v36h-36
+		c-4.6,0-8.3,3.7-8.3,8.3c0,4.6,3.7,8.3,8.3,8.3h36v36c0,4.6,3.7,8.3,8.3,8.3l0,0c4.6,0,8.3-3.7,8.3-8.3v-36h36
+		c4.6,0,8.3-3.7,8.3-8.3C152.5,95.4,148.8,91.6,144.2,91.6z"/>
+	<path id="plus-outer" d="M99.9,47.3c4.6,0,8.3,3.7,8.3,8.3v36h36c4.6,0,8.3,3.7,8.3,8.3c0,4.6-3.7,8.3-8.3,8.3h-36v36
+		c0,4.6-3.7,8.3-8.3,8.3l0,0c-4.6,0-8.3-3.7-8.3-8.3v-36h-36c-4.6,0-8.3-3.7-8.3-8.3c0-4.6,3.7-8.3,8.3-8.3h36v-36
+		C91.6,51.1,95.4,47.3,99.9,47.3L99.9,47.3 M99.9,40.3c-8.4,0-15.3,6.9-15.3,15.3v29h-29c-8.4,0-15.3,6.9-15.3,15.3
+		s6.9,15.3,15.3,15.3h29v29c0,8.4,6.9,15.3,15.3,15.3s15.3-6.9,15.3-15.3v-29h29c8.4,0,15.3-6.9,15.3-15.3s-6.9-15.3-15.3-15.3h-29
+		v-29C115.2,47.2,108.4,40.3,99.9,40.3L99.9,40.3z"/>
+	<path id="border" d="M100,199c-1.1,0-2.1-0.2-3.1-0.7l-79.1-39.6c-2.3-1.2-3.8-3.6-3.8-6.2v-105c0-2.6,1.5-5,3.8-6.2L96.9,1.7
+		c1.9-1,4.2-1,6.2,0l79.1,39.6c2.3,1.2,3.8,3.6,3.8,6.2v105.1c0,2.6-1.5,5-3.8,6.2l-79.1,39.6C102.1,198.8,101.1,199,100,199z
+		M27.8,148.3l72.2,36.1l72.2-36.1V51.7l-72.2-36l-72.2,36C27.8,51.7,27.8,148.3,27.8,148.3z"/>
+</g>
+</svg>

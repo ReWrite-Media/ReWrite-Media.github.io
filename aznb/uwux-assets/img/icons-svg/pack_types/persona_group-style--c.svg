@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="persona_group-style--c" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+
+<style type="text/css">
+	/*
+	Classes Used by IE and MSEdge with Mono Parent Color Fallback for IE
+	Chrome, Chromium Edge, and Firefox use the 'fill' Attributes Over the Classes
+	==============================================================================  */
+	.persona_group-style--color1{
+		fill: currentColor;
+		fill: var(--color-1, currentColor);
+	}
+	.persona_group-style-lens-opacity{ opacity: 0.5; enable-background: new; }
+	.persona_group-style-SpecularHL-opacity{ opacity: 0.75; enable-background: new; }
+</style>
+<g id="persona_group-style" class="persona_group-style--color1" fill="var(--color-1, currentColor)">
+	<path id="Frame" d="M181.2,118.7c0,0,0-30.7,0-37.7s-5.3-9.4-9.1-9.4s-139.8,0-148.1,0c-8.4,0-9,10-9,10s0,28.7,0,38s9,9.1,9,9.1
+		s43.3,0,54.3,0s9.6-9.6,9.6-9.6v-22c0,0-0.3-8.3,10.2-8.3s10.3,8.5,10.3,8.5s0,16.2,0,22.2s6.5,9.1,9.6,9.1s43.2,0,53.8,0
+		C182.5,128.7,181.2,118.7,181.2,118.7z M82.2,112.4c0,6.6-5.4,12-12,12H32.8c-6.6,0-12-5.4-12-12V88.5c0-7.7,3.4-12,12-12h37.4
+		c9.4,0,12,4.8,12,12V112.4z M106.9,82.5H89.1c-1.2,0-2.2-1-2.2-2.2s1-2.2,2.2-2.2h17.8c1.2,0,2.2,1,2.2,2.2S108.1,82.5,106.9,82.5z
+		M175.4,112.4c0,6.6-5.4,12-12,12H126c-6.6,0-12-5.4-12-12V88.5c0-7.7,3.4-12,12-12h37.4c9.4,0,12,4.8,12,12V112.4z"/>
+	<path id="Lens-Left" class="persona_group-style-lens-opacity" opacity="0.5" d="M72,126.6H30.9c-7.3,0-13.2-5.9-13.2-13.1v-26c0-8.4,3.8-13.1,13.2-13.1H72
+		c10.3,0,13.2,5.3,13.2,13.1v26C85.2,120.7,79.3,126.6,72,126.6z"/>
+	<path id="Lens-Right" class="persona_group-style-lens-opacity" opacity="0.5" d="M165.3,125.8h-40.9c-7.2,0-13.1-5.9-13.1-13V86.9c0-8.3,3.7-13,13.1-13h40.9
+		c10.3,0,13.1,5.2,13.1,13v25.9C178.4,119.9,172.5,125.8,165.3,125.8z"/>
+	<path id="SpecularHL-R" class="persona_group-style-SpecularHL-opacity" opacity="0.75" d="M143,84.7h-21.7c-1.2,0-2.2-1-2.2-2.2l0,0c0-1.2,1-2.2,2.2-2.2H143c1.2,0,2.2,1,2.2,2.2l0,0
+		C145.2,83.7,144.2,84.7,143,84.7z"/>
+	<path id="SpecularHL-L" class="persona_group-style-SpecularHL-opacity" opacity="0.75" d="M50.5,84.7H28.8c-1.2,0-2.2-1-2.2-2.2l0,0c0-1.2,1-2.2,2.2-2.2h21.7c1.2,0,2.2,1,2.2,2.2l0,0
+		C52.7,83.7,51.7,84.7,50.5,84.7z"/>
+</g>
+</svg>

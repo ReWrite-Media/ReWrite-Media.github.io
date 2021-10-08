@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="persona_t--c" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 116.8 102" style="enable-background:new 0 0 116.8 102;" xml:space="preserve">
+
+<style type="text/css">
+	/*
+	Classes Used by IE and MSEdge with Mono Parent Color Fallback for IE
+	Chrome, Chromium Edge, and Firefox use the 'fill' Attributes Over the Classes
+	==============================================================================  */
+	.persona_t--color1{
+		fill: currentColor;
+		fill: var(--color-1, currentColor);
+	}
+	.persona_t-outer-stroke-opacity{opacity:1.0;}
+	.persona_t-collar-opacity{opacity:0.5;}
+</style>
+<g id="Persona_T" class="persona_t--color1" fill="var(--color-1, currentColor)" >
+	<path id="outer_stroke" d="M93.7,96.5H23.3V48.3l-0.4,0.6L1.1,40l5.4-21.8l0.4-0.6C7.3,17.2,16.9,5,38.3,4.8
+		c0.6-0.1,1.1-0.1,1.4-0.1h37.7c0.4,0,0.7,0,1,0.1h0.1c23.2,0,31.5,12.6,31.8,13.1l0.3,0.5l5.3,21.6l-22.1,8.8l-0.1-0.1L93.7,96.5
+		L93.7,96.5z M30.3,89.5h56.4V41.2l7-4.3l2.5,3.4l11.5-4.6l-3.5-14.5c-1.5-1.9-8.6-9.5-25.8-9.5c-0.4,0-0.7,0-1-0.1h-0.1H39.7h-0.1
+		l-0.3,0.1h-0.6c-15.9,0-23.9,7.6-25.8,9.6L9.3,35.8l11.2,4.5l2.7-3.6l7.1,4.4C30.3,41.1,30.3,89.5,30.3,89.5z"/>
+	<path id="collar" class="persona_t-collar-opacity" opacity="0.5" d="M58.5,27.4c-7.8,0-12.6-2.7-15.2-5c-3.1-2.7-5-6.3-5-9.6c0-3.2,2.1-5.2,6.4-6
+		c3.2-0.6,7.6-0.6,12.6-0.6h1.9c5.2,0,9.7,0,13,0.6c4.4,0.8,6.6,2.8,6.6,6c0,3.3-1.9,6.9-5,9.6C71.1,24.7,66.3,27.4,58.5,27.4z
+		M56.1,10.2c-4.4,0-8.1,0-10.7,0.5c-3.1,0.6-3.1,1.6-3.1,2.1c0,3.3,4.1,10.6,16.2,10.6s16.2-7.3,16.2-10.6c0-0.5,0-1.5-3.3-2.1
+		c-2.9-0.5-7.2-0.5-12.3-0.5h-1.9C56.9,10.2,56.5,10.2,56.1,10.2z"/>
+</g>
+</svg>

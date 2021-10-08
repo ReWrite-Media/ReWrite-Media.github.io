@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="split_window_panel--c"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 12"
+	 style="enable-background:new 0 0 12 12;" xml:space="preserve">
+
+<style type="text/css">
+	/*
+	Classes Used by IE and MSEdge with Mono Parent Color Fallback for IE
+	Chrome, Chromium Edge, and Firefox use the 'fill' Attributes Over the Classes
+	==============================================================================  */
+	.split_window_panel--color1{
+		fill: currentColor;
+		fill: var(--color-1, currentColor);
+	}
+</style>
+<g class="split_window_panel--color1" fill="var(--color-1, currentColor)" >
+	<path d="M11,0h-1H9H8H7H6H5H4H3H2H1H0v1v1v1v1v1v1v1v1v1v1v1v1h1h1h1h1h1h1h1h1h1h1h1h1
+		v-1v-1V9V8V7V6V5V4V3V2V1V0H11z M5,11H4H3H2H1v-1V9V8V7V6V5V4V3V2V1h1h1h1h1h1v1v1v1v1v1v1v1v1v1v1H5z"/>
+</g>
+</svg>
