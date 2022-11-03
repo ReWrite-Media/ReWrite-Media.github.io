@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="study_levers.ipynb" PsrId="428" FileType="1" SrcCul="en-US" TgtCul="tr-TR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\WDG_Games\Default.lsconfig" Type="Config" />
+  <Item ItemId=";Strings" ItemType="4" PsrId="428" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Colored Levers]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Renkli Kollar]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="1" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="2" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `eflatun` ![Eflatun]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="11" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Kapıyı açmak için dört şalteri de indirmeniz gerekecek ama bunu manuel olarak yapacak kadar hızlı değilsiniz. Şalterlerin indirilmesi gereken sırayı bulmaya çalışın, ardından bu işi bizim yerimize yapması için yeni arkadaşınız Hızlı Şövalyeyi programlayın! Hızlı Şövalyenin hangi renge geçmesi gerektiğini tanımlamak için 'move_knight()' işlevini kullanın.]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="3" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="4" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA['move_knight()' işlevi için hangi renge gitmesi gerektiğini tanımlayan bir parametre gerekir.]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="5" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="6" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Valid colors are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Geçerli renkler şunlardır:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="7" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `mavi` ![Mavi]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="8" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `turuncu` ![Turuncu]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="9" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `sarı` ![Sarı]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="10" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[KS 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="22" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[KS 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="23" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# KOD ÖRNEĞİ - BURAYI DÜZENLEYEMEZSİNİZ]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="12" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# NE OLACAĞINI GÖRMEK İÇİN ÇALIŞTIRIN]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="13" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# move the Suit of Armor between]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Zırh Takımını]A;arada hareket ettirin]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="14" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# different colors]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# farklı renkler]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="15" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Activity:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Etkinlik:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="16" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="17" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Figure out what order the levers should be flipped by paying close attention to the carpets in front of them. Then move the Speedy Knight to each lever in the correct order. The Speedy Knight is clever enough to flip the lever when it's in position!]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Önlerindeki halıları dikkate alarak şalterlerin hangi sırayla çevrilmesi gerektiğini bulun. Ardından Hızlı Şövalyeyi her şaltere, doğru sırada hareket ettirin. Hızlı Şövalye, doğru konumdayken şalteri indirecek kadar zekidir!]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="18" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="19" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Aşağıdaki kod bozuk, düzeltebilir misiniz? Ne yaptığını görmek için kodu çalıştırarak hata ayıklayın ve ardından istediğiniz sonucu elde etmek için kodu düzenleyin.]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="20" />
+    </Item>
+    <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# code here]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# kod buraya]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="21" />
+    </Item>
+  </Item>
+</LCX>

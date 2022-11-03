@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="no_code.ipynb" PsrId="428" FileType="1" SrcCul="en-US" TgtCul="it-IT" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\WDG_Games\Default.lsconfig" Type="Config" />
+  <Item ItemId=";Strings" ItemType="4" PsrId="428" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# No Coding Needed]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Nessuna programmazione necessaria]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="1" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="2" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[There aren't any coding activities active. Search the area for the next objective.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Non ci sono attività di programmazione attive. Esplora l'area e trova il prossimo obiettivo.]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="3" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[OdC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="4" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[OdC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="5" />
+    </Item>
+  </Item>
+</LCX>

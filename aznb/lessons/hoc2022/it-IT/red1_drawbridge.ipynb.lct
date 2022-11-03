@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="red1_drawbridge.ipynb" PsrId="428" FileType="1" SrcCul="en-US" TgtCul="it-IT" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\WDG_Games\Default.lsconfig" Type="Config" />
+  <Item ItemId=";Strings" ItemType="4" PsrId="428" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Drawbridge]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Ponte levatoio]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="1" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="2" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The Enderman Butler needs your direction to get across the river! Please direct them to use their magic to teleport to the diamond block, then have them move into position to pull the lever to let down the drawbridge! Use the `teleport_enderman_to_diamond()` function to get the Enderman across the river, then use `move_enderman_forward()` function to position the Enderman in front of the lever and `pull_lever_down()` to pull the lever. The Enderman Butler will automatically turn to face the lever when it's in the correct position! ]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Il maggiordomo Enderman ha bisogno del tuo aiuto per attraversare il fiume! Aiutalo a usare la sua magia per teletrasportarsi sul blocco di diamanti, poi fallo mettere in posizione per tirare la leva e abbassare il ponte levatoio! Usa la funzione 'teleport_enderman_to_diamond()' per portare l'Enderman dall'altra parte del fiume, quindi usa la funzione 'move_enderman_forward()' per posizionare l'Enderman davanti alla leva e 'pull_lever_down()' per tirare la leva. Il maggiordomo Enderman si girerà automaticamente verso la leva quando sarà nella posizione corretta! ]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="3" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[OdC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="14" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[OdC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="15" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# ESEMPIO DI CODICE - NON È POSSIBILE MODIFICARLO]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="4" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# ESEGUI PER VEDERE COSA SUCCEDE]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="5" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# move the enderman 2 blocks forward]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# sposta l'Enderman 2 blocchi in avanti]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="6" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# then teleport them to the diamond block]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# poi teletrasportalo sul blocco di diamanti]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="7" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Actvitiy:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Attività:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="8" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="9" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Teleport the Enderman over the river to flip the lever and bring down the drawbridge. Be careful not to let the Enderman fall into the water. They hate water!]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Teletrasporta l'Enderman oltre il fiume per tirare la leva e abbassare il ponte levatoio. Fai attenzione a non far cadere l'Enderman in acqua. Odia bagnarsi!]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="10" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="11" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Il codice di seguito non funziona. Riesci a ripararlo? Esegui il codice per vedere cosa succede, quindi esegui il debug modificandolo per ottenere la soluzione corretta.]]></Val>
+        </Tgt>
+        <Prev Cat="Text">
+          <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" Order="12" />
+    </Item>
+    <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# code here]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# codice qui]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="13" />
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="boss_red.ipynb" PsrId="428" FileType="1" SrcCul="en-US" TgtCul="es-MX" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\WDG_Games\Default.lsconfig" Type="Config" />
+  <Item ItemId=";Strings" ItemType="4" PsrId="428" Leaf="false">
+    <Disp Icon="Str" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Open Doors]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# abre puertas]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="1" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="2" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `blue`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `azul`]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="11" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#11" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="12" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La función `move_cursor()` usa un parámetro que define la dirección del cursor. El valor de ese parámetro es el color de la flecha que representa la dirección en que quieres moverlo.]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="13" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#13" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="14" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#14" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Valid directions are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Las direcciones válidas son:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="15" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#15" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `naranja` (mueve el cursor hacia arriba) ![Flecha naranja]5D;(img/orange_arrow.png "Flecha naranja")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="16" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#16" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `magenta` (mueve el cursor hacia abajo) ![Flecha magenta]5D;(img/magenta_arrow.png "Flecha magenta")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="17" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#17" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `azul` (mueve el cursor hacia la izquierda) ![Flecha azul]5D;(img/blue_arrow.png "Flecha Azul")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="18" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#18" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `amarilla` (mueve el cursor hacia la derecha) ![Flecha amarilla]5D;(img/yellow_arrow.png "Flecha amarilla")]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="19" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[¡Cada agujero representa una puerta ubicada en una de las cuatro esquinas de la arena del jefe! ¡Rellena todos los agujeros con el color correcto para abrir las puertas de la cámara! ¡Usa la función `move_cursor()` para colocar el cursor en un espacio y luego usa `place_block()` para colocar un bloque de color y rellenarlo!]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="3" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="4" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La función `place_block()` usa un parámetro que define el color del bloque que quieres colocar.]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="5" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="6" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Valid colors are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Los colores válidos son:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="7" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `magenta`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `magenta`]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="8" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `green`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `verde`]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="9" />
+    </Item>
+    <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[- `yellow`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `amarillo`]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="10" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HOC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="31" />
+    </Item>
+    <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HOC 2022]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="32" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EJEMPLO DE CÓDIGO - NO PUEDES EDITARLO]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="20" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EJECÚTALO PARA VER QUÉ SUCEDE]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="21" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# place a green block, move]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# coloca un bloque verde, muévete]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="22" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# 2 spaces right and then place]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# 2 espacios a la derecha y luego coloca]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="23" />
+    </Item>
+    <Item ItemId="1;cell_type:code:source#5" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# a blue block]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# un bloque azul]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="24" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# Activity:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Actividad:]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="25" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="26" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Place colored blocks into the correct spaces to open the chamber doors.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Coloca bloques de colores en los espacios correctos para hacer que se abran las puertas de la cámara.]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="27" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="28" />
+    </Item>
+    <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[El código que se incluye a continuación no funciona. ¿Puedes arreglarlo? Ejecuta el código para ver qué pasa y edítalo con la solución correcta para depurarlo.]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="29" />
+    </Item>
+    <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[# code here]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# escribe el código aquí]A;]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" Order="30" />
+    </Item>
+  </Item>
+</LCX>
