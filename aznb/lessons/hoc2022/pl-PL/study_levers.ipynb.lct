@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta'! [Purpurowy]5D; (img/magenta_carpet.png "Purpurowy")]A;]]></Val>
+          <Val><![CDATA[- 'magenta' ![Karmazynowy]5D;(img/magenta_carpet.png "Karmazynowy")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Musisz obrócić wszystkie cztery dźwignie, aby otworzyć drzwi, ale nie jesteś wystarczająco szybki, aby zrobić to ręcznie. Sprawdź, czy możesz wymyślić kolejność, w jakiej muszą zostać odwrócone, a następnie zaprogramuj swojego nowego przyjaciela Speedy Knight, aby zrobił to za nas! Użyj funkcji "move_knight()", aby zdefiniować, do którego koloru Powinien zostać przeniesiony Speedy Knight.]A;]]></Val>
+          <Val><![CDATA[Musisz przełączyć wszystkie cztery dźwignie, aby otworzyć drzwi, ale nie masz na tyle szybkości, aby móc zrobić to ręcznie. Zobacz, czy zdołasz określić kolejność, w jakiej muszą zostać przełączone, a następnie zaprogramuj swojego nowego przyjaciela, Szybkiego Rycerza, aby zrobił to za nas! Użyj funkcji 'move_knight()', aby określić, do którego koloru ma przemieścić się Szybki Rycerz.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja 'move_knight()'przyjmuje jeden parametr, który określa, do którego koloru powinna zostać przeniesiona.]A;]]></Val>
+          <Val><![CDATA[Funkcja 'move_knight()'przyjmuje jeden parametr, który określa, do którego koloru ma przemieścić się rycerz.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "niebieski" ! [Niebieski]5D; (img/blue_carpet.png "Niebieski")]A;]]></Val>
+          <Val><![CDATA[- 'blue' ![Niebieski]5D;(img/blue_carpet.png "Niebieski")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "pomarańczowy" ! [Pomarańczowy]5D; (img/orange_carpet.png "Pomarańczowy")]A;]]></Val>
+          <Val><![CDATA[- 'orange' ![Pomarańczowy]5D;(img/orange_carpet.png "Pomarańczowy")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "żółty" ! [Żółty]5D; (img/yellow_carpet.png "Żółty")]A;]]></Val>
+          <Val><![CDATA[- 'yellow' ![Żółty]5D; (img/yellow_carpet.png "Żółty")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the Suit of Armor between]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przenieś Garnitur zbroi między]A;]]></Val>
+          <Val><![CDATA[# przenieś Zbroję między]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Figure out what order the levers should be flipped by paying close attention to the carpets in front of them. Then move the Speedy Knight to each lever in the correct order. The Speedy Knight is clever enough to flip the lever when it's in position!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dowiedz się, w jakiej kolejności dźwignie powinny być odwrócone, zwracając szczególną uwagę na dywany przed nimi. Następnie przesuń Speedy Knight na każdą dźwignię we właściwej kolejności. Speedy Knight jest na tyle sprytny, że odwraca dźwignię, gdy jest na swoim miejscu!]A;]]></Val>
+          <Val><![CDATA[Ustal, w jakiej kolejności dźwignie powinny zostać przełączone, zwracając szczególną uwagę na dywany przed nimi. Następnie przemieść Szybkiego Rycerza do każdej z dźwigni we właściwej kolejności. Szybki Rycerz jest na tyle sprytny, że przełącza dźwignię, gdy jest na miejscu!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Poniższy kod jest uszkodzony, czy możesz to naprawić? Debuguj kod, uruchamiając go, aby zobaczyć, co robi, a następnie edytuj go, aby uzyskać pożądany rezultat.]]></Val>
+          <Val><![CDATA[Poniższy kod nie działa, czy możesz go naprawić? Debuguj kod przez uruchomienie go, aby zobaczyć co robi, a następnie edytuj go, aby uzyskać pożądany rezultat.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />

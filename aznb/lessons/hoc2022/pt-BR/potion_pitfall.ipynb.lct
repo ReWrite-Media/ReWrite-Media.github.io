@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pitfall]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Pitfall]A;]]></Val>
+          <Val><![CDATA[# Buraco]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Woah, pernas, chega de rolar para este golem! Precisamos ajudá-lo a navegar com segurança até o bloco de esmeraldas. Quando o golem se move para a placa de pressão, o bloco que precisa se retrai por um momento. Se esperarmos, parece que volta! Use a função 'move_golem_forward()' para mover o golem e a função 'wait()' para fazê-lo esperar o bloco voltar!]]></Val>
+          <Val><![CDATA[Uou, pernas, nada de fazer este golem rolar mais! Precisamos ajudá-lo a navegar com segurança até o bloco de esmeralda. Quando o golem passa por cima da placa de pressão, o bloco do qual ele precisa é recolhido por um momento. Se esperarmos, parece que ele volta! Use a função `move_golem_forward()` para mover o golem e a função `wait()` para fazê-lo esperar o bloco voltar!]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the golem forward 2 spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Mova o golem para frente 2 espaços]A;]]></Val>
+          <Val><![CDATA[# mova o golem 2 espaços para a frente]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# wait one second and then move ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Espere um segundo e depois mova-se ]A;]]></Val>
+          <Val><![CDATA[# espere um segundo e depois mova-se]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 more spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 mais espaços]A;]]></Val>
+          <Val><![CDATA[# mais 2 espaços]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

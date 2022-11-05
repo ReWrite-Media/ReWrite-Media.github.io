@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Szüksége van a mérlegre, hogy pontosan 23 font súlyt érjen el. Talán van itt egy tábla, amely megmondja, hogy mennyibe kerül az egyes csőcselék? Használja a "summon_animal()" funkciót az állatok olyan kombinációjának megidézéséhez, amely akár 23 fontot is összead. ]A;]]></Val>
+          <Val><![CDATA[A mérlegre pontosan 23 font súlyt kell elhelyezned. Talán van itt egy tábla, amelyre rá van írva, hogy mennyi az egyes mobok súlya. Használd a „summon_animal()” függvényt, és idézz meg különböző állatokat úgy, hogy összesen 23 font legyen a súlyuk.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "summon_animal()" függvény olyan paramétert vesz fel, amely meghatározza, hogy melyik állatot kell megidézni.]A;]]></Val>
+          <Val><![CDATA[A „summon_animal()” függvény egy paramétert fogad, amely meghatározza, hogy melyik állatot kell megidézni.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -65,8 +65,8 @@
     <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid animals are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid animals are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Érvényes állatok:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "csirke" ! [Csirke]5D; (img/chicken_weight.png "Csirke")]A;]]></Val>
+          <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "juhok" ! [Juh]5D; (img/sheep_weight.png "Juh")]A;]]></Val>
+          <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "tehén" ! [Tehén]5D; (img/cow_weight.png "Tehén")]]></Val>
+          <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# idézés 5 csirke és]A;]]></Val>
+          <Val><![CDATA[# idézzen meg 5 csirkét, és]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# two cows]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# két tehén]A;]]></Val>
+          <Val><![CDATA[# két tehenet]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# idézés 5 csirke és]A;]]></Val>
+          <Val><![CDATA[# idézzen meg 5 csirkét, és]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# two cows]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# két tehén]A;]]></Val>
+          <Val><![CDATA[# két tehenet]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the area for information on how much each animals weighs, and then write code to summon enough animals to weigh exactly 23lbs.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Keressen rá a területre, hogy megtudja, mennyit nyomnak az egyes állatok, majd írjon kódot, hogy elegendő állatot hívjon össze, hogy pontosan 23 fontot nyomjon.]A;]]></Val>
+          <Val><![CDATA[Keress ezen a területen valami információt arról, hogy mennyi az egyes állatok súlya, majd írj olyan kódot, amely elegendő állatot idéz meg ahhoz, hogy pontosan 23 font legyen a súlyuk.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtassa a kódot, hogy lássa, mi történik, majd hibakeresést végezzen a megfelelő megoldásra való szerkesztéssel.]]></Val>
+          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtasd a kódot, hogy lásd, mi történik, majd a hibakereséskor szerkeszd a kódot, hogy jó legyen.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

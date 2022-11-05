@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "grön" ! [Grön kanon]5D; (img/green_cannon.png "Grön kanon")]]></Val>
+          <Val><![CDATA[- `green` ![Grön kanon]5D;(img/green_cannon.png "Grön kanon")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tidsagenterna ligger under Time Orb! De har använt sina krafter för att skapa skyddande färgade ringar runt den! Använd funktionen 'activate_cannon()' för att aktivera de färgade kanonerna i samma ordning som de färgade ringarna för att inaktivera Time Orb! ]A;]]></Val>
+          <Val><![CDATA[Tidsagenterna är under tidsklotet! De har använt sina krafter för att skapa skyddande färgade ringar runt det! Använd funktionen 'activate_cannon()' för att aktivera de färgade kanonerna i samma ordning som de färgade ringarna för att stänga av tidsklotet!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "blå" ! [Blå kanon]5D; (img/blue_cannon.png "Blå kanon")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![Blå kanon]5D;(img/blue_cannon.png "Blå kanon")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "gul" ! [Gul kanon]5D; (img/yellow_cannon.png "Gul kanon")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![Gul kanon]5D;(img/yellow_cannon.png "Gul kanon")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ! [Magenta kanon]5D; (img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![Ljuslila kanon]5D;(img/magenta_cannon.png "Ljuslila kanon")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# activate the blue and yellow ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# aktivera den blå och gula ]A;]]></Val>
+          <Val><![CDATA[# aktivera de blå och gula]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# cannons in that order]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# kanoner i den ordningen]A;]]></Val>
+          <Val><![CDATA[# kanonerna i den ordningen]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There seems to be an order to these colored rings surrounding the Time Orb! From the largest ring to the smallest, write a program that will activate the correct colored cannons to fire at the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Det verkar finnas en ordning på dessa färgade ringar som omger Time Orb! Från den största ringen till den minsta, skriv ett program som aktiverar rätt färgade kanoner för att skjuta mot de färgade ringarna för att inaktivera Time Orb! ]A;]]></Val>
+          <Val><![CDATA[Det verkar finnas en ordning på de färgade ringarna som omger tidsklotet! Skriv ett program som aktiverar de färgade kanonerna från största ringen till minsta för att skjuta de färgade ringarna och stänga av tidsklotet!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Chess Pieces]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Chess Pieces]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Pièces d’échecs]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid directions are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid directions are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les directions valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -38,8 +38,8 @@
     <Item ItemId="0;cell_type:markdown:source#11" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `orange` (déplace la pièce d’échecs vers l’avant) ![Flèche orange]5D;(img/orange_arrow.png "Flèche orange")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `magenta` (déplace la pièce d’échecs en arrière) ![Flèche magenta]5D;(img/magenta_arrow.png "Flèche magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -56,8 +56,8 @@
     <Item ItemId="0;cell_type:markdown:source#13" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `bleu` (déplace la pièce d’échecs vers la gauche) ![Flèche bleue]5D;(img/blue_arrow.png "Flèche bleue")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -65,8 +65,8 @@
     <Item ItemId="0;cell_type:markdown:source#14" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `jaune` (déplace la pièce d’échecs vers la droite) ![Flèche jaune]5D;(img/yellow_arrow.png "Flèche jaune")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Vous avez libéré le roi et la reine! Mais la porte ne s’ouvre toujours pas. Ils doivent être dans la mauvaise position. Placez-les dans les bonnes positions pour enfin vous échapper de cet endroit! Utilisez la fonction `move_chess_piece()` pour placer le roi et la reine dans les bonnes positions.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -83,7 +83,7 @@
     <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La fonction `move_chess_piece()` est influencée par deux paramètres. Le premier est la pièce d'échecs que vous souhaitez déplacer, le second est la direction dans laquelle elle doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -101,7 +101,7 @@
     <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -110,8 +110,8 @@
     <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid chess pieces are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid chess pieces are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les pièces d’échecs valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -119,8 +119,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `roi` ![Roi]5D;(img/king_icon.png "Roi")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -128,8 +128,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `reine` ![Reine]5D;(img/queen_icon.png "Reine")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -137,7 +137,7 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -146,8 +146,8 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="33" />
@@ -155,8 +155,8 @@
     <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -164,8 +164,8 @@
     <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -173,8 +173,8 @@
     <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -182,8 +182,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# avancer la reine de 3 blocs]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -191,8 +191,8 @@
     <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# déplacer le roi à gauche de 3 blocs]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -209,7 +209,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -227,8 +227,8 @@
     <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -236,8 +236,8 @@
     <Item ItemId="3;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -245,8 +245,8 @@
     <Item ItemId="3;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# avancer la reine de 3 blocs]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -254,8 +254,8 @@
     <Item ItemId="3;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# déplacer le roi à gauche de 3 blocs]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -263,8 +263,8 @@
     <Item ItemId="4;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Actvitiy:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Activité :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -272,7 +272,7 @@
     <Item ItemId="4;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -281,8 +281,8 @@
     <Item ItemId="4;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Search the room to find where you should move each chess piece, and then write code to position them to the correct spots on the black and white checkered floor. Make sure the chess pieces don't bump into each other.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Search the room to find where you should move each chess piece, and then write code to position them to the correct spots on the black and white checkered floor. Make sure the chess pieces don't bump into each other.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Fouillez la pièce pour trouver où placer chaque pièce d’échecs, puis écrivez du code pour les placer aux bons endroits sur le carrelage noir et blanc. Assurez-vous que les pièces d’échecs ne se foncent pas les unes dans les autres.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -290,7 +290,7 @@
     <Item ItemId="4;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -299,8 +299,8 @@
     <Item ItemId="4;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="31" />

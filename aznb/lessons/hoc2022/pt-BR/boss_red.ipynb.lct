@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Open Doors]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Portas Abertas]A;]]></Val>
+          <Val><![CDATA[# Abra as Portas]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[-]A; 'azul']]></Val>
+          <Val><![CDATA[- `azul`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_cursor()' tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção que você deseja mover.]A;]]></Val>
+          <Val><![CDATA[A função `move_cursor()` tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção em que você deseja mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' (move o cursor para cima) ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]A;]]></Val>
+          <Val><![CDATA[- `laranja` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png "Seta Laranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (move o cursor para baixo) ! [Seta Magenta]5D; (img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D; (img/magenta_arrow.png "Seta Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' (move o cursor para a esquerda) ! [Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
+          <Val><![CDATA[- `azul` (move o cursor para a esquerda)  ![Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' (move o cursor à direita) ! [Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
+          <Val><![CDATA[- `amarelo` (move o cursor para a direita)  ![Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Cada buraco representa uma porta de câmara nos quatro cantos da arena do chefe! Encha todos os orifícios com a cor correta para abrir as portas da câmara! Use a função 'move_cursor()' para posicionar o cursor em um espaço e, em seguida, use a função 'place_block()' para colocar um bloco colorido para preencher cada espaço!]A;]]></Val>
+          <Val><![CDATA[Cada buraco representa uma porta de câmara nos quatro cantos da arena do chefe! Preencha todos os buracos com a cor correta para abrir as portas das câmaras! Use a função `move_cursor()` para posicionar o cursor em um espaço e depois use a função `place_block()` para colocar um bloco colorido e preencher os espaços!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'place_block()' tem um parâmetro que define a cor do bloco que você gostaria de colocar.]A;]]></Val>
+          <Val><![CDATA[A função `place_block()` tem um parâmetro que define a cor do bloco que você gostaria de colocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta']A;]]></Val>
+          <Val><![CDATA[- `magenta`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[-]A; 'verde']]></Val>
+          <Val><![CDATA[- `verde`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[-]A; 'amarelo']]></Val>
+          <Val><![CDATA[- `amarelo`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="31" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="32" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a green block, move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Coloque um bloco verde, mova-se]A;]]></Val>
+          <Val><![CDATA[# coloque um bloco verde, mova]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 spaces right and then place]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 espaços direito e, em seguida, coloque]A;]]></Val>
+          <Val><![CDATA[# 2 espaços para a direita e depois coloque]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# a blue block]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Um bloco azul]A;]]></Val>
+          <Val><![CDATA[# um bloco azul]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Place colored blocks into the correct spaces to open the chamber doors.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Coloque blocos coloridos nos espaços corretos para abrir as portas da câmara.]A;]]></Val>
+          <Val><![CDATA[Coloque blocos coloridos nos espaços corretos para abrir as portas das câmaras.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

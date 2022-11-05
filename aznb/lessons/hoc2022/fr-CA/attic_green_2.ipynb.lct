@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Green Path Part 2)]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Attic Tutorial (Green Path Part 2)]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Tutoriel sur le grenier (Chemin vert Partie 2)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `droite`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -38,8 +38,8 @@
     <Item ItemId="0;cell_type:markdown:source#11" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `up`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `haut`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `down`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `bas`]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -56,8 +56,8 @@
     <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Maintenant que la trappe est ouverte, vous devez déplacer l’agent de deux blocs vers le haut pour le libérer. Utilisez la fonction 'agent.move()' pour déplacer l’agent vers le haut.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -65,7 +65,7 @@
     <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La fonction 'agent.move()' est influencée par un paramètre qui définit dans quelle direction il doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,7 +83,7 @@
     <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `forward`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `en avant`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -110,8 +110,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `back`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `en arrière`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -119,8 +119,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `left`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `gauche`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -128,8 +128,8 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -137,8 +137,8 @@
     <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -146,8 +146,8 @@
     <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -155,8 +155,8 @@
     <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -164,8 +164,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# make the agent move up one block]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# make the agent move up one block]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# déplacer l'agent d'un bloc vers le haut]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -182,7 +182,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -191,8 +191,8 @@
     <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Help the Agent out of the floor. Move it up two blocks to get it out.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Help the Agent out of the floor. Move it up two blocks to get it out.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Aidez l’agent à sortir du sol. Déplacez-le de deux blocs vers le haut pour le sortir.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -200,7 +200,7 @@
     <Item ItemId="2;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -209,8 +209,8 @@
     <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />

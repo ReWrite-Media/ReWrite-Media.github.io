@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'droit' ! [Droite]5D; (img/gray_right.png « Droit »)]A;]]></Val>
+          <Val><![CDATA[- 'droite' ! [Droite]5D; (img/gray_right.png « Droite »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gauche' ! [À gauche]5D; (img/gray_left.png « Gauche »)]]></Val>
+          <Val><![CDATA[- 'gauche' ![À gauche]5D;(img/gray_left.png « Gauche »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Les blocs solides arrêtent le laser! Déplacez la rangée de blocs rouges, jaunes et verts pour que le laser passe à travers les blocs de verre et allume la lumière de l’autre côté. Utilisez la fonction 'shift_row()' pour déplacer les lignes vers la gauche ou la droite afin de permettre au laser de passer à travers les blocs de verre.]A;]]></Val>
+          <Val><![CDATA[Les blocs solides arrêtent le laser ! Déplacez la rangée de blocs rouges, jaunes et verts afin que le laser passe à travers les blocs de verre pour allumer la lumière de l’autre côté. Utilisez la fonction 'shift_row()' pour déplacer les lignes vers la gauche ou la droite afin de permettre au laser de passer à travers les blocs de verre.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'shift_row()' prend deux paramètres (chaînes). Le premier paramètre définit la ligne de couleur que vous souhaitez déplacer et le deuxième paramètre définit la direction dans laquelle la ligne doit se déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction 'shift_row()' est influencée par deux paramètres (chaînes). Le premier paramètre définit la couleur de la rangée que vous souhaitez déplacer et le deuxième paramètre définit la direction dans laquelle la rangée doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Les couleurs valides sont:]A;]]></Val>
+          <Val><![CDATA[Les couleurs valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'vert' ! [Vert]5D; (img/green_right.png « Vert »)]A;]]></Val>
+          <Val><![CDATA[- 'vert' ![Vert]5D;(img/green_right.png « Vert »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune' ! [Jaune]5D; (img/yellow_right.png « Jaune »)]A;]]></Val>
+          <Val><![CDATA[- 'jaune' ! [Jaune]5D;(img/yellow_right.png « Jaune »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'rouge' ! [Rouge]5D; (img/red_right.png « Rouge »)]A;]]></Val>
+          <Val><![CDATA[- 'rouge' ![Rouge]5D;(img/red_right.png « Rouge »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="36" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="37" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# décalez la ligne verte vers la droite]A;]]></Val>
+          <Val><![CDATA[# décaler la rangée verte vers la droite]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once and the red row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# gauche 1 une fois et la ligne rouge]A;]]></Val>
+          <Val><![CDATA[# gauche 1 une fois et la rangée rouge]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# right 3 times.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# droit 3 fois.]A;]]></Val>
+          <Val><![CDATA[# droite 3 fois.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# décalez la ligne verte vers la droite]A;]]></Val>
+          <Val><![CDATA[# décaler la rangée verte vers la droite]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once and the red row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# gauche 1 une fois et la ligne rouge]A;]]></Val>
+          <Val><![CDATA[# gauche 1 une fois et la rangée rouge]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# right 3 times.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# droit 3 fois.]A;]]></Val>
+          <Val><![CDATA[# droite 3 fois.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -327,7 +327,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est cassé. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

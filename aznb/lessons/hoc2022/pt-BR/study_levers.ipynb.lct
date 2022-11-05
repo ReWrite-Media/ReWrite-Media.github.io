@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ! [Magenta]5D; (img/magenta_carpet.png "Magenta")]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Você vai precisar virar todas as quatro alavancas para abrir a porta, mas você não é rápido o suficiente para fazê-lo manualmente. Veja se você pode descobrir a ordem que eles precisam ser virado, em seguida, programe seu novo amigo o Cavaleiro Veloe para fazê-lo por nós! Use a função 'move_knight()' para definir para qual cor o Cavaleiro Veloz deve se mover.]A;]]></Val>
+          <Val><![CDATA[Você vai precisar virar todas as quatro alavancas para abrir a porta, mas você não é rápido o suficiente para fazê-lo manualmente. Veja se você pode descobrir a ordem que elas precisam ser viradas e, em seguida, programe seu novo amigo o Cavaleiro Rápido para fazê-lo por nós! Use a função 'move_knight()' para definir para qual cor o Cavaleiro Rápido deve se mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_knight()'leva um parâmetro que define para qual cor deve se mover.]A;]]></Val>
+          <Val><![CDATA[A função 'move_knight()' leva um parâmetro que define para qual cor ele deve se mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' ! [Azul]5D; (img/blue_carpet.png "Azul")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' ! [Laranja]5D; (img/orange_carpet.png "Laranja")]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' ! [Amarelo]5D; (img/yellow_carpet.png "Amarelo")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the Suit of Armor between]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o Traje de Armadura entre]A;]]></Val>
+          <Val><![CDATA[# mova a Armadura entre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# different colors]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Cores diferentes]A;]]></Val>
+          <Val><![CDATA[# cores diferentes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Figure out what order the levers should be flipped by paying close attention to the carpets in front of them. Then move the Speedy Knight to each lever in the correct order. The Speedy Knight is clever enough to flip the lever when it's in position!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Descubra que ordem as alavancas devem ser viradas prestando muita atenção aos tapetes à sua frente. Em seguida, mova o Cavaleiro Veloto para cada alavanca na ordem correta. O Speedy Knight é esperto o suficiente para virar a alavanca quando está em posição!]A;]]></Val>
+          <Val><![CDATA[Descubra que ordem as alavancas devem ser viradas prestando muita atenção aos tapetes à sua frente. Em seguida, mova o Cavaleiro Rápido para cada alavanca na ordem correta. O Cavaleiro Rápido é esperto o suficiente para virar a alavanca quando está em posição!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código abaixo está quebrado, você pode corrigi-lo? Depure o código executando-o para ver o que ele faz e, em seguida, editá-lo para que você obtenha o resultado desejado.]]></Val>
+          <Val><![CDATA[O código abaixo está quebrado, você consegue corrigi-lo? Depure o código executando-o para ver o que ele faz e, em seguida, edite-o para que você obtenha o resultado desejado.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />

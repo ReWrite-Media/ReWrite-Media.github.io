@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Laser Reveal]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Laser avslöjar]A;]]></Val>
+          <Val><![CDATA[# Laseravslöjande]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gul' (flyttar markören åt höger) ! [Gul pil]5D; (img/yellow_arrow.png "Gul pil")]]></Val>
+          <Val><![CDATA[- `yellow` (flyttar markören åt höger)  ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all the holes in the floor with the cursor to open the curtain. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Fyll i alla hål i golvet med markören för att öppna gardinen. Använd 'move_cursor()' för att placera markören och 'place_block()' för att placera ett block i den position du har valt.]A;]]></Val>
+          <Val><![CDATA[Fyll alla hål i golvet med markören för att lyfta ridån. Använd 'move_cursor()' för att positionera markören och 'place_block()' för att placera ett block på det ställe du har valt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar den riktning du vill flytta.]A;]]></Val>
+          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar åt vilket håll du vill gå åt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (flyttar markören framåt) ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (flyttar markören framåt) ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (flyttar markören bakåt) ! [Magenta pil]5D; (img/magenta_arrow.png "Magentapil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (flyttar markören bakåt)  ![Ljuslila pil]5D;(img/magenta_arrow.png "Ljuslila pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blå' (flyttar markören åt vänster) ! [Blå pil]5D; (img/blue_arrow.png "Blå pil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (flyttar markören åt vänster)  ![Blå pil]5D;(img/blue_arrow.png "Blå pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 4 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# med 4 block]A;]]></Val>
+          <Val><![CDATA[# 4 block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 4 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# med 4 block]A;]]></Val>
+          <Val><![CDATA[# 4 block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all the holes in the floor to open the curtain and reveal the final activity.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Fyll i alla hål i golvet för att öppna gardinen och avslöja den slutliga aktiviteten.]A;]]></Val>
+          <Val><![CDATA[Fyll alla hål i golvet för att lyfta ridån och avslöja den sista aktiviteten.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

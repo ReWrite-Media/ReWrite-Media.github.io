@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pitfall]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; nástrahy]]></Val>
+          <Val><![CDATA[# nástraha]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Woah, nohy, už sa viac neprevracaj pre tohto golema! Musíme mu pomôcť bezpečne navigovať do smaragdového bloku. Keď sa golem presunie na prítlačnú dosku, blok, ktorý potrebuje, sa na chvíľu zasunie. Ak počkáme, zdá sa, že sa vráti! Použite funkciu "move_golem_forward()" na pohyb golema a funkciu "wait()", aby ste počkali, kým sa blok vráti!]]></Val>
+          <Val><![CDATA[Fíha, nohy, už sa viac neprevracajte pre tohto golema. Musíme mu pomôcť bezpečne sa dostať ku smaragdovému bloku. Keď sa golem presunie na prítlačnú dosku, blok, ktorý potrebuje, sa na chvíľu zasunie. Ak počkáme, zrejme sa vráti. Použite funkciu „pohnúť_golema_dopredu()“ na pohyb golema a funkciu „čakať()“, aby golem počkal, kým sa blok vráti.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the golem forward 2 spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť golem dopredu o 2 medzery]A;]]></Val>
+          <Val><![CDATA[# posunúť golema dopredu o 2 miesta]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# wait one second and then move ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# počkajte jednu sekundu a potom sa presuňte ]A;]]></Val>
+          <Val><![CDATA[# počkajte jednu sekundu a potom sa posuňte]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 more spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 ďalšie medzery]A;]]></Val>
+          <Val><![CDATA[# 2 ďalšie miesta]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

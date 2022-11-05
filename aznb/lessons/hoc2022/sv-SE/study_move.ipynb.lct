@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Lera Boll Labyrint]A;]]></Val>
+          <Val><![CDATA[# Lerkulelabyrint]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -29,7 +29,7 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `right`]]></Val>
         </Tgt>
       </Str>
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Flytta lerkulan till guldblocket. Använd funktionen 'clay_ball_move()' för att navigera bollen genom labyrinten.]A;]]></Val>
+          <Val><![CDATA[Flytta lerkulan till guldblocket. Använd funktionen 'clay_ball_move()' för att vägleda bollen genom labyrinten.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -83,7 +83,7 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `up`]A;]]></Val>
         </Tgt>
       </Str>
@@ -92,7 +92,7 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `down`]A;]]></Val>
         </Tgt>
       </Str>
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– left (vänster)]A;]]></Val>
+          <Val><![CDATA[- `left`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# med 3 block]A;]]></Val>
+          <Val><![CDATA[# 3 block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# med 3 block]A;]]></Val>
+          <Val><![CDATA[# 3 block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Navigate the clay ball through the maze to reach the gold block.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Navigera lerkulan genom labyrinten för att nå guldblocket.]A;]]></Val>
+          <Val><![CDATA[Vägled lerkulan genom labyrinten för att nå guldblocket.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nedanstående kod är trasig, kan du fixa den? Felsök koden genom att köra den för att se vad den gör och redigera den sedan så att du får önskat resultat.]]></Val>
+          <Val><![CDATA[Nedanstående kod är trasig. Kan du fixa den? Felsök koden genom att köra den för att se vad den gör och redigera den sedan tills du får önskat resultat.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />

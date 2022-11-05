@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `cow` ![Kráva]5D;(img/cow_weight.png „Kráva“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

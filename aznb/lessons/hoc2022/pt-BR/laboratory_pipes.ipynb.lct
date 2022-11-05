@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pipes]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Tubos]A;]]></Val>
+          <Val><![CDATA[# Canos]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ! [Seta Magenta]5D; (img/magenta_arrow.png "Magenta Arrow")]]></Val>
+          <Val><![CDATA[- 'magenta' ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to add a specific amount of blocks to each of the hoppers. Maybe there is something in the room that can tell you how many? Use the `drop_block()` function to drop the correct amount of colored block into the pipes.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Você precisará adicionar uma quantidade específica de blocos para cada um dos funils. Talvez haja algo na sala que possa dizer quantos? Use a função 'drop_block()' para soltar a quantidade correta de bloco colorido nos tubos.]A;]]></Val>
+          <Val><![CDATA[Você precisará adicionar uma quantidade específica de blocos para cada um dos funis. Talvez haja algo na sala que possa dizer quantos? Use a função 'drop_block()' para soltar a quantidade correta de blocos coloridos nos canos.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `drop_block()` function takes one paramaters (a string) that defines what color block should be dropped.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'drop_block()' leva um paramaters (uma string) que define qual bloco de cor deve ser descartado.]A;]]></Val>
+          <Val><![CDATA[A função 'drop_block()' leva um parâmetro (uma string) que define qual bloco de cor deve ser jogado.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' ! [Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
+          <Val><![CDATA[- 'yellow' ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow` ![Yellow Block]5D;(img/yellow_block.png "Yellow Block")]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' ! [Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
+          <Val><![CDATA[- 'blue' ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]A;]]></Val>
+          <Val><![CDATA[- 'orange' ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green` ![Green Block]5D;(img/green_block.png "Green Block")]A;]]></Val>
@@ -123,7 +123,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -150,7 +150,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -159,7 +159,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# drop 4 yellow blocks and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# queda 4 blocos amarelos e]A;]]></Val>
+          <Val><![CDATA[# jogue 4 blocos amarelos e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -213,7 +213,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -222,7 +222,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# drop 4 yellow blocks and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# queda 4 blocos amarelos e]A;]]></Val>
+          <Val><![CDATA[# jogue 4 blocos amarelos e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -258,7 +258,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Look around the area to figure out how many of each colored block should be dropped into the pipes and write code to match that amount.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Olhe ao redor da área para descobrir quantos de cada bloco colorido deve ser jogado nos tubos e escrever código para corresponder a essa quantidade.]A;]]></Val>
+          <Val><![CDATA[Olhe ao redor da área para descobrir quantos de cada bloco colorido deve ser jogado nos canos e escreva o código para corresponder a essa quantidade.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -276,7 +276,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Trough]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Trough]A;]]></Val>
+          <Val><![CDATA[# Tina]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' (move o cursor à direita) ! [Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]]></Val>
+          <Val><![CDATA[- `amarelo` (move o cursor para a direita)  ![Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Oh no! Holes in the canal stop the water from flowing into the garden! Fill those holes to help the water along! Use the `move_cursor()` function to position the cursor over a hole, and then `place_block()` to fill it in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ah, não! Buracos no canal impedem que a água flua para o jardim! Encha esses buracos para ajudar a água! Use a função 'move_cursor()' para posicionar o cursor sobre um orifício e, em seguida, 'place_block()' para preenchê-lo.]A;]]></Val>
+          <Val><![CDATA[Ah, não! Buracos no canal impedem que a água flua para o jardim! Preencha os buracos para ajudar a água a correr! Use a função 'move_cursor()' para posicionar o cursor sobre um buraco e use 'place_block()' para preenchê-lo.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_cursor()' tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção que você deseja mover.]A;]]></Val>
+          <Val><![CDATA[A função `move_cursor()` tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção em que você deseja mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' (move o cursor para a frente) ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]A;]]></Val>
+          <Val><![CDATA[- 'orange' (move o cursor para a frente) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (move o cursor de volta) ! [Seta Magenta]5D; (img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (move o cursor de volta) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' (move o cursor para a esquerda) ! [Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
+          <Val><![CDATA[- `azul` (move o cursor para a esquerda)  ![Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor and place a block twice]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o cursor e coloque um bloco duas vezes]A;]]></Val>
+          <Val><![CDATA[# mova o cursor e coloque um bloco duas vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move right 2 blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Em seguida, mova-se para a direita 2 blocos.]A;]]></Val>
+          <Val><![CDATA[# depois, mova-se 2 blocos para a direita.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor and place a block twice]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o cursor e coloque um bloco duas vezes]A;]]></Val>
+          <Val><![CDATA[# mova o cursor e coloque um bloco duas vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move right 2 blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Em seguida, mova-se para a direita 2 blocos.]A;]]></Val>
+          <Val><![CDATA[# depois, mova-se 2 blocos para a direita.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all six holes in the canal to get the water flowing to the garden! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Preencha todos os seis buracos no canal para que a água flua para o jardim! ]A;]]></Val>
+          <Val><![CDATA[Preencha todos os seis buracos no canal para que a água flua para o jardim!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

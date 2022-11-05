@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pitfall]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Buktató]A;]]></Val>
+          <Val><![CDATA[# Verem]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Jaj, lábak, nincs többé átgurulni ezért a gólemért! Segítenünk kell abban, hogy biztonságosan eligazodjon a smaragd blokkhoz. Amikor a gólem a nyomólemezre mozog, a szükséges blokk egy pillanatra visszahúzódik. Ha várunk, úgy tűnik, hogy visszajön! Használja a "move_golem_forward()" funkciót a gólem mozgatásához, a "wait()" funkciót pedig, hogy megvárja, amíg a blokk visszatér!]]></Val>
+          <Val><![CDATA[De jó! Lábak! Nem kell többé gurulnia a gólemnek! Segítenünk kell neki, hogy biztonságosan odataláljon a smaragdblokkhoz. Amikor a gólem a nyomólemezre mozog, a szükséges blokk egy pillanatra visszahúzódik. Úgy tűnik, hogy ha várunk, akkor visszajön! Használd a „move_golem_forward()” függvényt a gólem mozgatásához, a „wait()” függvénnyel pedig megvárhatod, hogy a blokk visszatérjen!]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the golem forward 2 spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mozgassa előre a gólemet 2 szóközzel]A;]]></Val>
+          <Val><![CDATA[# mozgassa előre a gólemet 2 hellyel]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# wait one second and then move ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# várjon egy másodpercet, majd mozgassa ]A;]]></Val>
+          <Val><![CDATA[# várjon egy másodpercet, majd mozogjon]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 more spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 további szóközök]A;]]></Val>
+          <Val><![CDATA[# 2 további hellyel]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

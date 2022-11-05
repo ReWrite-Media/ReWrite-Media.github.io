@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Green Path Part 1)]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Attic Tutorial (Green Path Part 1)]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Tutorial del ático (Camino verde, parte 1)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La caja con la flecha en el suelo es tu cursor. Lo usarás para mover bloques y resolver acertijos a lo largo de esta experiencia. En esta actividad, tendrás que utilizarlo para abrir la escotilla y liberar al Agent. Utiliza 'move_cursor()' para colocar el cursor y 'open_trapdoor()' para abrir la escotilla que seleccionaste.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -38,7 +38,7 @@
     <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La función `move_cursor()` usa un parámetro que define su dirección. Dicho parámetro es el color de la flecha que representa la dirección en la que quieres moverte.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -56,7 +56,7 @@
     <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -65,8 +65,8 @@
     <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid directions are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid directions are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Las direcciones válidas son:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'naranja' (mueve el cursor hacia delante) ![Flecha naranja]5D;(img/orange_arrow.png "Flecha naranja")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -83,7 +83,7 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[HOC 2022]]></Val>
         </Tgt>
       </Str>
@@ -92,7 +92,7 @@
     <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[HOC 2022]]></Val>
         </Tgt>
       </Str>
@@ -101,8 +101,8 @@
     <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EJEMPLO DE CÓDIGO - NO SE PUEDE EDITAR AQUÍ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -110,8 +110,8 @@
     <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EJECÚTALO PARA VER QUÉ SUCEDE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -119,8 +119,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# mueve el cursor hacia delante 3 bloques]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -128,8 +128,8 @@
     <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# open the trapdoor that's selected]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# open the trapdoor that's selected]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# abre la escotilla seleccionada]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -146,7 +146,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -155,8 +155,8 @@
     <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Move the cursor, so it is positioned above the wooden trapdoor in the middle of the Attic, then open the trapdoor to let out the Agent who is trapped underneath.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Move the cursor, so it is positioned above the wooden trapdoor in the middle of the Attic, then open the trapdoor to let out the Agent who is trapped underneath.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Mueve el cursor para colocarlo sobre la escotilla de madera que hay en medio del ático y luego ábrela para dejar salir al Agent, que está atrapado debajo.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -164,7 +164,7 @@
     <Item ItemId="2;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -173,8 +173,8 @@
     <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[El código incluido a continuación está dañado. ¿Puedes arreglarlo? Ejecuta el código para ver qué sucede y, a continuación, depúralo editándolo con la solución correcta.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# code here]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# escribe el código aquí]A;]]></Val>
+          <Val><![CDATA[# código aquí]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

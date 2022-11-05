@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# No Coding Needed]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Não é necessário codificar]A;]]></Val>
+          <Val><![CDATA[# Não é Necessário Nenhum Código]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There aren't any coding activities active. Search the area for the next objective.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Não há nenhuma atividade de codificação ativa. Procure na área para o próximo objetivo.]]></Val>
+          <Val><![CDATA[Não há nenhuma atividade de codificação ativa. Procure pelo próximo objetivo na área.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

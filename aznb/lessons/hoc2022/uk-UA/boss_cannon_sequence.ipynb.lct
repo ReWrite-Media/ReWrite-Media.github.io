@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "зелений" ! [Зелена гармата]5D; (img/green_cannon.png «Зелена гармата»)]]></Val>
+          <Val><![CDATA[- 'зелений' ![Green Cannon]5D;(img/green_cannon.png "Зелена гармата")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Агенти Часу знаходяться під Орбою Часу! Вони використали свої сили, щоб створити навколо нього захисні кольорові кільця! Використовуйте функцію «activate_cannon()», щоб активувати кольорові гармати в тому ж порядку, що і кольорові кільця, щоб відключити Time Orb! ]A;]]></Val>
+          <Val><![CDATA[Під Сферою часу знаходяться Агенти часу! Завдяки своїй силі вони створити навколо сфери захисні кольорові кільця! Скористайтеся функцією `activate_cannon()` для активації кольорових гармат у тому ж порядку, що і кільця, аби вимкнути Сферу часу!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `activate_cannon()` function takes one parameter that defines what color cannon you want to activate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція «activate_cannon()» приймає один параметр, який визначає, яку кольорову гармату ви хочете активувати.]A;]]></Val>
+          <Val><![CDATA[Функція `activate_cannon()` використовує один параметр, який визначає, гармату якого кольору ви хочете активувати.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Допустимими кольорами є:]A;]]></Val>
+          <Val><![CDATA[Допустимі кольори:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'синій' ![Blue Cannon]5D;(img/blue_cannon.png "Синя гармата")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'жовтий' ![Yellow Cannon]5D;(img/yellow_cannon.png "Жовта гармата")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'малиновий' ![Magenta Cannon]5D;(img/magenta_cannon.png "Малинова гармата")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАТИМЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# activate the blue and yellow ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# активуйте синьо-жовту ]A;]]></Val>
+          <Val><![CDATA[# активуйте синій і жовтий]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There seems to be an order to these colored rings surrounding the Time Orb! From the largest ring to the smallest, write a program that will activate the correct colored cannons to fire at the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Здається, є замовлення на ці кольорові кільця, що оточують Часову кулю! Від найбільшого кільця до найменшого напишіть програму, яка активує правильні кольорові гармати для стрільби по кольорових кільцях, щоб відключити Time Orb! ]A;]]></Val>
+          <Val><![CDATA[Здається, ці кольорові кільця, що оточують Сферу часу, розташовані в певному порядку: від найбільшого до найменшого. Щоби відключити Сферу часу, напишіть програму, яка активує гармати відповідного кольору для стрільби по кольорових кільцях!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Включений нижче код зламаний. Чи можете ви це виправити? Запустіть код, щоб побачити, що станеться, а потім налагодьте його, відредагувавши до правильного рішення.]]></Val>
+          <Val><![CDATA[Включений нижче код зламаний. Ви можете виправити його? Запустіть код, щоб побачити, що відбуватиметься, а потім полагодьте його, відредагувавши до правильного рішення.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

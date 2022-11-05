@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Hlinené guľové bludisko]A;]]></Val>
+          <Val><![CDATA[# Ílové guľové bludisko]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „doprava“]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Presuňte hlinenú guľu na zlatý blok. Použite funkciu "clay_ball_move()" na navigáciu lopty bludiskom.]A;]]></Val>
+          <Val><![CDATA[Presuňte ílovú guľu na zlatý blok. Použite funkciu „posunúť_ílovú_guľu()“ na nasmerovanie lopty bludiskom.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `clay_ball_move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "clay_ball_move()" má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „posunúť_ílovú_guľu()“ má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- up (nahor)]A;]]></Val>
+          <Val><![CDATA[- „nahor“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- down (nadol)]A;]]></Val>
+          <Val><![CDATA[- „nadol“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (doľava)]A;]]></Val>
+          <Val><![CDATA[- „doľava“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť hlinenú guľu nahor]A;]]></Val>
+          <Val><![CDATA[# posuňte ílovú guľu nahor]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť hlinenú guľu nahor]A;]]></Val>
+          <Val><![CDATA[# posuňte ílovú guľu nahor]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Navigate the clay ball through the maze to reach the gold block.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Navigujte hlinenú guľu bludiskom, aby ste sa dostali k zlatému bloku.]A;]]></Val>
+          <Val><![CDATA[Navigujte ílovú guľu bludiskom, aby ste sa dostali k zlatému bloku.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nižšie uvedený kód je pokazený, môžete ho opraviť? Ladenie kódu jeho spustením, aby ste videli, čo robí, a potom ho upravte, aby ste dosiahli požadovaný výsledok.]]></Val>
+          <Val><![CDATA[Nižšie uvedený kód je nefunkčný, môžete ho opraviť? Odlaďte kód jeho spustením, aby ste videli, čo robí, a potom ho upravte tak, aby ste dosiahli požadovaný výsledok.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />

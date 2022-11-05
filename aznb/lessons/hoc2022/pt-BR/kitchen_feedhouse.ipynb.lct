@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Feed the House]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Alimento a casa]A;]]></Val>
+          <Val><![CDATA[# Alimente a casa]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A casa está com fome! E o que é melhor alimentá-lo do que maçãs, salmão e ensopado de cogumelo! Veja se você pode descobrir quantos de cada ingrediente a casa requer. Use a função 'feed_house()' para definir quais itens deseja alimentá-lo.]A;]]></Val>
+          <Val><![CDATA[A casa está faminta! Não há nada melhor para matar a fome do que maçãs, salmão e guisado de cogumelo! Veja se você pode descobrir a quantidade de cada ingrediente que a casa requer. Use a função 'feed_house()' para definir com quais itens você quer alimentar a casa.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'feed_house()' tem um parâmetro que define qual item você vai alimentá-lo.]A;]]></Val>
+          <Val><![CDATA[A função 'feed_house()' tem um parâmetro que define com qual item você alimentará a casa.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid opptions are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Opções válidas são:]A;]]></Val>
+          <Val><![CDATA[As opções válidas são:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'maçã' ! [Apple]5D; (img/apple.png "Apple")]A;]]></Val>
+          <Val><![CDATA[- 'apple' ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'guisado de cogumelo' ! [Guisado de Cogumelo]5D; (img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
+          <Val><![CDATA[- 'mushroom stew' (guisado de cogumelo) ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "salmão"! [Salmão]5D; (img/salmon.png "Salmão")]A;]]></Val>
+          <Val><![CDATA[- 'salmon' ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# alimente a casa 4 maçãs e]A;]]></Val>
+          <Val><![CDATA[# alimente a casa com 4 maçãs e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 1]A; de ensopado de cogumelo]]></Val>
+          <Val><![CDATA[# 1 guisado de cogumelo]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# alimente a casa 4 maçãs e]A;]]></Val>
+          <Val><![CDATA[# alimente a casa com 4 maçãs e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 1]A; de ensopado de cogumelo]]></Val>
+          <Val><![CDATA[# 1 guisado de cogumelo]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Zombie Chefs are holding food while they ride by on platters! There seems to be a pattern here... I wonder if they are here to feed the house? Figure out how many of each food item the house wants, then write a program to feed the house the correct amount! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Chefs zumbis estão segurando comida enquanto eles passam em bandejas! Parece haver um padrão aqui... eu me pergunto se eles estão aqui para alimentar a casa? Descubra quantos de cada item de comida a casa quer, em seguida, escreva um programa para alimentar a casa a quantidade correta! ]A;]]></Val>
+          <Val><![CDATA[Chefs zumbis estão segurando comida enquanto passam com bandejas! Parece haver um padrão aqui... Fico pensando se eles estão aqui para alimentar a casa? Descubra qual quantidade de cada item de comida a casa quer e, em seguida, escreva um programa para alimentar a casa com a quantidade correta!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

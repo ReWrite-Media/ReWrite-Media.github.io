@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Drawbridge]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#跳ね橋]A;]]></Val>
+          <Val><![CDATA[# 跳ね橋]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Enderman Butler needs your direction to get across the river! Please direct them to use their magic to teleport to the diamond block, then have them move into position to pull the lever to let down the drawbridge! Use the `teleport_enderman_to_diamond()` function to get the Enderman across the river, then use `move_enderman_forward()` function to position the Enderman in front of the lever and `pull_lever_down()` to pull the lever. The Enderman Butler will automatically turn to face the lever when it's in the correct position! ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[エンダーマンバトラーは川を渡るためにあなたの方向を必要とします!魔法を使ってダイヤモンドブロックにテレポートするように指示し、跳ね橋を降ろすためにレバーを引く位置に移動させてください!'teleport_enderman_to_diamond()' 関数を使ってエンダーマンを川を渡らせ、次に 'move_enderman_forward()' 関数を使ってエンダーマンをレバーの前に置き、'pull_lever_down()' を使ってレバーを引っ張ります。エンダーマン・バトラーは、レバーが正しい位置にあると、自動的にレバーの方を向くように回転し す!]]></Val>
+          <Val><![CDATA[エンダーマン バトラーが川を渡るにはあなたの指示が必要です ! 魔法を使ってダイヤモンド ブロックにテレポートするように指示し、跳ね橋を下ろすためにレバーを引ける位置まで移動させてください ! 'teleport_enderman_to_diamond()' 関数を使ってエンダーマンに川を渡らせ、次に 'move_enderman_forward()' 関数を使ってエンダーマンをレバーの前に配置し、'pull_lever_down()' を使ってレバーを引かせます。エンダーマン バトラーは、正しい位置につくと、自動的にレバーの方を向きます ! ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 2 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Agent を上に 2 ブロック移動させてから、前に 2 ブロック進め]A;]]></Val>
+          <Val><![CDATA[# エンダーマンを 2 ブロック前方に移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then teleport them to the diamond block]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#その後、ダイヤモンドブロック]A;にテレポートします]]></Val>
+          <Val><![CDATA[# 続いて、ダイヤモンド ブロックにテレポートさせる]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Actvitiy:]A;]]></Val>
+          <Val><![CDATA[# アクティビティー:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Teleport the Enderman over the river to flip the lever and bring down the drawbridge. Be careful not to let the Enderman fall into the water. They hate water!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[エンダーマンを川の上にテレポートしてレバーをひっくり返し、跳ね橋を下ろします。エンダーマンが水に落ちないように注意してください。彼らは水が嫌い]A;!]]></Val>
+          <Val><![CDATA[エンダーマンを川の向こう側にテレポートさせてレバーを引かせ、跳ね橋を下ろします。エンダーマンが水に落ちないように注意してください。エンダーマンは水が大嫌いなのです !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

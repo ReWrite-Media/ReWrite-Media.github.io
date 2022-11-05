@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Open Doors]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Nyitott ajtók]A;]]></Val>
+          <Val><![CDATA[# Ajtók kinyitása]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "kék"]A;]]></Val>
+          <Val><![CDATA[- `blue`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "move_cursor()" függvény egy paramétert vesz fel, amely meghatározza annak irányát. Ez a paraméter annak a nyílnak a színe, amely a mozgatni kívánt irányt jelöli.]A;]]></Val>
+          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'narancs' (felfelé mozgatja a kurzort) ! [Narancssárga nyíl]5D; (img/orange_arrow.png "Narancssárga nyíl")]A;]]></Val>
+          <Val><![CDATA[- `orange` (felfelé mozgatja a kurzort) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "bíbor" (lefelé mozgatja a kurzort) ! [Bíbor nyíl]5D; (img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (lefelé mozgatja a kurzort)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'kék' (balra mozgatja a kurzort) ! [Kék nyíl]5D; (img/blue_arrow.png "Kék nyíl")]A;]]></Val>
+          <Val><![CDATA[- `blue` (balra mozgatja a kurzort)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'sárga' (jobbra mozgatja a kurzort) ! [Sárga nyíl]5D; (img/yellow_arrow.png "Sárga nyíl")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (jobbra mozgatja a kurzort)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Minden lyuk egy kamraajtót képvisel a főnök aréna négy sarkában! Töltse fel az összes lyukat a megfelelő színnel a kamra ajtajainak kinyitásához! A "move_cursor()" függvénnyel helyezze el a kurzort egy térben, majd a "place_block()" függvénnyel helyezzen el egy színes blokkot az egyes szóközök kitöltéséhez!]A;]]></Val>
+          <Val><![CDATA[Minden lyuk egy kamraajtóhoz tartozik, amelyek a főellenség-aréna négy sarkában találhatók! Tömd be az összes lyukat a megfelelő színnel a kamraajtók kinyitásához! A „move_cursor()” függvénnyel helyezd el a kurzort a térben, majd a „place_block()” függvénnyel helyezz el egy színes blokkot az egyes helyek kitöltéséhez!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "place_block()" függvény egy paramétert vesz fel, amely meghatározza a elhelyezni kívánt blokk színét.]A;]]></Val>
+          <Val><![CDATA[A „place_block()” függvény egy paramétert fogad, amely meghatározza az elhelyezni kívánt blokk színét.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "bíbor"]A;]]></Val>
+          <Val><![CDATA[- `magenta`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zöld"]A;]]></Val>
+          <Val><![CDATA[- `green`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "sárga"]A;]]></Val>
+          <Val><![CDATA[- `yellow`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 spaces right and then place]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 szóköz jobbra, majd helyezze el]A;]]></Val>
+          <Val><![CDATA[# 2 hellyel jobbra, majd helyezz el]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Place colored blocks into the correct spaces to open the chamber doors.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Helyezzen színes tömböket a megfelelő helyekre a kamraajtók kinyitásához.]A;]]></Val>
+          <Val><![CDATA[Helyezd a színes blokkokat a megfelelő helyekre a kamraajtók kinyitásához.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtassa a kódot, hogy lássa, mi történik, majd hibakeresést végezzen a megfelelő megoldásra való szerkesztéssel.]]></Val>
+          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtasd a kódot, hogy lásd, mi történik, majd a hibakereséskor szerkeszd a kódot, hogy jó legyen.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

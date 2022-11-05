@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'right' (w prawo)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Skieruj Endermana Butlera na szmaragdowe bloki po drugiej stronie labiryntu! Dźwignie na ścianie wydają się mieć kolor, który pasuje do zestawu drzwi w labiryncie. Powinieneś odwrócić te dźwignie, aby stworzyć bezpieczną ścieżkę do pokierowania Enderman Butlera do szmaragdowych bloków! Następnie użyj funkcji "move_enderman_direction()", aby ułatwić poruszanie się po labiryncie.]A;]]></Val>
+          <Val><![CDATA[Pokieruj endermanem-kamerdynerem do szmaragdowych bloków po drugiej stronie labiryntu! Dźwignie na ścianie chyba mają kolor, który pasuje do zestawu drzwi w labiryncie. Przełącz te dźwignie, aby stworzyć bezpieczną ścieżkę do szmaragdowych bloków dla endermana-kamerdynera! Następnie użyj funkcji 'move_enderman_direction()', aby przeprowadzić go przez labirynt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "move_enderman_direction()" przyjmuje jeden parametr, który określa, w którym kierunku powinna się poruszać.]A;]]></Val>
+          <Val><![CDATA[Funkcja 'move_enderman_direction()' przyjmuje jeden parametr, który określa, w jakim kierunku ma się przemieścić enderman.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (naprzód)]A;]]></Val>
+          <Val><![CDATA[- 'forward' (naprzód)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (wstecz)]A;]]></Val>
+          <Val><![CDATA[- 'back' (wstecz)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (w lewo)]A;]]></Val>
+          <Val><![CDATA[- 'left' (w lewo)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń enderman 4 bloki do przodu]A;]]></Val>
+          <Val><![CDATA[# przemieść endermana do przodu o 4 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a następnie 1 blok w prawo]A;]]></Val>
+          <Val><![CDATA[# następnie o 1 blok w prawo]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń enderman 4 bloki do przodu]A;]]></Val>
+          <Val><![CDATA[# przemieść endermana do przodu o 4 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a następnie 1 blok w prawo]A;]]></Val>
+          <Val><![CDATA[# następnie o 1 blok w prawo]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler to the emerald blocks!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dźwignie na ścianie wydają się mieć kolor, który pasuje do zestawu drzwi w labiryncie. Powinieneś obrócić te dźwignie, aby stworzyć bezpieczną ścieżkę do skierowania Enderman Butler do szmaragdowych bloków!]A;]]></Val>
+          <Val><![CDATA[Dźwignie na ścianie chyba mają kolor, który pasuje do zestawu drzwi w labiryncie. Przełącz te dźwignie, aby stworzyć bezpieczną ścieżkę do szmaragdowych bloków dla endermana-kamerdynera!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

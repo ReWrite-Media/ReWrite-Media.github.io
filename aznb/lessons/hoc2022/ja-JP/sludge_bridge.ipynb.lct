@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Bridge Builder]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#ブリッジビルダー]A;]]></Val>
+          <Val><![CDATA[# 橋ビルダー]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'(カーソルを右に移動)![黄色い矢印]5D;(img/yellow_arrow.png "イエローアロー")]]></Val>
+          <Val><![CDATA[- `yellow` (カーソルを右に移動) ![黄色い矢印]5D;(img/yellow_arrow.png "黄色い矢印")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Crate Minion is stuck! Oh no! Your're both stuck! You should build a bridge for the Crate Minion to get to the other side so they can press that button to reveal a staircase to help you out! Use the `move_cursor()` function to position the cursor and the `place_block()` function to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[クレートミニオンが動けなくなる!ああ違います！あなたは両方とも立ち往生しています!クレートミニオンが反対側に着くための橋を架けて、そのボタンを押して階段を開いて助けてください!'move_cursor()' 関数を使用してカーソルを位置付け、'place_block()' 関数を使用して、選択した位置にブロックを配置します]A;。]]></Val>
+          <Val><![CDATA[クレート ミニオンが動けなくなってしまいました ! 大変だ ! 2 人とも動けなくなっているんですね ! クレート ミニオンが反対側に行けるように橋を架けて、そのボタンを押してもらって階段を出現させてもらいましょう ! 'move_cursor()' 関数を使用してカーソルを移動し、'place_block()' 関数を使用して選択した位置にブロックを配置します。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA['move_cursor()' 関数は、その方向を定義するパラメータを 1 つ受け取ります。このパラメーターは、移動する方向を表す矢印の色で]A;。]]></Val>
+          <Val><![CDATA[`move_cursor()` 関数は、その方向を定義する 1 つのパラメータを受け取ります。このパラメータは、移動したい方向を表す矢印の色です。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'オレンジ'(カーソルを上に移動する)![オレンジアロー]5D;(img/orange_arrow.png "オレンジアロー")]A;]]></Val>
+          <Val><![CDATA[- `orange` (カーソルを上に移動) ![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'マゼンタ'(カーソルを下に移動する)![マゼンタアロー]5D;(img/magenta_arrow.png "マゼンタアロー")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (カーソルを下に移動) ![赤紫の矢印]5D;(img/magenta_arrow.png "赤紫の矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '青'(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'blue'(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "青矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block and move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#ブロックを配置し、]A;移動]]></Val>
+          <Val><![CDATA[# ブロックを配置し移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# the cursor 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#カーソルを3回]A;]]></Val>
+          <Val><![CDATA[# カーソルを 3 回]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block and move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#ブロックを配置し、]A;移動]]></Val>
+          <Val><![CDATA[# ブロックを配置し移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# the cursor 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#カーソルを3回]A;]]></Val>
+          <Val><![CDATA[# カーソルを 3 回]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Create a bridge so the Crate Minion can reach the button to reveal a staircase for you!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[橋を作って、クレートミニオンがボタンに手を伸ばして階段を現]A;!]]></Val>
+          <Val><![CDATA[橋を作ってクレート ミニオンにボタンを押してもらい、階段を出現させましょう!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

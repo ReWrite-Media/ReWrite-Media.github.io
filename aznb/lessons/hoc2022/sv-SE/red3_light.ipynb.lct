@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Light Power]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A;]]></Val>
+          <Val><![CDATA[#Ljuskraft]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gul' (flyttar markören åt höger) ! [Gul pil]5D; (img/yellow_arrow.png "Gul pil")]]></Val>
+          <Val><![CDATA[- `yellow` (flyttar markören åt höger) ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to open the door by powering all of the lights! Each light you turn on will open the door just a little more. Use the `move_cursor()` function to position the cursor over a light, then use the `turn_light_on()` function to turn on all the lights to open the door! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du måste öppna dörren genom att driva alla lampor! Varje lampa du tänder öppnar dörren bara lite mer. Använd funktionen 'move_cursor()' för att placera markören över ett ljus och använd sedan funktionen 'turn_light_on()' för att tända alla lampor för att öppna dörren! ]A;]]></Val>
+          <Val><![CDATA[Du måste öppna dörren genom att ge ström åt alla lampor! Varje lampa du tänder öppnar dörren ytterligare lite mer. Använd funktionen `move_cursor()` för att placera markören över en lampa och använd sedan funktionen `turn_light_on()` för att tända alla lampor för att öppna dörren!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar den riktning du vill flytta.]A;]]></Val>
+          <Val><![CDATA[Funktionen `move_cursor()` tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar den riktning du vill flytta.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (flyttar markören uppåt) ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (flyttar markören uppåt) ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (flyttar markören nedåt) ! [Magenta pil]5D; (img/magenta_arrow.png "Magentapil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (flyttar markören nedåt) ![Ljuslila pil]5D;(img/magenta_arrow.png "Ljuslila pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blå' (flyttar markören åt vänster) ! [Blå pil]5D; (img/blue_arrow.png "Blå pil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (flyttar markören till vänster)  ![Blå pil]5D;(img/blue_arrow.png "Blå pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta markören åt höger och vrid sedan ]A;]]></Val>
+          <Val><![CDATA[# flytta markören åt höger och tänd sedan]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# på ljuset. upprepa detta 3 gånger]A;]]></Val>
+          <Val><![CDATA[# lampan. upprepa 3 gånger]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta markören åt höger och vrid sedan ]A;]]></Val>
+          <Val><![CDATA[# flytta markören åt höger och tänd sedan]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# på ljuset. upprepa detta 3 gånger]A;]]></Val>
+          <Val><![CDATA[# lampan. upprepa 3 gånger]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

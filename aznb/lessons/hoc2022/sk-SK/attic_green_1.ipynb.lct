@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_cursor()" má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípky, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „pohnúť_kurzor()“ má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "oranžová" (posúva kurzor dopredu) ! [Oranžová šípka]5D; (img/orange_arrow.png "Oranžová šípka")]]></Val>
+          <Val><![CDATA[- „oranžová“ (posúva kurzor dopredu) ![Oranžový šíp]5D;(img/orange_arrow.png „Oranžový šíp“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť kurzor dopredu o 3 bloky]A;]]></Val>
+          <Val><![CDATA[# posuňte kurzor dopredu o 3 bloky]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the trapdoor that's selected]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# otvorte padacie dvierka, ktoré sú vybraté]A;]]></Val>
+          <Val><![CDATA[# otvorte padacie dvere, ktoré sú vybraté]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the cursor, so it is positioned above the wooden trapdoor in the middle of the Attic, then open the trapdoor to let out the Agent who is trapped underneath.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Posuňte kurzor tak, aby bol umiestnený nad drevenými padacími dvierkami uprostred podkrovia, potom otvorte padacie dvierka, aby ste vypustili agenta, ktorý je uväznený pod nimi.]A;]]></Val>
+          <Val><![CDATA[Posuňte kurzor tak, aby bol umiestnený nad drevenými padacími dverami uprostred podkrovia, potom otvorte padacie dvere, aby ste vypustili agenta, ktorý je uväznený pod nimi.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

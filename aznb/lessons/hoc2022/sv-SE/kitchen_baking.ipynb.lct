@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Bake Bread]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Baka]A;]]></Val>
+          <Val><![CDATA[# Baka bröd]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Zombie Chef needs help making bread. Use the functions below to create a bread recipe the zombie chef can follow!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Zombiekocken behöver hjälp med att göra bröd. Använd funktionerna nedan för att skapa ett brödrecept som zombiekocken kan följa!]A;]]></Val>
+          <Val><![CDATA[Zombiekocken behöver hjälp med att baka bröd. Använd funktionerna nedan för att skapa ett brödrecept som zombiekocken kan följa!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "harvest_wheat()" ! [Skörda vete]5D; (img/bread_wheat.png "Skörd vete")]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` ![Skörda vete]5D;(img/bread_wheat.png "Skörda vete")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "bake_bread()" ! [Baka bröd]5D; (img/bread_bake.png "Baka bröd")]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()` ![Baka bröd]5D;(img/bread_bake.png "Baka bröd")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `make_dough()` ![Gör deg]5D;(img/bread_dough.png "Gör deg")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "mill_wheat()" ! [Kvarnvete]5D; (img/bread_mill.png "Kvarnvete")]]></Val>
+          <Val><![CDATA[- `mill_wheat()` ![Mal vete]5D;(img/bread_mill.png "Mal vete")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# example recipe]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# exempel recept]A;]]></Val>
+          <Val><![CDATA[# exempelrecept]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Chefs always keep a copy of their recipes around! I wonder where the Zombie Chef hid theirs? Figure out the correct steps, then program a recipe for the Zombie Chef to follow! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Kockar håller alltid en kopia av sina recept runt! Jag undrar var Zombiekocken gömde sin? Ta reda på rätt steg och programmera sedan ett recept som Zombie Chef kan följa! ]A;]]></Val>
+          <Val><![CDATA[Kockar har alltid en kopia av sina recept! Jag undrar var zombiekocken gömt sitt? Ta reda på rätt steg och programmera sedan ett recept som zombiekocken kan följa!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

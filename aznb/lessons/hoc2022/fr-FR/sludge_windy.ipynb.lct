@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Windy Bridge]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Pont windy]A;]]></Val>
+          <Val><![CDATA[# Pont venteux]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune' (déplace le curseur vers la droite) ! [Flèche jaune]5D; (img/yellow_arrow.png « Flèche jaune »)]]></Val>
+          <Val><![CDATA[- 'jaune' (déplace le curseur vers la droite) ! [Flèche jaune]5D; (img/yellow_arrow.png « Flèche jaune »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to get across the bridge, but the wind is too strong! You'll need to place blocks inside the holes where the wind is coming from to block it. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vous devez traverser le pont, mais le vent est trop fort! Vous devrez placer des blocs à l’intérieur des trous d’où vient le vent pour le bloquer. Utilisez 'move_cursor()' pour positionner le curseur et 'place_block()' pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
+          <Val><![CDATA[Vous devez traverser le pont, mais le vent est trop fort ! Pour bloquer le vent, vous devrez placer des blocs à l’intérieur des trous d’où il jaillit. Utilisez 'move_cursor()' pour positionner le curseur et 'place_block()' pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'move_cursor()' prend un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction `move_cursor()` est influencée par un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (déplace le curseur vers le haut) ! [Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]A;]]></Val>
+          <Val><![CDATA[- 'orange' (déplace le curseur vers le haut) ! [Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (déplace le curseur vers le bas) ! [Flèche magenta]5D; (img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (déplace le curseur vers le bas) ! [Flèche magenta]5D; (img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bleu' (déplace le curseur vers la gauche) ! [Flèche bleue]5D; (img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
+          <Val><![CDATA[- 'bleu' (déplace le curseur vers la gauche) ! [Flèche bleue]5D; (img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -146,8 +146,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right by 1 block,]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# move the cursor right by 1 block,]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# déplacer le curseur de 1 bloc vers la droite,]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block, and then move the cursor ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# placez un bloc, puis déplacez le curseur ]A;]]></Val>
+          <Val><![CDATA[# placer un bloc, puis déplacer le curseur]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill all the holes that have wind blowing from them so you can safely cross the bridge!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Remplissez tous les trous qui ont du vent qui souffle d’eux afin que vous puissiez traverser le pont en toute sécurité!]A;]]></Val>
+          <Val><![CDATA[Bouchez tous les trous par lesquels le vent souffle pour pouvoir traverser le pont en toute sécurité !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code ci-dessous est cassé, pouvez-vous le réparer? Déboguez le code en l’exécutant pour voir ce qu’il fait, puis modifiez-le afin d’obtenir le résultat souhaité.]]></Val>
+          <Val><![CDATA[Le code ci-dessous est défectueux, pouvez-vous le réparer ? Déboguez le code en commençant par l'exécuter pour voir ce qu’il fait, puis modifiez-le afin d’obtenir le résultat souhaité.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />

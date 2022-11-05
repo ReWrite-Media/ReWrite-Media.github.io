@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Light Power]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Luz Power]A;]]></Val>
+          <Val><![CDATA[# Acender luz]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' (move o cursor à direita) ! [Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]]></Val>
+          <Val><![CDATA[- `amarelo` (move o cursor para a direita)  ![Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to open the door by powering all of the lights! Each light you turn on will open the door just a little more. Use the `move_cursor()` function to position the cursor over a light, then use the `turn_light_on()` function to turn on all the lights to open the door! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Você precisa abrir a porta alimentando todas as luzes! Cada luz que você acender abrirá a porta um pouco mais. Use a função 'move_cursor()' para posicionar o cursor sobre uma luz e, em seguida, use a função 'turn_light_on()' para acender todas as luzes para abrir a porta! ]A;]]></Val>
+          <Val><![CDATA[Você precisa abrir a porta que alimenta todas as luzes! Cada luz que você acender abrirá a porta um pouco mais. Use a função 'move_cursor()' para posicionar o cursor sobre uma luz e, em seguida, use a função 'turn_light_on()' para acender todas as luzes para abrir a porta!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_cursor()' tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção que você deseja mover.]A;]]></Val>
+          <Val><![CDATA[A função `move_cursor()` tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção em que você deseja mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' (move o cursor para cima) ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]A;]]></Val>
+          <Val><![CDATA[- `laranja` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png "Seta Laranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (move o cursor para baixo) ! [Seta Magenta]5D; (img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D; (img/magenta_arrow.png "Seta Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' (move o cursor para a esquerda) ! [Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
+          <Val><![CDATA[- `azul` (move o cursor para a esquerda)  ![Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o cursor para a direita e, em seguida, gire ]A;]]></Val>
+          <Val><![CDATA[Mova o cursor para a direita e vire]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Na luz. repita isso 3 vezes]A;]]></Val>
+          <Val><![CDATA[# na luz. repita isso 3 vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o cursor para a direita e, em seguida, gire ]A;]]></Val>
+          <Val><![CDATA[Mova o cursor para a direita e vire]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Na luz. repita isso 3 vezes]A;]]></Val>
+          <Val><![CDATA[# na luz. repita isso 3 vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Turn on all of the lights so the door fully opens and you can get through.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Acenda todas as luzes para que a porta se abra totalmente e você possa passar por.]A;]]></Val>
+          <Val><![CDATA[Acenda todas as luzes para que a porta se abra totalmente e você possa passar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

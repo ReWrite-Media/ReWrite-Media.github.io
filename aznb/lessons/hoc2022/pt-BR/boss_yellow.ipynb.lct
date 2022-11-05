@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Prepare the Cannons]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Prepare os canhões]A;]]></Val>
+          <Val><![CDATA[# Prepare os canhões]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- right (para a direita)]A;]]></Val>
+          <Val><![CDATA[- `right`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- up (para cima)]A;]]></Val>
+          <Val><![CDATA[- `up`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,7 +47,7 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `down`]]></Val>
         </Tgt>
       </Str>
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's a lever! Move the Agent to the lever and then pull it down! Use `agent.move()` to position the Agent in front of the lever and then `pull_lever_down()` to flip the lever on.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Há uma alavanca! Mova o agente para a alavanca e depois puxe-o para baixo! Use 'agent.move()' para posicionar o Agente na frente da alavanca e, em seguida, 'pull_lever_down()' para ligar a alavanca.]A;]]></Val>
+          <Val><![CDATA[Ali, uma alavanca! Mova o agente para a alavanca e depois puxe-a para baixo! Use 'agent.move()' para posicionar o Agente na frente da alavanca e use 'pull_lever_down()' para girar a alavanca.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'agent.move()' tem um parâmetro que define em que direção deve se mover.]A;]]></Val>
+          <Val><![CDATA[A função `agent.move()` tem um parâmetro que define em qual direção ele deve se mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (para a frente)]A;]]></Val>
+          <Val><![CDATA[- `forward`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (para trás)]A;]]></Val>
+          <Val><![CDATA[- `back`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (para a esquerda)]A;]]></Val>
+          <Val><![CDATA[- `left`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="31" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="32" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's a lever! Use that to power up the generator to activate this room's cannon! Position the Agent on the Gold block in front of the lever, then pull it down! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Há uma alavanca! Use isso para ligar o gerador para ativar o canhão desta sala! Posicione o agente no bloco Gold na frente da alavanca e puxe-o para baixo! ]A;]]></Val>
+          <Val><![CDATA[Ali, uma alavanca! Use-a para ligar o gerador e ativar o canhão desta sala! Posicione o agente no bloco de ouro na frente da alavanca e puxe-a para baixo!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

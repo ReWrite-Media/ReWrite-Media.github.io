@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `праворуч` ![Праворуч]5D;(img/gray_right.png "Праворуч")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "ліворуч" ! [Зліва]5D; (img/gray_left.png "Ліворуч")]]></Val>
+          <Val><![CDATA[- `ліворуч` ![Ліворуч]5D;(img/gray_left.png "Ліворуч")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of green blocks to make the laser pass through the glass blocks to turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Суцільні блоки зупиняють лазер! Зсуньте ряд зелених блоків, щоб лазер пройшов через скляні блоки, щоб увімкнути світло з іншого боку. Використовуйте функцію «shift_row()», щоб змістити рядки вліво або вправо, щоб лазер міг пройти крізь скляні блоки.]A;]]></Val>
+          <Val><![CDATA[Тверді блоки зупиняють лазер! Посуньте ряд зелених блоків, щоб лазер пройшов через скляні блоки й увімкнулося світло з іншого боку. Використовуйте функцію `shift_row()`, щоб змістити ряди вліво або вправо, аби лазер міг пройти крізь скляні блоки.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція 'shift_row()' приймає два параметри (рядки). Перший параметр визначає, який кольоровий рядок потрібно змістити, а другий параметр визначає напрямок, в якому рядок повинен зміститися.]A;]]></Val>
+          <Val><![CDATA[Функція 'shift_row()' використовує два параметри (рядки). Перший параметр визначає, рядок якого кольору потрібно посунути, а другий — напрямок переміщення рядка.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Допустимими кольорами є:]A;]]></Val>
+          <Val><![CDATA[Допустимі кольори:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `зелений` ![Зелений]5D;(img/green_right.png "Зелений")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="31" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# зрушити зелений рядок вправо]A;]]></Val>
+          <Val><![CDATA[# посунути зелений рядок праворуч]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# зрушити зелений рядок вправо]A;]]></Val>
+          <Val><![CDATA[# посунути зелений рядок праворуч]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Shift the green row either left or right so the laser passes through the glass block and turns on the light.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Зсуньте зелений ряд вліво або вправо, щоб лазер пройшов через скляний блок і включив світло.]A;]]></Val>
+          <Val><![CDATA[Посуньте зелений рядок ліворуч або праворуч, щоб лазер пройшов через скляні блоки й ввімкнулося світло.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Включений нижче код зламаний. Чи можете ви це виправити? Запустіть код, щоб побачити, що станеться, а потім налагодьте його, відредагувавши до правильного рішення.]]></Val>
+          <Val><![CDATA[Представлений знизу код не працює. Ви можете виправити? Запустіть його, щоб відшукати проблему. Після цього внесіть зміни й отримайте бажаний результат.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

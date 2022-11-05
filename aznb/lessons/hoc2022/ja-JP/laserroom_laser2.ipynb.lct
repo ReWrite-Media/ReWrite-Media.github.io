@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Laser Puzzle]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#レーザーパズル]A;]]></Val>
+          <Val><![CDATA[#レーザー パズル]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '右'![右]5D;(img/gray_right.png "Right")]A;]]></Val>
+          <Val><![CDATA[- `right` ![右]5D;(img/gray_right.png "右")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '左'![左]5D;(img/gray_left.png "Left")]]></Val>
+          <Val><![CDATA[- `left` ![左]5D;(img/gray_left.png "左")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the rows of yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[ソリッドブロックがレーザーを止めます!黄色と緑のブロックの列をずらして、レーザーがガラスブロックを通過し、反対側のライトをオンにします。'shift_row()' 関数を使用して行を左または右にシフトし、レーザーがガラスブロックを通過できるようにしてくださ]A;。]]></Val>
+          <Val><![CDATA[固体ブロックがレーザーを止めています ! 黄色と緑色のブロックの行をシフトさせてレーザーがガラス ブロックを通過するようにし、反対側のライトを点灯させましょう。'shift_row()' 関数を使用して行を左または右にシフトさせ、レーザーがガラス ブロックを通過するようにしましょう。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA['shift_row()' 関数は 2 つのパラメータ (文字列) を取ります。最初のパラメータはシフトするカラー行を定義し、2番目のパラメータは行がシフトする方向を定義し]A;す。]]></Val>
+          <Val><![CDATA['shift_row()' 関数は 2 つのパラメータ (文字列) を取ります。最初のパラメータはシフトさせる色の行を定義し、2 番目のパラメータは行がシフトする方向を定義します。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[有効な色は次のとおりです:]A;]]></Val>
+          <Val><![CDATA[有効な色は次の通りです:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'グリーン'![緑]5D;(img/green_right.png "グリーン")]A;]]></Val>
+          <Val><![CDATA[- `green` ![緑]5D;(img/green_right.png "緑")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'![イエロー]5D;(img/yellow_right.png "イエロー")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![黄色]5D;(img/yellow_right.png "黄色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 緑色の行を右]A;ずらします]]></Val>
+          <Val><![CDATA[# 緑色の行を右にシフトさせる]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 3 times and the yellow row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#3回と黄色の行]A;]]></Val>
+          <Val><![CDATA[#3 回、黄色の行]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#一度左1.]A;]]></Val>
+          <Val><![CDATA[# 左を一度だけ。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 緑色の行を右]A;ずらします]]></Val>
+          <Val><![CDATA[# 緑色の行を右にシフトさせる]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 3 times and the yellow row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#3回と黄色の行]A;]]></Val>
+          <Val><![CDATA[#3 回、黄色の行]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#一度左1.]A;]]></Val>
+          <Val><![CDATA[# 左を一度だけ。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Shift the yellow and green rows either left or right so the lasers pass through the glass blocks and turns on the lights.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[黄色と緑の行を左右にずらして、レーザーがガラスブロックを通過してライトを点灯させ]A;す。]]></Val>
+          <Val><![CDATA[黄色と緑色の行を左右にシフトさせて、レーザーがガラス ブロックを通過してライトを点灯させるようにしましょう。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -300,7 +300,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

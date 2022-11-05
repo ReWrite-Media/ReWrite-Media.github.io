@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A caixa com a seta no chão é o seu cursor. Você usará o cursor para manipular blocos para resolver quebra-cabeças ao longo desta experiência. Nesta atividade você vai usá-lo para abrir o alçapão e liberar o Agente. Use 'move_cursor()' para posicionar o cursor e 'open_trapdoor()' para abrir o alçapão selecionado.]A;]]></Val>
+          <Val><![CDATA[A caixa com a seta no chão é o seu cursor. Você usará o cursor para manipular blocos para resolver quebra-cabeças ao longo desta experiência. Nesta atividade você vai usar o cursor para abrir o alçapão e liberar o Agente. Use 'move_cursor()' para posicionar o cursor e 'open_trapdoor()' para abrir o alçapão que você selecionou.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_cursor()' tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção que você deseja mover.]A;]]></Val>
+          <Val><![CDATA[A função `move_cursor()` tem um parâmetro que define sua direção. Esse parâmetro é a cor da seta que representa a direção para a qual você deseja se mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' (move o cursor para a frente) ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]]></Val>
+          <Val><![CDATA[- 'orange' (move o cursor para a frente) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Mova o cursor para a frente 3 blocos]A;]]></Val>
+          <Val><![CDATA[# Mova o cursor 3 blocos para a frente]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the trapdoor that's selected]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Abra o alçapão que é selecionado]A;]]></Val>
+          <Val><![CDATA[# abra o alçapão que está selecionado]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the cursor, so it is positioned above the wooden trapdoor in the middle of the Attic, then open the trapdoor to let out the Agent who is trapped underneath.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mova o cursor, para que ele esteja posicionado acima do alçapão de madeira no meio do Sótão, em seguida, abra o alçapão para soltar o Agente que está preso embaixo.]A;]]></Val>
+          <Val><![CDATA[Mova o cursor para que ele fique posicionado acima do alçapão de madeira no meio do Sótão e, em seguida, abra o alçapão para soltar o Agente que está preso embaixo.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

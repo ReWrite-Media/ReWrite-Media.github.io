@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (flyttar schackpjäsen framåt) ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (flyttar schackpjäsen framåt) ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (flyttar schackpjäsen tillbaka) ! [Magenta pil]5D; (img/magenta_arrow.png "Magentapil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (flyttar schackpjäsen bakåt) ![Ljuslila pil]5D;(img/magenta_arrow.png "Ljuslila pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blå' (flyttar schackpjäsen åt vänster) ! [Blå pil]5D; (img/blue_arrow.png "Blå pil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (flyttar schackpjäsen åt vänster) ![Blå pil]5D;(img/blue_arrow.png "Blå pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gul' (flyttar schackpjäsen rätt) ! [Gul pil]5D; (img/yellow_arrow.png "Gul pil")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (flyttar schackpjäsen åt höger) ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du har befriat kungen och drottningen! Men dörren öppnas fortfarande inte. De måste vara i fel position. Flytta dem till rätt positioner så att du äntligen kan fly från denna plats! Använd funktionen "move_chess_piece()" för att flytta kungen och drottningen till rätt positioner.]A;]]></Val>
+          <Val><![CDATA[Du har befriat kungen och damen! Men dörren öppnas fortfarande inte. De måste vara i fel position. Flytta dem till rätt positioner så att du äntligen kan fly från det här stället! Använd funktionen "move_chess_piece()" för att flytta kungen och damen till rätt positioner.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'move_chess_piece()' tar två parametrar. Den första är vilken bröstbit du vill flytta, den andra är vilken riktning den ska röra sig i.]A;]]></Val>
+          <Val><![CDATA[Funktionen 'move_chess_piece()' tar två parametrar. Den första är vilken pjäs du vill flytta, den andra är i vilken riktning den ska röra sig.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "kung" ! [Kungl]5D; (img/king_icon.png "Kung")]A;]]></Val>
+          <Val><![CDATA[- `king` ![Kung]5D;(img/king_icon.png "Kung")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "drottning" ! [Drottning]5D; (img/queen_icon.png "Drottning")]A;]]></Val>
+          <Val><![CDATA[- `queen` ![Dam]5D;(img/queen_icon.png "Dam")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>
@@ -153,7 +153,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="33" />
@@ -162,7 +162,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -171,7 +171,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -180,7 +180,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -189,7 +189,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta drottningen framåt 3 kvarter]A;]]></Val>
+          <Val><![CDATA[# flytta damen 3 block framåt]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -198,7 +198,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta kungen åt vänster 3 kvarter]A;]]></Val>
+          <Val><![CDATA[# flytta kungen 3 block åt vänster]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -234,7 +234,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -243,7 +243,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -252,7 +252,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta drottningen framåt 3 kvarter]A;]]></Val>
+          <Val><![CDATA[# flytta damen 3 block framåt]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -261,7 +261,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta kungen åt vänster 3 kvarter]A;]]></Val>
+          <Val><![CDATA[# flytta kungen 3 block åt vänster]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -270,7 +270,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Aktvitiy:]A;]]></Val>
+          <Val><![CDATA[# Aktivitet:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -288,7 +288,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the room to find where you should move each chess piece, and then write code to position them to the correct spots on the black and white checkered floor. Make sure the chess pieces don't bump into each other.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Sök i rummet för att hitta var du ska flytta varje schackpjäs och skriv sedan kod för att placera dem på rätt platser på det svartvitrutiga golvet. Se till att schackpjäserna inte stöter på varandra.]A;]]></Val>
+          <Val><![CDATA[Sök i rummet för att ta reda på vart du måste flytta schackpjäserna och skriv sedan kod för att positionera dem på rätt platser på det svartvitrutiga golvet. Se till att schackpjäserna inte stöter på varandra.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -306,7 +306,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Green Path Part 2)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Podkrovný tutoriál (Zelená cesta, časť 2)]A;]]></Val>
+          <Val><![CDATA[# Podkrovný tutoriál (zelená cesta, časť 2)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- right (doprava)]A;]]></Val>
+          <Val><![CDATA[- „doprava“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- up (nahor)]A;]]></Val>
+          <Val><![CDATA[- „nahor“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `down`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „nadol“]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Teraz, keď sú padacie dvierka otvorené, budete musieť agenta posunúť o dva bloky nahor, aby ste ho uvoľnili. Pomocou funkcie 'agent.move()' presuňte agenta nahor.]A;]]></Val>
+          <Val><![CDATA[Teraz, keď sú padacie dvere otvorené, budete musieť agenta posunúť o dva bloky nahor, aby ste ho oslobodili. Pomocou funkcie „pohnúť.agenta()“ presuňte agenta nahor.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia agent.move()" má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „pohnúť.agenta()“ má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (dopredu)]A;]]></Val>
+          <Val><![CDATA[- „dopredu“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (dozadu)]A;]]></Val>
+          <Val><![CDATA[- „dozadu“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (doľava)]A;]]></Val>
+          <Val><![CDATA[- „doľava“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

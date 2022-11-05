@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Weights]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Pesos]A;]]></Val>
+          <Val><![CDATA[# pesa]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Você precisa da balança para atingir um peso de exatamente 23 lbs. Talvez haja um sinal por aqui para me dizer quanto cada multidão pesa? Use a função 'summon_animal()' para convocar uma combinação de animais que somam 23 lbs. ]A;]]></Val>
+          <Val><![CDATA[Você precisa da balança para atingir um peso de exatamente 23 lbs. Talvez haja um sinal por aqui para me dizer quanto cada criatura pesa? Use a função 'summon_animal()' para invocar uma combinação de animais que somam 23 lbs.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'summon_animal()' assume parâmetro que define qual animal deve ser convocado.]A;]]></Val>
+          <Val><![CDATA[A função 'summon_animal()' tem o parâmetro que define qual animal deve ser invocado.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'frango' ! [Frango]5D; (img/chicken_weight.png "Frango")]A;]]></Val>
+          <Val><![CDATA[- 'chicken' ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'ovelhas' ! [Ovelhas]5D; (img/sheep_weight.png "Ovelhas")]A;]]></Val>
+          <Val><![CDATA[- 'sheep' ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'cow' ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# convoca 5 galinhas e]A;]]></Val>
+          <Val><![CDATA[# convoque 5 galinhas e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -146,8 +146,8 @@
     <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# two cows]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# two cows]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# duas vacas]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# convoca 5 galinhas e]A;]]></Val>
+          <Val><![CDATA[# convoque 5 galinhas e]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -209,8 +209,8 @@
     <Item ItemId="3;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# two cows]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# two cows]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# duas vacas]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the area for information on how much each animals weighs, and then write code to summon enough animals to weigh exactly 23lbs.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Procure informações sobre o quanto cada animal pesa e, em seguida, escreva um código para invocar animais suficientes para pesar exatamente 23 lbs.]A;]]></Val>
+          <Val><![CDATA[Procure informações sobre o quanto cada animal pesa e escreva um código para invocar a quantidade necessária de animais para ter um peso total de 23 lbs.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

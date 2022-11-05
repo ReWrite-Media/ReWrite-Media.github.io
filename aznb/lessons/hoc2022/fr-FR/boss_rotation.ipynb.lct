@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Activate the Trap]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Activer le]A; Trap]]></Val>
+          <Val><![CDATA[# Activer le piège]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- « dans le sens des aiguilles d’une montre » ! [Rotation dans le sens des aiguilles d’une montre]5D; (img/clockwise_ring.png « Anneau extérieur »)]A;]]></Val>
+          <Val><![CDATA[- « dans le sens des aiguilles d’une montre » ! [Rotation dans le sens des aiguilles d’une montre]5D; (img/clockwise_ring.png « Anneau extérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'dans le sens inverse des aiguilles d’une montre' ! [Rotation dans le sens inverse des aiguilles d’une montre]5D; (img/counterclockwise_ring.png « Rotation dans le sens inverse des aiguilles d’une montre »)]]></Val>
+          <Val><![CDATA[- 'dans le sens inverse des aiguilles d’une montre' ! [Rotation dans le sens inverse des aiguilles d’une montre]5D; (img/counterclockwise_ring.png « Rotation dans le sens inverse des aiguilles d’une montre »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[C’est maintenant votre chance de capturer les agents du temps! Dirigez-vous vers le centre de l’arène des boss et regardez vers le bas! Vous devrez aligner les 3 anneaux avec les couleurs centrales du piège pour l’activer! Utilisez la fonction 'rotate_ring()' pour faire pivoter chaque anneau dans le sens des aiguilles d’une montre ou dans le sens inverse des aiguilles d’une montre pour aligner toutes les couleurs!]A;]]></Val>
+          <Val><![CDATA[Vous avez une chance de capturer les agents du temps ! Rendez-vous au centre de l’arène du boss et regardez en bas ! Vous devrez aligner les 3 anneaux avec les couleurs au centre du piège pour l’activer ! Utilisez la fonction 'rotate_ring()' pour faire pivoter chaque anneau dans le sens des aiguilles d’une montre ou dans le sens inverse des aiguilles d’une montre pour aligner toutes les couleurs !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'rotate_ring()' prend deux paramètres. Le premier définit l’anneau que vous souhaitez faire pivoter et le second définit dans quelle direction il doit pivoter.]A;]]></Val>
+          <Val><![CDATA[La fonction 'rotate_ring()' est influencée par deux paramètres. Le premier définit l’anneau que vous souhaitez faire pivoter et le second définit le sens dans lequel il doit pivoter.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid rings are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Les bagues valides sont:]A;]]></Val>
+          <Val><![CDATA[Les anneaux valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'extérieur' ! [Anneau extérieur]5D; (img/outer_ring.png « Anneau extérieur »)]A;]]></Val>
+          <Val><![CDATA[- 'extérieur' ! [Anneau extérieur]5D; (img/outer_ring.png « Anneau extérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'milieu' ! [Anneau du milieu]5D; (img/middle_ring.png « Anneau du milieu »)]A;]]></Val>
+          <Val><![CDATA[- 'milieu' ! [Anneau du milieu]5D; (img/middle_ring.png « Anneau du milieu »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'intérieur' ! [Anneau intérieur]5D; (img/inner_ring.png « Anneau intérieur »)]A;]]></Val>
+          <Val><![CDATA[- 'intérieur' ! [Anneau intérieur]5D; (img/inner_ring.png « Anneau intérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="35" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# puis faites pivoter l’anneau du milieu 1 fois]A;]]></Val>
+          <Val><![CDATA[# puis faire pivoter l’anneau du milieu 1 fois]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; dans le sens inverse des aiguilles d’une montre]]></Val>
+          <Val><![CDATA[# dans le sens inverse des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# puis faites pivoter l’anneau du milieu 1 fois]A;]]></Val>
+          <Val><![CDATA[# puis faire pivoter l’anneau du milieu 1 fois]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; dans le sens inverse des aiguilles d’une montre]]></Val>
+          <Val><![CDATA[# dans le sens inverse des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -291,7 +291,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Rotate the rings! Align all three rings with the center colors of the trap to activate it!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Faites pivoter les anneaux! Alignez les trois anneaux avec les couleurs centrales du piège pour l’activer!]A;]]></Val>
+          <Val><![CDATA[Faites pivoter les anneaux ! Alignez les trois anneaux avec les couleurs au centre du piège pour l’activer !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -309,7 +309,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est cassé. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

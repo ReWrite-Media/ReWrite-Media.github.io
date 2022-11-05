@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "pomarańczowy" (przesuwa figurę szachową do przodu) ! [Pomarańczowa strzałka]5D; (img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'orange' (przesuwa figurę szachową do przodu) ![Pomarańczowa strzałka]5D;(img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "magenta" (przesuwa figurę szachową do tyłu) ! [Purpurowa strzałka]5D; (img/magenta_arrow.png "Purpurowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (przesuwa figurę szachową do tyłu) ![Karmazynowa strzałka]5D; (img/magenta_arrow.png "Karmazynowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "niebieski" (przesuwa figurę szachową w lewo) ! [Niebieska strzałka]5D; (img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'blue' (przesuwa figurę szachową w lewo) ![Niebieska strzałka]5D; (img/blue_arrow.png "Niebieska strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "żółty" (przesuwa figurę szachową w prawo) ! [Żółta strzałka]5D; (img/yellow_arrow.png "Żółta strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'yellow' (przesuwa figurę szachową w prawo) ![Żółta strzałka]5D;(img/yellow_arrow.png "Żółta strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Uwolniłeś króla i królową! Ale drzwi wciąż się nie otwierają. Muszą być w niewłaściwej pozycji. Przenieś je we właściwe pozycje, abyś mógł w końcu uciec z tego miejsca! Użyj funkcji "move_chess_piece()", aby przesunąć króla i królową we właściwe pozycje.]A;]]></Val>
+          <Val><![CDATA[Udało ci się uwolnić króla i królową! Ale drzwi wciąż się nie otwierają. Muszą być w niewłaściwych pozycjach. Przesuń ich we właściwe miejsca, pozwalając ci w końcu stąd uciec! Użyj funkcji 'move_chess_piece()', aby przesunąć króla i królową na właściwe pozycje.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "move_chess_piece()" przyjmuje dwa parametry. Pierwszym z nich jest to, który element klatki piersiowej chcesz przesunąć, drugi to kierunek, w którym powinien się poruszać.]A;]]></Val>
+          <Val><![CDATA[Funkcja 'move_chess_piece()' przyjmuje dwa parametry. Pierwszy parametr to figura szachowa, którą chcesz przesunąć, a drugi to kierunek, w którym ma się przemieścić.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "król" ! [Król]5D; (img/king_icon.png "Król")]A;]]></Val>
+          <Val><![CDATA[- 'king' ![Król]5D;(img/king_icon.png "Król")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "królowa" ! [Królowa]5D; (img/queen_icon.png "Królowa")]A;]]></Val>
+          <Val><![CDATA[- 'queen' ![Królowa]5D;(img/queen_icon.png "Królowa")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>
@@ -153,7 +153,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="33" />
@@ -162,7 +162,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -171,7 +171,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -180,7 +180,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -189,7 +189,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń królową do przodu 3 bloki]A;]]></Val>
+          <Val><![CDATA[# przesuń królową do przodu o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -198,7 +198,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przenieś króla w lewo 3 bloki]A;]]></Val>
+          <Val><![CDATA[# przesuń króla w lewo o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -234,7 +234,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -243,7 +243,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -252,7 +252,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń królową do przodu 3 bloki]A;]]></Val>
+          <Val><![CDATA[# przesuń królową do przodu o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -261,7 +261,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przenieś króla w lewo 3 bloki]A;]]></Val>
+          <Val><![CDATA[# przesuń króla w lewo o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -269,8 +269,8 @@
     <Item ItemId="4;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Actvitiy:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Działanie:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -288,7 +288,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the room to find where you should move each chess piece, and then write code to position them to the correct spots on the black and white checkered floor. Make sure the chess pieces don't bump into each other.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Przeszukaj pokój, aby znaleźć miejsce, w którym powinieneś przesunąć każdy pionek szachowy, a następnie napisz kod, aby ustawić je w odpowiednich miejscach na czarno-białej podłodze w kratkę. Upewnij się, że figury szachowe nie wpadają na siebie.]A;]]></Val>
+          <Val><![CDATA[Przeszukaj pokój, aby znaleźć miejsce, w które trzeba przesunąć każdą z figur szachowych, a następnie napisz kod, aby ustawić je w odpowiednich pozycjach na czarno-białej szachownicy na podłodze. Upewnij się, że figury szachowe nie wpadają na siebie.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -306,7 +306,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

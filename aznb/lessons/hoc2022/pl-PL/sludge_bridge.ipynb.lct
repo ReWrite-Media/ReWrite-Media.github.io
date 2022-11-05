@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Bridge Builder]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; Bridge Builder]]></Val>
+          <Val><![CDATA[# Budowniczy mostów]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "żółty" (przesuwa kursor w prawo) ! [Żółta strzałka]5D; (img/yellow_arrow.png "Żółta strzałka")]]></Val>
+          <Val><![CDATA[- 'yellow' (przesuwa kursor w prawo) ![Żółta strzałka]5D;(img/yellow_arrow.png "Żółta strzałka")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Crate Minion is stuck! Oh no! Your're both stuck! You should build a bridge for the Crate Minion to get to the other side so they can press that button to reveal a staircase to help you out! Use the `move_cursor()` function to position the cursor and the `place_block()` function to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Minion skrzyni utknął! O nie! Oboje utknęliście! Powinieneś zbudować most dla Minionka Skrzyni, aby dostać się na drugą stronę, aby mogli nacisnąć ten przycisk, aby odsłonić schody, które ci pomogą! Użyj funkcji "move_cursor()", aby ustawić kursor, a funkcji "place_block()", aby umieścić blok w wybranej pozycji.]A;]]></Val>
+          <Val><![CDATA[Sługa skrzyni utknął! O nie! Oboje utknęliście! Musisz zbudować most dla sługi skrzyni, aby mógł dotrzeć na drugą stronę i nacisnąć przycisk ujawniający schody, żeby ci pomóc! Użyj funkcji `move_cursor()`, aby ustawić kursor i funkcji `place_block()`, aby umieścić blok w wybranej pozycji.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "move_cursor()" przyjmuje jeden parametr, który określa jej kierunek. Ten parametr jest kolorem strzałki reprezentującej kierunek, w którym chcesz się przesunąć.]A;]]></Val>
+          <Val><![CDATA[Funkcja 'move_cursor()' przyjmuje jeden parametr, który określa jej kierunek. Ten parametr jest kolorem strzałki reprezentującym kierunek, w który chcesz przesunąć obiekt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "pomarańczowy" (przesuwa kursor w górę) ! [Pomarańczowa strzałka]5D; (img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- `orange` (przesuwa kursor w górę) ![Pomarańczowa strzałka]5D;(img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (przesuwa kursor w dół) ! [Purpurowa strzałka]5D; (img/magenta_arrow.png "Purpurowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (przesuwa kursor w dół) ![Karmazynowa strzałka]5D; (img/magenta_arrow.png "Karmazynowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "niebieski" (przesuwa kursor w lewo) ! [Niebieska strzałka]5D; (img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'blue' (przesuwa kursor w lewo) ![Niebieska strzałka]5D;(img/blue_arrow.png "Niebieska strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block and move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# umieść blok i przenieś]A;]]></Val>
+          <Val><![CDATA[# umieść blok i przemieść]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block and move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# umieść blok i przenieś]A;]]></Val>
+          <Val><![CDATA[# umieść blok i przemieść]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Create a bridge so the Crate Minion can reach the button to reveal a staircase for you!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Stwórz most, aby Minion skrzyniowy mógł dotrzeć do przycisku, aby odsłonić dla ciebie schody!]A;]]></Val>
+          <Val><![CDATA[Stwórz most, aby sługa skrzyni mógł dotrzeć do przycisku i ujawnić dla ciebie schody!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

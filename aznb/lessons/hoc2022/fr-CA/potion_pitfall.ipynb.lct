@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -38,8 +38,8 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -110,7 +110,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -119,8 +119,8 @@
     <Item ItemId="2;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Move the golem to the end without falling into the pit. Make sure to wait for the block to come back after the golem stands on a pressure plate.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Move the golem to the end without falling into the pit. Make sure to wait for the block to come back after the golem stands on a pressure plate.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Déplacez le golem jusqu’au bout sans tomber dans la fosse. N'oubliez pas d'attendre que le bloc revienne une fois le golem placé sur une plaque de pression.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -137,8 +137,8 @@
     <Item ItemId="2;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />

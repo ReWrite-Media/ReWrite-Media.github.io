@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Feed the House]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Feed the House]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Nourrissez la maison]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La maison a faim ! Et quoi de mieux pour la nourrir que des pommes, du saumon et du ragoût de champignons ! Voyez si vous pouvez déterminer combien de chaque ingrédient la maison a besoin. Utilisez la fonction 'feed_house()' pour définir les éléments que vous souhaitez donner à manger.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -38,7 +38,7 @@
     <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La fonction 'feed_house()' est influencée par un paramètre qui définit l’élément que vous allez lui donner à manger.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -56,7 +56,7 @@
     <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -65,8 +65,8 @@
     <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid opptions are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid opptions are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les options valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'pomme'! [Pomme]5D; (img/apple.png « Apple »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- ' ragoût de champignons'! [Ragoût de champignons]5D; (img/mushroom_stew.png « Mushroom Strew »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'saumon'! [Saumon]5D; (img/salmon.png « Saumon »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -101,8 +101,8 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -110,8 +110,8 @@
     <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -119,8 +119,8 @@
     <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -128,8 +128,8 @@
     <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -137,8 +137,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# nourrir la maison avec 4 pommes et]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -146,8 +146,8 @@
     <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# 1 ragoût de champignons]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -164,7 +164,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -182,8 +182,8 @@
     <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -191,8 +191,8 @@
     <Item ItemId="3;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -200,8 +200,8 @@
     <Item ItemId="3;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# feed the house 4 apples and]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# nourrir la maison avec 4 pommes et]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -209,8 +209,8 @@
     <Item ItemId="3;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# 1 mushroom stew]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# 1 ragoût de champignons]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -227,7 +227,7 @@
     <Item ItemId="4;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -236,8 +236,8 @@
     <Item ItemId="4;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Zombie Chefs are holding food while they ride by on platters! There seems to be a pattern here... I wonder if they are here to feed the house? Figure out how many of each food item the house wants, then write a program to feed the house the correct amount! ]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Zombie Chefs are holding food while they ride by on platters! There seems to be a pattern here... I wonder if they are here to feed the house? Figure out how many of each food item the house wants, then write a program to feed the house the correct amount! ]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les chefs zombies tiennent de la nourriture pendant qu’ils défilent sur des plateaux ! Il semble y avoir un schéma ici... je me demande s’ils sont là pour nourrir la maison ? Déterminez combien de chaque aliment la maison a besoin, puis créez un programme pour alimenter la maison avec la bonne quantité !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -245,7 +245,7 @@
     <Item ItemId="4;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -254,8 +254,8 @@
     <Item ItemId="4;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />

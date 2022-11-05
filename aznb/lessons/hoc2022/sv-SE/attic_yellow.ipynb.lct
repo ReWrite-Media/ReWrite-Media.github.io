@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Yellow Path)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Attic Tutorial (Gul sökväg)]A;]]></Val>
+          <Val><![CDATA[# Vindshandledning (gul väg)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gul' (flyttar markören åt höger) ! [Gul pil]5D; (img/yellow_arrow.png "Gul pil")]]></Val>
+          <Val><![CDATA[- `yellow` (flyttar markören åt höger)  ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du måste få agenten mer kraft för att öppna den gula dörren! Det finns fälldörrar ovanför agenten som blockerar månskenet från att komma in. Kanske kan du använda det för att debitera agenten? Använd funktionen 'move_cursor()' för att placera markören och sedan 'open_trapdoor()' för att öppna den valda trapdoor.]A;]]></Val>
+          <Val><![CDATA[Du måste ge agenten mer kraft för att öppna den gula dörren! Det finns falluckor ovanför agenten som blockerar månskenet från att komma in. Kanske kan du använda det för att ladda upp agenten? Använd funktionen 'move_cursor()' för att placera markören och sedan 'open_trapdoor()' för att öppna den valda falluckan.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar den riktning du vill flytta.]A;]]></Val>
+          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar åt vilket håll du vill gå åt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (flyttar markören framåt) ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (flyttar markören framåt) ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (flyttar markören bakåt) ! [Magenta pil]5D; (img/magenta_arrow.png "Magentapil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (flyttar markören bakåt)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Ljuslila pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blå' (flyttar markören åt vänster) ! [Blå pil]5D; (img/blue_arrow.png "Blå pil")]A;]]></Val>
+          <Val><![CDATA[– ’blå’ (flyttar markören åt vänster) ! [Blå pil]5D; (img/blue_arrow.png ”Blå pil”)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the first trapdoor and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# öppna den första fälldörren och]A;]]></Val>
+          <Val><![CDATA[# öppna den första falluckan och]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta sedan Agent 4-blocken framåt]A;]]></Val>
+          <Val><![CDATA[# flytta sedan agenten 4 block framåt]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the first trapdoor and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# öppna den första fälldörren och]A;]]></Val>
+          <Val><![CDATA[# öppna den första falluckan och]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta sedan Agent 4-blocken framåt]A;]]></Val>
+          <Val><![CDATA[# flytta sedan agenten 4 block framåt]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[We need to get the Agent more power! Those closed trapdoors on the ceiling let in a bit of moonlight. Maybe opening them using code will be enough to charge the Agent! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vi måste få agenten mer kraft! De stängda fälldörrarna i taket släppte in lite månsken. Kanske räcker det att öppna dem med kod för att ladda agenten! ]A;]]></Val>
+          <Val><![CDATA[Vi måste ge agenten mer kraft! De stängda falluckorna i taket släppte in lite månsken. Kanske räcker det att öppna dem med kod för att ladda agenten!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

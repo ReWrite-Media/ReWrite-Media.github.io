@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Green Path Part 1)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Attic Tutorial (Grön väg del 1)]A;]]></Val>
+          <Val><![CDATA[# Vindhandledning (grön väg del 1)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Rutan med pilen på golvet är din markör. Du använder markören för att manipulera block för att lösa pussel under hela den här upplevelsen. I den här aktiviteten använder du den för att öppna trapdoor och släppa agenten. Använd 'move_cursor()' för att placera markören och 'open_trapdoor()' för att öppna trapdoor du har valt.]A;]]></Val>
+          <Val><![CDATA[Rutan med pilen på golvet är din markör. Du använder markören för att manipulera block för att lösa pussel under hela den här upplevelsen. I den här aktiviteten använder du den för att öppna falluckan och släppa ut agenten. Använd 'move_cursor()' för att positionera markören och 'open_trapdoor()' för att öppna falluckan du har valt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar den riktning du vill flytta.]A;]]></Val>
+          <Val><![CDATA[Funktionen 'move_cursor()' tar en parameter som definierar dess riktning. Den parametern är färgen på pilen som representerar åt vilket håll du vill gå åt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (flyttar markören framåt) ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]]></Val>
+          <Val><![CDATA[- `orange` (flyttar markören framåt) ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# flytta markören framåt 3 block]A;]]></Val>
+          <Val><![CDATA[# flytta markören 3 block framåt]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the trapdoor that's selected]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# öppna trapdoor som är vald]A;]]></Val>
+          <Val><![CDATA[# öppna den fallucka som är vald]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the cursor, so it is positioned above the wooden trapdoor in the middle of the Attic, then open the trapdoor to let out the Agent who is trapped underneath.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Flytta markören så att den är placerad ovanför träfälldörren mitt på vinden och öppna sedan fälldörren för att släppa ut agenten som är instängd under.]A;]]></Val>
+          <Val><![CDATA[Flytta markören så att den är positionerad ovanför falluckan mitt på vinden och öppna sedan falluckan för att släppa ut agenten som är instängd under.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

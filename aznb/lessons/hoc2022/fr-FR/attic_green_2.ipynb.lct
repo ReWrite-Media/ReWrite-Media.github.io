@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Green Path Part 2)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Tutoriel sur le grenier (Green Path Part 2)]A;]]></Val>
+          <Val><![CDATA[# Tutoriel sur le grenier (Chemin vert Partie 2)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- right (droite)]A;]]></Val>
+          <Val><![CDATA[- `droite`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- up (haut)]A;]]></Val>
+          <Val><![CDATA[- `haut`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `down`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `bas`]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Maintenant que la trappe est ouverte, vous devez déplacer l’agent vers le haut de deux blocs pour le libérer. Utilisez la fonction 'agent.move()' pour déplacer l’agent vers le haut.]A;]]></Val>
+          <Val><![CDATA[Maintenant que la trappe est ouverte, vous devez déplacer l’agent de deux blocs vers le haut pour le libérer. Utilisez la fonction 'agent.move()' pour déplacer l’agent vers le haut.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'agent.move()' prend un paramètre qui définit dans quelle direction elle doit se déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction 'agent.move()' est influencée par un paramètre qui définit dans quelle direction il doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (en avant)]A;]]></Val>
+          <Val><![CDATA[- `en avant`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (en arrière)]A;]]></Val>
+          <Val><![CDATA[- `en arrière`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (gauche)]A;]]></Val>
+          <Val><![CDATA[- `gauche`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Help the Agent out of the floor. Move it up two blocks to get it out.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Aidez l’agent à sortir du sol. Déplacez-le vers le haut de deux blocs pour le sortir.]A;]]></Val>
+          <Val><![CDATA[Aidez l’agent à sortir du sol. Déplacez-le de deux blocs vers le haut pour le sortir.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est cassé. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

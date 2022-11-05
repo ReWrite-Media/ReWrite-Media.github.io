@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du behöver vågen för att nå en vikt på exakt 23 kg. Kanske finns det en skylt här för att berätta hur mycket varje mobb väger? Använd funktionen 'summon_animal()' för att kalla till en kombination av djur som ger upp till 23 kg. ]A;]]></Val>
+          <Val><![CDATA[Du behöver få vågen att nå den exakta vikten 23 lbs. Det kanske finns en skylt här i närheten som kan berätta hur mycket varje varelse väger? Använd funktionen `summon_animal()` för att kalla till dig en kombination av djur som tillsammans blir 23 lbs.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'summon_animal()' tar på sig parametern som definierar vilket djur som ska kallas.]A;]]></Val>
+          <Val><![CDATA[Funktionen `summon_animal()` tar en parameter som definierar vilket djur som ska kallas på.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "kyckling" ! [Kyckling]5D; (img/chicken_weight.png "Kyckling")]A;]]></Val>
+          <Val><![CDATA[- `chicken` ![Höna]5D;(img/chicken_weight.png "Höna")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "får" ! [Får]5D; (img/sheep_weight.png "Får")]A;]]></Val>
+          <Val><![CDATA[- `sheep` ![Får]5D;(img/sheep_weight.png "Får")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "ko" ! [Ko]5D; (img/cow_weight.png "Ko")]]></Val>
+          <Val><![CDATA[- `cow` ![Ko]5D;(img/cow_weight.png "Ko")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# kalla 5 kycklingar och]A;]]></Val>
+          <Val><![CDATA[# kalla på 5 hönor och]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KODEXEMPEL - DU KAN INTE REDIGERA HÄR]A;]]></Val>
+          <Val><![CDATA[# KODEXEMPEL – DU KAN INTE REDIGERA HÄR]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# summon 5 chickens and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# kalla 5 kycklingar och]A;]]></Val>
+          <Val><![CDATA[# kalla på 5 hönor och]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the area for information on how much each animals weighs, and then write code to summon enough animals to weigh exactly 23lbs.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Sök i området efter information om hur mycket varje djur väger och skriv sedan kod för att kalla tillräckligt med djur för att väga exakt 23 kg.]A;]]></Val>
+          <Val><![CDATA[Leta information om hur mycket varje djur väger i området och skriv sedan kod för att kalla på tillräckligt många djur för att väga exakt 23 lbs.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Activate the Trap]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Activate the Trap]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Activer le piège]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -20,7 +20,7 @@
     <Item ItemId="0;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -29,7 +29,7 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -38,8 +38,8 @@
     <Item ItemId="0;cell_type:markdown:source#11" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid directions are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid directions are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les directions valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -47,8 +47,8 @@
     <Item ItemId="0;cell_type:markdown:source#12" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- « dans le sens des aiguilles d’une montre »! [Rotation dans le sens des aiguilles d’une montre]5D; (img/clockwise_ring.png « Anneau extérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -56,8 +56,8 @@
     <Item ItemId="0;cell_type:markdown:source#13" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'dans le sens inverse des aiguilles d’une montre'! [Rotation dans le sens inverse des aiguilles d’une montre]5D; (img/counterclockwise_ring.png « Rotation dans le sens inverse des aiguilles d’une montre »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -65,8 +65,8 @@
     <Item ItemId="0;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Vous avez une chance de capturer les agents du temps ! Rendez-vous au centre de l’arène du boss et regardez en bas ! Vous devrez aligner les 3 anneaux avec les couleurs au centre du piège pour l’activer ! Utilisez la fonction 'rotate_ring()' pour faire pivoter chaque anneau dans le sens des aiguilles d’une montre ou dans le sens inverse des aiguilles d’une montre pour aligner toutes les couleurs !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -74,7 +74,7 @@
     <Item ItemId="0;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[La fonction 'rotate_ring()' est influencée par deux paramètres. Le premier définit l’anneau que vous souhaitez faire pivoter et le second définit le sens dans lequel il doit pivoter.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -92,7 +92,7 @@
     <Item ItemId="0;cell_type:markdown:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#6" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Valid rings are:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Valid rings are:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Les anneaux valides sont :]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -110,8 +110,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'extérieur'! [Anneau extérieur]5D; (img/outer_ring.png « Anneau extérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -119,8 +119,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'milieu'! [Anneau du milieu]5D; (img/middle_ring.png « Anneau du milieu »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -128,8 +128,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'intérieur'! [Anneau intérieur]5D; (img/inner_ring.png « Anneau intérieur »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -137,8 +137,8 @@
     <Item ItemId="0;metadata.minecraft.description" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -146,8 +146,8 @@
     <Item ItemId="0;metadata.minecraft.page_name" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="35" />
@@ -155,8 +155,8 @@
     <Item ItemId="1;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -164,8 +164,8 @@
     <Item ItemId="1;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -173,8 +173,8 @@
     <Item ItemId="1;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# rotate the outer ring 3 times clockwise]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# rotate the outer ring 3 times clockwise]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# faire pivoter l’anneau extérieur 3 fois dans le sens des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -182,8 +182,8 @@
     <Item ItemId="1;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# puis faire pivoter l’anneau du milieu 1 fois]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -191,8 +191,8 @@
     <Item ItemId="1;cell_type:code:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# counterclockwise]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# dans le sens inverse des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -209,7 +209,7 @@
     <Item ItemId="2;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -227,8 +227,8 @@
     <Item ItemId="3;cell_type:code:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXEMPLE DE CODE - VOUS NE POUVEZ PAS MODIFIER ICI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -236,8 +236,8 @@
     <Item ItemId="3;cell_type:code:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# EXÉCUTEZ-LE POUR VOIR CE QUI SE PASSE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -245,8 +245,8 @@
     <Item ItemId="3;cell_type:code:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# rotate the outer ring 3 times clockwise]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# rotate the outer ring 3 times clockwise]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# faire pivoter l’anneau extérieur 3 fois dans le sens des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -254,8 +254,8 @@
     <Item ItemId="3;cell_type:code:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# and then rotate the middle ring 1 time]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# puis faire pivoter l’anneau du milieu 1 fois]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -263,8 +263,8 @@
     <Item ItemId="3;cell_type:code:source#5" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# counterclockwise]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# dans le sens inverse des aiguilles d’une montre]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -281,7 +281,7 @@
     <Item ItemId="4;cell_type:markdown:source#1" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -290,8 +290,8 @@
     <Item ItemId="4;cell_type:markdown:source#2" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[Rotate the rings! Align all three rings with the center colors of the trap to activate it!]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[Rotate the rings! Align all three rings with the center colors of the trap to activate it!]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Faites pivoter les anneaux ! Alignez les trois anneaux avec les couleurs au centre du piège pour l’activer !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -299,7 +299,7 @@
     <Item ItemId="4;cell_type:markdown:source#3" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[]A;]]></Val>
         </Tgt>
       </Str>
@@ -308,8 +308,8 @@
     <Item ItemId="4;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="32" />

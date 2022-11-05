@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" ! [Purpurová]5D; (img/magenta_carpet.png "Purpurová")]A;]]></Val>
+          <Val><![CDATA[– „purpurová“ ![Purpurová]5D; (img/magenta_carpet.png „Purpurová“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Na otvorenie dverí budete musieť otočiť všetky štyri páky, ale nie ste dostatočne rýchli na to, aby ste to urobili ručne. Pozrite sa, či dokážete zistiť poradie, v ktorom je potrebné ich prevrátiť, a potom naprogramujte svojho nového priateľa Speedy Knighta, aby to urobil za nás! Pomocou funkcie "move_knight()" definujte, do ktorej farby sa má rýchly rytier presunúť.]A;]]></Val>
+          <Val><![CDATA[Na otvorenie dverí musíte otočiť všetkými štyrmi páčkami, ale nie ste dostatočne rýchli na to, aby ste to urobili ručne. Skúste zistiť poradie, v ktorom je potrebné ich otočiť, a potom naprogramujte svojho nového priateľa rýchleho rytiera, aby to urobil za nás. Pomocou funkcie „pohnúť_rytierom()“ definujte, na ktorú farbu sa má rýchly rytier presunúť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_knight()" má jeden parameter, ktorý definuje, na ktorú farbu by sa mala presunúť.]A;]]></Val>
+          <Val><![CDATA[Funkcia „pohnúť_rytiera()“ má jeden parameter, ktorý definuje, na ktorú farbu sa má presunúť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[– „modrá“ ![Modrá]5D; (img/blue_carpet.png „Modrá“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[– „oranžová“ ![Oranžová]5D;(img/orange_carpet.png „Oranžová“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[– „žltá“ ![Žltá]5D; (img/yellow_carpet.png „Žltá“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the Suit of Armor between]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# presunúť oblek brnenia medzi]A;]]></Val>
+          <Val><![CDATA[# presuňte oblek brnenia medzi]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Figure out what order the levers should be flipped by paying close attention to the carpets in front of them. Then move the Speedy Knight to each lever in the correct order. The Speedy Knight is clever enough to flip the lever when it's in position!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Zistite, v akom poradí by sa páky mali prevrátiť, a to tak, že budete venovať veľkú pozornosť kobercom pred nimi. Potom posuňte Speedy Knight na každú páku v správnom poradí. Rýchly rytier je dosť šikovný na to, aby otočil páku, keď je na svojom mieste!]A;]]></Val>
+          <Val><![CDATA[Pozorným sledovaním kobercov pred páčkami zistite, v akom poradí by sa páčky mali otočiť. Potom posuňte rýchleho rytiera ku každej páčke v správnom poradí. Rýchly rytier je dosť šikovný na to, aby páčku otočil, keď je na svojom mieste!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nižšie uvedený kód je pokazený, môžete ho opraviť? Ladenie kódu jeho spustením, aby ste videli, čo robí, a potom ho upravte, aby ste dosiahli požadovaný výsledok.]]></Val>
+          <Val><![CDATA[Nižšie uvedený kód je nefunkčný, môžete ho opraviť? Ladenie kódu jeho spustením, aby ste videli, čo robí, a potom ho upravte, aby ste dosiahli požadovaný výsledok.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />

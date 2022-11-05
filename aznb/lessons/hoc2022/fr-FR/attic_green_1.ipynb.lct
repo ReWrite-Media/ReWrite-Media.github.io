@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La boîte avec la flèche sur le sol est votre curseur. Vous utiliserez le curseur pour manipuler des blocs afin de résoudre des énigmes tout au long de cette expérience. Dans cette activité, vous l’utiliserez pour ouvrir la trappe et libérer l’agent. Utilisez 'move_cursor()' pour positionner le curseur et 'open_trapdoor()' pour ouvrir la trappe que vous avez sélectionnée.]A;]]></Val>
+          <Val><![CDATA[La boîte avec la flèche sur le sol est votre curseur. Vous utiliserez le curseur pour manipuler des blocs afin de résoudre des énigmes tout au long de cette expérience. Dans cette activité, vous l’utiliserez pour ouvrir la trappe et libérer l’Agent. Utilisez 'move_cursor()' pour positionner le curseur et 'open_trapdoor()' pour ouvrir la trappe que vous avez sélectionnée.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'move_cursor()' prend un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction `move_cursor()` est influencée par un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (déplace le curseur vers l’avant) ! [Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]]></Val>
+          <Val><![CDATA[- 'orange' (déplace le curseur vers l’avant) ![Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# déplacez le curseur vers l’avant de 3 blocs]A;]]></Val>
+          <Val><![CDATA[# déplacez le curseur de 3 blocs vers l’avant]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est cassé. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

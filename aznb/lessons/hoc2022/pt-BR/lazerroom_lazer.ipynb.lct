@@ -11,8 +11,8 @@
     <Item ItemId="0;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Laser Puzzle]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Laser Puzzle]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Quebra-cabeça de Laser]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "certo"! [Certo]5D; (img/gray_right.png "Certo")]A;]]></Val>
+          <Val><![CDATA[- `direita` ![Direita]5D;(img/gray_right.png "Direita")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'esquerda' ! [Esquerda]5D; (img/gray_left.png "Esquerda")]]></Val>
+          <Val><![CDATA[- `esquerda` ![Esquerda]5D;(img/gray_left.png "Esquerda")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of green blocks to make the laser pass through the glass blocks to turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Blocos sólidos param o laser! Mude a linha de blocos verdes para fazer o laser passar pelos blocos de vidro para acender a luz do outro lado. Use a função 'shift_row()' para deslocar as linhas esquerda ou direita para permitir que o laser passe pelos blocos de vidro.]A;]]></Val>
+          <Val><![CDATA[Blocos sólidos param o laser! Mova a linha de blocos verdes para fazer o laser passar pelos blocos de vidro e acender a luz do outro lado. Use a função `shift_row()` para mover as linhas para a esquerda ou direita para permitir que o laser passe pelos blocos de vidro.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'shift_row()' tem dois parâmetros (strings). O primeiro parâmetro define qual linha de cor você deseja mudar, e o segundo parâmetro define a direção que a linha deve mudar.]A;]]></Val>
+          <Val><![CDATA[A função `shift_row()` tem dois parâmetros (strings). O primeiro parâmetro define qual linha de blocos coloridos você deseja mover e o segundo parâmetro define a direção na qual a linha deve se deslocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "verde"! [Verde]5D; (img/green_right.png "Verde")]A;]]></Val>
+          <Val><![CDATA[- `verde` ![Verde]5D; (img/green_right.png "Verde")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="31" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mude a linha verde]A;]]></Val>
+          <Val><![CDATA[# mova a linha verde para a direita]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[3 vezes]A;]]></Val>
+          <Val><![CDATA[# 3 vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mude a linha verde]A;]]></Val>
+          <Val><![CDATA[# mova a linha verde para a direita]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[3 vezes]A;]]></Val>
+          <Val><![CDATA[# 3 vezes]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Shift the green row either left or right so the laser passes through the glass block and turns on the light.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Mude a linha verde para a esquerda ou para a direita para que o laser passe pelo bloco de vidro e acenda a luz.]A;]]></Val>
+          <Val><![CDATA[Mova a linha verde para a esquerda ou para a direita para que o laser passe pelo bloco de vidro e acenda a luz.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

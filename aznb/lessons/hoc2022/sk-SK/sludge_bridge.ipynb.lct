@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Bridge Builder]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; staviteľa mostov]]></Val>
+          <Val><![CDATA[# staviteľ mostov]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "žltá" (posunie kurzor doprava) ! [Žltá šípka]5D; (img/yellow_arrow.png "Žltá šípka")]]></Val>
+          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Crate Minion is stuck! Oh no! Your're both stuck! You should build a bridge for the Crate Minion to get to the other side so they can press that button to reveal a staircase to help you out! Use the `move_cursor()` function to position the cursor and the `place_block()` function to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Prisluhovač prepravky je zaseknutý! Ó nie! Obaja ste uviazli! Mali by ste postaviť most pre prisluhovača prepravky, aby sa dostali na druhú stranu, aby mohli stlačením tohto tlačidla odhaliť schodisko, ktoré vám pomôže! Pomocou funkcie "move_cursor()" umiestnite kurzor a pomocou funkcie "place_block()" umiestnite blok do pozície, ktorú ste vybrali.]A;]]></Val>
+          <Val><![CDATA[Debničkový prisluhovač je zaseknutý. Ó, nie! Obaja ste uviazli! Mali by ste postaviť most pre debničkového prisluhovača, aby sa dostali na druhú stranu a mohli stlačením tohto tlačidla odokryť schodisko, ktoré vám pomôže von. Pomocou funkcie „pohnúť_kurzor()“ umiestnite kurzor a pomocou funkcie „umiestniť_blok()“ umiestnite blok do pozície, ktorú ste vybrali.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „oranžová“ (posunie kurzor nahor) ![Oranžový šíp]5D; (img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" (posunie kurzor nadol) ! [Purpurová šípka]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
+          <Val><![CDATA[- „purpurový“ (posunie kurzor nadol) ![Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá" (pohybuje kurzorom doľava) ! [Modrá šípka]5D; (img/blue_arrow.png "Modrá šípka")]A;]]></Val>
+          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# the cursor 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# kurzor 3 krát]A;]]></Val>
+          <Val><![CDATA[# kurzor 3-krát]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# the cursor 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# kurzor 3 krát]A;]]></Val>
+          <Val><![CDATA[# kurzor 3-krát]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Create a bridge so the Crate Minion can reach the button to reveal a staircase for you!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vytvorte most, aby sa prisluhovač prepravky mohol dostať k tlačidlu a odhaliť vám schodisko!]A;]]></Val>
+          <Val><![CDATA[Vytvorte most, aby sa debničkový prisluhovač mohol dostať k tlačidlu a odokryť vám schodisko.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />

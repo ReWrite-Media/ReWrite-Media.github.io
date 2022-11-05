@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pro Tip:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Consejo Pro:]A;]]></Val>
+          <Val><![CDATA[# Consejo profesional:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use a `for` loop to do one or more actions multiple times.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Utiliza un bucle 'for' para realizar una acción o más acciones varias veces.]]></Val>
+          <Val><![CDATA[Utiliza un bucle 'for' para realizar una o más acciones varias veces.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# code here]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# escribe el código aquí]A;]]></Val>
+          <Val><![CDATA[# código aquí]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />

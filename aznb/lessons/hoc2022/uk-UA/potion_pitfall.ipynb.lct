@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pitfall]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Підводний камінь]A;]]></Val>
+          <Val><![CDATA[# Пастка]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Воа, ноги, більше не перевертайтеся за цього голема! Нам потрібно допомогти йому безпечно зорієнтуватися в смарагдовому блоці. Коли голем переміщається на притискну пластину, блок, який йому потрібен, на мить втягується. Якщо ми почекаємо, він ніби повернеться! Використовуйте функцію «move_golem_forward()», щоб перемістити голема, і функцію «wait()», щоб змусити його чекати повернення блоку!]]></Val>
+          <Val><![CDATA[Ого, цей голем більше не може переставляти ноги! Треба допомогти йому безпечно дістатися до смарагдового блоку. Коли голем наступає на притискну пластину, потрібний йому блок на мить втягується. Якщо зачекати, то він, здається, повертається! Використовуйте функцію `move_golem_forward()` для переміщення голема і функцію `wait()`, щоб він чекав на повернення блоку!]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the golem forward 2 spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# перемістити голема вперед на 2 пробіли]A;]]></Val>
+          <Val><![CDATA[# перемістити голема вперед на 2 місця]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# wait one second and then move ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# зачекайте одну секунду, а потім перейдіть ]A;]]></Val>
+          <Val><![CDATA[# зачекати одну секунду, а потім рухатись]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 more spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 більше пробілів]A;]]></Val>
+          <Val><![CDATA[# ще 2 місця]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Trough]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; žľabu]]></Val>
+          <Val><![CDATA[# údolie]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "žltá" (posunie kurzor doprava) ! [Žltá šípka]5D; (img/yellow_arrow.png "Žltá šípka")]]></Val>
+          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Oh no! Holes in the canal stop the water from flowing into the garden! Fill those holes to help the water along! Use the `move_cursor()` function to position the cursor over a hole, and then `place_block()` to fill it in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ó nie! Otvory v kanáli zabraňujú prúdeniu vody do záhrady! Vyplňte tieto otvory, aby ste pomohli vode! Pomocou funkcie "move_cursor()" umiestnite kurzor nad otvor a potom "place_block()", aby ste ho vyplnili.]A;]]></Val>
+          <Val><![CDATA[Ó, nie! Diery v kanáli zabraňujú prúdeniu vody do záhrady. Vyplňte tieto diery, aby ste pomohli vode. Pomocou funkcie „pohnúť_kurzor()“ umiestnite kurzor nad dieru a potom ju vyplňte pomocou funkcie „umiestniť_blok()“.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_cursor()" má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípky, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „posunúť_kurzor()“ má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorý predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „oranžová“ (posúva kurzor dopredu) ![Oranžový šíp]5D; (img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" (presunie kurzor späť) ! [Purpurová šípka]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
+          <Val><![CDATA[- „purpurová“ (presunie kurzor späť) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá" (pohybuje kurzorom doľava) ! [Modrá šípka]5D; (img/blue_arrow.png "Modrá šípka")]A;]]></Val>
+          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all six holes in the canal to get the water flowing to the garden! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vyplňte všetkých šesť otvorov v kanáli, aby voda prúdila do záhrady! ]A;]]></Val>
+          <Val><![CDATA[Vyplňte všetkých šesť otvorov v kanáli, aby voda prúdila do záhrady!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

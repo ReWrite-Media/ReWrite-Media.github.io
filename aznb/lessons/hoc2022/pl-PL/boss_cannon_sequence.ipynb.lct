@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zielony" ! [Zielone działo]5D; (img/green_cannon.png "Green Cannon")]]></Val>
+          <Val><![CDATA[- `green` ![Zielona armata]5D;(img/green_cannon.png "Zielona armata")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Agenci Czasu znajdują się pod Kulą Czasu! Użyli swoich mocy, aby stworzyć wokół niego ochronne kolorowe pierścienie! Użyj funkcji "activate_cannon()", aby aktywować kolorowe działa w tej samej kolejności, co kolorowe pierścienie, aby wyłączyć Kulę Czasu! ]A;]]></Val>
+          <Val><![CDATA[Agenci Czasu znajdują się pod Kulą Czasu! Użyli swoich mocy, aby stworzyć wokół niej ochronne kolorowe pierścienie! Użyj funkcji `activate_cannon()`, aby aktywować kolorowe działa w takiej samej kolejności, w jakiej znajdują się kolorowe pierścienie i zdezaktywować Kulę Czasu!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `activate_cannon()` function takes one parameter that defines what color cannon you want to activate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "activate_cannon()" przyjmuje jeden parametr, który określa, jaką armatę kolorów chcesz aktywować.]A;]]></Val>
+          <Val><![CDATA[Funkcja `activate_cannon()` przyjmuje jeden parametr, który określa, jakiego koloru armatę chcesz aktywować.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "niebieski" ! [Błękitna armata]5D; (img/blue_cannon.png "Blue Cannon")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![Niebieska armata]5D;(img/blue_cannon.png "Niebieska armata")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "żółty" ! [Żółta armata]5D; (img/yellow_cannon.png "Żółta armata")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![Żółta armata]5D;(img/yellow_cannon.png "Żółta armata")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta'! [Magenta Cannon]5D; (img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![Karmazynowa armata]5D;(img/magenta_cannon.png "Karmazynowa armata")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# activate the blue and yellow ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# aktywuj niebiesko-żółte ]A;]]></Val>
+          <Val><![CDATA[# aktywuj niebieskie i żółte]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There seems to be an order to these colored rings surrounding the Time Orb! From the largest ring to the smallest, write a program that will activate the correct colored cannons to fire at the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Wydaje się, że istnieje porządek dla tych kolorowych pierścieni otaczających Kulę Czasu! Od największego pierścienia do najmniejszego, napisz program, który aktywuje odpowiednie kolorowe działa, aby strzelać do kolorowych pierścieni, aby wyłączyć Kulę Czasu! ]A;]]></Val>
+          <Val><![CDATA[Wydaje się, że te kolorowe pierścienie otaczające Kulę Czasu znajdują się w jakimś porządku! Od największego pierścienia do najmniejszego, napisz program, który aktywuje odpowiednie kolorowe armaty, aby strzelać do kolorowych pierścieni i wyłączyć Kulę Czasu!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

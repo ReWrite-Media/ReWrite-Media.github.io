@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Picture Slide]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Зображення слайда]A;]]></Val>
+          <Val><![CDATA[# Зсування зображення]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Green Right]5D;(img/chess_green_right.png "Green Right")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "правильно" ! [Праворуч від зеленого кольору]5D; (img/chess_green_right.png "Зелене право")]]></Val>
+          <Val><![CDATA[- `праворуч` ![Зелений праворуч]5D;(img/chess_green_right.png "Зелений праворуч")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[It looks like these pieces are a part of an incomplete picture! Try reordering them to see what it's supposed to be! Use the `push_pieces()` function to trigger the pistons to move the pieces in that direction. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Схоже, ці твори є частиною неповної картини! Спробуйте переупорядкувати їх, щоб побачити, яким він має бути! Використовуйте функцію «push_pieces()», щоб запустити поршні, щоб перемістити шматки в цьому напрямку. ]A;]]></Val>
+          <Val><![CDATA[Схоже, що ці елементи — частина незавершеної картини! Спробуйте переставити їх місцями і побачите, яка вона! Використовуйте функцію `push_pieces()`, щоб запустити поршні для переміщення елементів у потрібному напрямку.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `push_pieces()` function takes one parameter, the direction you want to push the pieces.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція 'push_pieces()' приймає один параметр, напрямок, в якому ви хочете натиснути на шматки.]A;]]></Val>
+          <Val><![CDATA[Функція 'push_pieces()' використовує один параметр — напрямок, в якому ви хочете переміщати елементи.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png "Blue Up")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png "Blue Up")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `вгору` ![Синій вгору]5D;(img/chess_blue_up.png "Синій вгору")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `вниз` ![Червоний вниз]5D;(img/chess_red_down.png "Червоний вниз")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `ліворуч` ![Жовтий ліворуч]5D;(img/chess_yellow_left.png "Жовтий ліворуч")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the pieces in all]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# переміщувати шматки у всіх]A;]]></Val>
+          <Val><![CDATA[# перемістити всі елементи]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Push the blocks to reorder them so all the different pieces make a complete picture!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Натисніть блоки, щоб змінити їх порядок, щоб усі різні частини дали повну картину!]A;]]></Val>
+          <Val><![CDATA[Натискайте на блоки, щоб змінити їх порядок розташування і скласти з елементів повну картину!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Включений нижче код зламаний. Чи можете ви це виправити? Запустіть код, щоб побачити, що станеться, а потім налагодьте його, відредагувавши до правильного рішення.]]></Val>
+          <Val><![CDATA[Представлений знизу код не працює. Ви можете виправити? Запустіть його, щоб відшукати проблему. Після цього внесіть зміни й отримайте бажаний результат.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

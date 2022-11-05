@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Weights]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Ваги]A;]]></Val>
+          <Val><![CDATA[# Вага]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Вам потрібно, щоб шкала досягла ваги рівно 23 фунти. Може, тут є табличка, яка скаже мені, скільки важить кожен натовп? Використовуйте функцію «summon_animal()», щоб викликати комбінацію тварин, які складають до 23 фунтів. ]A;]]></Val>
+          <Val><![CDATA[Вам потрібно, щоб на вагах було рівно 23 фунти (10,43 кг). Можливо, тут десь є табличка, яка скаже, скільки важить кожен моб? Використайте функцію 'summon_animal()', щоб викликати тварин, які разом важать 23 фунти.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція «summon_animal()» приймає параметр, який визначає, яку тварину слід викликати.]A;]]></Val>
+          <Val><![CDATA[Функція 'summon_animal()' використовує один параметр, який визначає, яку тварину слід викликати.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid animals are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Допустимими тваринами є:]A;]]></Val>
+          <Val><![CDATA[Допустимі тварини:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'chicken' ![Курка]5D;(img/chicken_weight.png «Курка»)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'sheep' ![Вівця]5D;(img/sheep_weight.png «Вівця»)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "корова" ! [Корова]5D; (img/cow_weight.png "Корова")]]></Val>
+          <Val><![CDATA[- 'cow' ![Корова]5D;(img/cow_weight.png «Корова»)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ І ПОБАЧИТЕ, ЩО СТАНЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the area for information on how much each animals weighs, and then write code to summon enough animals to weigh exactly 23lbs.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Знайдіть у місцевості інформацію про те, скільки важить кожна тварина, а потім напишіть код, щоб викликати достатню кількість тварин, щоб важити рівно 23 фунти.]A;]]></Val>
+          <Val><![CDATA[Обшукайте територію, щоб знати, скільки важить кожна тварина, а потім напишіть код, щоб викликати достатньо тварин, які важать рівно 23 фунти (10,43 кг).]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Включений нижче код зламаний. Чи можете ви це виправити? Запустіть код, щоб побачити, що станеться, а потім налагодьте його, відредагувавши до правильного рішення.]]></Val>
+          <Val><![CDATA[Представлений знизу код не працює. Ви можете виправити? Запустіть його, щоб відшукати проблему. Після цього внесіть зміни й отримайте бажаний результат.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

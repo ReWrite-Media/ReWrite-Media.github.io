@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Enderman Butler needs your direction to get across the river! Please direct them to use their magic to teleport to the diamond block, then have them move into position to pull the lever to let down the drawbridge! Use the `teleport_enderman_to_diamond()` function to get the Enderman across the river, then use `move_enderman_forward()` function to position the Enderman in front of the lever and `pull_lever_down()` to pull the lever. The Enderman Butler will automatically turn to face the lever when it's in the correct position! ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Enderman Butler potrzebuje twojego kierunku, aby przejść przez rzekę! Pokieruj ich, aby użyli swojej magii, aby teleportowali się do diamentowego bloku, a następnie niech przesuną się na pozycję, aby pociągnąć za dźwignię, aby opuścić most zwodzony! Użyj funkcji "teleport_enderman_to_diamond()", aby przeciągnąć Endermana przez rzekę, a następnie użyj funkcji "move_enderman_forward()", aby ustawić Endermana przed dźwignią i "pull_lever_down()", aby pociągnąć za dźwignię. Enderman Butler automatycznie obróci się twarzą do dźwigni, gdy znajdzie się we właściwej pozycji! ]]></Val>
+          <Val><![CDATA[Enderman-kamerdyner potrzebuje twoich wskazówek, aby przejść przez rzekę! Poprowadź go, aby użył swojej magii do teleportacji do diamentowego bloku, po czym przemieść go do dźwigni, którą może opuścić most zwodzony! Użyj funkcji `teleport_enderman_to_diamond()`, aby przeprowadzić endermana przez rzekę, a następnie funkcji `move_enderman_forward()`, aby ustawić endermana przed dźwignią i `pull_lever_down()`, aby pociągnął za dźwignię. Enderman-kamerdyner automatycznie obróci się twarzą do dźwigni, gdy znajdzie się we właściwej pozycji! ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 2 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń Agenta o 2 bloki w górę i o 2 bloki do przodu]A;]]></Val>
+          <Val><![CDATA[# przesuń endermana o 2 bloki naprzód]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then teleport them to the diamond block]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# następnie teleportuj je do diamentowego bloku]A;]]></Val>
+          <Val><![CDATA[# następnie teleportuj go do diamentowego bloku]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -92,8 +92,8 @@
     <Item ItemId="2;cell_type:markdown:source#0" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[# Actvitiy:]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[# Działanie:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Teleport the Enderman over the river to flip the lever and bring down the drawbridge. Be careful not to let the Enderman fall into the water. They hate water!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Teleportuj Endermana nad rzeką, aby przekręcić dźwignię i sprowadzić most zwodzony. Uważaj, aby Enderman nie wpadł do wody. Nienawidzą wody!]A;]]></Val>
+          <Val><![CDATA[Teleportuj endermana przez rzekę, aby przełożyć dźwignię i opuścić most zwodzony. Uważaj, aby enderman nie wpadł do wody. Oni nie znoszą wody!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

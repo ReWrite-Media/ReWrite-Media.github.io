@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Lights]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#ライト]A;]]></Val>
+          <Val><![CDATA[# ライト]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `pink` ![Pink]5D;(img/pink_glazed.png "Pink")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'ピンク'![ピンク]5D;(img/pink_glazed.png "ピンク")]]></Val>
+          <Val><![CDATA[- `pink` ![ピンク]5D;(img/pink_glazed.png "ピンク")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's seems to be a pattern with the way the lights are flashing. Move the Enderman to each position following the pattern the lights are making. Use the `move_enderman()` function to choose which colored platform the enderman moves to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[ライトの点滅の仕方にパターンがあるようです。エンダーマンをライトが作成しているパターンに従って各位置に移動します。'move_enderman()' 関数を使用して、エンダーマンが移動するカラープラットフォームを選択]A;ます。]]></Val>
+          <Val><![CDATA[ライトの点滅の仕方にパターンがあるようです。エンダーマンをライトのパターンに従ってそれぞれの位置に移動させましょう。'move_enderman()' 関数を使用して、エンダーマンが移動するプラットフォームの色を選択します。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman()` function takes one parameter that defines which colored platform it goes to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA['move_enderman()' 関数は、どの色のプラットフォームに行くかを定義する 1 つのパラメータを取ります]A;。]]></Val>
+          <Val><![CDATA['move_enderman()' 関数は、どの色のプラットフォームに行くかを定義する 1 つのパラメータを取ります。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[有効な色は次のとおりです:]A;]]></Val>
+          <Val><![CDATA[有効な色は次の通りです:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'グリーン'![緑]5D;(img/green_glazed.png "グリーン")]A;]]></Val>
+          <Val><![CDATA[- `green` ![緑]5D;(img/green_glazed.png "緑")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'![イエロー]5D;(img/yellow_glazed.png "イエロー")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![黄色]5D;(img/yellow_glazed.png "黄色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'ブルー'![ブルー]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![青]5D;(img/blue_glazed.png "青")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# first move the enderman to the green]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#最初にエンダーマンを緑色の]A;に移動します]]></Val>
+          <Val><![CDATA[# まず、エンダーマンを緑の]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# platform, then to the yellow one]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#プラットフォーム、その後、黄色の1つの]A;]]></Val>
+          <Val><![CDATA[# プラットフォームへ、続いて黄色のものへ移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There are multiple stages to this activity. Observe the pattern that lights make and write code to make the Enderman match that pattern. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[このアクティビティには複数の段階があります。ライトが作るパターンを観察し、エンダーマンがそのパターンと一致するようにコードを書いてくださ ]A;。]]></Val>
+          <Val><![CDATA[このアクティビティーには複数の段階があります。ライトが作るパターンを観察し、エンダーマンがそのパターンと一致するようなコードを書いてください。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

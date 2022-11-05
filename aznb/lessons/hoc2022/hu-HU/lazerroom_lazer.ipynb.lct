@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "helyes" ! [Jobbra]5D; (img/gray_right.png "Jobb")]A;]]></Val>
+          <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "balra" ! [Balra]5D; (img/gray_left.png "Balra")]]></Val>
+          <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of green blocks to make the laser pass through the glass blocks to turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A szilárd blokkok megállítják a lézert! Tolja el a zöld blokkok sorát, hogy a lézer áthaladjon az üvegtömbökön, hogy bekapcsolja a fényt a másik oldalon. A "shift_row()" funkcióval balra vagy jobbra tolja el a sorokat, hogy a lézer áthaladhasson az üvegtömbökön.]A;]]></Val>
+          <Val><![CDATA[A tömör blokkok megállítják a lézert! Told el a zöld blokkok sorát, hogy a lézer áthaladjon az üvegblokkokon, és felkapcsolja a fényt a másik oldalon. A „shift_row()” függvény balra vagy jobbra tolja el a sorokat, hogy a lézer áthaladhasson az üvegblokkokon.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "shift_row()" függvény két paramétert (karakterláncot) vesz fel. Az első paraméter határozza meg, hogy melyik színsort szeretné eltolni, a második paraméter pedig azt az irányt határozza meg, amelyet a sornak el kell tolnia.]A;]]></Val>
+          <Val><![CDATA[A „shift_row()” függvény két paramétert (karakterláncot) fogad. Az első paraméter határozza meg, hogy melyik színű sort szeretnéd eltolni, a második paraméter pedig az eltolás irányát határozza meg.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zöld" ! [Zöld]5D; (img/green_right.png "Zöld")]A;]]></Val>
+          <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a zöld sor jobbra]A; eltolása]]></Val>
+          <Val><![CDATA[# tolja a zöld sort jobbra]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# shift the green row right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a zöld sor jobbra]A; eltolása]]></Val>
+          <Val><![CDATA[# tolja a zöld sort jobbra]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -255,7 +255,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Shift the green row either left or right so the laser passes through the glass block and turns on the light.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tolja el a zöld sort balra vagy jobbra, hogy a lézer áthaladjon az üvegblokkon, és felkapcsolja a fényt.]A;]]></Val>
+          <Val><![CDATA[Told el balra vagy jobbra a zöld sort, hogy a lézer áthaladjon az üvegblokkokon, és felkapcsolja a lámpát.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtassa a kódot, hogy lássa, mi történik, majd hibakeresést végezzen a megfelelő megoldásra való szerkesztéssel.]]></Val>
+          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtasd a kódot, hogy lásd, mi történik, majd a hibakereséskor szerkeszd a kódot, hogy jó legyen.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Chess Pieces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#チェスの駒]A;]]></Val>
+          <Val><![CDATA[# チェスの駒]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'オレンジ'(チェスの駒を前方に動かす)![オレンジアロー]5D;(img/orange_arrow.png "オレンジアロー")]A;]]></Val>
+          <Val><![CDATA[- `orange` (チェスの駒を前に移動) ![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'マゼンタ'(チェスの駒を元に戻す)![マゼンタアロー]5D;(img/magenta_arrow.png "マゼンタアロー")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (チェスの駒を後ろに戻す) ![赤紫の矢印]5D;(img/magenta_arrow.png "赤紫の矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '青'(チェスの駒を左に動かす)![青矢印]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- `blue` (チェスの駒を左に移動) ![青矢印]5D;(img/blue_arrow.png "青矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'(チェスの駒を右に動かす)![黄色い矢印]5D;(img/yellow_arrow.png "イエローアロー")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (チェスの駒を右に移動) ![黄色い矢印]5D;(img/yellow_arrow.png "黄色い矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[あなたは王と女王を解放しました!しかし、ドアはまだ開いていません。彼らは間違った位置にいなければなりません。あなたが最終的にこの場所を脱出できるように、それらを正しい位置に移動します!'move_chess_piece()' 関数を使って、王と女王を正しい位置に移動させ]A;。]]></Val>
+          <Val><![CDATA[キングとクイーンを解放しました ! ですが、ドアはまだ開いていません。キングとクイーンの位置が間違っているようです。正しい位置に移動させて、この場所から脱出しましょう ! 'move_chess_piece()' 関数を使って、キングとクイーンを正しい位置に移動させましょう。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#4" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA['move_chess_piece()' 関数は 2 つのパラメータを取ります。1 つ目はどのチェスの駒を動かすか、2 つ目はどの方向に動かすかを決めます。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid chess pieces are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[有効なチェスの駒は次のとおりです:]A;]]></Val>
+          <Val><![CDATA[有効なチェスの駒は次の通りです:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '王'![キング]5D;(img/king_icon.png "King")]A;]]></Val>
+          <Val><![CDATA[- `king` ![キング]5D;(img/king_icon.png "キング")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'クイーン'![クイーン]5D;(img/queen_icon.png "Queen")]A;]]></Val>
+          <Val><![CDATA[- `queen` ![クイーン]5D;(img/queen_icon.png "クイーン")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>
@@ -171,7 +171,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -180,7 +180,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -189,7 +189,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#クイーンを前方に3ブロック移動]A;]]></Val>
+          <Val><![CDATA[# クイーンを前方に 3 ブロック移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -198,7 +198,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#キングを左に3ブロック]A;移動]]></Val>
+          <Val><![CDATA[# キングを左に 3 ブロック移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -234,7 +234,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -243,7 +243,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -252,7 +252,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the queen forward 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#クイーンを前方に3ブロック移動]A;]]></Val>
+          <Val><![CDATA[# クイーンを前方に 3 ブロック移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -261,7 +261,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the king left 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#キングを左に3ブロック]A;移動]]></Val>
+          <Val><![CDATA[# キングを左に 3 ブロック移動]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="26" />
@@ -270,7 +270,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Actvitiy:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Actvitiy:]A;]]></Val>
+          <Val><![CDATA[# アクティビティー:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -288,7 +288,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the room to find where you should move each chess piece, and then write code to position them to the correct spots on the black and white checkered floor. Make sure the chess pieces don't bump into each other.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[部屋を検索して各チェスの駒を動かす場所を見つけ、白黒の市松模様の床の正しい場所に配置するためのコードを記述します。チェスの駒がぶつからないように気をつけてくださ]A;。]]></Val>
+          <Val><![CDATA[室内を調べてそれぞれのチェスの駒を動かすべき場所を解き明かし、白と黒のチェッカー模様の正しい位置に駒を移動させるコードを書きましょう。チェスの駒がぶつからないように気をつけてください。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -306,7 +306,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

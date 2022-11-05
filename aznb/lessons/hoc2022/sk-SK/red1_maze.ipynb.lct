@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „doprava“]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nasmerujte Enderman Butler na smaragdové bloky na druhej strane bludiska! Zdá sa, že páky na stene majú farbu, ktorá ladí so sadou dverí v bludisku. Mali by ste otočiť tieto páky, aby ste vytvorili bezpečnú cestu, ako nasmerovať Enderman Butler do smaragdových blokov! Potom použite funkciu "move_enderman_direction()", ktorá im pomôže navigovať v bludisku.]A;]]></Val>
+          <Val><![CDATA[Nasmerujte komorníka endermana na smaragdové bloky na druhej strane bludiska. Zdá sa, že páky na stene majú farbu, ktorá ladí so súpravou dverí v bludisku. Tieto páky by ste mali otočiť, aby ste vytvorili bezpečnú cestu, ktorou nasmerujete komorníka endermana do smaragdových blokov. Potom použite funkciu „pohnúť_smer_endermana()“, ktorá pomôže navigovať ich v bludisku.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_enderman_direction()" má jeden parameter, ktorý definuje, ktorým smerom by sa mala pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „posunúť_smer_endermana()“ má jeden parameter, ktorý definuje, ktorým smerom by sa mala pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (dopredu)]A;]]></Val>
+          <Val><![CDATA[- „dopredu“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (dozadu)]A;]]></Val>
+          <Val><![CDATA[- „dozadu“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (doľava)]A;]]></Val>
+          <Val><![CDATA[- „doľava“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť endermana o 4 bloky dopredu]A;]]></Val>
+          <Val><![CDATA[# posuňte endermana o 4 bloky dopredu]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# posunúť endermana o 4 bloky dopredu]A;]]></Val>
+          <Val><![CDATA[# posuňte endermana o 4 bloky dopredu]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler to the emerald blocks!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Zdá sa, že páky na stene majú farbu, ktorá ladí so sadou dverí v bludisku. Mali by ste otočiť tieto páky, aby ste vytvorili bezpečnú cestu, ako nasmerovať Enderman Butler na smaragdové bloky!]A;]]></Val>
+          <Val><![CDATA[Zdá sa, že páky na stene majú farbu, ktorá ladí so súpravou dverí v bludisku. Tieto páky by ste mali otočiť, aby ste vytvorili bezpečnú cestu, ako nasmerovať komorníka endermana na smaragdové bloky.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Pitfall]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Pitfall]A;]]></Val>
+          <Val><![CDATA[# Potrzask]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Woah, nogi, nigdy więcej przewracania się dla tego golema! Musimy pomóc mu bezpiecznie nawigować do szmaragdowego bloku. Kiedy golem przesuwa się na płytę dociskową, blok, którego potrzebuje, chowa się na chwilę. Jeśli poczekamy, wydaje się, że wróci! Użyj funkcji "move_golem_forward()", aby przesunąć golema i funkcji "wait()", aby poczekać na powrót bloku!]]></Val>
+          <Val><![CDATA[Ojej, ostrożnie, ten golem nie może się już tak przewracać! Musimy pomóc mu bezpiecznie dotrzeć do szmaragdowego bloku. Kiedy golem przemieszcza się na płytę naciskową, potrzebny mu blok chowa się na chwilę. Jeśli poczekamy, po jakimś czasie wraca! Użyj funkcji 'move_golem_forward()', aby przemieścić golema i funkcji 'wait()', aby kazać mu poczekać na powrót bloku!]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="4" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the golem forward 2 spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przesuń golema do przodu o 2 spacje]A;]]></Val>
+          <Val><![CDATA[# przesuń golema do przodu o 2 miejsca]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# wait one second and then move ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# poczekaj sekundę, a następnie przejdź ]A;]]></Val>
+          <Val><![CDATA[# poczekaj sekundę, a następnie przejdź]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 more spaces]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 więcej spacji]A;]]></Val>
+          <Val><![CDATA[# 2 miejsca dalej]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the golem to the end without falling into the pit. Make sure to wait for the block to come back after the golem stands on a pressure plate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Przesuń golema do końca, nie wpadając do dołu. Pamiętaj, aby poczekać, aż blok wróci po tym, jak golem stanie na płycie dociskowej.]A;]]></Val>
+          <Val><![CDATA[Przemieść golema do końca, tak aby nie wpadł do dołu. Pamiętaj, aby poczekać, aż blok wróci po tym, jak golem stanie na płycie naciskowej.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

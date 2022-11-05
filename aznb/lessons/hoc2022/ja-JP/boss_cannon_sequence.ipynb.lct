@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Cannons]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#大砲]A;]]></Val>
+          <Val><![CDATA[# キャノン]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'グリーン'![グリーンキャノン]5D;(img/green_cannon.png "Green Cannon")]]></Val>
+          <Val><![CDATA[- `green` ![緑のキャノン]5D;(img/green_cannon.png "緑のキャノン")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[タイムエージェントはタイムオーブの下にあります!彼らはその力を使って、その周囲に保護色のリングを作りました!'activate_cannon()'機能を使って色付きの大砲を色付きのリングと同じ順序で発動させ、タイムオーブを無効 ]A;!]]></Val>
+          <Val><![CDATA[タイム Agent は時のオーブの下にいます ! 彼らはその力を使って、オーブの周囲に色のついた防護リングを作りました ! 'activate_cannon()' 関数を使って、色のついたキャノンを色のついたリングと同じ順序で起動させ、時のオーブを無効化させましょう !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `activate_cannon()` function takes one parameter that defines what color cannon you want to activate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA['activate_cannon()' 関数は、どのカラーキャノンをアクティブにするかを定義するパラメータを 1 つ取り]A;す。]]></Val>
+          <Val><![CDATA['activate_cannon()' 関数は、どのカラー キャノンを起動するかを定義するパラメータを 1 つ受け取ります。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[有効な色は次のとおりです:]A;]]></Val>
+          <Val><![CDATA[有効な色は次の通りです:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'ブルー'![ブルーキャノン]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![青のキャノン]5D;(img/blue_cannon.png "青のキャノン")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'![イエローキャノン]5D;(img/yellow_cannon.png "イエローキャノン")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![黄色のキャノン]5D;(img/yellow_cannon.png "黄色のキャノン")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'マゼンタ'![マゼンタキャノン]5D;(img/magenta_cannon.png "マゼンタキャノン")]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![赤紫のキャノン]5D;(img/magenta_cannon.png "赤紫のキャノン")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# activate the blue and yellow ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#青と黄色の ]A;をアクティブにする]]></Val>
+          <Val><![CDATA[# 青と黄色を有効にする]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# cannons in that order]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#大砲はその順序で]A;]]></Val>
+          <Val><![CDATA[# キャノンはその順序で]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There seems to be an order to these colored rings surrounding the Time Orb! From the largest ring to the smallest, write a program that will activate the correct colored cannons to fire at the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[タイムオーブを取り囲むこれらの色とりどりのリングに注文があるようです!最大のリングから最小のリングまで、正しい色のついた大砲を発動させて色付きのリングに発砲し、タイムオーブを無効にするプログラムを書 ]A;!]]></Val>
+          <Val><![CDATA[時のオーブを取り囲む色のついたリングには順番があるようです ! 一番大きなリングから一番小さなリングまで、正しい色のキャノンを起動して正しい色のリングを撃ち、時のオーブを無効化するプログラムを書きましょう !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

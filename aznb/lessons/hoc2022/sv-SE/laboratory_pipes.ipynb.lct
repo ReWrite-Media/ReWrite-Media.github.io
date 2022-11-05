@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "magenta" ! [Magenta pil]5D; (img/magenta_arrow.png "Magenta pil")]]></Val>
+          <Val><![CDATA[- `magenta` ![Ljuslila pil]5D;(img/magenta_arrow.png "Ljuslila pil")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to add a specific amount of blocks to each of the hoppers. Maybe there is something in the room that can tell you how many? Use the `drop_block()` function to drop the correct amount of colored block into the pipes.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du måste lägga till en viss mängd block till var och en av behållarna. Kanske finns det något i rummet som kan berätta hur många? Använd funktionen 'drop_block ()' för att släppa rätt mängd färgat block i rören.]A;]]></Val>
+          <Val><![CDATA[Du måste lägga till ett visst antal block till i och en av behållarna. Kanske finns det något i rummet som kan berätta hur många? Använd funktionen `drop_block()` för att släppa rätt antal färgade block i rören.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `drop_block()` function takes one paramaters (a string) that defines what color block should be dropped.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'drop_block()' tar en paramater (en sträng) som definierar vilket färgblock som ska släppas.]A;]]></Val>
+          <Val><![CDATA[Funktionen `drop_block()` tar en parameter (en sträng) som definierar vilket färgblock som ska släppas.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "gul" ! [Gul pil]5D; (img/yellow_arrow.png "Gul pil")]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow` ![Yellow Block]5D;(img/yellow_block.png "Yellow Block")]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "blå" ! [Blå pil]5D; (img/blue_arrow.png "Blå pil")]A;]]></Val>
+          <Val><![CDATA[- `blue` ![Blå pil]5D;(img/blue_arrow.png "Blå pil")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "orange" ! [Orange pil]5D; (img/orange_arrow.png "Orange pil")]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Orange pil]5D;(img/orange_arrow.png "Orange pil")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green` ![Green Block]5D;(img/green_block.png "Green Block")]A;]]></Val>
@@ -123,7 +123,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -150,7 +150,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -168,7 +168,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 1 blue block]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 1 blå block]A;]]></Val>
+          <Val><![CDATA[# 1 blått block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -213,7 +213,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -231,7 +231,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 1 blue block]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 1 blå block]A;]]></Val>
+          <Val><![CDATA[# 1 blått block]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -258,7 +258,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Look around the area to figure out how many of each colored block should be dropped into the pipes and write code to match that amount.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Titta runt i området för att ta reda på hur många av varje färgat block som ska släppas i rören och skriv kod för att matcha den mängden.]A;]]></Val>
+          <Val><![CDATA[Titta runt i området för att ta reda på hur många av varje färgat block som ska släppas i rören och skriv kod för att matcha det antalet.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -276,7 +276,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

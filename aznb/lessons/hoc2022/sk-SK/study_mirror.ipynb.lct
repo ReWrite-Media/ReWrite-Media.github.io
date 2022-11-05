@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Wrong Reflection]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Nesprávna reflexia]A;]]></Val>
+          <Val><![CDATA[# Nesprávny odraz]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "žltá" (posunie kurzor doprava) ! [Žltá šípka]5D; (img/yellow_arrow.png "Žltá šípka")]A;]]></Val>
+          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_cursor()" má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípky, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „pohnúť_kurzor()“ má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „oranžová“ (posunie kurzor nahor) ![Oranžový šíp]5D; (img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" (posunie kurzor nadol) ! [Purpurová šípka]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
+          <Val><![CDATA[- „purpurový“ (posunie kurzor nadol) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá" (pohybuje kurzorom doľava) ! [Modrá šípka]5D; (img/blue_arrow.png "Modrá šípka")]A;]]></Val>
+          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Look into the mirror and pay attention to the design of blocks above the fireplace. Recreate the same design above the fireplace on your side of the mirror.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Pozrite sa do zrkadla a venujte pozornosť dizajnu blokov nad krbom. Vytvorte rovnaký dizajn nad krbom na boku zrkadla.]A;]]></Val>
+          <Val><![CDATA[Pozrite sa do zrkadla a všimnite si dizajn blokov nad hozubom. Vytvorte rovnaký dizajn nad kozubom na vašej strane zrkadla.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nižšie uvedený kód je pokazený, môžete ho opraviť? Ladenie kódu jeho spustením, aby ste videli, čo robí, a potom ho upravte, aby ste dosiahli požadovaný výsledok.]]></Val>
+          <Val><![CDATA[Nižšie uvedený kód je nefunkčný, môžete ho opraviť? Odlaďte kód jeho spustením, aby ste videli, čo robí, a potom ho upravte tak, aby ste dosiahli požadovaný výsledok.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />

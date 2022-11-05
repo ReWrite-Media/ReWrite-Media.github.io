@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá"]A;]]></Val>
+          <Val><![CDATA[- „modrá“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "move_cursor()" má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípky, ktorá predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „posunúť_kurzor()“ má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorý predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -74,8 +74,8 @@
     <Item ItemId="0;cell_type:markdown:source#15" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „oranžová“ (posunie kurzor nahor) ! [Oranžový šíp]5D; (img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" (posunie kurzor nadol) ! [Purpurová šípka]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
+          <Val><![CDATA[- „purpurová“ (posunie kurzor nadol) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá" (pohybuje kurzorom doľava) ! [Modrá šípka]5D; (img/blue_arrow.png "Modrá šípka")]A;]]></Val>
+          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "žltá" (posunie kurzor doprava) ! [Žltá šípka]5D; (img/yellow_arrow.png "Žltá šípka")]A;]]></Val>
+          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Každá diera predstavuje komorné dvere v štyroch rohoch boss arény! Vyplňte všetky otvory správnou farbou, aby ste otvorili dvere komory! Pomocou funkcie "move_cursor()" umiestnite kurzor do priestoru a potom pomocou funkcie "place_block()" umiestnite farebný blok na vyplnenie každej medzery!]A;]]></Val>
+          <Val><![CDATA[Každý otvor predstavuje dvere do komory v štyroch rohoch arény s bossom. Vyplňte všetky otvory správnou farbou, aby ste otvorili dvere komory. Pomocou funkcie „pohnúť_kurzor()“ umiestnite kurzor do priestoru a potom pomocou funkcie „umiestniť_blok()“ umiestnite farebný blok na vyplnenie každého priestoru.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "place_block()" má jeden parameter, ktorý definuje farbu bloku, ktorý chcete umiestniť.]A;]]></Val>
+          <Val><![CDATA[Funkcia „umiestni_blok()“ má jeden parameter, ktorý definuje farbu bloku, ktorý chcete umiestniť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová"]A;]]></Val>
+          <Val><![CDATA[- „purpurová“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zelená"]A;]]></Val>
+          <Val><![CDATA[- „zelená“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "žltá"]A;]]></Val>
+          <Val><![CDATA[- „žltá“]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a green block, move]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# položte zelený blok, presuňte]A;]]></Val>
+          <Val><![CDATA[# umiestnite zelený blok, presuňte]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# 2 spaces right and then place]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 2 medzery vpravo a potom umiestnite]A;]]></Val>
+          <Val><![CDATA[# 2 miesta doprava a potom umiestnite]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Môžete to opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte úpravou na správne riešenie.]]></Val>
+          <Val><![CDATA[Priložený kód nižšie je nefunkčný. Dokážete ho opraviť? Spustite kód, aby ste videli, čo sa stane, a potom ho upravte na správne riešenie.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

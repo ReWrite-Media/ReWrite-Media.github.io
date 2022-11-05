@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Yellow Path)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#屋根裏部屋のチュートリアル(黄色の道)]A;]]></Val>
+          <Val><![CDATA[#屋根裏部屋のチュートリアル (黄色い通路)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '黄色'(カーソルを右に移動)![黄色い矢印]5D;(img/yellow_arrow.png "イエローアロー")]]></Val>
+          <Val><![CDATA[- `yellow` (カーソルを右に移動) ![黄色い矢印]5D;(img/yellow_arrow.png "黄色い矢印")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[黄色の扉を開けるには、エージェントにもっと力を与える必要があります!エージェントの上には月明かりが入るのを遮る罠の扉がある。たぶん、あなたはエージェントを充電するためにそれを使うことができますか?'move_cursor()' 関数を使用してカーソルを置き、次に 'open_trapdoor()' を使用して選択したトラップドアを開きます]A;。]]></Val>
+          <Val><![CDATA[黄色の扉を開けるには、エージェントにもっと力を与える必要があります ! エージェントの上には月明かりを遮断するトラップドアがあります。エージェントを充電するために利用することができますか ? `move_cursor()` 関数を使用してカーソルの位置を決め、 `open_trapdoor()` で選択したトラップドアを開けましょう。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA['move_cursor()' 関数は、その方向を定義するパラメータを 1 つ受け取ります。このパラメーターは、移動する方向を表す矢印の色で]A;。]]></Val>
+          <Val><![CDATA[`move_cursor()` 関数は、その方向を定義する 1 つのパラメータを受け取ります。このパラメータは、移動したい方向を表す矢印の色です。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'オレンジ'(カーソルを前方に移動)![オレンジアロー]5D;(img/orange_arrow.png "オレンジアロー")]A;]]></Val>
+          <Val><![CDATA[- `orange` (カーソルを前方に移動)![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'マゼンタ'(カーソルを元に戻す)![マゼンタアロー]5D;(img/magenta_arrow.png "マゼンタアロー")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (カーソルを戻す) ![赤紫の矢印]5D;(img/magenta_arrow.png "赤紫の矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '青'(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'blue'(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "青矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the first trapdoor and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 最初のトラップドアを開けて]A;]]></Val>
+          <Val><![CDATA[# 最初のトラップドアを開けて、]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#次に、エージェント4ブロックを前方に移動]A;]]></Val>
+          <Val><![CDATA[# Agentを前に 4 ブロック進めます]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#コード例 - あなたはここで編集することはできません]A;]]></Val>
+          <Val><![CDATA[# コード例 - ここは編集できません]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#それを実行して、]A;何が起こるかを確認してください]]></Val>
+          <Val><![CDATA[# 実行して、何が起きるか確認してみましょう]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# open the first trapdoor and]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 最初のトラップドアを開けて]A;]]></Val>
+          <Val><![CDATA[# 最初のトラップドアを開けて、]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#次に、エージェント4ブロックを前方に移動]A;]]></Val>
+          <Val><![CDATA[# Agentを前に 4 ブロック進めます]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[We need to get the Agent more power! Those closed trapdoors on the ceiling let in a bit of moonlight. Maybe opening them using code will be enough to charge the Agent! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[エージェントにもっと力を与える必要があります!天井の閉ざされた罠の扉は、少しの月明かりを吸い込んでいた。おそらく、コードを使用してそれらを開くだけで、エージェントに課金するのに十分で ]A;ょう。]]></Val>
+          <Val><![CDATA[エージェントにもっと力を与える必要があります ! 天井の閉ざされたトラップドアから、月明かりが少し差し込んでいます。コードを使って開ければ、エージェントを充電できるかもしれません !]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[以下の含まれているコードは壊れています。あなたはそれを修正できますか?コードを実行して何が起こるかを確認し、正しいソリューションに編集してデバッグします。]]></Val>
+          <Val><![CDATA[下のインクルード コードが壊れています。修正できますか ? コードを実行して何が起きるか確認し、正しいソリューションが導かれるように、編集してデバッグしてください。]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

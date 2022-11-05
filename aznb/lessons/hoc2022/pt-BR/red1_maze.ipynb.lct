@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Maze]A;]]></Val>
+          <Val><![CDATA[# Labirinto]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- 'right' (direita)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Direcione o Mordomo Enderman para os blocos de esmeraldas do outro lado do labirinto! As alavancas na parede parecem ter uma cor que combina com um conjunto de portas no labirinto. Você deve virar essas alavancas para criar um caminho seguro para direcionar o Mordomo Enderman até os blocos de esmeraldas! Em seguida, use a função 'move_enderman_direction()' para ajudá-los a navegá-los através do labirinto.]A;]]></Val>
+          <Val><![CDATA[Direcione o Mordomo Enderman para os blocos esmeralda do outro lado do labirinto! As alavancas na parede parecem ter uma cor que combina com um conjunto de portas no labirinto. Você precisa girar essas alavancas para criar um caminho seguro para direcionar o Mordomo Enderman até os blocos esmeralda! Em seguida, use a função 'move_enderman_direction()' para ajudá-lo a passar pelo labirinto.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'move_enderman_direction()' tem um parâmetro que define em que direção deve se mover.]A;]]></Val>
+          <Val><![CDATA[A função 'move_enderman_direction()' tem um parâmetro que define a direção na qual se mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (para a frente)]A;]]></Val>
+          <Val><![CDATA[- 'forward' (para a frente)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (para trás)]A;]]></Val>
+          <Val><![CDATA[- 'back' (para trás)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (para a esquerda)]A;]]></Val>
+          <Val><![CDATA[- 'left' (para a esquerda)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# e, em seguida, 1 bloco direito]A;]]></Val>
+          <Val><![CDATA[# e, em seguida, 1 bloco a direita]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# e, em seguida, 1 bloco direito]A;]]></Val>
+          <Val><![CDATA[# e, em seguida, 1 bloco a direita]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler to the emerald blocks!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[As alavancas na parede parecem ter uma cor que combina com um conjunto de portas no labirinto. Você deve virar essas alavancas para criar um caminho seguro para direcionar o Mordomo Enderman para os blocos de esmeraldas!]A;]]></Val>
+          <Val><![CDATA[As alavancas na parede parecem ter uma cor que combina com um conjunto de portas no labirinto. Você precisa girar essas alavancas para criar um caminho seguro para direcionar o Mordomo Enderman para os blocos esmeralda!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o, editando até chegar à solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Activate the Trap]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Aktivera trap-]A;]]></Val>
+          <Val><![CDATA[# Aktivera fällan]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "medurs" ! [Rotation medurs]5D; (img/clockwise_ring.png "Yttre ringen")]A;]]></Val>
+          <Val><![CDATA[- `clockwise` ![Rotation medurs]5D;(img/clockwise_ring.png "Yttre ringen")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "moturs" ! [Moturs rotation]5D; (img/counterclockwise_ring.png "Moturs rotation")]]></Val>
+          <Val><![CDATA[- `counterclockwise` ![Rotation moturs]5D;(img/counterclockwise_ring.png "Rotation moturs")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Nu har du chansen att fånga Tidsagenterna! Gå till mitten av bossarenan och titta ner! Du måste justera alla 3 ringarna med fällans mittfärger för att aktivera den! Använd funktionen 'rotate_ring ()' för att rotera varje ring antingen medurs eller moturs för att justera alla färger!]A;]]></Val>
+          <Val><![CDATA[Nu har du chansen att fånga tidsagenterna! Gå till mitten av bossarenan och titta ner! Du måste justera alla 3 ringarna med fällans mittfärger för att aktivera den! Använd funktionen `rotate_ring()` för att rotera varje ring antingen medurs eller moturs och justera alla färger!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funktionen 'rotate_ring()' tar två parametrar. Den första definierar vilken ring du vill rotera och den andra definierar vilken riktning den ska rotera i.]A;]]></Val>
+          <Val><![CDATA[Funktionen `rotate_ring()` tar två parametrar. Den första definierar vilken ring du vill rotera och den andra definierar vilken riktning den ska rotera i.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "yttre" ! [Yttre ringen]5D; (img/outer_ring.png "Yttre ringen")]A;]]></Val>
+          <Val><![CDATA[- `outer` ![Yttre ringen]5D;(img/outer_ring.png "Yttre ringen")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "mitten" ! [Mellersta ringen]5D; (img/middle_ring.png "Mellanringen")]A;]]></Val>
+          <Val><![CDATA[- `middle` ![Mittringen]5D;(img/middle_ring.png "Mittringen")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "inre" ! [Inre ringen]5D; (img/inner_ring.png "Inre ringen")]A;]]></Val>
+          <Val><![CDATA[- `inner` ![Inre ringen]5D;(img/inner_ring.png "Inre ringen")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[TMK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="35" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÖR DET FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
+          <Val><![CDATA[# KÖR DEN FÖR ATT SE VAD SOM HÄNDER]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -291,7 +291,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Rotate the rings! Align all three rings with the center colors of the trap to activate it!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Rotera ringarna! Rikta in alla tre ringarna mot svällningens mittfärger för att aktivera den!]A;]]></Val>
+          <Val><![CDATA[Rotera ringarna! Rikta in alla tre ringarna med fällans mittfärger för att aktivera den!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -309,7 +309,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Den medföljande koden nedan är trasig. Kan du fixa det? Kör koden för att se vad som händer och felsök den sedan genom att redigera den till rätt lösning.]]></Val>
+          <Val><![CDATA[Koden nedan fungerar inte. Kan du lösa problemet? Kör koden för att se vad som händer och felsök den sedan genom att redigera tills du hittar rätt lösning.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

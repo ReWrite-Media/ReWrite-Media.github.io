@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zelená" ! [Zelené delo]5D; (img/green_cannon.png "Zelené delo")]]></Val>
+          <Val><![CDATA[- „zelená“ ! [Zelené delo]5D; (img/green_cannon.png „Zelené delo“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Agenti času sú pod časovou guľou! Využili svoje sily na vytvorenie ochranných farebných krúžkov okolo neho! Pomocou funkcie "activate_cannon()" aktivujte farebné delá v rovnakom poradí ako farebné krúžky a vypnite časovú guľu! ]A;]]></Val>
+          <Val><![CDATA[Agenti času sú pod guľou času. Využili svoje sily na vytvorenie ochranných farebných kruhov okolo nej. Pomocou funkcie „aktivovať_delo()“ aktivujte farebné delá v rovnakom poradí ako farebné kruhy a vypnite guľu času.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `activate_cannon()` function takes one parameter that defines what color cannon you want to activate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "activate_cannon()" má jeden parameter, ktorý definuje, ktoré farebné delo chcete aktivovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia „aktivovať_delo()“ má jeden parameter, ktorý definuje, ktoré farebné delo chcete aktivovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "modrá" ! [Modré delo]5D; (img/blue_cannon.png "Modré delo")]A;]]></Val>
+          <Val><![CDATA[- „modrá“ ! [Modré delo]5D; (img/blue_cannon.png „Modré delo“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- „žltá“ ![Žlté delo]5D;(img/yellow_cannon.png „Žlté delo“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "purpurová" ! [Purpurové delo]5D; (img/magenta_cannon.png "Purpurové delo")]A;]]></Val>
+          <Val><![CDATA[- „purpurová“ ![Purpurové delo]5D; (img/magenta_cannon.png „Purpurové delo“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# activate the blue and yellow ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# aktivovať modrú a žltú ]A;]]></Val>
+          <Val><![CDATA[# aktivujte modrú a žltú]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There seems to be an order to these colored rings surrounding the Time Orb! From the largest ring to the smallest, write a program that will activate the correct colored cannons to fire at the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Zdá sa, že existuje objednávka na tieto farebné krúžky obklopujúce Časovú guľu! Od najväčšieho krúžku po najmenší napíšte program, ktorý aktivuje správne farebné delá na streľbu na farebné krúžky, aby sa deaktivovala časová guľa! ]A;]]></Val>
+          <Val><![CDATA[Zdá sa, že existuje objednávka na tieto farebné kruhy obklopujúce guľu času. Od najväčšieho krúžku po najmenší napíšte program, ktorý aktivuje správne farebné delá, aby vystrelili na farebné kruhy a deaktivovala sa guľa času.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

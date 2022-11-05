@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Laser Reveal]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; de révélation laser]]></Val>
+          <Val><![CDATA[# Révélation laser]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune' (déplace le curseur vers la droite) ! [Flèche jaune]5D; (img/yellow_arrow.png « Flèche jaune »)]]></Val>
+          <Val><![CDATA[- 'jaune' (déplace le curseur vers la droite) ! [Flèche jaune]5D; (img/yellow_arrow.png « Flèche jaune »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all the holes in the floor with the cursor to open the curtain. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Remplissez tous les trous dans le sol avec le curseur pour ouvrir le rideau. Utilisez 'move_cursor()' pour positionner le curseur et 'place_block()' pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
+          <Val><![CDATA[Bouchez tous les trous dans le sol avec le curseur pour ouvrir le rideau. Utilisez 'move_cursor()' pour positionner le curseur et 'place_block()' pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'move_cursor()' prend un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction `move_cursor()` est influencée par un paramètre qui définit sa direction. Ce paramètre est la couleur de la flèche qui représente la direction dans laquelle vous souhaitez vous déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (déplace le curseur vers l’avant) ! [Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]A;]]></Val>
+          <Val><![CDATA[- 'orange' (déplace le curseur vers l’avant) ![Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (déplace le curseur vers l’arrière) ! [Flèche magenta]5D; (img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (déplace le curseur vers l’arrière) ! [Flèche magenta]5D; (img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bleu' (déplace le curseur vers la gauche) ! [Flèche bleue]5D; (img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
+          <Val><![CDATA[- 'bleu' (déplace le curseur vers la gauche) ! [Flèche bleue]5D; (img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block then move forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# placez un bloc puis avancez]A;]]></Val>
+          <Val><![CDATA[# placer un bloc puis avancer]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# place a block then move forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# placez un bloc puis avancez]A;]]></Val>
+          <Val><![CDATA[# placer un bloc puis avancer]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all the holes in the floor to open the curtain and reveal the final activity.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Remplissez tous les trous dans le sol pour ouvrir le rideau et révéler l’activité finale.]A;]]></Val>
+          <Val><![CDATA[Bouchez tous les trous dans le sol pour ouvrir le rideau et révéler la dernière activité.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est cassé. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

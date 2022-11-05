@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'sárga' (jobbra mozgatja a kurzort) ! [Sárga nyíl]5D; (img/yellow_arrow.png "Sárga nyíl")]]></Val>
+          <Val><![CDATA[- `yellow` (jobbra mozgatja a kurzort)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to open the door by powering all of the lights! Each light you turn on will open the door just a little more. Use the `move_cursor()` function to position the cursor over a light, then use the `turn_light_on()` function to turn on all the lights to open the door! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ki kell nyitnia az ajtót az összes lámpa bekapcsolásával! Minden egyes lámpa, amelyet bekapcsol, csak egy kicsit jobban kinyitja az ajtót. A "move_cursor()" funkcióval a kurzort a lámpa fölé helyezheti, majd a "turn_light_on()" funkcióval felkapcsolhatja az összes lámpát az ajtó kinyitásához! ]A;]]></Val>
+          <Val><![CDATA[Ki kell nyitni az ajtót az összes lámpa bekapcsolásával. Minden egyes bekapcsolt lámpa egy kicsit jobban kinyitja az ajtót. A „move_cursor()” függvénnyel a kurzort a lámpa fölé helyezheted, majd a „turn_light_on()” függvénnyel felkapcsolhatod a lámpát. Ha az összes lámpát felkapcsoltad, az ajtó kinyílik!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "move_cursor()" függvény egy paramétert vesz fel, amely meghatározza annak irányát. Ez a paraméter annak a nyílnak a színe, amely a mozgatni kívánt irányt jelöli.]A;]]></Val>
+          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'narancs' (felfelé mozgatja a kurzort) ! [Narancssárga nyíl]5D; (img/orange_arrow.png "Narancssárga nyíl")]A;]]></Val>
+          <Val><![CDATA[- `orange` (felfelé mozgatja a kurzort) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "bíbor" (lefelé mozgatja a kurzort) ! [Bíbor nyíl]5D; (img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (lefelé mozgatja a kurzort)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'kék' (balra mozgatja a kurzort) ! [Kék nyíl]5D; (img/blue_arrow.png "Kék nyíl")]A;]]></Val>
+          <Val><![CDATA[- `blue` (balra mozgatja a kurzort)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mozgassa a kurzort jobbra, majd forgassa el ]A;]]></Val>
+          <Val><![CDATA[# mozgassa a kurzort jobbra, majd kapcsolja]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a fényen. ismételje meg ezt 3-szor]A;]]></Val>
+          <Val><![CDATA[# fel a fényt, ismételje meg ezt 3-szor]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the cursor right and then turn ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mozgassa a kurzort jobbra, majd forgassa el ]A;]]></Val>
+          <Val><![CDATA[# mozgassa a kurzort jobbra, majd kapcsolja]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# on the light. repeat this 3 times]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# a fényen. ismételje meg ezt 3-szor]A;]]></Val>
+          <Val><![CDATA[# fel a fényt, ismételje meg ezt 3-szor]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Turn on all of the lights so the door fully opens and you can get through.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Kapcsolja be az összes lámpát, hogy az ajtó teljesen kinyíljon, és átjuthasson.]A;]]></Val>
+          <Val><![CDATA[Kapcsold be az összes lámpát, hogy az ajtó teljesen kinyíljon, és átjuthass.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtassa a kódot, hogy lássa, mi történik, majd hibakeresést végezzen a megfelelő megoldásra való szerkesztéssel.]]></Val>
+          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtasd a kódot, hogy lásd, mi történik, majd a hibakereséskor szerkeszd a kódot, hogy jó legyen.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `пурпуровий` ![Пурпуровий]5D;(img/magenta_carpet.png "Пурпуровий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Вам потрібно буде перевернути всі чотири важелі, щоб відкрити двері, але ви недостатньо швидко, щоб зробити це вручну. Подивіться, чи можете ви зрозуміти порядок, який їм потрібно перевернути, а потім запрограмуйте свого нового друга Speedy Knight, щоб зробити це за нас! Використовуйте функцію «move_knight()», щоб визначити, до якого кольору слід перейти Speedy Knight.]A;]]></Val>
+          <Val><![CDATA[Вам потрібно буде повернути всі чотири важелі, щоб відкрити двері, але ви недостатньо швидкі, щоб зробити це вручну. Подивіться, чи можете ви зрозуміти порядок, в якому їх потрібно повернути, а потім запрограмуйте свого нового друга Швидкісного коня, щоб він зробив це за нас! Використовуйте функцію "move_knight()", щоб визначити, до якого кольору слід перейти Швидкісному коню.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція 'move_knight()'' приймає один параметр, який визначає, до якого кольору вона повинна переміститися.]A;]]></Val>
+          <Val><![CDATA[Функція "move_knight()'' має один параметр, який визначає, до якого кольору треба переміститися.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Допустимими кольорами є:]A;]]></Val>
+          <Val><![CDATA[Допустимі кольори:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `синій` ![Blue]5D;(img/blue_carpet.png "Синій")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `помаранчевий` ![Помаранчевий]5D;(img/orange_carpet.png "Помаранчевий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -101,8 +101,8 @@
     <Item ItemId="0;cell_type:markdown:source#9" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `жовтий` ! [Жовтий]5D;(img/yellow_carpet.png "Жовтий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАТИМЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the Suit of Armor between]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# перемістити костюм броні між]A;]]></Val>
+          <Val><![CDATA[# перемістити обладунок між]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Figure out what order the levers should be flipped by paying close attention to the carpets in front of them. Then move the Speedy Knight to each lever in the correct order. The Speedy Knight is clever enough to flip the lever when it's in position!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[З'ясуйте, в якому порядку слід перевернути важелі, приділивши пильну увагу килимів перед ними. Потім перемістіть Speedy Knight до кожного важеля в правильному порядку. Швидкий лицар досить розумний, щоб перевернути важіль, коли він знаходиться в положенні!]A;]]></Val>
+          <Val><![CDATA[З'ясуйте, в якому порядку слід перевернути важелі, приділивши пильну увагу килимам перед ними. Потім перемістіть Швидкісного коня до кожного важеля у правильному порядку. Швидкісний кінь досить розумний, щоб перевернути важіль, коли він знаходиться в потрібному положенні!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

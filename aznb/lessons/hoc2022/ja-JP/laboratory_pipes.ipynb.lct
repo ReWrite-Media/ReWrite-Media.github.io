@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'ブルー'![青矢印]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 「青」! [青矢印]5D; (img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>

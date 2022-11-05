@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
+          <Val><![CDATA[# Labirynt glinianej kuli]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -29,8 +29,8 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `right`]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `right` (w prawo)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Przenieś glinianą kulę do złotego bloku. Użyj funkcji "clay_ball_move()", aby poruszać się po kuli przez labirynt.]A;]]></Val>
+          <Val><![CDATA[Przemieść glinianą kulę do złotego bloku. Użyj funkcji `clay_ball_move()`, aby przeprowadzić kulę przez labirynt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `clay_ball_move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "clay_ball_move()" przyjmuje jeden parametr, który określa, w jakim kierunku powinna się poruszać.]A;]]></Val>
+          <Val><![CDATA[Funkcja `clay_ball_move()` przyjmuje jeden parametr, który określa, w jakim kierunku powinna się poruszać.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,8 +83,8 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `up`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `up` (w górę)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -92,8 +92,8 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
-          <Val><![CDATA[- `down`]A;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
+          <Val><![CDATA[- `down` (w dół)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (w lewo)]A;]]></Val>
+          <Val><![CDATA[- `left` (w lewo)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przenieś glinianą kulę w górę]A;]]></Val>
+          <Val><![CDATA[# przemieść glinianą kulę w górę]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przez 3 bloki]A;]]></Val>
+          <Val><![CDATA[# o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przenieś glinianą kulę w górę]A;]]></Val>
+          <Val><![CDATA[# przemieść glinianą kulę w górę]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# by 3 blocks]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# przez 3 bloki]A;]]></Val>
+          <Val><![CDATA[# o 3 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Navigate the clay ball through the maze to reach the gold block.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Poruszaj się po glinianej kuli przez labirynt, aby dotrzeć do złotego bloku.]A;]]></Val>
+          <Val><![CDATA[Przeprowadź glinianą kulę przez labirynt, aby dotrzeć do złotego bloku.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Poniższy kod jest uszkodzony, czy możesz to naprawić? Debuguj kod, uruchamiając go, aby zobaczyć, co robi, a następnie edytuj go, aby uzyskać pożądany rezultat.]]></Val>
+          <Val><![CDATA[Poniższy kod nie działa, czy możesz go naprawić? Debuguj kod przez uruchomienie go, aby zobaczyć co robi, a następnie edytuj go, aby uzyskać pożądany rezultat.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />

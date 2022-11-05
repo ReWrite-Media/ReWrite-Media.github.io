@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Plate Swap]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Troca de placas]A;]]></Val>
+          <Val><![CDATA[# Troca de pratos]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ! [Seta Magenta]5D; (img/magenta_arrow.png "Magenta Arrow")]]></Val>
+          <Val><![CDATA[- 'magenta' ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `red`]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The silly Zombie Chef gave everyone the wrong meals! See if you can figure out who wants what meal. Use the `swap_plates()` function to swap the plates on either side of the colored tablecloth you define.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O bobo Zombie Chef deu a todos as refeições erradas! Veja se você pode descobrir quem quer que refeição. Use a função 'swap_plates()' para trocar as placas em ambos os lados da toalha de mesa colorida que você define.]A;]]></Val>
+          <Val><![CDATA[O Chef Zumbi pateta entregou refeições erradas para todos! Veja se você pode descobrir a refeição de cada um. Use a função 'swap_plates()' para trocar os pratos nos dois lados da toalha de mesa colorida definida.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `swap_plates()` takes one parameter that defines the color of the tablecloth that's between the two plates you want to swap.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O 'swap_plates()' pega um parâmetro que define a cor da toalha de mesa que está entre as duas placas que você deseja trocar.]A;]]></Val>
+          <Val><![CDATA[A função 'swap_plates()' tem um parâmetro que define a cor da toalha de mesa que está entre os dois pratos que você quer trocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'laranja' ! [Seta Laranja]5D; (img/orange_arrow.png "Seta Laranja")]A;]]></Val>
+          <Val><![CDATA[- 'orange' ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green`]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'azul' ! [Seta Azul]5D; (img/blue_arrow.png "Seta Azul")]A;]]></Val>
+          <Val><![CDATA[- 'blue' ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue`]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarelo' ! [Seta Amarela]5D; (img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
+          <Val><![CDATA[- 'yellow' ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow`]A;]]></Val>
@@ -123,7 +123,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -150,7 +150,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -159,7 +159,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# swap the plates on either side]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# troque as placas de cada lado]A;]]></Val>
+          <Val><![CDATA[# troque os pratos de cada lado]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -168,7 +168,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# of the orange tablecloth and then]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# da toalha de mesa laranja e, em seguida,]A;]]></Val>
+          <Val><![CDATA[# da toalha de mesa laranja e]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[# of the green tablecloth and then]A;]]></Val>
@@ -180,7 +180,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# do the same for the blue tablecloth]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Faça o mesmo para a toalha de mesa azul]A;]]></Val>
+          <Val><![CDATA[# faça o mesmo para a toalha de mesa azul]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -207,7 +207,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Zombie Chef misplaced the order! Where could it have gone? Figure out which meal belongs to who! Then write a program to place the plates in front of the correct mob. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O Chef Zumbi perdeu a ordem! Onde poderia ter ido? Descubra qual refeição pertence a quem! Em seguida, escreva um programa para colocar as placas na frente da mob correta. ]A;]]></Val>
+          <Val><![CDATA[O Chef Zumbi errou o pedido! Para onde será que ele foi? Descubra a refeição de cada um! Em seguida, escreva um programa para colocar os pratos na frente da criatura correta.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -225,7 +225,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

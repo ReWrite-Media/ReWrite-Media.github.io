@@ -29,7 +29,7 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `right`]]></Val>
         </Tgt>
       </Str>
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Irányítsd az Enderman Butlert a labirintus másik oldalán lévő smaragdtömbökhöz! Úgy tűnik, hogy a falon lévő karok színe megegyezik a labirintusban lévő ajtókkal. Meg kell fordítania ezeket a karokat, hogy biztonságos utat hozzon létre, hogy az Enderman Butlert a smaragd blokkokhoz irányítsa! Ezután használja a "move_enderman_direction()" funkciót, hogy segítsen eligazodni a labirintusban.]A;]]></Val>
+          <Val><![CDATA[Irányítsd a komornyik bevégzőt a labirintus másik oldalán lévő smaragdblokkokhoz! Úgy tűnik, hogy a falon lévő karok színe megegyezik a labirintusban lévő ajtókéval. Át kell kapcsolnod ezeket a karokat, hogy a komornyik bevégzőnek biztonságos utat alakíts ki a smaragdblokkokhoz. Ezután használd a „move_enderman_direction()” függvényt, hogy segíts neki eligazodni a labirintusban.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A "move_enderman_direction()" függvény egy paramétert vesz fel, amely meghatározza, hogy melyik irányba kell haladnia.]A;]]></Val>
+          <Val><![CDATA[A „move_enderman_direction()” függvény egy paramétert igényel, amely meghatározza a mozgás irányát.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (előre)]A;]]></Val>
+          <Val><![CDATA[- `forward`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (hátra)]A;]]></Val>
+          <Val><![CDATA[- `back`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (bal)]A;]]></Val>
+          <Val><![CDATA[- `left`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mozgassa előre az enderman 4 blokkot]A;]]></Val>
+          <Val><![CDATA[# mozgassa előre a bevégzőt 4 blokkal]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# majd 1 blokk jobb]A;]]></Val>
+          <Val><![CDATA[# majd 1 blokknyit jobbra]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# KÓD PÉLDA - ITT NEM LEHET SZERKESZTENI]A;]]></Val>
+          <Val><![CDATA[# KÓDPÉLDA – ITT NEM LEHET SZERKESZTENI]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# FUTTASSA, HOGY MEGNÉZZE, MI TÖRTÉNIK]A;]]></Val>
+          <Val><![CDATA[# FUTTASD, ÉS NÉZD MEG, MI TÖRTÉNIK]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the enderman 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# mozgassa előre az enderman 4 blokkot]A;]]></Val>
+          <Val><![CDATA[# mozgassa előre a bevégzőt 4 blokkal]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# and then 1 block right]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# majd 1 blokk jobb]A;]]></Val>
+          <Val><![CDATA[# majd 1 blokknyit jobbra]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler to the emerald blocks!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Úgy tűnik, hogy a falon lévő karok színe megegyezik a labirintusban lévő ajtókkal. Meg kell fordítania ezeket a karokat, hogy biztonságos utat hozzon létre, hogy az Enderman Butlert a smaragd blokkokhoz irányítsa!]A;]]></Val>
+          <Val><![CDATA[Át kell kapcsolnod ezeket a karokat, hogy a komornyik bevégzőnek biztonságos utat alakíts ki a smaragdblokkokhoz.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtassa a kódot, hogy lássa, mi történik, majd hibakeresést végezzen a megfelelő megoldásra való szerkesztéssel.]]></Val>
+          <Val><![CDATA[Az alábbi kód nem működik. Meg tudod javítani? Futtasd a kódot, hogy lásd, mi történik, majd a hibakereséskor szerkeszd a kódot, hogy jó legyen.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Activate the Trap]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ative a armadilha]A;]]></Val>
+          <Val><![CDATA[# Ative a Armadilha]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "sentido horário"! [Rotação no sentido horário]5D; (img/clockwise_ring.png "Anel Externo")]A;]]></Val>
+          <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'anti-horário' ! [Rotação no sentido anti-horário]5D; (img/counterclockwise_ring.png "Rotação no sentido anti-horário")]]></Val>
+          <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Agora é sua chance de capturar os Agentes do Tempo! Vá para o centro da arena do chefe e olhe para baixo! Você precisará alinhar todos os 3 anéis com as cores centrais da armadilha para ativá-lo! Use a função 'rotate_ring()' para girar cada anel no sentido horário ou anti-horário para alinhar todas as cores!]A;]]></Val>
+          <Val><![CDATA[Agora é sua chance de capturar os Agentes do Tempo! Vá para o centro da arena do chefe e olhe para baixo! Você precisará alinhar todos os 3 anéis com as cores centrais da armadilha para ativá-la! Use a função `rotate_ring()` para girar cada anel no sentido horário ou anti-horário para alinhar todas as cores!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função 'rotate_ring()' tem dois parâmetros. O primeiro define qual anel deseja girar e o segundo define em que direção deve girar em.]A;]]></Val>
+          <Val><![CDATA[A função `rotate_ring()` tem dois parâmetros. O primeiro define qual anel deseja girar e o segundo define em qual direção ele deve girar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'exterior' ! [Anel Externo]5D; (img/outer_ring.png "Anel Externo")]A;]]></Val>
+          <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "meio"! [Anel Do Meio]5D; (img/middle_ring.png "Anel Médio")]A;]]></Val>
+          <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'interior' ! [Anel Interno]5D; (img/inner_ring.png "Anel Interno")]A;]]></Val>
+          <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[HdC 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="35" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; no sentido anti-horário]]></Val>
+          <Val><![CDATA[# sentido anti-horário]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -237,7 +237,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
+          <Val><![CDATA[# EXECUTE-O PARA VER O QUE ACONTECE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# counterclockwise]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; no sentido anti-horário]]></Val>
+          <Val><![CDATA[# sentido anti-horário]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />
@@ -291,7 +291,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Rotate the rings! Align all three rings with the center colors of the trap to activate it!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Gire os anéis! Alinhe os três anéis com as cores centrais da armadilha para ativá-lo!]A;]]></Val>
+          <Val><![CDATA[Gire os anéis! Alinhe os três anéis com as cores centrais da armadilha para ativá-la!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -309,7 +309,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O código incluído abaixo está quebrado. Você pode consertá-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
+          <Val><![CDATA[O código incluído abaixo está quebrado. Você consegue corrigi-lo? Execute o código para ver o que acontece e depure-o editando-o para a solução correta.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Minecart Redirection]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#]A; presmerovania Minecart]]></Val>
+          <Val><![CDATA[# presmerovanie banského vozíka]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The mobs need to be sorted into the right passageways! Look at the mobs queued up to be sorted and sort them based on the order they are waiting. Use the `sort_mob()` function to set the order they should be sorted.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Davy musia byť roztriedené do správnych chodieb! Pozrite sa na davy, ktoré stoja v rade na triedenie, a zoraďte ich podľa poradia, v ktorom čakajú. Pomocou funkcie "sort_mob()" nastavte poradie, v ktorom majú byť zoradené.]A;]]></Val>
+          <Val><![CDATA[Tvory treba roztriediť do správnych chodieb. Pozrite sa na tvory, ktoré čakajú v rade na triedenie, a zoraďte ich podľa poradia, v ktorom čakajú. Pomocou funkcie „zoradiť_tvora()“ nastavte poradie, v ktorom majú byť zoradené.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `sort_mob()` function takes one parameter that defines which mob should be sorted next.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia "sort_mob()" má jeden parameter, ktorý definuje, ktorý dav by sa mal triediť ďalej.]A;]]></Val>
+          <Val><![CDATA[Funkcia „zoradiť_tvora()“ má jeden parameter, ktorý definuje, ktorý tvor by sa mal triediť ako ďalší.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid mobs are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Platné davy sú:]A;]]></Val>
+          <Val><![CDATA[Platné tvory sú:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `zombie` ![Zombie]5D;(img/zombie_head.png "Zombie")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "zombie" ! [Zombie]5D; (img/zombie_head.png "Zombie")]A;]]></Val>
+          <Val><![CDATA[- „zombie“ ![Zombie]5D; (img/zombie_head.png „Zombie“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `skeleton` ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "kostra" ! [Kostra]5D; (img/skeleton_head.png "Kostra")]A;]]></Val>
+          <Val><![CDATA[– „kostlivec“ ![kostlivec]5D;(img/skeleton_head.png „Kostlivec“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "creeper" ! [Creeper]5D; (img/creeper_head.png "Creeper")]]></Val>
+          <Val><![CDATA[– „creeper“ ![Creeper]5D; (img/creeper_head.png „Creeper“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRÍKLAD KÓDU - TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
+          <Val><![CDATA[# PRÍKLAD KÓDU – TU NEMÔŽETE UPRAVOVAŤ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# SPUSTITE HO, ABY STE VIDELI, ČO SA STANE]A;]]></Val>
+          <Val><![CDATA[# SPUSTITE HO A ZISTITE, ČO SA STANE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# sort the first 4 mobs all]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# zoraďte prvé 4 davy všetky]A;]]></Val>
+          <Val><![CDATA[# zoraďte prvé 4 tvory všetky]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Pay attention to the order the mobs are in and write your code to sort each mob into the correct passageway.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Venujte pozornosť poradiu, v ktorom sú davy, a napíšte svoj kód, aby ste každý dav zoradili do správnej chodby.]A;]]></Val>
+          <Val><![CDATA[Venujte pozornosť poradiu, v ktorom sa tvory nachádzajú, a napíšte svoj kód, aby ste každý tvor zoradil do správnej chodby.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -204,7 +204,7 @@
       <Str Cat="Text">
         <Val><![CDATA[#code here]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[#code tu]A;]]></Val>
+          <Val><![CDATA[#kód tu]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />

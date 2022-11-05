@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Attic Tutorial (Yellow Path)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Attic Tutorial (Żółta Ścieżka)]A;]]></Val>
+          <Val><![CDATA[# Samouczek na poddaszu (Żółta Ścieżka)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "żółty" (przesuwa kursor w prawo) ! [Żółta strzałka]5D; (img/yellow_arrow.png "Żółta strzałka")]]></Val>
+          <Val><![CDATA[- 'yellow' (przesuwa kursor w prawo) ![Żółta strzałka]5D;(img/yellow_arrow.png "Żółta strzałka")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Musisz zdobyć agentowi więcej mocy, aby otworzyć żółte drzwi! Nad Agentem znajdują się zapadnie, które blokują światło księżyca. Może możesz to wykorzystać do obciążenia Agenta? Użyj funkcji "move_cursor()", aby ustawić kursor, a następnie "open_trapdoor()", aby otworzyć wybraną zapadnię.]A;]]></Val>
+          <Val><![CDATA[Musisz dać Agentowi więcej mocy, aby otworzył żółte drzwi! Nad Agentem znajdują się zapadnie, które blokują światło księżyca. Może uda się je wykorzystać, aby naładować Agenta? Użyj funkcji 'move_cursor()', aby ustawić kursor, a następnie 'open_trapdoor()', aby otworzyć wybraną zapadnię.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcja "move_cursor()" przyjmuje jeden parametr, który określa jej kierunek. Ten parametr jest kolorem strzałki reprezentującej kierunek, w którym chcesz się przesunąć.]A;]]></Val>
+          <Val><![CDATA[Funkcja 'move_cursor()' przyjmuje jeden parametr, który określa jej kierunek. Ten parametr jest kolorem strzałki reprezentującym kierunek, w który chcesz przesunąć obiekt.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'pomarańczowy' (przesuwa kursor do przodu) ! [Pomarańczowa strzałka]5D; (img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'orange' (przesuwa kursor do przodu) ![Pomarańczowa strzałka]5D;(img/orange_arrow.png "Pomarańczowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (przesuwa kursor do tyłu) ! [Purpurowa strzałka]5D; (img/magenta_arrow.png "Purpurowa strzałka")]A;]]></Val>
+          <Val><![CDATA[- 'magenta' (przesuwa kursor do tyłu) ![Karmazynowa strzałka]5D;(img/magenta_arrow.png "Karmazynowa strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "niebieski" (przesuwa kursor w lewo) ! [Niebieska strzałka]5D; (img/blue_arrow.png "Blue Arrow")]A;]]></Val>
+          <Val><![CDATA[- 'blue' (przesuwa kursor w lewo) ![Niebieska strzałka]5D;(img/blue_arrow.png "Niebieska strzałka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[GK 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="30" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -138,7 +138,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# następnie przenieś bloki Agenta 4 do przodu]A;]]></Val>
+          <Val><![CDATA[# następnie przesuń Agenta do przodu o 4 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# PRZYKŁAD KODU - NIE MOŻESZ EDYTOWAĆ TUTAJ]A;]]></Val>
+          <Val><![CDATA[# PRZYKŁAD KODU - TUTAJ NIE MOŻNA EDYTOWAĆ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ stanie]A;]]></Val>
+          <Val><![CDATA[# URUCHOM GO, ABY ZOBACZYĆ, CO SIĘ STANIE]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# then move the Agent 4 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# następnie przenieś bloki Agenta 4 do przodu]A;]]></Val>
+          <Val><![CDATA[# następnie przesuń Agenta do przodu o 4 bloki]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[We need to get the Agent more power! Those closed trapdoors on the ceiling let in a bit of moonlight. Maybe opening them using code will be enough to charge the Agent! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Musimy zdobyć Agentowi więcej mocy! Te zamknięte zapadnie na suficie wpuszczają trochę światła księżyca. Być może otwarcie ich za pomocą kodu wystarczy, aby obciążyć Agenta! ]A;]]></Val>
+          <Val><![CDATA[Musimy dać Agentowi więcej mocy! Te zamknięte zapadnie na suficie wpuszczają trochę światła księżyca. Być może otwarcie ich za pomocą kodu wystarczy, aby doładować Agenta!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dołączony poniżej kod jest uszkodzony. Czy możesz to naprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
+          <Val><![CDATA[Dołączony poniżej kod nie działa. Czy możesz go poprawić? Uruchom kod, aby zobaczyć, co się stanie, a następnie debuguj go, edytując go do właściwego rozwiązania.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
