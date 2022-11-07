@@ -4,35 +4,5 @@
     "description": "Light Power",
     "pages": [
         "red3_light"
-    ],
-    "additionalLanguages" : [
-        "da-DK",
-        "es-MX",
-        "fr-CA",
-        "it-IT",
-        "ja-JP",
-        "ko-KR",
-        "nb-NO",
-        "nl-NL",
-        "pt-BR",
-        "sv-SE",
-        "tr-TR",
-        "zh-CN",
-        "bg-BG",
-        "cs-CZ",
-        "de-DE",
-        "el-GR",
-        "en-GB",
-        "es-ES",
-        "fi-FI",
-        "fr-FR",
-        "hu-HU",
-        "id-ID",
-        "pl-PL",
-        "pt-PT",
-        "ru-RU",
-        "sk-SK",
-        "uk-UA",
-        "zh-TW"
     ]
 }
