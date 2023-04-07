@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Plate Swap]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Заміна пластин]A;]]></Val>
+          <Val><![CDATA[# Заміна тарілок]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'пурпуровий' ! [Пурпурова стріла]5D; (img/magenta_arrow.png "Пурпурова стріла")]]></Val>
+          <Val><![CDATA[- `magenta` (малиновий) ![Малинова стрілка]5D;(img/magenta_arrow.png "Малинова стрілка")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `red`]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The silly Zombie Chef gave everyone the wrong meals! See if you can figure out who wants what meal. Use the `swap_plates()` function to swap the plates on either side of the colored tablecloth you define.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Дурний зомбі-шеф давав усім неправильні страви! Подивіться, чи зможете ви розібратися, хто який прийом їжі хоче. Використовуйте функцію "swap_plates()", щоб поміняти місцями тарілки по обидва боки від визначеної вами кольорової скатертини.]A;]]></Val>
+          <Val><![CDATA[Неуважний кухар-зомбі дав усім не ті страви! Подивіться, чи зможете ви розібратися, хто яку страву хоче. Використовуйте функцію 'swap_plates()', щоб поміняти місцями тарілки по обидва боки від визначеної вами кольорової скатертини.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `swap_plates()` takes one parameter that defines the color of the tablecloth that's between the two plates you want to swap.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA["swap_plates()" приймає один параметр, який визначає колір скатертини, що знаходиться між двома тарілками, які ви хочете поміняти місцями.]A;]]></Val>
+          <Val><![CDATA[Функція 'swap_plates()' має один параметр, який визначає колір скатертини, що знаходиться між двома тарілками, які ви хочете поміняти місцями.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -78,7 +78,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Valid colors are:]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Допустимими кольорами є:]A;]]></Val>
+          <Val><![CDATA[Допустимі кольори:]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'помаранчевий' ! [Помаранчева стрілка]5D; (img/orange_arrow.png "Помаранчева стріла")]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Помаранчева стрілка]5D;(img/orange_arrow.png "Помаранчева стрілка")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green`]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'синій' ! [Синя стріла]5D; (img/blue_arrow.png "Синя стріла")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синій) ![Синя стрілка]5D;(img/blue_arrow.png "Синя стрілка")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue`]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'жовтий' ! [Жовта стрілка]5D; (img/yellow_arrow.png "Жовта стріла")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (жовтий) ![Жовта стрілка]5D;(img/yellow_arrow.png "Жовта стрілка")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow`]A;]]></Val>
@@ -123,7 +123,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -141,7 +141,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# CODE EXAMPLE - YOU CAN NOT EDIT HERE]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ПРИКЛАД КОДУ - ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
+          <Val><![CDATA[# ПРИКЛАД КОДУ — ТУТ НЕ МОЖНА РЕДАГУВАТИ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -150,7 +150,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# RUN IT TO SEE WHAT HAPPENS]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАЄТЬСЯ]A;]]></Val>
+          <Val><![CDATA[# ЗАПУСТІТЬ ЙОГО, ЩОБ ПОБАЧИТИ, ЩО ВІДБУВАТИМЕТЬСЯ]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -159,7 +159,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# swap the plates on either side]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# поміняти місцями пластини з обох сторін]A;]]></Val>
+          <Val><![CDATA[# поміняти місцями тарілки з обох сторін]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -180,7 +180,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# do the same for the blue tablecloth]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# зробіть те ж саме для синьої скатертини]A;]]></Val>
+          <Val><![CDATA[# зробити те саме для синьої скатертини]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -207,7 +207,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Zombie Chef misplaced the order! Where could it have gone? Figure out which meal belongs to who! Then write a program to place the plates in front of the correct mob. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Зомбі-шеф-кухар втратив замовлення! Куди це могло подітися? З'ясуйте, яка їжа належить кому! Потім напишіть програму для розміщення табличок перед правильним mob. ]A;]]></Val>
+          <Val><![CDATA[Кухар-зомбі переплутав замовлення! Куди що пішло? З’ясуйте, яка страва кому належить! Потім напишіть програму для розміщення тарілок перед відповідними мобами.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -225,7 +225,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Включений нижче код зламаний. Чи можете ви це виправити? Запустіть код, щоб побачити, що станеться, а потім налагодьте його, відредагувавши до правильного рішення.]]></Val>
+          <Val><![CDATA[Цей код унизу не працює. Ви можете виправити? Запустіть його, щоб знайти проблему. Після цього внесіть зміни й отримайте бажаний результат.]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>

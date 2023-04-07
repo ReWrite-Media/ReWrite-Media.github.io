@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'harvest_wheat()'! [밀 수확]5D; (img/bread_wheat.png "밀 수확")]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (밀 수확) ![밀 수확]5D; (img/bread_wheat.png "밀 수확")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bake_bread()'! [빵 굽기]5D; (img/bread_bake.png "빵 굽기")]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()` ![빵 굽기]5D; (img/bread_bake.png "빵 굽기")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'make_dough()'! [반죽 만들기]5D; (img / bread_dough.png "반죽 만들기")]A;]]></Val>
+          <Val><![CDATA[- `make_dough()` ![반죽 만들기]5D; (img / bread_dough.png "반죽 만들기")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'mill_wheat()'! [밀 빻기]5D; (img/bread_mill.png "밀 빻기")]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (밀 빻기) ![밀 빻기]5D; (img/bread_mill.png "밀 빻기")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

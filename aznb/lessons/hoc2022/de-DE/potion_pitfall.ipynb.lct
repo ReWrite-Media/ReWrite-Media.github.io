@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Boah, Beine! Kein Umherrollen mehr für diesen Golem! Wir müssen ihm helfen, sicher zum Smaragdblock zu navigieren. Wenn sich der Golem auf die Druckplatte bewegt, zieht sich der Block, den er benötigt, für einen Moment zurück. Wenn wir warten, scheint er zurückzukommen! Verwende die Funktion ‚move_golem_forward()‘, um den Golem zu verschieben, und die Funktion ‚wait()‘, damit er warten muss, bis der Block zurückkommt!]]></Val>
+          <Val><![CDATA[Boah, Beine! Kein Umherrollen mehr für diesen Golem! Wir müssen ihm helfen, sicher zum Smaragdblock zu navigieren. Wenn sich der Golem auf die Druckplatte bewegt, zieht sich der Block, den er benötigt, für einen Moment zurück. Wenn wir warten, scheint er zurückzukommen! Verwende die Funktion `move_golem_forward()`, um den Golem zu verschieben, und die Funktion `wait()`, damit er warten muss, bis der Block zurückkommt!]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

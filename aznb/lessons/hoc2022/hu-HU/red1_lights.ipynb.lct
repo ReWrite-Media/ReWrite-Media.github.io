@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's seems to be a pattern with the way the lights are flashing. Move the Enderman to each position following the pattern the lights are making. Use the `move_enderman()` function to choose which colored platform the enderman moves to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Úgy tűnik, hogy a lámpák valamilyen minta szerint villognak. Mozgasd a bevégzőt az egyes pozíciókba a lámpák mintáját követve. A „move_enderman()” függvénnyel válaszd ki, hogy a bevégző melyik színes platformra mozogjon.]A;]]></Val>
+          <Val><![CDATA[Úgy tűnik, hogy a lámpák valamilyen minta szerint villognak. Mozgasd a bevégzőt az egyes pozíciókba a lámpák mintáját követve. A "move_enderman()” függvénnyel válaszd ki, hogy a bevégző melyik színes platformra mozogjon.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman()` function takes one parameter that defines which colored platform it goes to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_enderman()” függvény egy paramétert igényel, amely meghatározza, hogy milyen színű platformra menjen a bevégző.]A;]]></Val>
+          <Val><![CDATA[A "move_enderman()” függvény egy paramétert igényel, amely meghatározza, hogy milyen színű platformra menjen a bevégző.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
+          <Val><![CDATA[- `green` (zöld) ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (sárga) ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
+          <Val><![CDATA[- `blue` (kék) ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `pink` ![Pink]5D;(img/pink_glazed.png "Pink")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– „ružová“ ![Ružová]5D;(img/pink_glazed.png „Ružová“)]]></Val>
+          <Val><![CDATA[– "ružová` ![Ružová]5D;(img/pink_glazed.png "Ružová")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's seems to be a pattern with the way the lights are flashing. Move the Enderman to each position following the pattern the lights are making. Use the `move_enderman()` function to choose which colored platform the enderman moves to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Zdá sa, že spôsob blikania svetiel má určitý vzorec. Presuňte endermana do každej polohy podľa vzoru, ktorý vytvárajú svetlá. Pomocou funkcie „posunúť_endermana()“ vyberte, na ktorú farebnú platformu sa enderman presunie.]A;]]></Val>
+          <Val><![CDATA[Zdá sa, že spôsob blikania svetiel má určitý vzorec. Presuňte endermana do každej polohy podľa vzoru, ktorý vytvárajú svetlá. Pomocou funkcie "posunúť_endermana()" vyberte, na ktorú farebnú platformu sa enderman presunie.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman()` function takes one parameter that defines which colored platform it goes to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „pohnúť_endermana()“ má jeden parameter, ktorý definuje, na ktorú farebnú platformu ide.]A;]]></Val>
+          <Val><![CDATA[Funkcia "pohnúť_endermana()" má jeden parameter, ktorý definuje, na ktorú farebnú platformu ide.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– „zelená“ ![Zelená]5D;(img/green_glazed.png „Zelená“)]A;]]></Val>
+          <Val><![CDATA[- `green` (zelená) ![Zelená]5D;(img/green_glazed.png "Zelená")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– „žltá“ ![Žltá]5D;(img/yellow_glazed.png „Žltá“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žltá) ![Žltá]5D;(img/yellow_glazed.png "Žltá")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– „modrá“ ![Modrá]5D;(img/blue_glazed.png „Modrá“)]A;]]></Val>
+          <Val><![CDATA[- `blue` (modrá) ![Modrá]5D;(img/blue_glazed.png "Modrá")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

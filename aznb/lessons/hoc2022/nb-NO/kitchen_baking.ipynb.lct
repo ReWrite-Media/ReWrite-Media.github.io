@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bake_brød()` ![Bake brød]5D;(img/bread_bake.png «Bake brød»)]A;]]></Val>
+          <Val><![CDATA[- `bake_brød()` ![Bake brød]5D;(img/bread_bake.png "Bake brød")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `lage_deig()` ![Lage deig]5D;(img/bread_dough.png «Lage deig»)]A;]]></Val>
+          <Val><![CDATA[- `lage_deig()` ![Lage deig]5D;(img/bread_dough.png "Lage deig")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

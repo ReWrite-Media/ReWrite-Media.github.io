@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]]></Val>
+          <Val><![CDATA[- `žltá` (posunie kurzor doprava)  ![Žltý šíp]5D; (img/yellow_arrow.png "Žltý šíp")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Oh no! Holes in the canal stop the water from flowing into the garden! Fill those holes to help the water along! Use the `move_cursor()` function to position the cursor over a hole, and then `place_block()` to fill it in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ó, nie! Diery v kanáli zabraňujú prúdeniu vody do záhrady. Vyplňte tieto diery, aby ste pomohli vode. Pomocou funkcie „pohnúť_kurzor()“ umiestnite kurzor nad dieru a potom ju vyplňte pomocou funkcie „umiestniť_blok()“.]A;]]></Val>
+          <Val><![CDATA[Ó, nie! Diery v kanáli zabraňujú prúdeniu vody do záhrady. Vyplňte tieto diery, aby ste pomohli vode. Pomocou funkcie "pohnúť_kurzor()" umiestnite kurzor nad dieru a potom ju vyplňte pomocou funkcie "umiestniť_blok()".]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „posunúť_kurzor()“ má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorý predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia "posunúť_kurzor()" má jeden parameter, ktorý definuje jej smer. Tento parameter je farba šípu, ktorý predstavuje smer, ktorým sa chcete pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posúva kurzor dopredu) ![Oranžový šíp]5D; (img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `oranžová` (posunie kurzor dopredu) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ (presunie kurzor späť) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `purpurová` (presunie kurzor späť)  ![Purpurový šíp]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `modrá` (pohybuje kurzorom doľava)  ![Modrý šíp]5D; (img/blue_arrow.png "Modrý šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

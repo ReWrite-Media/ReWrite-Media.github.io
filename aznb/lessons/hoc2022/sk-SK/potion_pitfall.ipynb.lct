@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Fíha, nohy, už sa viac neprevracajte pre tohto golema. Musíme mu pomôcť bezpečne sa dostať ku smaragdovému bloku. Keď sa golem presunie na prítlačnú dosku, blok, ktorý potrebuje, sa na chvíľu zasunie. Ak počkáme, zrejme sa vráti. Použite funkciu „pohnúť_golema_dopredu()“ na pohyb golema a funkciu „čakať()“, aby golem počkal, kým sa blok vráti.]]></Val>
+          <Val><![CDATA[Fíha, nohy, už sa viac neprevracajte pre tohto golema. Musíme mu pomôcť bezpečne sa dostať ku smaragdovému bloku. Keď sa golem presunie na prítlačnú dosku, blok, ktorý potrebuje, sa na chvíľu zasunie. Ak počkáme, zrejme sa vráti. Použite funkciu "pohnúť_golema_dopredu()" na pohyb golema a funkciu "čakať()", aby golem počkal, kým sa blok vráti.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

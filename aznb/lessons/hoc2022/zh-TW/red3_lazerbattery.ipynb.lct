@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黃色”(將游標向右移動)！[黃色箭頭]5D;(img/yellow_arrow.png“黃色箭頭”)]]></Val>
+          <Val><![CDATA[- `黃色”(將游標向右移動)！[黃色箭頭]5D;(img/yellow_arrow.png"黃色箭頭")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Fill in all the holes in the floor with the cursor to open the curtain. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[用游標填滿地板上所有的洞以拉起布幕。使用“move_cursor()” 定位游標，並使用“place_block()” 將塊放置在所選位置。]A;]]></Val>
+          <Val><![CDATA[用游標填滿地板上所有的洞以拉起布幕。使用"move_cursor()” 定位游標，並使用"place_block()” 將塊放置在所選位置。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (將游標向前移動)！[橙色箭頭]5D;(img/orange_arrow.png "橙色箭頭")]A;]]></Val>
+          <Val><![CDATA[- `orange` (將游標向前移動) ![橙色箭頭]5D;(img/orange_arrow.png "橙色箭頭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “藍色”(將游標向左移動)！[藍色箭頭]5D;(img/blue_arrow.png “藍色箭頭”)]A;]]></Val>
+          <Val><![CDATA[- `藍色”(將游標向左移動)！[藍色箭頭]5D;(img/blue_arrow.png "藍色箭頭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use your cursor to build a staircase to access the upper level! Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A kurzorral építs egy lépcsősort a felső szint eléréséhez! A „move_cursor()” használatával helyezd el a kurzort, a „place_block()” függvénnyel pedig helyezz egy blokkot a kiválasztott pozícióba.]A;]]></Val>
+          <Val><![CDATA[A kurzorral építs egy lépcsősort a felső szint eléréséhez! A "move_cursor()” használatával helyezd el a kurzort, a "place_block()” függvénnyel pedig helyezz egy blokkot a kiválasztott pozícióba.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

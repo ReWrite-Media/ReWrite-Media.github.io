@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
+          <Val><![CDATA[- „right” ![Jobbra]5D;(img/gray_right.png "Jobbra")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
+          <Val><![CDATA[- „left” ![Balra]5D;(img/gray_right.png "Balra")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A tömör blokkok megállítják a lézert! Told el a vörös, sárga és zöld blokkok sorát, hogy a lézer áthaladjon az üvegblokkokon, és felkapcsolja a fényt a másik oldalon. A „shift_row()” függvény balra vagy jobbra tolja el a sorokat, hogy a lézer áthaladhasson az üvegblokkokon.]A;]]></Val>
+          <Val><![CDATA[A tömör blokkok megállítják a lézert! Told el a vörös, sárga és zöld blokkok sorát, hogy a lézer áthaladjon az üvegblokkokon, és felkapcsolja a fényt a másik oldalon. A "shift_row()” függvény balra vagy jobbra tolja el a sorokat, hogy a lézer áthaladhasson az üvegblokkokon.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „shift_row()” függvény két paramétert (karakterláncot) fogad. Az első paraméter határozza meg, hogy melyik színű sort szeretnéd eltolni, a második paraméter pedig az eltolás irányát határozza meg.]A;]]></Val>
+          <Val><![CDATA[A "shift_row()” függvény két paramétert (karakterláncot) fogad. Az első paraméter határozza meg, hogy melyik színű sort szeretnéd eltolni, a második paraméter pedig az eltolás irányát határozza meg.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
+          <Val><![CDATA[- `green` (zöld) ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (sárga) ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
+          <Val><![CDATA[- `red` (vörös) ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

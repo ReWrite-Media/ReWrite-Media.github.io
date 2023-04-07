@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Hijau]5D;(img/green_right.png "Hijau")]A;]]></Val>
+          <Val><![CDATA[- `green` (hijau) ![Hijau]5D;(img/green_right.png "Hijau")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Kuning]5D;(img/yellow_right.png "Kuning")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (kuning) ![Kuning]5D;(img/yellow_right.png "Kuning")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

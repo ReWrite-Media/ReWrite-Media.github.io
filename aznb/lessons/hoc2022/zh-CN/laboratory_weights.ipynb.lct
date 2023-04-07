@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[你需要秤的重量刚好达到 23 磅。也许附近会有一个告示牌告诉我每个生物的重量是多少？使用“summon_animal()”函数召唤一组动物，这些动物加起来重达 23 磅。]A;]]></Val>
+          <Val><![CDATA[你需要秤的重量刚好达到 23 磅。也许附近会有一个告示牌告诉我每个生物的重量是多少？使用"summon_animal()”函数召唤一组动物，这些动物加起来重达 23 磅。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“summon_animal()”函数采用一个参数，用于定义应该召唤哪种动物。]A;]]></Val>
+          <Val><![CDATA["summon_animal()”函数采用一个参数，用于定义应该召唤哪种动物。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “鸡”！[鸡]5D;(img/chicken_weight.png "鸡")]A;]]></Val>
+          <Val><![CDATA[- `chicken` (鸡) ![鸡]5D;(img/chicken_weight.png "鸡")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “绵羊”！[绵羊]5D;(img/sheep_weight.png "绵羊")]A;]]></Val>
+          <Val><![CDATA[- `sheep` (绵羊) ![绵羊]5D;(img/sheep_weight.png "绵羊")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “牛”！[牛]5D;(img/cow_weight.png "牛")]]></Val>
+          <Val><![CDATA[- `cow` (牛) ![牛]5D;(img/cow_weight.png "牛")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

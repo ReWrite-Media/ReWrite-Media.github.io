@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left`]A;]]></Val>
+          <Val><![CDATA[- `left` (izquierda)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

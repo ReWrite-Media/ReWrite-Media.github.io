@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `harvest_wheat()` ! [Buğday Hasat Et]5D; (img/bread_wheat.png ''Buğday Hasat Et'')]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (Buğday Hasat Et)  ![Buğday Hasat Et]5D; (img/bread_wheat.png "Buğday Hasat Et")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bake_bread()` ![Ekmek Pişir]5D; (img/bread_bake.png ''Ekmek Pişir'')]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()` ![Ekmek Pişir]5D; (img/bread_bake.png "Ekmek Pişir")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mill_wheat()` ![Buğday Öğüt]5D; (img/bread_mill.png ''Buğday Öğüt'')]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (Buğday Öğüt) ![Buğday Öğüt]5D; (img/bread_mill.png "Buğday Öğüt")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

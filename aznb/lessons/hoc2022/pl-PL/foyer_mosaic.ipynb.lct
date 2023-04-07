@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Green Right]5D;(img/chess_green_right.png "Green Right")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'right' ![Zielony w prawo]5D; (img/chess_green_right.png "Zielony w prawo")]]></Val>
+          <Val><![CDATA[- `right` (w prawo) ![Zielony w prawo]5D; (img/chess_green_right.png "Zielony w prawo")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />

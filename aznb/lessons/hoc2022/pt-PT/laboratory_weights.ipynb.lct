@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vais precisar da balança para atingir um peso de exatamente 10,4 kg. Talvez haja por aqui uma tabuleta que me diga quanto pesa cada criatura. Utiliza a função \"summon_animal()\" para invocares um conjunto de animais cujo peso total atinja os 10,4 kg.]A;]]></Val>
+          <Val><![CDATA[Vais precisar da balança para atingir um peso de exatamente 10,4 kg. Talvez haja por aqui uma tabuleta que me diga quanto pesa cada criatura. Utiliza a função "summon_animal()" para invocares um conjunto de animais cujo peso total atinja os 10,4 kg.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"invocar_animal()\" usa um parâmetro para definir que animal deverá ser invocado.]A;]]></Val>
+          <Val><![CDATA[A função "invocar_animal()" usa um parâmetro para definir que animal deverá ser invocado.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `chicken` ![Galinha]5D;(img/chicken_weight.png \"Galinha\")]A;]]></Val>
+          <Val><![CDATA[- `chicken` (Galinha) ![Galinha]5D;(img/chicken_weight.png "Galinha")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `sheep` ![Ovelha]5D;(img/sheep_weight.png \"Ovelha\")]A;]]></Val>
+          <Val><![CDATA[- `sheep` (Ovelha) ![Ovelha]5D;(img/sheep_weight.png "Ovelha")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `cow` ![Vaca]5D;(img/cow_weight.png \"Vaca\")]]></Val>
+          <Val><![CDATA[- `cow` (Vaca) ![Vaca]5D;(img/cow_weight.png "Vaca")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

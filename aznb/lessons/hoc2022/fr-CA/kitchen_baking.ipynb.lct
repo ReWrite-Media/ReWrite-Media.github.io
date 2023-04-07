@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Bake Bread]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Cuire le pain]A;]]></Val>
+          <Val><![CDATA[# Cuire du pain]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Zombie Chef needs help making bread. Use the functions below to create a bread recipe the zombie chef can follow!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le zombie-chef a besoin d’aide pour préparer son pain. Utilisez les fonctions ci-dessous pour créer une recette de pain que le zombie-chef pourra suivre !]A;]]></Val>
+          <Val><![CDATA[Le chef zombie a besoin d’aide pour préparer son pain. Utilisez les fonctions ci-dessous pour créer une recette de pain que le chef zombie arrivera à suivre!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'harvest_wheat()'! [Récolter le blé]5D; (img/bread_wheat.png « Récolter le blé »)]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` ![Récolter le blé]5D;(img/bread_wheat.png « Récolter le blé »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bake_bread()'! [Cuire du pain]5D; (img/bread_bake.png « Cuire du pain »)]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()` ![Cuire du pain]5D;(img/bread_bake.png « Cuire du pain »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'make_dough()'! [Faire de la pâte]5D; (img/bread_dough.png « Faire de la pâte »)]A;]]></Val>
+          <Val><![CDATA[- `make_dough()` ![Faire de la pâte]5D; (img/bread_dough.png « Faire de la pâte »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'mill_wheat()'! [Moudre du blé]5D; (img/bread_mill.png « Moudre du blé »)]]></Val>
+          <Val><![CDATA[- `mill_wheat()`![Moudre du blé]5D; (img/bread_mill.png « Moudre du blé »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Chefs always keep a copy of their recipes around! I wonder where the Zombie Chef hid theirs? Figure out the correct steps, then program a recipe for the Zombie Chef to follow! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Les chefs gardent toujours une copie de leurs recettes à proximité ! Je me demande où le zombie-chef a caché les siennes ? Déterminez les bonnes étapes, puis programmez la recette que le zombie-chef devra suivre !]A;]]></Val>
+          <Val><![CDATA[Les chefs gardent toujours une copie de leurs recettes à proximité! Je me demande où le chef zombie a caché les siennes? Déterminez les bonnes étapes, puis programmez la recette que le chef zombie devra suivre!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />

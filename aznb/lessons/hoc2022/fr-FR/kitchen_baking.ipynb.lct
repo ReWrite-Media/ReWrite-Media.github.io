@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'harvest_wheat()' ! [Récolter le blé]5D; (img/bread_wheat.png « Récolter le blé »)]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (Récolter le blé)  ![Récolter le blé]5D; (img/bread_wheat.png "Récolter le blé")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bake_bread()' ! [Cuire du pain]5D; (img/bread_bake.png « Cuire du pain »)]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()`  ![Cuire du pain]5D; (img/bread_bake.png "Cuire du pain")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'make_dough()' ! [Faire de la pâte]5D; (img/bread_dough.png « Faire de la pâte »)]A;]]></Val>
+          <Val><![CDATA[- `make_dough()`  ![Faire de la pâte]5D; (img/bread_dough.png "Faire de la pâte")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'mill_wheat()' ! [Moudre du blé]5D; (img/bread_mill.png « Moudre du blé »)]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (Moudre du blé)  ![Moudre du blé]5D; (img/bread_mill.png "Moudre du blé")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'amarilla' (mueve el cursor hacia la derecha) ![Flecha amarilla]5D;(img/yellow_arrow.png "Flecha amarilla")]A;]]></Val>
+          <Val><![CDATA[- `amarillo` (mueve el cursor hacia la derecha) ![Flecha amarilla]5D;(img/yellow_arrow.png "Flecha amarilla")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (mueve el cursor hacia abajo) ! [Flecha magenta]5D; (img/magenta_arrow.png "Flecha magenta")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (mueve el cursor hacia abajo) ![Flecha magenta]5D;(img/magenta_arrow.png "Flecha magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `middle` ![Среднее кольцо]5D;(img/middle_ring.png "Среднее кольцо")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Среднее кольцо]5D;(img/middle_ring.png "Среднее кольцо")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

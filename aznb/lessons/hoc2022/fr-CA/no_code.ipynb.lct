@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There aren't any coding activities active. Search the area for the next objective.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Il n'y a aucune activité de codage active. Recherchez dans la zone le prochain objectif.]]></Val>
+          <Val><![CDATA[Il n'y a aucune activité de codage active. Recherchez le prochain objectif dans la zone.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

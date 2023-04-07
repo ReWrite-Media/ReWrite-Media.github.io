@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[It looks like you can make something here! Maybe there is a potion recipe somewhere in this room that can help? Locate a recipe, then use the `summon_item()` function to summon the ingredients in the correct order to complete the potion! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[On dirait qu'il y a quelque chose à faire ici ! Vous trouverez peut-être une recette de potion dans cette pièce pour vous aider ? Trouvez une recette, puis utilisez la fonction 'summon_item()' pour invoquer les ingrédients dans le bon ordre afin de terminer la potion !]A;]]></Val>
+          <Val><![CDATA[On dirait qu'il y a quelque chose à faire ici! Vous trouverez peut-être une recette de potion dans cette pièce pour vous aider? Trouvez une recette, puis utilisez la fonction `summon_item()` pour invoquer les ingrédients dans le bon ordre afin de terminer la potion!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_item()` function takes one parameter to define which item it should summon.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'summon_item()' est influencée par un paramètre qui définit l'objet qu’elle doit invoquer.]A;]]></Val>
+          <Val><![CDATA[La fonction `summon_item()` est influencée par un paramètre qui définit l'objet qu’elle doit invoquer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `netherwart` ![Netherwart]5D;(img/netherwart.png "Netherwart")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'netherwart'! [Verrue du Nether]5D; (img/netherwart.png « Verrue du Nether »)]A;]]></Val>
+          <Val><![CDATA[- `netherwart` (Verrue du Nether)![Verrue du Nether]5D; (img/netherwart.png "Verrue du Nether")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `fermented spider eye` ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Fermented Spider Eye")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `fermented spider eye`![Œil d'araignée fermenté]5D;(img/fermented_spider_eye.png "Œil d'araignée fermenté")]A;]]></Val>
+          <Val><![CDATA[- `fermented spider eye` (Œil d'araignée fermenté)![Œil d'araignée fermenté]5D;(img/fermented_spider_eye.png "Œil d'araignée fermenté")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Phantom Membrane")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `phantom membrane`![Membrane de Phantom]5D;(img/phantom_membrane.png "Membrane de Phantom")]A;]]></Val>
+          <Val><![CDATA[- `phantom membrane` (Membrane de revenant)![Membrane de revenant]5D;(img/phantom_membrane.png "Membrane de revenant")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Search the room to find the potion recipe, and then summon the ingredients in the correct order to drop them into the cauldrons to make a potion! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Fouillez la pièce pour trouver la recette de potion, puis invoquez les ingrédients dans le bon ordre afin de les déposer dans les chaudrons et préparer une potion !]A;]]></Val>
+          <Val><![CDATA[Fouillez la pièce pour trouver la recette de potion, puis invoquez les ingrédients dans le bon ordre afin de les déposer dans les chaudrons et préparer une potion!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gelb' (bewegt den Cursor nach rechts) ! [Gelber Pfeil]5D; (img/yellow_arrow.png "Gelber Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `gelb` (bewegt den Cursor nach rechts)  ![Gelber Pfeil]5D; (img/yellow_arrow.png "Gelber Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "blau" ! [Blaue Blume]5D; (img/blue_flower.png "Blaue Blume")]A;]]></Val>
+          <Val><![CDATA[- `blue` (blau) ![Blaue Blume]5D; (img/blue_flower.png "Blaue Blume")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "gelb" ! [Gelbe Blume]5D; (img/yellow_flower.png "Gelbe Blume")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (gelb) ![Gelbe Blume]5D; (img/yellow_flower.png "Gelbe Blume")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "rot" ! [Rote Blume]5D; (img/red_flower.png "Rote Blume") ]]></Val>
+          <Val><![CDATA[- `red` (rot) ![Rote Blume]5D; (img/red_flower.png "Rote Blume") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚move_cursor()‘ benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die sie sich bewegen wollen.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `move_cursor()` benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die sie sich bewegen wollen.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚orange‘ (bewegt den Cursor nach vorne) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (bewegt den Cursor nach vorne) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚magenta‘ (bewegt den Cursor zurück) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (bewegt den Cursor zurück) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚blue‘ (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

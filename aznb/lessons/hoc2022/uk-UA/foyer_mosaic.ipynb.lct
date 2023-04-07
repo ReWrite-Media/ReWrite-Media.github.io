@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png "Blue Up")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `вгору` ![Синій вгору]5D;(img/chess_blue_up.png "Синій вгору")]A;]]></Val>
+          <Val><![CDATA[- `up` ![Синій угору]5D;(img/chess_blue_up.png "Синій угору")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `вниз` ![Червоний вниз]5D;(img/chess_red_down.png "Червоний вниз")]A;]]></Val>
+          <Val><![CDATA[- `down` ![Червоний униз]5D;(img/chess_red_down.png "Червоний униз")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `ліворуч` ![Жовтий ліворуч]5D;(img/chess_yellow_left.png "Жовтий ліворуч")]A;]]></Val>
+          <Val><![CDATA[- `left` ![Жовтий ліворуч]5D;(img/chess_yellow_left.png "Жовтий ліворуч")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

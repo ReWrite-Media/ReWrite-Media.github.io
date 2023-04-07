@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- right (vpravo)]]></Val>
+          <Val><![CDATA[- `vpravo`]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- forward (vpřed)]A;]]></Val>
+          <Val><![CDATA[- `forward` (vpřed)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- back (vzad)]A;]]></Val>
+          <Val><![CDATA[- `back` (vzad)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (vlevo)]A;]]></Val>
+          <Val><![CDATA[- `left` (vlevo)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

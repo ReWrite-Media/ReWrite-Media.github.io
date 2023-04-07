@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `harvest_wheat()` ![Skörda vete]5D;(img/bread_wheat.png "Skörda vete")]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (Skörda vete) ![Skörda vete]5D;(img/bread_wheat.png "Skörda vete")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mill_wheat()` ![Mal vete]5D;(img/bread_mill.png "Mal vete")]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (Mal vete) ![Mal vete]5D;(img/bread_mill.png "Mal vete")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

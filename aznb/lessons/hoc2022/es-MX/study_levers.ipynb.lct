@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «magenta» ![Magenta]5D;(img/magenta_carpet.png «Magenta»)]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to flip all four levers to open the door, but you're not quick enough to do it manually. See if you can figure out the order they need to be flipped, then program your new friend the Speedy Knight to do it for us! Use the `move_knight()` function to define which color the Speedy Knight should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tendrás que girar las cuatro palancas para abrir la puerta, pero no tienes la suficiente rapidez como para hacerlo manualmente. ¡A ver si puedes averiguar el orden en el que hay que girarlas y, luego, programa a tu nuevo amigo, el Caballero veloz para que lo haga por nosotros! Utiliza la función «move_knight()» para indicarle al Caballero veloz hacia qué color debe moverse.]A;]]></Val>
+          <Val><![CDATA[Tendrás que girar las cuatro palancas para abrir la puerta, pero no tienes la suficiente rapidez como para hacerlo manualmente. ¡A ver si puedes averiguar el orden en el que hay que girarlas y, luego, programa a tu nuevo amigo, el Caballero veloz para que lo haga por nosotros! Utiliza la función "move_knight()" para indicarle al Caballero veloz hacia qué color debe moverse.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «move_knight()» usa un parámetro que define hacia qué color debe moverse.]A;]]></Val>
+          <Val><![CDATA[La función "move_knight()" usa un parámetro que define hacia qué color debe moverse.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «azul» ![Azul]5D;(img/blue_carpet.png «Azul»)]A;]]></Val>
+          <Val><![CDATA[- `azul` ![Azul]5D;(img/blue_carpet.png "Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo»![Amarillo]5D;(img/yellow_carpet.png «Amarillo»)]A;]]></Val>
+          <Val><![CDATA[- `amarillo` ![Amarillo]5D;(img/yellow_carpet.png "Amarillo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

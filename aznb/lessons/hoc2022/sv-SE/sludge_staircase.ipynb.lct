@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– ’blå’ (flyttar markören åt vänster) ! [Blå pil]5D; (img/blue_arrow.png ”Blå pil”)]A;]]></Val>
+          <Val><![CDATA[– ’blå’ (flyttar markören åt vänster)  ![Blå pil]5D; (img/blue_arrow.png ”Blå pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

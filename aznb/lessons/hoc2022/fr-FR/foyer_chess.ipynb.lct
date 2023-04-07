@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (déplace la pièce d’échecs vers l’avant) ![Flèche orange]5D;(img/orange_arrow.png « Flèche orange »)]A;]]></Val>
+          <Val><![CDATA[- `orange` (déplace la pièce d’échecs vers l’avant) ![Flèche orange]5D;(img/orange_arrow.png "Flèche orange")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (déplace la pièce d’échecs en arrière) ![Flèche magenta]5D;(img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
+          <Val><![CDATA[- `magenta` (déplace la pièce d’échecs en arrière) ![Flèche magenta]5D;(img/magenta_arrow.png "Flèche magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bleu' (déplace la pièce d’échecs vers la gauche) ![Flèche bleue]5D;(img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
+          <Val><![CDATA[- `bleu` (déplace la pièce d’échecs vers la gauche) ![Flèche bleue]5D;(img/blue_arrow.png "Flèche bleue")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune' (déplace la pièce d’échecs vers la droite) ![Flèche jaune]5D;(img/yellow_arrow.png « Flèche jaune »)]A;]]></Val>
+          <Val><![CDATA[- `jaune` (déplace la pièce d’échecs vers la droite) ![Flèche jaune]5D;(img/yellow_arrow.png "Flèche jaune")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'roi' ![Roi]5D;(img/king_icon.png « Roi »)]A;]]></Val>
+          <Val><![CDATA[- `roi` ![Roi]5D;(img/king_icon.png "Roi")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'reine' ![Reine]5D;(img/queen_icon.png « Reine »)]A;]]></Val>
+          <Val><![CDATA[- `reine` ![Reine]5D;(img/queen_icon.png "Reine")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

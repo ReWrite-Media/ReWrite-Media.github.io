@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo» (mueve el cursor hacia la derecha) ![Flecha amarilla]5D;(img/yellow_arrow.png «Flecha amarilla»)]A;]]></Val>
+          <Val><![CDATA[- `amarillo` (mueve el cursor hacia la derecha) ![Flecha amarilla]5D;(img/yellow_arrow.png "Flecha amarilla")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `plant_flower()` function takes one parameter that defines what type of flower should be planted.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «plant_flower()» usa un parámetro que define qué tipo de flor se debe plantar.]A;]]></Val>
+          <Val><![CDATA[La función "plant_flower()" usa un parámetro que define qué tipo de flor se debe plantar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «azul» ![Flor azul]5D;(img/blue_flower.png «Flor azul»)]A;]]></Val>
+          <Val><![CDATA[- `blue` (azul) ![Flor azul]5D;(img/blue_flower.png "Flor azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo» ![Flor amarilla]5D;(img/yellow_flower.png «Flor amarilla»)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (amarillo) ![Flor amarilla]5D;(img/yellow_flower.png "Flor amarilla")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «rojo» ![Flor roja]5D;(img/red_flower.png «Flor roja») ]]></Val>
+          <Val><![CDATA[- `red` (rojo) ![Flor roja]5D;(img/red_flower.png "Flor roja") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's some pattern with these flowers. Figure out the pattern and plant the flowers on the empty dirt using `move_cusor()` to position the cursor and then `plant_flower()` to plant a flower.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Estas flores siguen un patrón. Averigua el patrón y planta las flores en la tierra usando «move_cusor()» para colocar el cursor y luego «plant_flower()» para plantar una flor.]A;]]></Val>
+          <Val><![CDATA[Estas flores siguen un patrón. Averigua el patrón y planta las flores en la tierra usando "move_cusor()" para colocar el cursor y luego "plant_flower()" para plantar una flor.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «move_cursor()» usa un parámetro que define su dirección. Ese parámetro es del color de la flecha, que representa la dirección en la que quieres moverte.]A;]]></Val>
+          <Val><![CDATA[La función "move_cursor()" usa un parámetro que define su dirección. Ese parámetro es del color de la flecha, que representa la dirección en la que quieres moverte.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «naranja» (mueve el cursor hacia delante) ![Flecha naranja]5D; (img/orange_arrow.png «Flecha naranja»)]A;]]></Val>
+          <Val><![CDATA[- `naranja` (mueve el cursor hacia delante) ![Flecha naranja]5D; (img/orange_arrow.png "Flecha naranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «magenta» (mueve el cursor hacia atrás) ![Flecha magenta]5D; (img/magenta_arrow.png «Flecha magenta»)]A;]]></Val>
+          <Val><![CDATA[- `magenta` (mueve el cursor hacia atrás) ![Flecha magenta]5D; (img/magenta_arrow.png "Flecha magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «azul» (mueve el cursor hacia la izquierda) ! [Flecha azul]5D; (img/blue_arrow.png «Flecha azul»)]A;]]></Val>
+          <Val><![CDATA[- `azul` (mueve el cursor hacia la izquierda)  ![Flecha azul]5D; (img/blue_arrow.png "Flecha azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

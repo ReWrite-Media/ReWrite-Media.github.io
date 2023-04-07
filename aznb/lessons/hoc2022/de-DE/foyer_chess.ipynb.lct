@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚orange‘ (bewegt die Schachfigur nach vorne) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (bewegt die Schachfigur nach vorne) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚magenta‘ (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚blue‘ (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚yellow‘ (bewegt die Schachfigur nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (bewegt die Schachfigur nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du hast den König und die Königin befreit! Aber die Tür öffnet sich immer noch nicht. Sie stehen wohl in den falschen Positionen. Bewege sie an die richtigen Stellen, damit du diesem Ort endlich entkommen kannst! Verwende die Funktion ‚move_chess_piece()‘, um den König und die Königin in die richtige Position zu bringen.]A;]]></Val>
+          <Val><![CDATA[Du hast den König und die Königin befreit! Aber die Tür öffnet sich immer noch nicht. Sie stehen wohl in den falschen Positionen. Bewege sie an die richtigen Stellen, damit du diesem Ort endlich entkommen kannst! Verwende die Funktion `move_chess_piece()`, um den König und die Königin in die richtige Position zu bringen.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚move_chess_piece()‘ akzeptiert zwei Parameter. Der erste ist, welche Schachfigur du bewegen möchtest, der zweite ist, in welche Richtung sie sich bewegen soll.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `move_chess_piece()` akzeptiert zwei Parameter. Der erste ist, welche Schachfigur du bewegen möchtest, der zweite ist, in welche Richtung sie sich bewegen soll.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚König‘ ![König]5D;(img/king_icon.png "König")]A;]]></Val>
+          <Val><![CDATA[- `king` (König) ![König]5D;(img/king_icon.png "König")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚queen‘ ![Dame]5D;(img/queen_icon.png "Dame")]A;]]></Val>
+          <Val><![CDATA[- `queen` (Dame) ![Dame]5D;(img/queen_icon.png "Dame")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

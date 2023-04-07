@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[It looks like you can make something here! Maybe there is a potion recipe somewhere in this room that can help? Locate a recipe, then use the `summon_item()` function to summon the ingredients in the correct order to complete the potion! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Vyzerá to, že tu môžete niečo urobiť. Možno je niekde v tejto miestnosti recept na elixír, ktorý vám pomôže? Nájdite recept a potom pomocou funkcie „privolať_predmet()“ privolajte ingrediencie v správnom poradí na dokončenie elixíru!]A;]]></Val>
+          <Val><![CDATA[Vyzerá to, že tu môžete niečo urobiť. Možno je niekde v tejto miestnosti recept na elixír, ktorý vám pomôže? Nájdite recept a potom pomocou funkcie "privolať_predmet()" privolajte ingrediencie v správnom poradí na dokončenie elixíru!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_item()` function takes one parameter to define which item it should summon.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „privolať_predmet()“ má jeden parameter na definovanie predmetu, ktorý má privolať.]A;]]></Val>
+          <Val><![CDATA[Funkcia "privolať_predmet()" má jeden parameter na definovanie predmetu, ktorý má privolať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `netherwart` ![Netherwart]5D;(img/netherwart.png "Netherwart")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „netheritová byľ“ ![netheritová byľ]5D; (img/netherwart.png „netheritová byľ“)]A;]]></Val>
+          <Val><![CDATA[- `netherwart` (netheritová byľ) ![netheritová byľ]5D; (img/netherwart.png "netheritová byľ")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `fermented spider eye` ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Fermented Spider Eye")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „fermentované pavúčie oko“ ![Fermentované pavúčie oko]5D; (img/fermented_spider_eye.png „Fermentované pavúčie oko“)]A;]]></Val>
+          <Val><![CDATA[- `fermented spider eye` (Fermentované pavúčie oko) ![Fermentované pavúčie oko]5D; (img/fermented_spider_eye.png "Fermentované pavúčie oko")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Phantom Membrane")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „blana z prízraku“ ![blana z prízraku]5D; (img/phantom_membrane.png „blana z prízraku“)]A;]]></Val>
+          <Val><![CDATA[- `phantom membrane` (blana z prízraku) ![blana z prízraku]5D; (img/phantom_membrane.png "blana z prízraku")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

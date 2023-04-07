@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue`]A;]]></Val>
+          <Val><![CDATA[- `blue` (kék)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Minden lyuk egy kamraajtóhoz tartozik, amelyek a főellenség-aréna négy sarkában találhatók! Tömd be az összes lyukat a megfelelő színnel a kamraajtók kinyitásához! A „move_cursor()” függvénnyel helyezd el a kurzort a térben, majd a „place_block()” függvénnyel helyezz el egy színes blokkot az egyes helyek kitöltéséhez!]A;]]></Val>
+          <Val><![CDATA[Minden lyuk egy kamraajtóhoz tartozik, amelyek a főellenség-aréna négy sarkában találhatók! Tömd be az összes lyukat a megfelelő színnel a kamraajtók kinyitásához! A "move_cursor()” függvénnyel helyezd el a kurzort a térben, majd a "place_block()” függvénnyel helyezz el egy színes blokkot az egyes helyek kitöltéséhez!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „place_block()” függvény egy paramétert fogad, amely meghatározza az elhelyezni kívánt blokk színét.]A;]]></Val>
+          <Val><![CDATA[A "place_block()” függvény egy paramétert fogad, amely meghatározza az elhelyezni kívánt blokk színét.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta`]A;]]></Val>
+          <Val><![CDATA[- `magenta` (bíborvörös)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green`]A;]]></Val>
+          <Val><![CDATA[- `green` (zöld)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow`]A;]]></Val>
+          <Val><![CDATA[- `yellow` (sárga)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

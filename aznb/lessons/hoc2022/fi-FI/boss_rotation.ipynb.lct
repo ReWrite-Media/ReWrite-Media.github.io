@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `vastapäivään` ! [Käännä vastapäivään]5D; (img/counterclockwise_ring.png "Käännä vastapäivään")]]></Val>
+          <Val><![CDATA[- `vastapäivään`  ![Käännä vastapäivään]5D; (img/counterclockwise_ring.png "Käännä vastapäivään")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `keskimmäinen` ![Keskimmäinen rengas]5D;(img/middle_ring.png "Keskimmäinen rengas")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Keskimmäinen rengas]5D;(img/middle_ring.png "Keskimmäinen rengas")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue`]A;]]></Val>
+          <Val><![CDATA[- `blue` (μπλε)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (μετακινεί τον δρομέα προς τα πάνω) ![Orange Arrow]5D;(img/orange_arrow.png "Πορτοκαλί βέλος")]A;]]></Val>
+          <Val><![CDATA[- `orange` (μετακινεί τον δρομέα προς τα πάνω) ![Orange Arrow]5D;(img/orange_arrow.png ''Πορτοκαλί βέλος'')]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta`]A;]]></Val>
+          <Val><![CDATA[- `magenta` (φούξια)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green`]A;]]></Val>
+          <Val><![CDATA[- `green` (πράσινο)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow`]A;]]></Val>
+          <Val><![CDATA[- `yellow` (κίτρινο)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

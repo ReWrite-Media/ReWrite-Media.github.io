@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Laser Puzzle (Part 3)]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Puzzle laser (Partie 3)]A;]]></Val>
+          <Val><![CDATA[# Casse-tête laser (Partie 3)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'droite'! [Droite]5D; (img/gray_right.png « Droite »)]A;]]></Val>
+          <Val><![CDATA[- `right` (droite) ![Droite]5D;(img/gray_right.png "Droite")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'gauche'![À gauche]5D;(img/gray_left.png « Gauche »)]]></Val>
+          <Val><![CDATA[- `left`![À gauche]5D;(img/gray_left.png « Gauche »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Les blocs solides arrêtent le laser ! Déplacez la rangée de blocs rouges, jaunes et verts afin que le laser passe à travers les blocs de verre pour allumer la lumière de l’autre côté. Utilisez la fonction 'shift_row()' pour déplacer les lignes vers la gauche ou la droite afin de permettre au laser de passer à travers les blocs de verre.]A;]]></Val>
+          <Val><![CDATA[Les blocs solides arrêtent le laser! Déplacez la rangée de blocs rouges, jaunes et verts afin que le laser passe à travers les blocs de verre pour allumer la lumière de l’autre côté. Utilisez la fonction `shift_row()` pour déplacer les rangées vers la gauche ou la droite afin de permettre au laser de passer à travers les blocs de verre.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'shift_row()' est influencée par deux paramètres (chaînes). Le premier paramètre définit la couleur de la rangée que vous souhaitez déplacer et le deuxième paramètre définit la direction dans laquelle la rangée doit se déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction `shift_row()` est influencée par deux paramètres (chaînes). Le premier paramètre définit la couleur de la rangée que vous souhaitez déplacer et le deuxième paramètre définit la direction dans laquelle la rangée doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'vert'![Vert]5D;(img/green_right.png « Vert »)]A;]]></Val>
+          <Val><![CDATA[- `green` ![Vert]5D;(img/green_right.png "Vert")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune'! [Jaune]5D;(img/yellow_right.png « Jaune »)]A;]]></Val>
+          <Val><![CDATA[- `yellow` ![Jaune]5D;(img/yellow_right.png "Jaune")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'rouge'![Rouge]5D;(img/red_right.png « Rouge »)]A;]]></Val>
+          <Val><![CDATA[- `red` ![Rouge]5D;(img/red_right.png "Rouge")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once and the red row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# gauche 1 une fois et la rangée rouge]A;]]></Val>
+          <Val><![CDATA[# à gauche 1 une fois et la rangée rouge]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -201,7 +201,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# right 3 times.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# droite 3 fois.]A;]]></Val>
+          <Val><![CDATA[# à droite 3 fois.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="20" />
@@ -273,7 +273,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# left 1 once and the red row]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# gauche 1 une fois et la rangée rouge]A;]]></Val>
+          <Val><![CDATA[# à gauche 1 une fois et la rangée rouge]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="28" />
@@ -282,7 +282,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# right 3 times.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# droite 3 fois.]A;]]></Val>
+          <Val><![CDATA[# à droite 3 fois.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="29" />
@@ -309,7 +309,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Shift the green, yellow and red rows either left or right so the lasers pass through the glass blocks and turns on the lights.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Déplacez les rangées vertes, jaunes et rouges vers la gauche ou la droite afin que les lasers traversent les blocs de verre et allument les lumières.]A;]]></Val>
+          <Val><![CDATA[Déplacez les rangées verte, jaune et rouge vers la gauche ou la droite afin que les lasers traversent les blocs de verre et allument les lumières.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="32" />
@@ -327,7 +327,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="34" />

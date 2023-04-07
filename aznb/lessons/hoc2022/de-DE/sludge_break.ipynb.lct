@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚yellow‘ (bewegt den Cursor nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]]></Val>
+          <Val><![CDATA[- `yellow` (bewegt den Cursor nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to break the blocks blocking the door so you can get out! Use `move_cursor()` to position the cursor and `break_block()` to break the block in the position you've selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du musst die Blöcke brechen, die die Tür blockieren, damit du herauskommen kannst! Verwende ‚move_cursor()‘, um den Cursor zu positionieren, und ‚break_block()‘, um den Block in der von dir ausgewählten Position zu brechen.]A;]]></Val>
+          <Val><![CDATA[Du musst die Blöcke brechen, die die Tür blockieren, damit du herauskommen kannst! Verwende `move_cursor()`, um den Cursor zu positionieren, und `break_block()`, um den Block in der von dir ausgewählten Position zu brechen.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚move_cursor()‘ benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die du dich bewegen willst.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `move_cursor()` benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die du dich bewegen willst.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚orange‘ (bewegt den Cursor nach oben) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (bewegt den Cursor nach oben) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚magenta‘ (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚blue‘ (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

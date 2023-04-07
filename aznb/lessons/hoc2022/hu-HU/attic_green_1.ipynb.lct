@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A padlón lévő nyilas doboz a kurzor. Az élmény során a kurzorral fogod manipulálni a blokkokat, hogy megoldd a rejtvényeket. Ebben a feladatban arra fogod használni, hogy kinyisd a csapóajtót, és kiszabadítsd az Agentet. Használd a „move_cursor()” parancsot a kurzor pozicionálásához, illetve az „open_trapdoor()” parancsot a kiválasztott csapóajtó kinyitásához.]A;]]></Val>
+          <Val><![CDATA[A padlón lévő nyilas doboz a kurzor. Az élmény során a kurzorral fogod manipulálni a blokkokat, hogy megoldd a rejtvényeket. Ebben a feladatban arra fogod használni, hogy kinyisd a csapóajtót, és kiszabadítsd az Agentet. Használd a "move_cursor()” parancsot a kurzor pozicionálásához, illetve az "open_trapdoor()” parancsot a kiválasztott csapóajtó kinyitásához.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

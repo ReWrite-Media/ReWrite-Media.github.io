@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `plant_flower()` function takes one parameter that defines what type of flower should be planted.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „plant_flower()” függvény egy paramétert igényel, amely meghatározza, hogy milyen típusú virágot kell ültetni.]A;]]></Val>
+          <Val><![CDATA[A "plant_flower()” függvény egy paramétert igényel, amely meghatározza, hogy milyen típusú virágot kell ültetni.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower")]A;]]></Val>
+          <Val><![CDATA[- `blue` (kék) ![Blue Flower]5D;(img/blue_flower.png "Blue Flower")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (sárga) ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
+          <Val><![CDATA[- `red` (vörös) ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's some pattern with these flowers. Figure out the pattern and plant the flowers on the empty dirt using `move_cusor()` to position the cursor and then `plant_flower()` to plant a flower.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ezek a virágok valamilyen minta szerint lettek elültetve. Találd ki a mintát, és ültesd a virágokat az üres földdarabra: a „move_cusor()” függvénnyel helyezd el a kurzort, majd a „plant_flower()” függvénnyel ültesd el a virágot.]A;]]></Val>
+          <Val><![CDATA[Ezek a virágok valamilyen minta szerint lettek elültetve. Találd ki a mintát, és ültesd a virágokat az üres földdarabra: a "move_cusor()” függvénnyel helyezd el a kurzort, majd a "plant_flower()” függvénnyel ültesd el a virágot.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

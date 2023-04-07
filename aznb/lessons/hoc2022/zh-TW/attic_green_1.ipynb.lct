@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The box with the arrow on the floor is your cursor. You'll use the cursor to manipulate blocks to solve puzzles throughout this experience. In this activity you'll use it to open the trapdoor and release the Agent. Use `move_cursor()` to position the cursor and `open_trapdoor()` to open the trapdoor you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[地板上帶有箭頭的方框是你的游標。在整個體驗過程中，你將使用游標操作方塊以解決難題。在此活動中，你將使用游標來打開地板門並釋放 Agent。使用“move_cursor()” 定位游標和“open_trapdoor()” 打開已選擇的地板門。]A;]]></Val>
+          <Val><![CDATA[地板上帶有箭頭的方框是你的游標。在整個體驗過程中，你將使用游標操作方塊以解決難題。在此活動中，你將使用游標來打開地板門並釋放 Agent。使用"move_cursor()” 定位游標和"open_trapdoor()” 打開已選擇的地板門。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

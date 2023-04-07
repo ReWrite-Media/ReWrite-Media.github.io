@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'manzana' ![Manzana]5D; (img/apple.png "Manzana")]A;]]></Val>
+          <Val><![CDATA[- `apple` (manzana) ![Manzana]5D; (img/apple.png "Manzana")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `estofado de champiñones` ![Estofado de champiñones]5D;(img/mushroom_stew.png "Estofado de champiñones")]A;]]></Val>
+          <Val><![CDATA[- `Mushroom stew` (Estofado de champiñones) ![Estofado de champiñones]5D;(img/mushroom_stew.png "Estofado de champiñones")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'salmón'! [Salmón]5D; (img/salmon.png "Salmón")]A;]]></Val>
+          <Val><![CDATA[- `salmón` ![Salmón]5D; (img/salmon.png "Salmón")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

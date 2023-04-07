@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `cosechar el trigo()` ![Cosechar el trigo]5D;(img/bread_wheat.png "Cosechar el trigo")]A;]]></Val>
+          <Val><![CDATA[- `Cosechar_el trigo` ![Cosechar el trigo]5D;(img/bread_wheat.png "Cosechar el trigo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />

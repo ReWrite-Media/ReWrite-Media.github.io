@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `forward`]A;]]></Val>
+          <Val><![CDATA[- `forward` (naar voren)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `back`]A;]]></Val>
+          <Val><![CDATA[- `back` (terug)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

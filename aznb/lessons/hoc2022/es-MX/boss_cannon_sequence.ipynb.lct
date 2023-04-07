@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «verde» ![Cañón verde]5D;(img/green_cannon.png «Cañón verde»)]]></Val>
+          <Val><![CDATA[- `green` ![Cañón verde]5D;(img/green_cannon.png "Cañón verde")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Time Agents are underneath the Time Orb! They've used their powers to create protective colored rings around it! Use the `activate_cannon()` function to activate the colored cannons in the same order as the colored rings to disable the Time Orb! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[¡Los Agentes del tiempo están debajo del Orbe del tiempo! ¡Usaron sus poderes para crear anillos protectores de colores a su alrededor! ¡Usa función «activate_cannon()» para activar los cañones de colores en el mismo orden que los anillos de colores y poder desactivar el Orbe del tiempo!]A;]]></Val>
+          <Val><![CDATA[¡Los Agentes del tiempo están debajo del Orbe del tiempo! ¡Usaron sus poderes para crear anillos protectores de colores a su alrededor! ¡Usa función "activate_cannon()" para activar los cañones de colores en el mismo orden que los anillos de colores y poder desactivar el Orbe del tiempo!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `activate_cannon()` function takes one parameter that defines what color cannon you want to activate.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «activate_cannon()» usa un parámetro que define el cañón de color que quieres activar.]A;]]></Val>
+          <Val><![CDATA[La función "activate_cannon()" usa un parámetro que define el cañón de color que quieres activar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «azul» ![Cañón azul]5D;(img/blue_cannon.png «Cañón azul»)]A;]]></Val>
+          <Val><![CDATA[- `azul` ![Cañón azul]5D;(img/blue_cannon.png "Cañón azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo» ![Cañón amarillo]5D;(img/yellow_cannon.png «Cañón amarillo»)]A;]]></Val>
+          <Val><![CDATA[- `amarillo` ![Cañón amarillo]5D;(img/yellow_cannon.png "Cañón amarillo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «magenta» ![Cañón magenta]5D;(img/magenta_cannon.png «Cañón magenta»)]A;]]></Val>
+          <Val><![CDATA[- `magenta` ![Cañón magenta]5D;(img/magenta_cannon.png "Cañón magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

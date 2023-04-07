@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `zombie` ![Zombie]5D;(img/zombie_head.png "Zombie")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'зомбі' ![Zombie]5D;(img/zombie_head.png "Зомбі")]A;]]></Val>
+          <Val><![CDATA[- `зомбі` ![Zombie]5D;(img/zombie_head.png "Зомбі")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

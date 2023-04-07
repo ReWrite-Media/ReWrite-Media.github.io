@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `droite`]]></Val>
+          <Val><![CDATA[- `right`]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bas`]A;]]></Val>
+          <Val><![CDATA[- `down` (bas)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `gauche`]A;]]></Val>
+          <Val><![CDATA[- `left` (gauche)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Bunga Biru]5D;(img/blue_flower.png "Bunga Biru")]A;]]></Val>
+          <Val><![CDATA[- `blue` (biru) ![Bunga Biru]5D;(img/blue_flower.png "Bunga Biru")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Bunga Kuning]5D;(img/yellow_flower.png "Bunga Kuning")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (kuning) ![Bunga Kuning]5D;(img/yellow_flower.png "Bunga Kuning")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Bunga Merah]5D;(img/red_flower.png "Bunga Merah") ]]></Val>
+          <Val><![CDATA[- `red` (merah) ![Bunga Merah]5D;(img/red_flower.png "Bunga Merah") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

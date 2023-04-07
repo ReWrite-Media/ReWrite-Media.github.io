@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “蓝色”]A;]]></Val>
+          <Val><![CDATA[- `blue` (蓝色)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“move_cursor()”函数采用一个定义其方向的参数。该参数即箭头的颜色，表示要移动的方向]A;]]></Val>
+          <Val><![CDATA["move_cursor()”函数采用一个定义其方向的参数。该参数即箭头的颜色，表示要移动的方向]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “橙色”（向上移动光标）！[橙色箭头]5D;(img/orange_arrow.png "橙色箭头")]A;]]></Val>
+          <Val><![CDATA[-“橙色”（向上移动光标）！[橙色箭头]5D;（img/orange_arrow.png "橙色箭头"）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “品红色”（向下移动光标）！[品红色箭头]5D;(img/magenta_arrow.png "品红色箭头")]A;]]></Val>
+          <Val><![CDATA[- `品红色”（向下移动光标）！[品红色箭头]5D;(img/magenta_arrow.png "品红色箭头")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “蓝色”（向左移动光标）！[蓝色箭头]5D;(img/blue_arrow.png "蓝色箭头")]A;]]></Val>
+          <Val><![CDATA[- `蓝色”（向左移动光标）！[蓝色箭头]5D;(img/blue_arrow.png "蓝色箭头")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黄色”（向右移动光标）！[黄色箭头]5D;(img/yellow_arrow.png "黄色箭头")]A;]]></Val>
+          <Val><![CDATA[- `黄色”（向右移动光标）！[黄色箭头]5D;(img/yellow_arrow.png "黄色箭头")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[每个洞代表 Boss 竞技场四个角落的一扇房间门！用正确的颜色填充所有洞以打开房间的门！使用“move_cursor()”函数将光标定位在空间中，然后使用“place_block()”函数放置一个彩色方块来填充每个空位！]A;]]></Val>
+          <Val><![CDATA[每个洞代表 Boss 竞技场四个角落的一扇房间门！用正确的颜色填充所有洞以打开房间的门！使用"move_cursor()”函数将光标定位在空间中，然后使用"place_block()”函数放置一个彩色方块来填充每个空位！]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“place_block()”函数采用一个参数来定义要放置的方块的颜色]A;]]></Val>
+          <Val><![CDATA["place_block()”函数采用一个参数来定义要放置的方块的颜色]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “品红色”]A;]]></Val>
+          <Val><![CDATA[- `magenta` (品红色)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “绿色”]A;]]></Val>
+          <Val><![CDATA[- `green` (绿色)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黄色”]A;]]></Val>
+          <Val><![CDATA[- `yellow` (黄色)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

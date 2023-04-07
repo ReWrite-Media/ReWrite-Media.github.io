@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'жовтий' (переміщує курсор вправо) ![Yellow Arrow]5D;(img/yellow_arrow.png "Жовта стрілка")]A;]]></Val>
+          <Val><![CDATA[- `жовтий` (переміщує курсор вправо) ![Yellow Arrow]5D;(img/yellow_arrow.png "Жовта стрілка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `синій` ![Blue Flower]5D;(img/blue_flower.png "Синя квітка")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синій) ![Blue Flower]5D;(img/blue_flower.png "Синя квітка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `жовтий` ![Yellow Flower]5D;(img/yellow_flower.png "Жовта квітка")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (жовтий) ![Yellow Flower]5D;(img/yellow_flower.png "Жовта квітка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `червоний` ![Red Flower]5D;(img/red_flower.png "Червона квітка") ]]></Val>
+          <Val><![CDATA[- `red` (червоний) ![Red Flower]5D;(img/red_flower.png "Червона квітка") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– `помаранчевий` (переміщує курсор уперед) ![Помаранчева стрілка]5D;(img/orange_arrow.png "Помаранчева стрілка")]A;]]></Val>
+          <Val><![CDATA[- `orange` (переміщує курсор уперед) ![Помаранчева стрілка]5D;(img/orange_arrow.png "Помаранчева стрілка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

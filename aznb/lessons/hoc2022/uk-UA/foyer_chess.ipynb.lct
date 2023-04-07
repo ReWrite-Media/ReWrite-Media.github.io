@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `помаранчева` (рухає шахову фігуру вперед) ![Помаранчева стрілка]5D;(img/orange_arrow.png "Помаранчева стрілка")]A;]]></Val>
+          <Val><![CDATA[- `orange` (переміщує шахову фігуру вперед) ![Помаранчева стрілка]5D;(img/orange_arrow.png "Помаранчева стрілка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta]5D;(img/magenta_carpet.png "Magenta")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `пурпуровий` ![Пурпуровий]5D;(img/magenta_carpet.png "Пурпуровий")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (малиновий) ![Пурпуровий]5D;(img/magenta_carpet.png "Пурпуровий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_knight()`function takes one parameter that defines which color it should move to.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція "move_knight()'' має один параметр, який визначає, до якого кольору треба переміститися.]A;]]></Val>
+          <Val><![CDATA[Функція "move_knight()" має один параметр, який визначає, до якого кольору треба переміститися.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_carpet.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `синій` ![Blue]5D;(img/blue_carpet.png "Синій")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синій) ![Blue]5D;(img/blue_carpet.png "Синій")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange]5D;(img/orange_carpet.png "Orange")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `помаранчевий` ![Помаранчевий]5D;(img/orange_carpet.png "Помаранчевий")]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Помаранчевий]5D;(img/orange_carpet.png "Помаранчевий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_carpet.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `жовтий` ! [Жовтий]5D;(img/yellow_carpet.png "Жовтий")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (жовтий) ![Жовтий]5D;(img/yellow_carpet.png "Жовтий")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

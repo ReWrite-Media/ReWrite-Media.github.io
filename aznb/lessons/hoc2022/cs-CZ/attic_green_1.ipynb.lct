@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkce „move_cursor()“ přebírá má parametr, který definuje její směr. Tímto parametrem je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
+          <Val><![CDATA[Funkce "move_cursor()" přebírá má parametr, který definuje její směr. Tímto parametrem je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posune kurzor dopředu) ![Oranžová šipka]5D;(img/orange_arrow.png „Oranžová šipka“)]]></Val>
+          <Val><![CDATA[- `orange` (posune kurzor dopředu) ![Oranžová šipka]5D;(img/orange_arrow.png "Oranžová šipka")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

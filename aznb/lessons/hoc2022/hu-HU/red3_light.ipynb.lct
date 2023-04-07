@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to open the door by powering all of the lights! Each light you turn on will open the door just a little more. Use the `move_cursor()` function to position the cursor over a light, then use the `turn_light_on()` function to turn on all the lights to open the door! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ki kell nyitni az ajtót az összes lámpa bekapcsolásával. Minden egyes bekapcsolt lámpa egy kicsit jobban kinyitja az ajtót. A „move_cursor()” függvénnyel a kurzort a lámpa fölé helyezheted, majd a „turn_light_on()” függvénnyel felkapcsolhatod a lámpát. Ha az összes lámpát felkapcsoltad, az ajtó kinyílik!]A;]]></Val>
+          <Val><![CDATA[Ki kell nyitni az ajtót az összes lámpa bekapcsolásával. Minden egyes bekapcsolt lámpa egy kicsit jobban kinyitja az ajtót. A "move_cursor()” függvénnyel a kurzort a lámpa fölé helyezheted, majd a "turn_light_on()” függvénnyel felkapcsolhatod a lámpát. Ha az összes lámpát felkapcsoltad, az ajtó kinyílik!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

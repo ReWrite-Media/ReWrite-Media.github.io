@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (カーソルを上に移動) ![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
+          <Val><![CDATA[- `orange` (オレンジ) (カーソルを上に移動) ![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

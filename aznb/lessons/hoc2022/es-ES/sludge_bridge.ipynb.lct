@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo» (mueve el cursor hacia la derecha) ![Flecha amarilla]5D; (img/yellow_arrow.png «Flecha amarilla»)]]></Val>
+          <Val><![CDATA[- `amarillo` (mueve el cursor hacia la derecha) ![Flecha amarilla]5D; (img/yellow_arrow.png "Flecha amarilla")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Crate Minion is stuck! Oh no! Your're both stuck! You should build a bridge for the Crate Minion to get to the other side so they can press that button to reveal a staircase to help you out! Use the `move_cursor()` function to position the cursor and the `place_block()` function to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[¡El secuaz de la caja está atascado! ¡No! ¡Los dos estáis atascados! ¡Deberías construir un puente para que el secuaz de la caja llegue al otro lado y pueda pulsar el botón para revelar la escalera para que puedas salir! Usa la función «move_cursor()» para colocar el cursor y la función «place_block()» para colocar un bloque en la posición que hayas seleccionado.]A;]]></Val>
+          <Val><![CDATA[¡El secuaz de la caja está atascado! ¡No! ¡Los dos estáis atascados! ¡Deberías construir un puente para que el secuaz de la caja llegue al otro lado y pueda pulsar el botón para revelar la escalera para que puedas salir! Usa la función "move_cursor()" para colocar el cursor y la función "place_block()" para colocar un bloque en la posición que hayas seleccionado.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «move_cursor()» usa un parámetro que define su dirección. Ese parámetro es del color de la flecha, que representa la dirección en la que quieres moverte.]A;]]></Val>
+          <Val><![CDATA[La función "move_cursor()" usa un parámetro que define su dirección. Ese parámetro es del color de la flecha, que representa la dirección en la que quieres moverte.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «naranja» (mueve el cursor hacia arriba) ![Flecha naranja]5D;(img/orange_arrow.png «Flecha naranja»)]A;]]></Val>
+          <Val><![CDATA[- `naranja` (mueve el cursor hacia arriba) ![Flecha naranja]5D;(img/orange_arrow.png "Flecha naranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «magenta» (mueve el cursor hacia abajo) ![Flecha magenta]5D;(img/magenta_arrow.png «Flecha magenta»)]A;]]></Val>
+          <Val><![CDATA[- `magenta` (mueve el cursor hacia abajo) ![Flecha magenta]5D;(img/magenta_arrow.png "Flecha magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «azul» (mueve el cursor hacia la izquierda) ! [Flecha azul]5D; (img/blue_arrow.png «Flecha azul»)]A;]]></Val>
+          <Val><![CDATA[- `azul` (mueve el cursor hacia la izquierda)  ![Flecha azul]5D; (img/blue_arrow.png "Flecha azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

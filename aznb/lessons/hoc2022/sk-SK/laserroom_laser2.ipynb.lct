@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „vpravo“ ![Vpravo]5D; (img/gray_right.png „vpravo“)]A;]]></Val>
+          <Val><![CDATA[- `doprava` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „vľavo“ ![Vľavo]5D; (img/gray_left.png „Vľavo“)]]></Val>
+          <Val><![CDATA[- „vľavo“! [Vľavo]5D; (img/gray_left.png „Vľavo“)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the rows of yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Pevné bloky zastavia laser. Posuňte rady žltých a zelených blokov, aby laser prešiel cez sklenené bloky a zapol svetlo na druhej strane. Pomocou funkcie „posunúť_riadok()“ posuňte riadky doľava alebo doprava, aby laser mohol prechádzať cez sklenené bloky.]A;]]></Val>
+          <Val><![CDATA[Pevné bloky zastavia laser. Posuňte rady žltých a zelených blokov, aby laser prešiel cez sklenené bloky a zapol svetlo na druhej strane. Pomocou funkcie "posunúť_riadok()" posuňte riadky doľava alebo doprava, aby laser mohol prechádzať cez sklenené bloky.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „posunúť_riadok()“ má dva parametre (reťazce). Prvý parameter definuje, ktorý farebný riadok chcete posunúť, a druhý parameter definuje smer, ktorým sa má riadok posunúť.]A;]]></Val>
+          <Val><![CDATA[Funkcia "posunúť_riadok()" má dva parametre (reťazce). Prvý parameter definuje, ktorý farebný riadok chcete posunúť, a druhý parameter definuje smer, ktorým sa má riadok posunúť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „zelená“ ! [Zelená]5D;(img/green_right.png „Zelená“)]A;]]></Val>
+          <Val><![CDATA[- `green` (zelená) ![Zelená]5D;(img/green_right.png "Zelená")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ ! [Žltá]5D; (img/yellow_right.png „Žltá“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žltá) ![Žltá]5D; (img/yellow_right.png "Žltá")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

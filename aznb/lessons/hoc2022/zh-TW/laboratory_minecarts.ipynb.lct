@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `skeleton` ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `skeleton`！[骷髏]5D;(img/skeleton_head.png "骷髏")]A;]]></Val>
+          <Val><![CDATA[- `skeleton` (骷髏)！[骷髏]5D;(img/skeleton_head.png "骷髏")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `creeper`！[苦力怕]5D;(img/creeper_head.png "苦力怕")]]></Val>
+          <Val><![CDATA[- `creeper` (苦力怕)！[苦力怕]5D;(img/creeper_head.png "苦力怕")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

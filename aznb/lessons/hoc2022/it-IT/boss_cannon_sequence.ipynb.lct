@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'verde' ![Cannone verde]5D;(img/green_cannon.png "Cannone verde")]]></Val>
+          <Val><![CDATA[- `green` (verde) ![Cannone verde]5D;(img/green_cannon.png "Cannone verde")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blu' ![Cannone blu]5D;(img/blue_cannon.png "Cannone blu")]A;]]></Val>
+          <Val><![CDATA[- `blue` (blu) ![Cannone blu]5D;(img/blue_cannon.png "Cannone blu")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'giallo' ![Cannone giallo]5D;(img/yellow_cannon.png "Cannone giallo")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (giallo) ![Cannone giallo]5D;(img/yellow_cannon.png "Cannone giallo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ![Cannone magenta]5D;(img/magenta_cannon.png "Cannone magenta")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Cannone magenta]5D;(img/magenta_cannon.png "Cannone magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

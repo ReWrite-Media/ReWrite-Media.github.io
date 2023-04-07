@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `droite`]A;]]></Val>
+          <Val><![CDATA[- `right` (Droite)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `haut`]A;]]></Val>
+          <Val><![CDATA[- `up`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bas`]]></Val>
+          <Val><![CDATA[- `down`]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[To open the Red door, both you and the Agent will have to work together. Flip the level to bring up the iron wall, then move the Agent so it is positioned above the gold blocks in front of the Red door. Use `agent.move()` function to move the agent on the gold blocks. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Pour ouvrir la porte rouge, vous et l’agent devrez travailler ensemble. Retournez le niveau pour faire remonter le mur de fer, puis positionnez l’agent au-dessus des blocs d’or devant la porte rouge. Utilisez la fonction 'agent.move()' pour déplacer l’agent sur les blocs d’or.]A;]]></Val>
+          <Val><![CDATA[Pour ouvrir la porte rouge, vous et l’agent devrez travailler ensemble. Retournez le niveau pour faire remonter le mur de fer, puis positionnez l’agent au-dessus des blocs d’or devant la porte rouge. Utilisez la fonction `agent.move()` pour déplacer l’agent sur les blocs d’or.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La fonction 'agent.move()' est influencée par un paramètre qui définit dans quelle direction il doit se déplacer.]A;]]></Val>
+          <Val><![CDATA[La fonction `agent.move()` est influencée par un paramètre qui définit dans quelle direction elle doit se déplacer.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `en avant`]A;]]></Val>
+          <Val><![CDATA[- `forward` (vers l'avant)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `en arrière`]A;]]></Val>
+          <Val><![CDATA[- `back` (vers l'arrière)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `gauche`]A;]]></Val>
+          <Val><![CDATA[- `left` (gauche)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the agent 5 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# déplacer l’Agent de 3 blocs vers l’avant]A;]]></Val>
+          <Val><![CDATA[# déplacer l’agent de 5 blocs vers l’avant]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -219,7 +219,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the agent 5 blocks forward]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# déplacer l’Agent de 3 blocs vers l’avant]A;]]></Val>
+          <Val><![CDATA[# déplacer l’agent de 5 blocs vers l’avant]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[To open the Red door, flip the level to bring up the iron wall, then move the Agent so it is positioned above the gold blocks in front of the red door. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Pour ouvrir la porte rouge, retournez le niveau pour faire remonter le mur de fer, puis déplacez l’Agent au-dessus des blocs d’or devant la porte rouge.]A;]]></Val>
+          <Val><![CDATA[Pour ouvrir la porte rouge, retournez le niveau pour faire remonter le mur de fer, puis déplacez l’agent au-dessus des blocs d’or devant la porte rouge.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -264,7 +264,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The included code below is broken. Can you fix it? Run the code to see what happens, then debug it by editing it to the correct solution.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer ? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
+          <Val><![CDATA[Le code inclus ci-dessous est défectueux. Pouvez-vous le réparer? Exécutez le code pour voir ce qui se passe, puis déboguez-le en le modifiant pour trouver la solution appropriée.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="27" />

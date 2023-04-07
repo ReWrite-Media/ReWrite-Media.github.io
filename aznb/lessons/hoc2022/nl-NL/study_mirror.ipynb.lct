@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'yellow' (beweegt de cursor naar rechts)  ![Gele pijl]5D;(img/yellow_arrow.png 'Gele pijl')]A;]]></Val>
+          <Val><![CDATA[- `yellow` (beweegt de cursor naar rechts)  ![Gele pijl]5D;(img/yellow_arrow.png "Gele pijl")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />

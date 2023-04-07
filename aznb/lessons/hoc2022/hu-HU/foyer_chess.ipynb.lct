@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You've freed the king and queen! But the door still isn't opening. They must be in the wrong positions. Move them into the correct positions so you can finally escape this place! Use the `move_chess_piece()` function to move the king and queen into the correct positions.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Kiszabadítottad a királyt és a királynőt! De az ajtó még mindig nem nyílik ki. Valószínűleg nem jó helyen vannak. Helyezd őket a megfelelő pozíciókba, hogy végre elmenekülhess erről a helyről! A „move_chess_piece()” függvénnyel viheted a királyt és a királynőt a megfelelő pozíciókba.]A;]]></Val>
+          <Val><![CDATA[Kiszabadítottad a királyt és a királynőt! De az ajtó még mindig nem nyílik ki. Valószínűleg nem jó helyen vannak. Helyezd őket a megfelelő pozíciókba, hogy végre elmenekülhess erről a helyről! A "move_chess_piece()” függvénnyel viheted a királyt és a királynőt a megfelelő pozíciókba.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_chess_piece()` function takes two parameters. The first one is which chest piece you want to move, the second one is what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_chess_piece()” függvény két paramétert fogad. Az első az, hogy melyik sakkfigurát szeretnéd mozgatni, a második pedig az, hogy milyen irányba kell mozognia.]A;]]></Val>
+          <Val><![CDATA[A "move_chess_piece()” függvény két paramétert fogad. Az első az, hogy melyik sakkfigurát szeretnéd mozgatni, a második pedig az, hogy milyen irányba kell mozognia.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
+          <Val><![CDATA[- `king` (King) ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
+          <Val><![CDATA[- `queen` (Queen) ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

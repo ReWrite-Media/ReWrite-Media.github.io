@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `blue` ![Синий цветок]5D;(img/blue_flower.png "Синий цветок")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синий) ![Синий цветок]5D;(img/blue_flower.png "Синий цветок")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `yellow` ![Желтый цветок]5D;(img/yellow_flower.png "Желтый цветок")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (желтый) ![Желтый цветок]5D;(img/yellow_flower.png "Желтый цветок")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `red` ![Красный цветок]5D;(img/red_flower.png "Красный цветок") ]]></Val>
+          <Val><![CDATA[- `red` (красный) ![Красный цветок]5D;(img/red_flower.png "Красный цветок") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `оранжевый` (перемещает курсор вперед) ![Оранжевая стрелка]5D;(img/orange_arrow.png "Оранжевая стрелка")]A;]]></Val>
+          <Val><![CDATA[— `orange` (перемещает курсор вперед) ![Оранжевая стрелка]5D;(img/orange_arrow.png "Оранжевая стрелка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

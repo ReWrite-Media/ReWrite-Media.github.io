@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[您需要使用天平才能精準秤出 23 磅的重量。也許這裡有牌子會告訴我每個生物的重量是多少？使用 “summon_animal()” 函數召喚一組重量共 23 磅的動物。]A;]]></Val>
+          <Val><![CDATA[您需要使用天平才能精準秤出 23 磅的重量。也許這裡有牌子會告訴我每個生物的重量是多少？使用 "summon_animal()” 函數召喚一組重量共 23 磅的動物。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `chicken` ![雞]5D;(img/chicken_weight.png "雞")]A;]]></Val>
+          <Val><![CDATA[- `chicken` (雞) ![雞]5D;(img/chicken_weight.png "雞")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `sheep` ![綿羊]5D;(img/sheep_weight.png "綿羊")]A;]]></Val>
+          <Val><![CDATA[- `sheep` (綿羊) ![綿羊]5D;(img/sheep_weight.png "綿羊")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `cow` ![乳牛]5D;(img/cow_weight.png "Cow")]]></Val>
+          <Val><![CDATA[- `cow` (Cow) ![乳牛]5D;(img/cow_weight.png "Cow")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

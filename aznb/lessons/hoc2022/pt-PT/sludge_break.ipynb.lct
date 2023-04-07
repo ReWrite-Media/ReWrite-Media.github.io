@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` (move o cursor para a direita)  ![Seta Amarela]5D;(img/yellow_arrow.png \"Seta Amarela\")]]></Val>
+          <Val><![CDATA[- `yellow` (move o cursor para a direita)  ![Seta Amarela]5D;(img/yellow_arrow.png "Seta Amarela")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to break the blocks blocking the door so you can get out! Use `move_cursor()` to position the cursor and `break_block()` to break the block in the position you've selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tens de partir os blocos que estão a bloquear a porta para poderes sair! Utiliza \"move_cursor()\" para posicionar o cursor e \"break_block()\" para partir o bloco na posição que selecionaste.]A;]]></Val>
+          <Val><![CDATA[Tens de partir os blocos que estão a bloquear a porta para poderes sair! Utiliza "move_cursor()" para posicionar o cursor e "break_block()" para partir o bloco na posição que selecionaste.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"move_cursor()\" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
+          <Val><![CDATA[A função "move_cursor()" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png \"Seta Laranja\")]A;]]></Val>
+          <Val><![CDATA[- `orange` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png "Seta Laranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D;(img/magenta_arrow.png \"Seta Magenta\")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D;(img/magenta_arrow.png "Seta Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` (move o cursor para a esquerda)  ![Seta Azul]5D;(img/blue_arrow.png \"Seta Azul\")]A;]]></Val>
+          <Val><![CDATA[- `blue` (move o cursor para a esquerda)  ![Seta Azul]5D;(img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

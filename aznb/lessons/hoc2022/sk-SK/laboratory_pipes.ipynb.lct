@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]]></Val>
+          <Val><![CDATA[- `magenta` (purpurová) ![Purpurový šíp]5D; (img/magenta_arrow.png "Purpurový šíp")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ ! [Žltý šíp]5D; (img/yellow_arrow.png „žltý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žltá) ![Žltý šíp]5D; (img/yellow_arrow.png "žltý šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -96,7 +96,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ ![Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `blue` (modrá) ![Modrý šíp]5D; (img/blue_arrow.png "Modrý šíp")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>
@@ -108,7 +108,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ ![Oranžový šíp]5D; (img/orange_arrow.png „oranžový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `oranžová` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

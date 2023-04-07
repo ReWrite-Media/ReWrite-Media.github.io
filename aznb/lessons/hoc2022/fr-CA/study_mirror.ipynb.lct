@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'jaune' (déplace le curseur vers la droite)![Flèche jaune]5D; (img/yellow_arrow.png « Flèche jaune »)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (déplace le curseur vers la droite  )![Flèche jaune]5D;(img/yellow_arrow.png "Flèche jaune")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Things in the mirror appear differently than in the room you're in. Find all the differences and modify the room to make them match. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dans le reflet du miroir, les choses apparaissent différemment que dans la pièce dans laquelle vous vous trouvez. Identifiez toutes les différences et reproduisez-les dans la pièce. Utilisez 'move_cursor()' pour positionner le curseur et 'place_block()' pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
+          <Val><![CDATA[Dans le reflet du miroir, les choses apparaissent différemment que dans la salle dans laquelle vous vous trouvez. Identifiez toutes les différences et reproduisez-les dans la salle. Utilisez `move_cursor()` pour positionner le curseur et `place_block()` pour placer un bloc dans la position que vous avez sélectionnée.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (déplace le curseur vers le haut)! [Flèche orange]5D; (img/orange_arrow.png « Flèche orange »)]A;]]></Val>
+          <Val><![CDATA[- `orange` (déplace le curseur vers le haut) ![Flèche orange]5D;(img/orange_arrow.png "Flèche orange")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (déplace le curseur vers le bas)! [Flèche magenta]5D; (img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
+          <Val><![CDATA[- `magenta` (déplace le curseur vers le bas)  ![Flèche magenta]5D;(img/magenta_arrow.png "Flèche magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'bleu' (déplace le curseur vers la gauche)! [Flèche bleue]5D; (img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
+          <Val><![CDATA[- `blue` (déplace le curseur vers la gauche)  ![Flèche bleue]5D;(img/blue_arrow.png "Flèche bleue")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Look into the mirror and pay attention to the design of blocks above the fireplace. Recreate the same design above the fireplace on your side of the mirror.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Regardez dans le miroir et regardez attentivement la disposition des blocs au-dessus de la cheminée. Recréez le même design au-dessus de la cheminée de votre côté du miroir.]A;]]></Val>
+          <Val><![CDATA[Regardez dans le miroir et observez attentivement la disposition des blocs au-dessus de la cheminée. Recréez le même motif au-dessus de la cheminée de votre côté du miroir.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />
@@ -246,7 +246,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Le code ci-dessous est défectueux, pouvez-vous le réparer ? Déboguez le code en commençant par l'exécuter pour voir ce qu’il fait, puis modifiez-le afin d’obtenir le résultat souhaité.]]></Val>
+          <Val><![CDATA[Le code ci-dessous est défectueux, pouvez-vous le réparer? Déboguez le code en l'exécutant pour voir ce qu’il fait, puis en le modifiant afin d’obtenir le résultat souhaité.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />

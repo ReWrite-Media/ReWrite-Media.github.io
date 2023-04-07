@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Move a bola de barro até ao bloco de ouro. Utiliza a função \"clay_ball_move()\" para conduzir a bola pelo labirinto.]A;]]></Val>
+          <Val><![CDATA[Move a bola de barro até ao bloco de ouro. Utiliza a função "clay_ball_move()" para conduzir a bola pelo labirinto.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `down`]A;]]></Val>
+          <Val><![CDATA[- `down` (baixo)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left`]A;]]></Val>
+          <Val><![CDATA[- `left` (esquerda)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

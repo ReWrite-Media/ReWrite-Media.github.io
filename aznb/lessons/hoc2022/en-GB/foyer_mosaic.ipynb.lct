@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png "Blue Up")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png "Blue Up")]A;]]></Val>
+          <Val><![CDATA[- `up` ![Blue Up]5D;(img/chess_blue_up.png ‘Blue Up’)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green`！[綠色]5D;(img/green_glazed.png "綠色")]A;]]></Val>
+          <Val><![CDATA[- `green` (紅色) ![綠色]5D;(img/green_glazed.png "綠色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow`！[黃色]5D;(img/yellow_glazed.png "黃色")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (黃色) ![黃色]5D;(img/yellow_glazed.png "黃色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue`！[藍色]5D;(img/blue_glazed.png "藍色")]A;]]></Val>
+          <Val><![CDATA[- `blue` (藍色) ![藍色]5D;(img/blue_glazed.png "藍色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

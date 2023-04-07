@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `아래`![빨간색 아래]5D;(img/chess_red_down.png "빨간색 아래")]A;]]></Val>
+          <Val><![CDATA[- `아래` ![빨간색 아래]5D;(img/chess_red_down.png "빨간색 아래")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `왼쪽`![노란색 왼쪽]5D;(img/chess_yellow_left.png "노란색 왼쪽")]A;]]></Val>
+          <Val><![CDATA[- `왼쪽` ![노란색 왼쪽]5D;(img/chess_yellow_left.png "노란색 왼쪽")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

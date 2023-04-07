@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚rechts‘ ![Rechts]5D;(img/gray_right.png "Rechts")]A;]]></Val>
+          <Val><![CDATA[- `right` (rechts) ![Rechts]5D;(img/gray_right.png "Rechts")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚left‘ ![links]5D;(img/gray_left.png "Links")]]></Val>
+          <Val><![CDATA[- `left` (links) ![links]5D;(img/gray_left.png "Links")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Feste Blöcke stoppen den Laser! Verschiebe die Reihe der roten, gelben und grünen Blöcke, damit der Laser durch die Glasblöcke hindurchgeht, und schalte das Licht auf der anderen Seite ein. Verwende die Funktion ‚shift_row()‘, um die Zeilen entweder nach links oder rechts zu verschieben, damit der Laser die Glasblöcke passieren kann.]A;]]></Val>
+          <Val><![CDATA[Feste Blöcke stoppen den Laser! Verschiebe die Reihe der roten, gelben und grünen Blöcke, damit der Laser durch die Glasblöcke hindurchgeht, und schalte das Licht auf der anderen Seite ein. Verwende die Funktion `shift_row()`, um die Zeilen entweder nach links oder rechts zu verschieben, damit der Laser die Glasblöcke passieren kann.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚shift_row()‘ akzeptiert zwei Parameter (Strings). Der erste Parameter definiert, welche Farbreihe du verschieben möchtest, und der zweite Parameter definiert die Richtung, in die sich die Reihe verschieben soll.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `shift_row()` akzeptiert zwei Parameter (Strings). Der erste Parameter definiert, welche Farbreihe du verschieben möchtest, und der zweite Parameter definiert die Richtung, in die sich die Reihe verschieben soll.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚green‘ ![Grün]5D;(img/green_right.png "Grün")]A;]]></Val>
+          <Val><![CDATA[- `green` (grün) ![Grün]5D;(img/green_right.png "Grün")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚yellow‘ ![Gelb]5D;(img/yellow_right.png "Gelb")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (gelb) ![Gelb]5D;(img/yellow_right.png "Gelb")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚red‘ ![Rot]5D;(img/red_right.png "Rot")]A;]]></Val>
+          <Val><![CDATA[- `red` (rot) ![Rot]5D;(img/red_right.png "Rot")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

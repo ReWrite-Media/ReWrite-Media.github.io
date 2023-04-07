@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Direciona o Enderman Mordomo para os blocos de esmeralda do outro lado do labirinto! As alavancas na parede parecem ter cores que combinam com um conjunto de portas no labirinto. Usa estas alavancas para criar um caminho seguro por onde direcionar o Enderman Mordomo até aos blocos de esmeralda! Depois, utiliza a função \"move_enderman_direction()\" para o ajudar a percorrer o labirinto.]A;]]></Val>
+          <Val><![CDATA[Direciona o Enderman Mordomo para os blocos de esmeralda do outro lado do labirinto! As alavancas na parede parecem ter cores que combinam com um conjunto de portas no labirinto. Usa estas alavancas para criar um caminho seguro por onde direcionar o Enderman Mordomo até aos blocos de esmeralda! Depois, utiliza a função "move_enderman_direction()" para o ajudar a percorrer o labirinto.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"move_enderman()\" usa um parâmetro para definir em que direção se deverá mover.]A;]]></Val>
+          <Val><![CDATA[A função "move_enderman()" usa um parâmetro para definir em que direção se deverá mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `forward`]A;]]></Val>
+          <Val><![CDATA[- `forward` (para a frente)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `back`]A;]]></Val>
+          <Val><![CDATA[- `back` (para trás)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left`]A;]]></Val>
+          <Val><![CDATA[- `left` (esquerda)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

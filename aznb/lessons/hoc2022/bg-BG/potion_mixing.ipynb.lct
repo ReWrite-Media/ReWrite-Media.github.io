@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `netherwart` ![Netherwart]5D;(img/netherwart.png "Netherwart")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `netherwart` ![Netherwart]5D;(img/netherwart.png "Пъклен полип")]A;]]></Val>
+          <Val><![CDATA[- `netherwart` (Пъклен полип) ![Netherwart]5D;(img/netherwart.png "Пъклен полип")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `fermented spider eye` ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Fermented Spider Eye")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `fermented spider eye` ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Ферментирало паешко око")]A;]]></Val>
+          <Val><![CDATA[- `fermented spider eye` (Ферментирало паешко око) ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Ферментирало паешко око")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Phantom Membrane")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Мембрана на фантом")]A;]]></Val>
+          <Val><![CDATA[- `phantom membrane` (Мембрана на фантом) ![Phantom Membrane]5D;(img/phantom_membrane.png "Мембрана на фантом")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

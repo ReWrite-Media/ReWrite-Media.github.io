@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Az ügynöknek több energiára van szüksége, hogy kinyissa a sárga ajtót! Az ügynök felett csapóajtók akadályozzák a holdfény bejutását. Mi lenne, ha ezt felhasználnánk az ügynök töltésére? Mozgasd a kurzort a „move_cursor()” függvénnyel, majd az „open_trapdoor()” paranccsal nyisd ki a kiválasztott csapóajtót.]A;]]></Val>
+          <Val><![CDATA[Az ügynöknek több energiára van szüksége, hogy kinyissa a sárga ajtót! Az ügynök felett csapóajtók akadályozzák a holdfény bejutását. Mi lenne, ha ezt felhasználnánk az ügynök töltésére? Mozgasd a kurzort a "move_cursor()” függvénnyel, majd az "open_trapdoor()” paranccsal nyisd ki a kiválasztott csapóajtót.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

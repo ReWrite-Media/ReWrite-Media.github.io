@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `right` ![Sağ]5D; (img/gray_right.png ''Sağ'')]A;]]></Val>
+          <Val><![CDATA[- `right` ![Sağ]5D;(img/gray_right.png "Sağ")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ! [Yeşil]5D; (img/green_right.png ''Yeşil'')]A;]]></Val>
+          <Val><![CDATA[- `green` (yeşil) ![Yeşil]5D; (img/green_right.png "Yeşil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ! [Sarı]5D; (img/yellow_right.png ''Sarı'')]A;]]></Val>
+          <Val><![CDATA[- `yellow` (sarı) ![Sarı]5D; (img/yellow_right.png "Sarı")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Kırmızı]5D; (img/red_right.png ''Kırmızı'')]A;]]></Val>
+          <Val><![CDATA[- `red` (kırmızı) ![Kırmızı]5D; (img/red_right.png "Kırmızı")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

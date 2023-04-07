@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚right‘ (rechts)]A;]]></Val>
+          <Val><![CDATA[- `right` (rechts)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚up‘ (oben)]A;]]></Val>
+          <Val><![CDATA[- `up` (oben)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚down‘ (unten)]]></Val>
+          <Val><![CDATA[- `down` (runter)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Jetzt, da die Falltür geöffnet ist, musst du den Agent zwei Blöcke nach oben bewegen, um ihn zu befreien. Verwende die Funktion ‚agent.move()‘, um den Agent nach oben zu verschieben.]A;]]></Val>
+          <Val><![CDATA[Jetzt, da die Falltür geöffnet ist, musst du den Agent zwei Blöcke nach oben bewegen, um ihn zu befreien. Verwende die Funktion `agent.move()`, um den Agent nach oben zu verschieben.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚agent.move()‘ verwendet einen Parameter, der definiert, in welche Richtung er sich bewegen soll.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `agent.move()` verwendet einen Parameter, der definiert, in welche Richtung er sich bewegen soll.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚forward‘ (vorwärts)]A;]]></Val>
+          <Val><![CDATA[- `forward` (vorwärts)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚back‘ (zurück)]A;]]></Val>
+          <Val><![CDATA[- `back` (zurück)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚left‘ (links)]A;]]></Val>
+          <Val><![CDATA[- `left` (links)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

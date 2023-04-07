@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Dom je hladný. A čím lepším ho nakŕmiť ako jablkami, lososom a hubovou polievkou? Skúste zistiť, koľko z jednotlivých prísad dom potrebuje. Pomocou funkcie „nakŕmiť_dom()“ definujte, ktorými predmetmi ho chcete kŕmiť.]A;]]></Val>
+          <Val><![CDATA[Dom je hladný. A čím lepším ho nakŕmiť ako jablkami, lososom a hubovou polievkou? Skúste zistiť, koľko z jednotlivých prísad dom potrebuje. Pomocou funkcie "nakŕmiť_dom()" definujte, ktorými predmetmi ho chcete kŕmiť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „nakŕmiť dom_()“ má jeden parameter, ktorý definuje, akým predmetom ju budete kŕmiť.]A;]]></Val>
+          <Val><![CDATA[Funkcia "nakŕmiť dom_()" má jeden parameter, ktorý definuje, akým predmetom ju budete kŕmiť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „jablko“ ![Jablko]5D; (img/apple.png „jablko“)]A;]]></Val>
+          <Val><![CDATA[- `apple` (jablko) ![Jablko]5D; (img/apple.png "jablko")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „hubová polievka“ ! [hubová polievka]5D; (img/mushroom_stew.png „hubová polievka“)]A;]]></Val>
+          <Val><![CDATA[- `mushroom stew` (hubová polievka)  ![hubová polievka]5D; (img/mushroom_stew.png "hubová polievka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „losos“ ! [Losos]5D; (img/salmon.png „Losos“)]A;]]></Val>
+          <Val><![CDATA[- `salmon` (Losos)  ![Losos]5D; (img/salmon.png "Losos")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

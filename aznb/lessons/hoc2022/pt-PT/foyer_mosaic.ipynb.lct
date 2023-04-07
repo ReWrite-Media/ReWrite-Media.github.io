@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[It looks like these pieces are a part of an incomplete picture! Try reordering them to see what it's supposed to be! Use the `push_pieces()` function to trigger the pistons to move the pieces in that direction. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Parece que estas peças fazem parte de uma imagem incompleta! Tenta reordená-las para ver o que deveria ser! Utiliza a função \"push_pieces()\" para acionar os pistões e mover as peças nessa direção.]A;]]></Val>
+          <Val><![CDATA[Parece que estas peças fazem parte de uma imagem incompleta! Tenta reordená-las para ver o que deveria ser! Utiliza a função "push_pieces()" para acionar os pistões e mover as peças nessa direção.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `push_pieces()` function takes one parameter, the direction you want to push the pieces.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"push_pieces()\" usa um parâmetro, a direção para onde queres empurrar as peças.]A;]]></Val>
+          <Val><![CDATA[A função "push_pieces()" usa um parâmetro, a direção para onde queres empurrar as peças.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `down` ![Vermelho: Para Baixo]5D;(img/chess_red_down.png \"Vermelho: Para Baixo\")]A;]]></Val>
+          <Val><![CDATA[- `down` (baixo) ![Vermelho: Para Baixo]5D;(img/chess_red_down.png "Vermelho: Para Baixo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left` ![Esquerda: Amarelo]5D;(img/chess_yellow_left.png \"Esquerda: Amarelo\")]A;]]></Val>
+          <Val><![CDATA[- `left` (esquerda) ![Esquerda: Amarelo]5D;(img/chess_yellow_left.png "Esquerda: Amarelo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

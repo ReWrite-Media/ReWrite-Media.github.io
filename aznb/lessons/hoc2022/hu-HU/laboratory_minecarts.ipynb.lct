@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The mobs need to be sorted into the right passageways! Look at the mobs queued up to be sorted and sort them based on the order they are waiting. Use the `sort_mob()` function to set the order they should be sorted.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A mobokat a megfelelő folyosókra kell rendezni! Nézd meg a sorba állított mobokat, és rendezd őket a várakozási sorrend szerint. A „sort_mob()” függvénnyel állíthatod be a rendezés sorrendjét.]A;]]></Val>
+          <Val><![CDATA[A mobokat a megfelelő folyosókra kell rendezni! Nézd meg a sorba állított mobokat, és rendezd őket a várakozási sorrend szerint. A "sort_mob()” függvénnyel állíthatod be a rendezés sorrendjét.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `sort_mob()` function takes one parameter that defines which mob should be sorted next.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „sort_mob()” függvény egy paramétert vesz fel, amely meghatározza, hogy melyik mobot kell rendezni következőként.]A;]]></Val>
+          <Val><![CDATA[A "sort_mob()” függvény egy paramétert vesz fel, amely meghatározza, hogy melyik mobot kell rendezni következőként.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `skeleton` ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `skeleton` ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
+          <Val><![CDATA[- `skeleton` (Skeleton) ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
+          <Val><![CDATA[- `creeper` (Creeper) ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

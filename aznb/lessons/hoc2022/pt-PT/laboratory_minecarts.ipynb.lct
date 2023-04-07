@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `sort_mob()` function takes one parameter that defines which mob should be sorted next.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"sort_mob()\" usa um parâmetro para definir que criatura deve ser encaminhada a seguir.]A;]]></Val>
+          <Val><![CDATA[A função "sort_mob()" usa um parâmetro para definir que criatura deve ser encaminhada a seguir.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `zombie` ![Zombie]5D;(img/zombie_head.png "Zombie")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `zombie` ![Morto-Vivo]5D;(img/zombie_head.png \"Morto-Vivo\")]A;]]></Val>
+          <Val><![CDATA[- `zombie` ![Morto-Vivo]5D;(img/zombie_head.png "Morto-Vivo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `skeleton` ![Skeleton]5D;(img/skeleton_head.png "Skeleton")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `skeleton` ![Esqueleto]5D;(img/skeleton_head.png \"Esqueleto\")]A;]]></Val>
+          <Val><![CDATA[- `skeleton` (Esqueleto) ![Esqueleto]5D;(img/skeleton_head.png "Esqueleto")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `creeper` ![Creeper]5D;(img/creeper_head.png \"Creeper\")]]></Val>
+          <Val><![CDATA[- `creeper` (Creeper) ![Creeper]5D;(img/creeper_head.png "Creeper")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

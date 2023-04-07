@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A casa está com fome! E não há nada melhor para a alimentar do que maçãs, salmão e guisado de cogumelos! Tenta descobrir que quantidade de cada ingrediente a casa precisa. Utiliza a função \"feed_house()\" para definir com que itens a vais alimentar.]A;]]></Val>
+          <Val><![CDATA[A casa está com fome! E não há nada melhor para a alimentar do que maçãs, salmão e guisado de cogumelos! Tenta descobrir que quantidade de cada ingrediente a casa precisa. Utiliza a função "feed_house()" para definir com que itens a vais alimentar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"feed_house()\" usa um parâmetro para definir com que item a vais alimentar.]A;]]></Val>
+          <Val><![CDATA[A função "feed_house()" usa um parâmetro para definir com que item a vais alimentar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `apple` ![Maçã]5D;(img/apple.png \"Maçã\")]A;]]></Val>
+          <Val><![CDATA[- `apple` (maçã) ![Maçã]5D;(img/apple.png "Maçã")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mushroom stew` ![Guisado de Cogumelos]5D;(img/mushroom_stew.png \"Guisado de Cogumelos\")]A;]]></Val>
+          <Val><![CDATA[- `mushroom stew` (Guisado de Cogumelos) ![Guisado de Cogumelos]5D;(img/mushroom_stew.png "Guisado de Cogumelos")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `salmon` ![Salmão]5D;(img/salmon.png \"Salmão\")]A;]]></Val>
+          <Val><![CDATA[- `salmon` (Salmão) ![Salmão]5D;(img/salmon.png "Salmão")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

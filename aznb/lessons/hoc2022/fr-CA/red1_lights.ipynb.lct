@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `pink` ![Pink]5D;(img/pink_glazed.png "Pink")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `rose` ![Rose]5D;(img/pink_glazed.png "Rose")]]></Val>
+          <Val><![CDATA[- `rose`![Rose]5D;(img/pink_glazed.png « Rose »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_glazed.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `vert` ![Vert]5D;(img/green_glazed.png "Vert")]A;]]></Val>
+          <Val><![CDATA[- `vert`![Vert]5D;(img/green_glazed.png « Vert »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_glazed.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `jaune` ![Jaune]5D;(img/yellow_glazed.png "Jaune")]A;]]></Val>
+          <Val><![CDATA[- `jaune` ![Jaune]5D;(img/yellow_glazed.png « Jaune »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue]5D;(img/blue_glazed.png "Blue")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bleu` ![Bleu]5D;(img/blue_glazed.png "Bleu")]A;]]></Val>
+          <Val><![CDATA[- `bleu` ![Bleu]5D;(img/blue_glazed.png « Bleu »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

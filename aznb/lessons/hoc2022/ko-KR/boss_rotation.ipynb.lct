@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '시계 방향'! [시계 방향 회전]5D; (img/clockwise_ring.png "외부 링")]A;]]></Val>
+          <Val><![CDATA[- `시계 방향` ![시계 방향 회전]5D; (img/clockwise_ring.png "외부 링")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '시계 반대 방향'! [시계 반대 방향 회전]5D; (img/counterclockwise_ring.png "시계 반대 방향 회전")]]></Val>
+          <Val><![CDATA[- `시계 반대 방향` ![시계 반대 방향 회전]5D; (img/counterclockwise_ring.png "시계 반대 방향 회전")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '외부'! [외부 고리]5D; (img/outer_ring.png "외부 고리")]A;]]></Val>
+          <Val><![CDATA[- `외부` ![외부 고리]5D; (img/outer_ring.png "외부 고리")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '중간'! [중간 고리]5D; (img/middle_ring.png "중간 고리")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![중간 고리]5D; (img/middle_ring.png "중간 고리")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '내부'! [내부 고리]5D; (img/inner_ring.png "내부 고리")]A;]]></Val>
+          <Val><![CDATA[- `내부` ![내부 고리]5D; (img/inner_ring.png "내부 고리")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

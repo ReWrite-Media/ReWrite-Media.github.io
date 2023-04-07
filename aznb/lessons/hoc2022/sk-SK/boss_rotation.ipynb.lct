@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "v smere hodinových ručičiek" ![Otáčanie v smere hodinových ručičiek]5D; (img/clockwise_ring.png "Vonkajší krúžok")]A;]]></Val>
+          <Val><![CDATA[- `v smere hodinových ručičiek` ![Otáčanie v smere hodinových ručičiek]5D; (img/clockwise_ring.png "Vonkajší krúžok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "proti smeru hodinových ručičiek" ! [Otáčanie proti smeru hodinových ručičiek]5D; (img/counterclockwise_ring.png "Otáčanie proti smeru hodinových ručičiek")]]></Val>
+          <Val><![CDATA[- `proti smeru hodinových ručičiek"  ![Otáčanie proti smeru hodinových ručičiek]5D; (img/counterclockwise_ring.png "Otáčanie proti smeru hodinových ručičiek")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "vonkajší" ![Vonkajší krúžok]5D; (img/outer_ring.png "Vonkajší krúžok")]A;]]></Val>
+          <Val><![CDATA[- `vonkajší` ![Vonkajší krúžok]5D; (img/outer_ring.png "Vonkajší krúžok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "stredný" ![Stredný krúžok]5D; (img/middle_ring.png "Stredný krúžok")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Stredný krúžok]5D; (img/middle_ring.png "Stredný krúžok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- "vnútorné" ! [Vnútorný krúžok]5D; (img/inner_ring.png "Vnútorný krúžok")]A;]]></Val>
+          <Val><![CDATA[- `vnútorné"  ![Vnútorný krúžok]5D; (img/inner_ring.png "Vnútorný krúžok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

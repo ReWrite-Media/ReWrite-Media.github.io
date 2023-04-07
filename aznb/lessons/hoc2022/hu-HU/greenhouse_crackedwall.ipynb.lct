@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need more water and it looks like those cracked blocks are leaking! Use the `move_cursor()` function to position the cursor over a cracked block, and then `break_block()` to break it and to let the water flow into the canal! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Több vízre van szükséged, és úgy néz ki, hogy azok a repedt blokkok szivárognak! Használd a „move_cursor()” függvényt, hogy a kurzort egy repedt blokk fölé helyezd, majd a „break_block()” függvénnyel törd össze, hogy a víz a csatornába folyjon!]A;]]></Val>
+          <Val><![CDATA[Több vízre van szükséged, és úgy néz ki, hogy azok a repedt blokkok szivárognak! Használd a "move_cursor()” függvényt, hogy a kurzort egy repedt blokk fölé helyezd, majd a "break_block()” függvénnyel törd össze, hogy a víz a csatornába folyjon!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

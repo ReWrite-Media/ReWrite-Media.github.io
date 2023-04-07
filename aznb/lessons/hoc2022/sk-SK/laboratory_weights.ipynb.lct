@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need the scale to reach a weight of exactly 23lbs. Maybe there is a sign around here to tell me how much each mob weighs? Use the `summon_animal()` function to summon a combination of animals that add up to 23lbs. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Je potrebné, aby mierka dosiahla hmotnosť presne 23 libier. Možno je tu značka, ktorá mi povie, koľko váži každý tvor. Pomocou funkcie „privolať_zviera()“ privolajte kombináciu zvierat, ktoré dosahujú hmotnosť až 23 libier.]A;]]></Val>
+          <Val><![CDATA[Je potrebné, aby mierka dosiahla hmotnosť presne 23 libier. Možno je tu značka, ktorá mi povie, koľko váži každý tvor. Pomocou funkcie "privolať_zviera()" privolajte kombináciu zvierat, ktoré dosahujú hmotnosť až 23 libier.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `summon_animal()` function takes on parameter that defines which animal should be summoned.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „privolať_zviera()“ preberá parameter, ktorý definuje, ktoré zviera by malo byť privolané.]A;]]></Val>
+          <Val><![CDATA[Funkcia "privolať_zviera()" preberá parameter, ktorý definuje, ktoré zviera by malo byť privolané.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „sliepka“ ! [sliepka]5D; (img/chicken_weight.png „sliepka“)]A;]]></Val>
+          <Val><![CDATA[- `chicken` (sliepka)  ![sliepka]5D; (img/chicken_weight.png "sliepka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „ovca“ ! [Ovca]5D; (img/sheep_weight.png „Ovca“)]A;]]></Val>
+          <Val><![CDATA[- `sheep` (Ovca)  ![Ovca]5D; (img/sheep_weight.png "Ovca")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „krava“ ! [Krava]5D; (img/cow_weight.png „Krava“)]]></Val>
+          <Val><![CDATA[- `cow` (Krava)  ![Krava]5D; (img/cow_weight.png "Krava")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

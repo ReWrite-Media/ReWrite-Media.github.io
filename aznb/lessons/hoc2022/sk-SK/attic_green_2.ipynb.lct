@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „doprava“]A;]]></Val>
+          <Val><![CDATA[- `doprava`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „nahor“]A;]]></Val>
+          <Val><![CDATA[- `nahor`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „nadol“]]></Val>
+          <Val><![CDATA[- „dole“]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now that the trapdoor is open, you'll need to move the Agent up two blocks to set it free. Use the `agent.move()` function to move the Agent up.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Teraz, keď sú padacie dvere otvorené, budete musieť agenta posunúť o dva bloky nahor, aby ste ho oslobodili. Pomocou funkcie „pohnúť.agenta()“ presuňte agenta nahor.]A;]]></Val>
+          <Val><![CDATA[Teraz, keď sú padacie dvere otvorené, budete musieť agenta posunúť o dva bloky nahor, aby ste ho oslobodili. Pomocou funkcie "pohnúť.agenta()" presuňte agenta nahor.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „pohnúť.agenta()“ má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
+          <Val><![CDATA[Funkcia "pohnúť.agenta()" má jeden parameter, ktorý definuje, akým smerom by sa mala pohybovať.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „dopredu“]A;]]></Val>
+          <Val><![CDATA[- `forward` (dopredu)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „dozadu“]A;]]></Val>
+          <Val><![CDATA[- `back` (dozadu)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „doľava“]A;]]></Val>
+          <Val><![CDATA[- `doľava`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue`]A;]]></Val>
+          <Val><![CDATA[- `blue` (azul)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"move_cursor()\" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
+          <Val><![CDATA[A função "move_cursor()" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png \"Seta Laranja\")]A;]]></Val>
+          <Val><![CDATA[- `orange` (move o cursor para cima) ![Seta Laranja]5D;(img/orange_arrow.png "Seta Laranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D;(img/magenta_arrow.png \"Seta Magenta\")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (move o cursor para baixo)  ![Seta Magenta]5D;(img/magenta_arrow.png "Seta Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` (move o cursor para a esquerda)  ![Seta Azul]5D;(img/blue_arrow.png \"Seta Azul\")]A;]]></Val>
+          <Val><![CDATA[- `blue` (move o cursor para a esquerda)  ![Seta Azul]5D;(img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` (move o cursor para a direita)  ![Seta Amarela]5D;(img/yellow_arrow.png \"Seta Amarela\")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (move o cursor para a direita)  ![Seta Amarela]5D;(img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Each hole represents a chamber door in the four corners of the boss arena! Fill all the holes with the correct color to open the chamber doors! Use `move_cursor()` function to position the cursor in a space, then use `place_block()` function to place a colored block to fill in each space!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Cada buraco representa a porta de uma câmara nos quatro cantos da arena do boss! Preenche todos os buracos com a cor correta para abrir as portas das câmaras! Utiliza a função \"move_cursor()\" para posicionar o cursor num espaço e depois utiliza a função \"place_block()\" para colocar um bloco colorido e preencher os espaços!]A;]]></Val>
+          <Val><![CDATA[Cada buraco representa a porta de uma câmara nos quatro cantos da arena do boss! Preenche todos os buracos com a cor correta para abrir as portas das câmaras! Utiliza a função "move_cursor()" para posicionar o cursor num espaço e depois utiliza a função "place_block()" para colocar um bloco colorido e preencher os espaços!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `place_block()` function takes one parameter that defines the color of the block you'd like to place.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"place_block()\" usa um parâmetro para definir a cor do bloco que pretendes colocar.]A;]]></Val>
+          <Val><![CDATA[A função "place_block()" usa um parâmetro para definir a cor do bloco que pretendes colocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta`]A;]]></Val>
+          <Val><![CDATA[- `magenta` (magenta)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green`]A;]]></Val>
+          <Val><![CDATA[- `green` (verde)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow`]A;]]></Val>
+          <Val><![CDATA[- `yellow` (amarelo)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

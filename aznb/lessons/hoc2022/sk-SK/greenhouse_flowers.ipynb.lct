@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `žltá` (posunie kurzor doprava)  ![Žltý šíp]5D; (img/yellow_arrow.png "Žltý šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `plant_flower()` function takes one parameter that defines what type of flower should be planted.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkcia „posadiť_kvet()“ má jeden parameter, ktorý definuje, aký typ kvetu by sa mal posadiť.]A;]]></Val>
+          <Val><![CDATA[Funkcia "posadiť_kvet()" má jeden parameter, ktorý definuje, aký typ kvetu by sa mal posadiť.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ ![Modrý kvet]5D;(img/blue_flower.png „Modrý kvet“)]A;]]></Val>
+          <Val><![CDATA[- `blue` (modrá) ![Modrý kvet]5D;(img/blue_flower.png "Modrý kvet")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ ![Žltý kvet]5D; (img/yellow_flower.png „Žltý kvet“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žltá) ![Žltý kvet]5D; (img/yellow_flower.png "Žltý kvet")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „červená“ ![Červený kvet]5D;(img/red_flower.png „Červený kvet“) ]]></Val>
+          <Val><![CDATA[- `red` (červená) ![Červený kvet]5D;(img/red_flower.png "Červený kvet") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's some pattern with these flowers. Figure out the pattern and plant the flowers on the empty dirt using `move_cusor()` to position the cursor and then `plant_flower()` to plant a flower.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tieto kvety majú určitý vzor. Objavte vzor a zasaďte kvety na prázdnu hlinu pomocou funkcie „pohnúť_kurzor()“ na umiestnenie kurzora a potom „posadiť_kvet()“ na zasadenie kvetu.]A;]]></Val>
+          <Val><![CDATA[Tieto kvety majú určitý vzor. Objavte vzor a zasaďte kvety na prázdnu hlinu pomocou funkcie "pohnúť_kurzor()" na umiestnenie kurzora a potom "posadiť_kvet()" na zasadenie kvetu.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posúva kurzor dopredu) ![Oranžový šíp]5D;(img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `oranžová` (posunie kurzor dopredu) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -156,7 +156,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ (presunie kurzor späť) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `purpurová` (presunie kurzor späť)  ![Purpurový šíp]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `modrá` (pohybuje kurzorom doľava)  ![Modrý šíp]5D; (img/blue_arrow.png "Modrý šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

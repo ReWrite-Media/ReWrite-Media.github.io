@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向右”！[向右]5D;(img/gray_right.png "向右")]A;]]></Val>
+          <Val><![CDATA[- `right`（向右）！[向右]5D;（img/gray_right.png "向右"）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of green blocks to make the laser pass through the glass blocks to turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[固体方块阻拦激光！移动绿色方块行，使激光穿过玻璃方块以打开另一侧的灯。使用“shift_row()”函数向左或向右移动方块行，使激光能够通过玻璃方块。]A;]]></Val>
+          <Val><![CDATA[固体方块阻拦激光！移动绿色方块行，使激光穿过玻璃方块以打开另一侧的灯。使用"shift_row()”函数向左或向右移动方块行，使激光能够通过玻璃方块。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“shift_row()”函数采用两个参数（字符串）。第一个参数定义移动的颜色行，第二个参数定义该行应该移动的方向。]A;]]></Val>
+          <Val><![CDATA["shift_row()”函数采用两个参数（字符串）。第一个参数定义移动的颜色行，第二个参数定义该行应该移动的方向。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “绿色”！[绿色]5D;(img/green_right.png "绿色")]A;]]></Val>
+          <Val><![CDATA[- `green` (绿色) ![绿色]5D;(img/green_right.png "绿色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

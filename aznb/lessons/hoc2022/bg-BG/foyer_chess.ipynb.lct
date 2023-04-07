@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "Цар")]A;]]></Val>
+          <Val><![CDATA[- `king` (Цар) ![King]5D;(img/king_icon.png "Цар")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Царица")]A;]]></Val>
+          <Val><![CDATA[- `queen` (Царица) ![Queen]5D;(img/queen_icon.png "Царица")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>
@@ -225,7 +225,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use a `for` loop to do one or more actions multiple times.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Използвайте цикъл с „for“, за да извършите едно или повече действия няколко пъти.]]></Val>
+          <Val><![CDATA[Използвайте цикъл с "for", за да извършите едно или повече действия няколко пъти.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="22" />

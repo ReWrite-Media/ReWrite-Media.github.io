@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向右”！[向右]5D;(img/gray_right.png "向右")]A;]]></Val>
+          <Val><![CDATA[- `right`（向右）！[向右]5D;（img/gray_right.png "向右"）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[固体方块会阻挡激光！移动红色、黄色和绿色的方块行，让激光穿过玻璃方块并打开另一侧的灯。使用“shift_row()”函数向左或向右移动方块行，能够让激光穿过玻璃方块。]A;]]></Val>
+          <Val><![CDATA[固体方块会阻挡激光！移动红色、黄色和绿色的方块行，让激光穿过玻璃方块并打开另一侧的灯。使用"shift_row()”函数向左或向右移动方块行，能够让激光穿过玻璃方块。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“shift_row()”函数采用两个参数（字符串）。第一个参数定义要移动的颜色行，第二个参数定义应该移动行的方向。]A;]]></Val>
+          <Val><![CDATA["shift_row()”函数采用两个参数（字符串）。第一个参数定义要移动的颜色行，第二个参数定义应该移动行的方向。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “绿色”！[绿色]5D;(img/green_right.png "绿色")]A;]]></Val>
+          <Val><![CDATA[- `green` (绿色) ![绿色]5D;(img/green_right.png "绿色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黄色”！[黄色]5D;(img/yellow_right.png "黄色")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (黄色) ![黄色]5D;(img/yellow_right.png "黄色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “红色”！[红色]5D;(img/red_right.png "红色")]A;]]></Val>
+          <Val><![CDATA[- `red` (红色) ![红色]5D;(img/red_right.png "红色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `netherwart` ![Netherwart]5D;(img/netherwart.png "Netherwart")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'verruga' ! [Verruga del Inframundo]5D; (img/netherwart.png "Verruga del Inframundo")]A;]]></Val>
+          <Val><![CDATA[- `Verruga del Inframundo` ![Verruga del Inframundo]5D; (img/netherwart.png "Verruga del Inframundo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Phantom Membrane")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `Membrana de fantasma` ![Membrana de fantasma]5D;(img/phantom_membrane.png "Membrana de fantasma")]A;]]></Val>
+          <Val><![CDATA[- `Membrana de fantasma` (Membrana de fantasma) ![Membrana de fantasma]5D;(img/phantom_membrane.png "Membrana de fantasma")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

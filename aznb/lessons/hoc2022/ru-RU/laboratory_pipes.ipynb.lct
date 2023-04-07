@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `magenta` ![Пурпурная стрелка]5D;(img/magenta_arrow.png "Пурпурная стрелка")]]></Val>
+          <Val><![CDATA[- `magenta` (пурпурный) ![Пурпурная стрелка]5D;(img/magenta_arrow.png "Пурпурная стрелка")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `yellow` [Желтая стрелка]5D;(img/yellow_arrow.png "Желтая стрелка")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (желтый) ![Желтая стрелка]5D;(img/yellow_arrow.png "Желтая стрелка")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow` ![Yellow Block]5D;(img/yellow_block.png "Yellow Block")]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `blue` ![Синяя стрелка]5D;(img/blue_arrow.png "Синяя стрелка")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синий) ![Синяя стрелка]5D;(img/blue_arrow.png "Синяя стрелка")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>

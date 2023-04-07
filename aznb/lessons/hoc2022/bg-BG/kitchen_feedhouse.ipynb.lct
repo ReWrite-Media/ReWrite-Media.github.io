@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Ябълка")]A;]]></Val>
+          <Val><![CDATA[- `apple` (ябълка) ![Apple]5D;(img/apple.png "Ябълка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Гъбена яхния")]A;]]></Val>
+          <Val><![CDATA[- `mushroom stew` (Гъбена яхния) ![Mushroom Stew]5D;(img/mushroom_stew.png "Гъбена яхния")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Сьомга")]A;]]></Val>
+          <Val><![CDATA[- `salmon` (Сьомга) ![Salmon]5D;(img/salmon.png "Сьомга")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use a `for` loop to do one or more actions multiple times.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Използвайте цикъл с „for“, за да извършите едно или повече действия няколко пъти.]]></Val>
+          <Val><![CDATA[Използвайте цикъл с "for", за да извършите едно или повече действия няколко пъти.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />

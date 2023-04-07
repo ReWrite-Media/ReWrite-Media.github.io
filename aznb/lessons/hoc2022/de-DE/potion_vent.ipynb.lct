@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚right‘ (rechts)]]></Val>
+          <Val><![CDATA[- `right` (rechts)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the Gold block so it can open up the door to the next section. Use the `clay_ball_move()` function to navigate the ball through the wall.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Bewege die Tonkugel zum Goldblock, damit sie die Tür zum nächsten Abschnitt öffnen kann. Verwende die Funktion ‚clay_ball_move()‘, um den Ball durch die Wand zu navigieren.]A;]]></Val>
+          <Val><![CDATA[Bewege die Tonkugel zum Goldblock, damit sie die Tür zum nächsten Abschnitt öffnen kann. Verwende die Funktion `clay_ball_move()`, um den Ball durch die Wand zu navigieren.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `clay_ball_move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚clay_ball_move()‘ verwendet einen Parameter, der definiert, in welche Richtung er sich bewegen soll.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `clay_ball_move()` verwendet einen Parameter, der definiert, in welche Richtung er sich bewegen soll.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚up‘ (oben)]A;]]></Val>
+          <Val><![CDATA[- `up` (oben)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚down‘ (unten)]A;]]></Val>
+          <Val><![CDATA[- `down` (unten)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚left‘ (links)]A;]]></Val>
+          <Val><![CDATA[- `left` (links)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

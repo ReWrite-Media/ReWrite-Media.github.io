@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '주황색' (체스 말을 앞으로 이동) ![주황색 화살표]5D; (img/orange_arrow.png "주황색 화살표")]A;]]></Val>
+          <Val><![CDATA[- `주황색` (체스 말을 앞으로 이동) ![주황색 화살표]5D;(img/orange_arrow.png "주황색 화살표")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '자홍색' (체스 말을 뒤로 이동) ![자홍색 화살표]5D; (img/magenta_arrow.png "자홍색 화살표")]A;]]></Val>
+          <Val><![CDATA[- `자홍색` (체스 말을 뒤로 이동) ![자홍색 화살표]5D; (img/magenta_arrow.png "자홍색 화살표")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '파란색' (체스 말을 왼쪽으로 이동) ![파란색 화살표]5D; (img/blue_arrow.png "파란색 화살표")]A;]]></Val>
+          <Val><![CDATA[- `파란색` (체스 말을 왼쪽으로 이동) ![파란색 화살표]5D; (img/blue_arrow.png "파란색 화살표")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '노란색' (체스 말을 오른쪽으로 움직인다) ![노란색 화살표]5D;(img/yellow_arrow.png "노란색 화살표")]A;]]></Val>
+          <Val><![CDATA[- `노란색` (체스 말을 오른쪽으로 움직인다) ![노란색 화살표]5D;(img/yellow_arrow.png "노란색 화살표")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '킹' ![킹]5D;(img/king_icon.png "킹")]A;]]></Val>
+          <Val><![CDATA[- `king` (킹) ![킹]5D;(img/king_icon.png "킹")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '퀸' ![퀸]5D; (img/queen_icon.png "퀸")]A;]]></Val>
+          <Val><![CDATA[- `queen` (퀸) ![퀸]5D; (img/queen_icon.png "퀸")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

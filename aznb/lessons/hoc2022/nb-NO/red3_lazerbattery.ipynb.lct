@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `gul` (flytter markøren til høyre) ![Gul pil]5D;(img/yellow_arrow.png «Gul pil»)]]></Val>
+          <Val><![CDATA[- `gul` (flytter markøren til høyre) ![Gul pil]5D;(img/yellow_arrow.png "Gul pil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– 'magentafarget' (flytter markøren tilbake) ![Magentafarget pil]5D; (img/magenta_arrow.png «Magentafarget Pil»)]A;]]></Val>
+          <Val><![CDATA[– 'magentafarget' (flytter markøren tilbake) ![Magentafarget pil]5D; (img/magenta_arrow.png "Magentafarget Pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blå` (flytter markøren til venstre) ![Blå pil]5D;(img/blue_arrow.png «Blå pil»)]A;]]></Val>
+          <Val><![CDATA[- `blå` (flytter markøren til venstre) ![Blå pil]5D;(img/blue_arrow.png "Blå pil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` ![Seta Magenta]5D;(img/magenta_arrow.png \"Seta Magenta\")]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Seta Magenta]5D;(img/magenta_arrow.png "Seta Magenta")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `red`]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The silly Zombie Chef gave everyone the wrong meals! See if you can figure out who wants what meal. Use the `swap_plates()` function to swap the plates on either side of the colored tablecloth you define.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[O Chef Morto-Vivo tolo deu refeições erradas a todos! Vê se consegues descobrir quem quer qual refeição. Utiliza a função \"swap_plates()\" para trocar os pratos de ambos os lados da toalha de mesa colorida que definires.]A;]]></Val>
+          <Val><![CDATA[O Chef Morto-Vivo tolo deu refeições erradas a todos! Vê se consegues descobrir quem quer qual refeição. Utiliza a função "swap_plates()" para trocar os pratos de ambos os lados da toalha de mesa colorida que definires.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `swap_plates()` takes one parameter that defines the color of the tablecloth that's between the two plates you want to swap.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"swap_plates()\" usa um parâmetro para definir a cor da toalha de mesa que está entre os dois pratos que pretendes trocar.]A;]]></Val>
+          <Val><![CDATA[A função "swap_plates()" usa um parâmetro para definir a cor da toalha de mesa que está entre os dois pratos que pretendes trocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Seta Azul]5D;(img/blue_arrow.png \"Seta Azul\")]A;]]></Val>
+          <Val><![CDATA[- `blue` (azul) ![Seta blue]5D;(img/blue_arrow.png "Seta blue")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue`]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Seta Amarela]5D;(img/yellow_arrow.png \"Seta Amarela\")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (amarelo) ![Seta Amarela]5D;(img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow`]A;]]></Val>

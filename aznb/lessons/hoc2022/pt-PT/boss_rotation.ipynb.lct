@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `clockwise` ![Rotação no Sentido Horário]5D;(img/clockwise_ring.png \"Anel Exterior\")]A;]]></Val>
+          <Val><![CDATA[- `clockwise` ![Rotação no Sentido Horário]5D;(img/clockwise_ring.png "Anel Exterior")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `counterclockwise` ![Rotação no Sentido Anti-Horário]5D;(img/counterclockwise_ring.png \"Rotação no Sentido Anti-Horário\")]]></Val>
+          <Val><![CDATA[- `counterclockwise` ![Rotação no Sentido Anti-Horário]5D;(img/counterclockwise_ring.png "Rotação no Sentido Anti-Horário")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Agora é a tua oportunidade de capturar os Time Agents! Dirige-te para o centro da arena do boss e olha para baixo! Terás de alinhar os três anéis com as cores centrais da armadilha para a ativar! Utiliza a função \"rotate_ring()\" para rodar cada anel no sentido horário ou anti-horário para alinhar todas as cores!]A;]]></Val>
+          <Val><![CDATA[Agora é a tua oportunidade de capturar os Time Agents! Dirige-te para o centro da arena do boss e olha para baixo! Terás de alinhar os três anéis com as cores centrais da armadilha para a ativar! Utiliza a função "rotate_ring()" para rodar cada anel no sentido horário ou anti-horário para alinhar todas as cores!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `outer` ![Anel Exterior]5D;(img/outer_ring.png \"Anel Exterior\")]A;]]></Val>
+          <Val><![CDATA[- `outer` ![Anel Exterior]5D;(img/outer_ring.png "Anel Exterior")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `middle` ![Anel do Meio]5D;(img/middle_ring.png \"Anel do Meio\")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Anel do Meio]5D;(img/middle_ring.png "Anel do Meio")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `inner` ![Anel Interior]5D;(img/inner_ring.png \"Anel Interior\")]A;]]></Val>
+          <Val><![CDATA[- `inner` ![Anel Interior]5D;(img/inner_ring.png "Anel Interior")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

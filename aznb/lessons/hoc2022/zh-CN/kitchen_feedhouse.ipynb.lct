@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The house is hungry! And what better to feed it than apples, salmon, and mushroom stew! See if you could figure out how many of each ingredient the house requires. Use the `feed_house()` function to define what items you want to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[房屋饿了！还有什么比苹果、鲑鱼和蘑菇煲更适合喂饱它的呢！看看你能否弄清楚房屋需要每种成分各多少量。使用“feed_house()”函数来定义要提供给它的物品。]A;]]></Val>
+          <Val><![CDATA[房屋饿了！还有什么比苹果、鲑鱼和蘑菇煲更适合喂饱它的呢！看看你能否弄清楚房屋需要每种成分各多少量。使用"feed_house()”函数来定义要提供给它的物品。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `feed_house()` function takes one parameter that defines what item you're going to feed it.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“feed_house()”函数采用一个参数来定义要向其提供的物品。]A;]]></Val>
+          <Val><![CDATA["feed_house()”函数采用一个参数来定义要向其提供的物品。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “苹果”！[苹果]5D;(img/apple.png "苹果")]A;]]></Val>
+          <Val><![CDATA[- `apple` (苹果) ![苹果]5D;(img/apple.png "苹果")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mushroom stew` ![Mushroom Stew]5D;(img/mushroom_stew.png "Mushroom Strew")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “蘑菇煲”！[蘑菇煲]5D;(/mushroom_stew.png "蘑菇煲")]A;]]></Val>
+          <Val><![CDATA[- `mushroom stew` (蘑菇煲) ![蘑菇煲]5D;(/mushroom_stew.png "蘑菇煲")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `salmon` ![Salmon]5D;(img/salmon.png "Salmon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “鲑鱼”！[鲑鱼]5D;(img/salmon.png "鲑鱼")]A;]]></Val>
+          <Val><![CDATA[- `salmon` (鲑鱼) ![鲑鱼]5D;(img/salmon.png "鲑鱼")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

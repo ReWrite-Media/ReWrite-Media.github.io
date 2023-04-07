@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# Лабіринт глиняного м'яча]A;]]></Val>
+          <Val><![CDATA[# Лабіринт глиняної кульки]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -29,7 +29,7 @@
     <Item ItemId="0;cell_type:markdown:source#10" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `right`]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `right`]]></Val>
         </Tgt>
       </Str>
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Перемістіть глиняний куля в золоту брилу. Використовуйте функцію «clay_ball_move()» для навігації по м'ячу по лабіринту.]A;]]></Val>
+          <Val><![CDATA[Перемістіть глиняну кульку до золотого блоку. Використовуйте функцію 'clay_ball_move()', щоб переміщувати кульку по лабіринту.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `clay_ball_move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Функція «clay_ball_move()» приймає один параметр, який визначає, в якому напрямку вона повинна рухатися.]A;]]></Val>
+          <Val><![CDATA[Функція 'clay_ball_move()' має один параметр, який визначає, у якому напрямку рухатися.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -83,7 +83,7 @@
     <Item ItemId="0;cell_type:markdown:source#7" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `up`]A;]]></Val>
         </Tgt>
       </Str>
@@ -92,7 +92,7 @@
     <Item ItemId="0;cell_type:markdown:source#8" ItemType="1" PsrId="428" Leaf="true">
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
-        <Tgt Cat="Text" Orig="New">
+        <Tgt Cat="Text" Stat="Loc" Orig="New">
           <Val><![CDATA[- `down`]A;]]></Val>
         </Tgt>
       </Str>
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- left (ліворуч)]A;]]></Val>
+          <Val><![CDATA[- `left`]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="24" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[HOC 2022]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[HOC 2022]]></Val>
+          <Val><![CDATA[Година програмування 2022]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="25" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# перемістити глиняний куля вгору]A;]]></Val>
+          <Val><![CDATA[# перемістити глиняну кульку вгору]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# перемістити глиняний куля вгору]A;]]></Val>
+          <Val><![CDATA[# перемістити глиняну кульку вгору]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Navigate the clay ball through the maze to reach the gold block.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Проведіться по глиняній кулі по лабіринту, щоб дістатися до золотого блоку.]A;]]></Val>
+          <Val><![CDATA[Переміщуйте глиняну кульку лабіринтом, щоб дістатися до золотого блоку.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />
@@ -228,7 +228,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The below code is broken, can you fix it? Debug the code by running it to see what it does and then edit it so you get the desired result.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Наведений нижче код зламаний, чи можете ви це виправити? Відладьте код, запустивши його, щоб побачити, що він робить, а потім відредагуйте його, щоб отримати бажаний результат.]]></Val>
+          <Val><![CDATA[Наведений нижче код зламаний, чи можете ви його виправити? Полагодьте код, запустивши його, щоб побачити, як він працює, а потім відредагуйте його, щоб отримати бажаний результат.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="23" />

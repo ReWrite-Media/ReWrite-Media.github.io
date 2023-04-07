@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Πράσινο κανόνι")]]></Val>
+          <Val><![CDATA[- `green` (πράσινο) ![Green Cannon]5D;(img/green_cannon.png "Πράσινο κανόνι")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Μπλε κανόνι")]A;]]></Val>
+          <Val><![CDATA[- `blue` (μπλε) ![Blue Cannon]5D;(img/blue_cannon.png "Μπλε κανόνι")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Κίτρινο κανόνι")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (κίτρινο) ![Yellow Cannon]5D;(img/yellow_cannon.png "Κίτρινο κανόνι")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Ματζέντα κανόνι")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (φούξια) ![Magenta Cannon]5D;(img/magenta_cannon.png "Ματζέντα κανόνι")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

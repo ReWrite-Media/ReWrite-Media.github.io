@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `harvest_wheat()` ![Skliďte pšenici]5D;(img/bread_wheat.png „Skliďte pšenici“)]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (Skliďte pšenici) ![Skliďte pšenici]5D;(img/bread_wheat.png "Skliďte pšenici")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `bake_bread()` ![Bake Bread]5D;(img/bread_bake.png "Bake Bread")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bake_bread()` ![Upečte chléb]5D;(img/bread_bake.png „Upečte chléb“)]A;]]></Val>
+          <Val><![CDATA[- `bake_bread()` ![Upečte chléb]5D;(img/bread_bake.png "Upečte chléb")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="7" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `make_dough()` ![Udělejte těsto]5D;(img/bread_dough.png „Udělejte těsto“)]A;]]></Val>
+          <Val><![CDATA[- `make_dough()` ![Udělejte těsto]5D;(img/bread_dough.png "Udělejte těsto")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mill_wheat()` ![Umelte pšenici]5D;(img/bread_mill.png „Umelte pšenici“)]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (Umelte pšenici) ![Umelte pšenici]5D;(img/bread_mill.png "Umelte pšenici")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

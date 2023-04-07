@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `ydre`! [Yderring]5D;(img/outer_ring.png "Yderring")]A;]]></Val>
+          <Val><![CDATA[- `ydre` ![Yderring]5D;(img/outer_ring.png "Yderring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `midte` ![Midterring]5D;(img/middle_ring.png "Midterring")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Midterring]5D;(img/middle_ring.png "Midterring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

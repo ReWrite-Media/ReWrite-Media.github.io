@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 「時計回り」! [時計回り回転]5D; (img/clockwise_ring.png "Outer Ring")]A;]]></Val>
+          <Val><![CDATA[- `clockwise` (時計回り) ![時計回り回転]5D;(img/clockwise_ring.png "外輪")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 「反時計回り」! [反時計回り回転]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
+          <Val><![CDATA[- `counterclockwise` (反時計回り) ![反時計回り回転]5D;(img/counterclockwise_ring.png "反時計回り回転")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 「アウター」 ! [アウターリング]5D; (img/outer_ring.png "Outer Ring")]A;]]></Val>
+          <Val><![CDATA[- `outer` (外側) ![外輪]5D;(img/outer_ring.png "外輪")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 「ミドル」 ! [ミドルリング]5D; (img/middle_ring.png "Middle Ring")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![ミドルリング]5D; (img/middle_ring.png "Middle Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 「インナー」 ! [内輪]5D; (img/inner_ring.png "Inner Ring")]A;]]></Val>
+          <Val><![CDATA[- `inner` (内側) ![内輪]5D;(img/inner_ring.png "内輪")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'clockwise' ![Met de klok mee draaien]5D;(img/clockwise_ring.png 'Buitenste ring')]A;]]></Val>
+          <Val><![CDATA[- `clockwise` ![Met de klok mee draaien]5D;(img/clockwise_ring.png "Buitenste ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'counterclockwise' ![Draai tegen de klok in]5D;(img/counterclockwise_ring.png 'Draai tegen de klok in')]]></Val>
+          <Val><![CDATA[- `counterclockwise` ![Draai tegen de klok in]5D;(img/counterclockwise_ring.png "Draai tegen de klok in")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'outer' ![Buitenste Ring]5D;(img/outer_ring.png 'Buitenste ring')]A;]]></Val>
+          <Val><![CDATA[- `outer` ![Buitenste Ring]5D;(img/outer_ring.png "Buitenste ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'middle' ![Middelste ring]5D;(img/middle_ring.png 'Middelste ring')]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Middelste ring]5D;(img/middle_ring.png "Middelste ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'inner' ![Binnenste ring]5D;(img/inner_ring.png 'Binnenste ring')]A;]]></Val>
+          <Val><![CDATA[- `inner` ![Binnenste ring]5D;(img/inner_ring.png "Binnenste ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

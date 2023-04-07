@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` ! [Panah Magenta]5D; (img/magenta_arrow.png "Panah Magenta")]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Panah Magenta]5D; (img/magenta_arrow.png "Panah Magenta")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ! [Panah Kuning]5D; (img/yellow_arrow.png "Panah Kuning")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (kuning) ![Panah Kuning]5D; (img/yellow_arrow.png "Panah Kuning")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow` ![Yellow Block]5D;(img/yellow_block.png "Yellow Block")]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ! [Panah Biru]5D; (img/blue_arrow.png "Panah Biru")]A;]]></Val>
+          <Val><![CDATA[- `blue` (biru)  ![Panah Biru]5D; (img/blue_arrow.png "Panah Biru")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` ! [Panah Oranye]5D; (img/orange_arrow.png "Panah Oranye")]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Panah Oranye]5D;(img/orange_arrow.png "Panah Oranye")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green` ![Green Block]5D;(img/green_block.png "Green Block")]A;]]></Val>

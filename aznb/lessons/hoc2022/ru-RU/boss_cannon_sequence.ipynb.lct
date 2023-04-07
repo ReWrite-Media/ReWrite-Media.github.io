@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `green` ![Зеленая пушка]5D;(img/green_cannon.png "Зеленая пушка")]]></Val>
+          <Val><![CDATA[- `green` (зеленый) ![Зеленая пушка]5D;(img/green_cannon.png "Зеленая пушка")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `blue` ![Синяя пушка]5D;(img/blue_cannon.png "Синяя пушка")]A;]]></Val>
+          <Val><![CDATA[- `blue` (синий) ![Синяя пушка]5D;(img/blue_cannon.png "Синяя пушка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `yellow` ![Желтая пушка]5D;(img/yellow_cannon.png "Желтая пушка")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (желтый) ![Желтая пушка]5D;(img/yellow_cannon.png "Желтая пушка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `magenta` ![Пурпурная пушка]5D;(img/magenta_cannon.png "Пурпурная пушка")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (пурпурный) ![Пурпурная пушка]5D;(img/magenta_cannon.png "Пурпурная пушка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` ![Seta Magenta]5D;(img/magenta_arrow.png \"Seta Magenta\")]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Seta Magenta]5D;(img/magenta_arrow.png "Seta Magenta")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `magenta` ![Magenta Block]5D;(img/magenta_block.png "Magenta Block")]]></Val>
@@ -42,7 +42,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to add a specific amount of blocks to each of the hoppers. Maybe there is something in the room that can tell you how many? Use the `drop_block()` function to drop the correct amount of colored block into the pipes.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Terás de adicionar uma quantidade específica de blocos a cada um dos funis. Talvez haja algo na sala que te possa indicar quantos. Utiliza a função \"drop_block()\" para largar a quantidade correta de blocos coloridos nos canos.]A;]]></Val>
+          <Val><![CDATA[Terás de adicionar uma quantidade específica de blocos a cada um dos funis. Talvez haja algo na sala que te possa indicar quantos. Utiliza a função "drop_block()" para largar a quantidade correta de blocos coloridos nos canos.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -60,7 +60,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `drop_block()` function takes one paramaters (a string) that defines what color block should be dropped.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"drop_block()\" usa um parâmetro (uma cadeia) para definir a cor do bloco a largar.]A;]]></Val>
+          <Val><![CDATA[A função "drop_block()" usa um parâmetro (uma cadeia) para definir a cor do bloco a largar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Seta Amarela]5D;(img/yellow_arrow.png \"Seta Amarela\")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (amarelo) ![Seta Amarela]5D;(img/yellow_arrow.png "Seta Amarela")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow` ![Yellow Block]5D;(img/yellow_block.png "Yellow Block")]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Seta Azul]5D;(img/blue_arrow.png \"Seta Azul\")]A;]]></Val>
+          <Val><![CDATA[- `blue` (azul) ![Seta blue]5D;(img/blue_arrow.png "Seta blue")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue` ![Blue Block]5D;(img/blue_block.png "Blue Block")]A;]]></Val>

@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Μπλε λουλούδι")]A;]]></Val>
+          <Val><![CDATA[- `blue` (μπλε) ![Blue Flower]5D;(img/blue_flower.png "Μπλε λουλούδι")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Κίτρινο λουλούδι")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (κίτρινο) ![Yellow Flower]5D;(img/yellow_flower.png "Κίτρινο λουλούδι")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Κόκκινο λουλούδι") ]]></Val>
+          <Val><![CDATA[- `red` (κόκκινο) ![Red Flower]5D;(img/red_flower.png "Κόκκινο λουλούδι") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (μετακινεί τον δρομέα προς τα μπροστά) ![Orange Arrow]5D;(img/orange_arrow.png "Πορτοκαλί βέλος")]A;]]></Val>
+          <Val><![CDATA[- `orange` (μετακινεί τον δρομέα προς τα μπροστά) ![Orange Arrow]5D;(img/orange_arrow.png ''Πορτοκαλί βέλος'')]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向右”]A;]]></Val>
+          <Val><![CDATA[- `right`（向右）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向上”]A;]]></Val>
+          <Val><![CDATA[- `up`（向上）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[There's a lever! Move the Agent to the lever and then pull it down! Use `agent.move()` to position the Agent in front of the lever and then `pull_lever_down()` to flip the lever on.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[有一个拉杆！将代理机器人移动至拉杆，然后将其拉下！使用“agent.move()”将代理机器人移动至拉杆前，然后使用“pull_lever_down()”翻转拉杆。]A;]]></Val>
+          <Val><![CDATA[有一个拉杆！将代理机器人移动至拉杆，然后将其拉下！使用"agent.move()”将代理机器人移动至拉杆前，然后使用"pull_lever_down()”翻转拉杆。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“agent.move()”函数采用一个参数来定义其应该移动的方向。]A;]]></Val>
+          <Val><![CDATA["agent.move()”函数采用一个参数来定义其应该移动的方向。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向前”]A;]]></Val>
+          <Val><![CDATA[- `forward` (向前)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向后”]A;]]></Val>
+          <Val><![CDATA[- `back` (向后)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向左”]A;]]></Val>
+          <Val><![CDATA[- `left`（向左）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

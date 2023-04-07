@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `right` ![Vpravo]5D;(img/gray_right.png „Vpravo“)]A;]]></Val>
+          <Val><![CDATA[- `right` (vpravo) ![Vpravo]5D;(img/gray_right.png „Vpravo“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „vlevo“ ![Vlevo]5D;(img/gray_left.png „Vlevo“)]]></Val>
+          <Val><![CDATA[- `left` (vlevo) ![Vlevo]5D;(img/gray_left.png "Vlevo")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „zelená“ ![Zelená]5D;(img/green_right.png „Zelená“)]A;]]></Val>
+          <Val><![CDATA[- `green` (zelená) ![Zelená]5D;(img/green_right.png "Zelená")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žlutá“ ![Žlutá]5D;(img/yellow_right.png „Žlutá“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žlutá) ![Žlutá]5D;(img/yellow_right.png "Žlutá")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „červená“ ![Červená]5D;(img/red_right.png „Červená“)]A;]]></Val>
+          <Val><![CDATA[- `red` (červená) ![Červená]5D;(img/red_right.png "Červená")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

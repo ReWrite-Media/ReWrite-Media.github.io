@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚yellow‘ (bewegt den Cursor nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]]></Val>
+          <Val><![CDATA[- `yellow` (bewegt den Cursor nach rechts) ![Gelber Pfeil]5D;(img/yellow_arrow.png "Gelber Pfeil")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to get across the bridge, but the wind is too strong! You'll need to place blocks inside the holes where the wind is coming from to block it. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Du musst über die Brücke kommen, aber der Wind ist zu stark! Du musst Blöcke in den Löchern platzieren, aus denen der Wind kommt, um ihn zu blockieren. Verwende ‚move_cursor()‘, um den Cursor zu positionieren, und ‚place_block()‘, um einen Block an der von dir ausgewählten Position zu platzieren.]A;]]></Val>
+          <Val><![CDATA[Du musst über die Brücke kommen, aber der Wind ist zu stark! Du musst Blöcke in den Löchern platzieren, aus denen der Wind kommt, um ihn zu blockieren. Verwende `move_cursor()`, um den Cursor zu positionieren, und `place_block()`, um einen Block an der von dir ausgewählten Position zu platzieren.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚move_cursor()‘ benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die du dich bewegen willst.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `move_cursor()` benötigt einen Parameter, der die Richtung definiert. Dieser Parameter ist die Farbe des Pfeils, der die Richtung repräsentiert, in die du dich bewegen willst.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚orange‘ (bewegt den Cursor nach oben) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `orange` (bewegt den Cursor nach oben) ![Orangefarbener Pfeil]5D;(img/orange_arrow.png "Orangefarbener Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚magenta‘ (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (bewegt den Cursor nach unten) ![Magenta-Pfeil]5D;(img/magenta_arrow.png "Magenta-Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚blue‘ (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
+          <Val><![CDATA[- `blue` (bewegt den Cursor nach links) ![Blauer Pfeil]5D;(img/blue_arrow.png "Blauer Pfeil")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

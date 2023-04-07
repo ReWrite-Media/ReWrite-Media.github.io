@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黃色”(將游標向右移動)！[黃色箭頭]5D;(img/yellow_arrow.png“黃色箭頭”)]]></Val>
+          <Val><![CDATA[- `黃色”(將游標向右移動)！[黃色箭頭]5D;(img/yellow_arrow.png"黃色箭頭")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to break the blocks blocking the door so you can get out! Use `move_cursor()` to position the cursor and `break_block()` to break the block in the position you've selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[你必須破壞擋住門的障礙物方塊才能出去！使用“move_cursor()” 定位游標，和“break_block()”在選定的位置破壞方塊。]A;]]></Val>
+          <Val><![CDATA[你必須破壞擋住門的障礙物方塊才能出去！使用"move_cursor()” 定位游標，和"break_block()”在選定的位置破壞方塊。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “橙色”(將游標向上移動)！[橙色箭頭]5D;(img/orange_arrow.png“橙色箭頭”)]A;]]></Val>
+          <Val><![CDATA[- `orange` (將游標向上移動) ![橙色箭頭]5D;(img/orange_arrow.png "橙色箭頭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “洋紅色”(將游標向下移動)！[洋紅色箭頭]5D;(img/magenta_arrow.png“洋紅色箭頭”)]A;]]></Val>
+          <Val><![CDATA[- `洋紅色”(將游標向下移動)！[洋紅色箭頭]5D;(img/magenta_arrow.png"洋紅色箭頭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “藍色”(將游標向左移動)！[藍色箭頭]5D;(img/blue_arrow.png “藍色箭頭”)]A;]]></Val>
+          <Val><![CDATA[- `藍色”(將游標向左移動)！[藍色箭頭]5D;(img/blue_arrow.png "藍色箭頭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The Enderman Butler needs your direction to get across the river! Please direct them to use their magic to teleport to the diamond block, then have them move into position to pull the lever to let down the drawbridge! Use the `teleport_enderman_to_diamond()` function to get the Enderman across the river, then use `move_enderman_forward()` function to position the Enderman in front of the lever and `pull_lever_down()` to pull the lever. The Enderman Butler will automatically turn to face the lever when it's in the correct position! ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[末影人管家需要你的指引才能过河！请指示他们使用自身的魔法传送到钻石块，然后让他们移动到位以拉动拉杠以放下吊桥！使用“teleport_enderman_to_diamond()”函数让末影人过河，然后使用“move_enderman_forward()”函数将末影人定位在拉杆前面，使用“pull_lever_down()”函数拉动拉杆。末影人管家会在拉杆处于正确位置时自动转向面对杠杆！ ]]></Val>
+          <Val><![CDATA[末影人管家需要你的指引才能过河！请指示他们使用自身的魔法传送到钻石块，然后让他们移动到位以拉动拉杠以放下吊桥！使用"teleport_enderman_to_diamond()”函数让末影人过河，然后使用"move_enderman_forward()”函数将末影人定位在拉杆前面，使用"pull_lever_down()”函数拉动拉杆。末影人管家会在拉杆处于正确位置时自动转向面对杠杆！ ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

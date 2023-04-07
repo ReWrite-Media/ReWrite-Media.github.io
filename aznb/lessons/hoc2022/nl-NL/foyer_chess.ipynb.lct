@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' (plaatst het schaakstuk naar voren) ![Oranje pijl]5D; (img/orange_arrow.png 'Oranje pijl')]A;]]></Val>
+          <Val><![CDATA[- `orange` (plaatst het schaakstuk naar voren) ![Oranje pijl]5D; (img/orange_arrow.png 'Oranje pijl')]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the chess piece back) ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' (plaatst het schaakstuk terug) ![Magenta pijl]5D; (img/magenta_arrow.png 'Magenta pijl')]A;]]></Val>
+          <Val><![CDATA[- `magenta` (plaatst het schaakstuk terug) ![Magenta pijl]5D; (img/magenta_arrow.png "Magenta pijl")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the chess piece left) ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blue' (verplaatst het schaakstuk naar links) ![Blauwe pijl]5D; (img/blue_arrow.png 'Blauwe pijl')]A;]]></Val>
+          <Val><![CDATA[- `blue` (verplaatst het schaakstuk naar links) ![Blauwe pijl]5D; (img/blue_arrow.png "Blauwe pijl")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the chess piece right) ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'yellow' (verplaatst het schaakstuk naar rechts) ![Gele pijl]5D;(img/yellow_arrow.png 'Gele pijl')]A;]]></Val>
+          <Val><![CDATA[- `yellow` (verplaatst het schaakstuk naar rechts) ![Gele pijl]5D;(img/yellow_arrow.png "Gele pijl")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="15" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'king' ![Koning]5D;(img/king_icon.png 'Koning')]A;]]></Val>
+          <Val><![CDATA[- `king` (Koning) ![Koning]5D;(img/king_icon.png "Koning")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'queen' ![Koningin]5D; (img/queen_icon.png 'Koningin')]A;]]></Val>
+          <Val><![CDATA[- `queen` (Koningin) ![Koningin]5D; (img/queen_icon.png "Koningin")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

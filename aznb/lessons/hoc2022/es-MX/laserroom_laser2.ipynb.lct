@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «derecha» ![Derecha]5D; (img/gray_right.png «Derecha»)]A;]]></Val>
+          <Val><![CDATA[- `derecha` ![Derecha]5D;(img/gray_right.png "Derecha")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «izquierda» ![Izquierda]5D;(img/gray_left.png «Izquierda»)]]></Val>
+          <Val><![CDATA[- `izquierda` ![Izquierda]5D;(img/gray_left.png "Izquierda")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the rows of yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[¡Los bloques macizos detienen el láser! Cambia las filas de bloques amarillos y verdes para que el láser atraviese los bloques de cristal y encienda la luz al otro lado. Utiliza la función «shift_row()» para desplazar las filas hacia la izquierda o hacia la derecha y permitir así que el láser se abra paso a través de los bloques de cristal.]A;]]></Val>
+          <Val><![CDATA[¡Los bloques macizos detienen el láser! Cambia las filas de bloques amarillos y verdes para que el láser atraviese los bloques de cristal y encienda la luz al otro lado. Utiliza la función "shift_row()" para desplazar las filas hacia la izquierda o hacia la derecha y permitir así que el láser se abra paso a través de los bloques de cristal.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[La función «shift_row()» usa dos parámetros (cadenas). El primero define qué fila de color quieres desplazar, y el segundo define la dirección en la que debe desplazarse.]A;]]></Val>
+          <Val><![CDATA[La función "shift_row()" usa dos parámetros (cadenas). El primero define qué fila de color quieres desplazar, y el segundo define la dirección en la que debe desplazarse.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «verde» ![Verde]5D; (img/green_right.png «Verde»)]A;]]></Val>
+          <Val><![CDATA[- `verde` ![Verde]5D;(img/green_right.png "Verde")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- «amarillo» ![Amarillo]5D; (img/yellow_right.png «Amarillo»)]A;]]></Val>
+          <Val><![CDATA[- `amarillo` ![Amarillo]5D; (img/yellow_right.png "Amarillo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

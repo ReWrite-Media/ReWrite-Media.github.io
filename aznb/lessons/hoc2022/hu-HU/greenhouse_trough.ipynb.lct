@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Oh no! Holes in the canal stop the water from flowing into the garden! Fill those holes to help the water along! Use the `move_cursor()` function to position the cursor over a hole, and then `place_block()` to fill it in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Ó, nem! A csatornán lévő lyukak miatt a víz nem folyik be a kertbe! Tömd be azokat a lyukakat, hogy a víz a megfelelő helyre jusson! A „move_cursor()” függvénnyel vidd a kurzort egy lyuk fölé, majd a „place_block()” függvénnyel tömd be.]A;]]></Val>
+          <Val><![CDATA[Ó, nem! A csatornán lévő lyukak miatt a víz nem folyik be a kertbe! Tömd be azokat a lyukakat, hogy a víz a megfelelő helyre jusson! A "move_cursor()” függvénnyel vidd a kurzort egy lyuk fölé, majd a "place_block()” függvénnyel tömd be.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

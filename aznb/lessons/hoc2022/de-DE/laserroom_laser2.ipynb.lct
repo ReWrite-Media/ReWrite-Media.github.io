@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚right‘ ![Rechts]5D;(img/gray_right.png "Rechts")]A;]]></Val>
+          <Val><![CDATA[- `right` (rechts) ![Rechts]5D;(img/gray_right.png "Rechts")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚left‘ ![Links]5D;(img/gray_left.png "Links")]]></Val>
+          <Val><![CDATA[- `left` (links) ![Links]5D;(img/gray_left.png "Links")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Die Funktion ‚shift_row()‘ akzeptiert zwei Parameter (Strings). Der erste Parameter definiert, welche Farbzeile du verschieben möchtest, und der zweite Parameter definiert die Richtung, in die sich die Zeile verschieben soll.]A;]]></Val>
+          <Val><![CDATA[Die Funktion `shift_row()` akzeptiert zwei Parameter (Strings). Der erste Parameter definiert, welche Farbzeile du verschieben möchtest, und der zweite Parameter definiert die Richtung, in die sich die Zeile verschieben soll.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚green‘ ![Grün]5D;(img/green_right.png "Grün")]A;]]></Val>
+          <Val><![CDATA[- `green` (grün) ![Grün]5D;(img/green_right.png "Grün")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚yellow‘ ![Gelb]5D;(img/yellow_right.png "Gelb")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (gelb) ![Gelb]5D;(img/yellow_right.png "Gelb")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

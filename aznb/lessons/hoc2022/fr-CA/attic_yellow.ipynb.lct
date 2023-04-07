@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `jaune` (déplace le curseur vers la droite) ![Flèche jaune]5D;(img/yellow_arrow.png "Flèche jaune")]]></Val>
+          <Val><![CDATA[- `jaune` (déplace le curseur vers la droite) ![Flèche jaune]5D;(img/yellow_arrow.png « Flèche jaune »)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (déplace le curseur vers l'avant) ![Flèche orange]5D;(img/orange_arrow.png "Flèche orange")]A;]]></Val>
+          <Val><![CDATA[- `orange` (déplace le curseur vers l’avant) ![Flèche orange]5D;(img/orange_arrow.png « Flèche orange »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (déplace le curseur vers l’arrière) ![Flèche magenta]5D;(img/magenta_arrow.png "Flèche magenta")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (déplace le curseur vers l’arrière) ![Flèche magenta]5D;(img/magenta_arrow.png « Flèche magenta »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `bleu` (déplace le curseur vers la gauche) ![Flèche bleue]5D;(img/blue_arrow.png "Flèche bleue")]A;]]></Val>
+          <Val><![CDATA[- `bleu` (déplace le curseur vers la gauche) ![Flèche bleue]5D;(img/blue_arrow.png « Flèche bleue »)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

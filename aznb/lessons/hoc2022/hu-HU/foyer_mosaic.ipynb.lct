@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Green Right]5D;(img/chess_green_right.png "Green Right")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `right` ![Green Right]5D;(img/chess_green_right.png "Green Right")]]></Val>
+          <Val><![CDATA[- „right” ![Zöld jobbra]5D;(img/chess_green_right.png "Zöld jobbra")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[It looks like these pieces are a part of an incomplete picture! Try reordering them to see what it's supposed to be! Use the `push_pieces()` function to trigger the pistons to move the pieces in that direction. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Úgy tűnik, hogy ezek a darabok egy hiányos kép részei! Próbáld meg átrendezni őket, hogy lásd, mit ábrázol! A „push_pieces()” függvénnyel indítsd el a dugattyúkat, hogy a darabokat az adott irányba tolják.]A;]]></Val>
+          <Val><![CDATA[Úgy tűnik, hogy ezek a darabok egy hiányos kép részei! Próbáld meg átrendezni őket, hogy lásd, mit ábrázol! A "push_pieces()” függvénnyel indítsd el a dugattyúkat, hogy a darabokat az adott irányba tolják.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `push_pieces()` function takes one parameter, the direction you want to push the pieces.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „push_pieces()” függvény egy paramétert igényel, azt az irányt, amerre a darabokat szeretnéd eltolni.]A;]]></Val>
+          <Val><![CDATA[A "push_pieces()” függvény egy paramétert igényel, azt az irányt, amerre a darabokat szeretnéd eltolni.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `down` ![Red Down]5D;(img/chess_red_down.png "Red Down")]A;]]></Val>
+          <Val><![CDATA[- „down” ![Vörös le]5D;(img/chess_red_down.png "Vörös le")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left` ![Yellow Left]5D;(img/chess_yellow_left.png "Yellow Left")]A;]]></Val>
+          <Val><![CDATA[- „left” ![Sárga balra]5D;(img/chess_yellow_left.png "Sárga balra")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

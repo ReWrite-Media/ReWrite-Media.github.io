@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left` ![Esquerda]5D;(img/gray_left.png \"Esquerda\")]]></Val>
+          <Val><![CDATA[- `left` (esquerda) ![Esquerda]5D;(img/gray_left.png "Esquerda")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Solid blocks stop the laser! Shift the row of red, yellow and green blocks to make the laser pass through the glass blocks and turn on the light on the other side. Use the `shift_row()` function to shift the rows either left or right to enable the laser to pass through the glass blocks.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Os blocos sólidos param o laser! Desloca a linha de blocos vermelhos, amarelos e verdes para fazer o laser passar pelos blocos de vidro e acender a luz do outro lado. Utiliza a função \"shift_row()\" para deslocar as linhas para a esquerda ou direita de modo a permitir que o laser passe pelos blocos de vidro.]A;]]></Val>
+          <Val><![CDATA[Os blocos sólidos param o laser! Desloca a linha de blocos vermelhos, amarelos e verdes para fazer o laser passar pelos blocos de vidro e acender a luz do outro lado. Utiliza a função "shift_row()" para deslocar as linhas para a esquerda ou direita de modo a permitir que o laser passe pelos blocos de vidro.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `shift_row()` function takes two parameters (strings). The first parameter defines which color row you want to shift, and the second parameter defines the direction the row should shift.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"shift_row()\" usa dois parâmetros (cadeias). O primeiro parâmetro define, através da cor, que linha queres deslocar. O segundo parâmetro define a direção em que a linha se deve deslocar.]A;]]></Val>
+          <Val><![CDATA[A função "shift_row()" usa dois parâmetros (cadeias). O primeiro parâmetro define, através da cor, que linha queres deslocar. O segundo parâmetro define a direção em que a linha se deve deslocar.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Verde]5D;(img/green_glazed.png \"Verde\")]A;]]></Val>
+          <Val><![CDATA[- `green` (verde) ![Verde]5D;(img/green_glazed.png "Verde")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![Amarelo]5D;(img/yellow_right.png \"Amarelo\")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (amarelo) ![Amarelo]5D;(img/yellow_right.png "Amarelo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![Vermelho]5D;(img/red_right.png \"Vermelho\")]A;]]></Val>
+          <Val><![CDATA[- `red` (vermelho) ![Vermelho]5D;(img/red_right.png "Vermelho")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

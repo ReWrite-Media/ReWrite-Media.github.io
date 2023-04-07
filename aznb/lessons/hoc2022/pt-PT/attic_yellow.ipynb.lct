@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` (move o cursor para a direita) ![Seta Amarela]5D;(img/yellow_arrow.png \"Seta Amarela\")]]></Val>
+          <Val><![CDATA[- `yellow` (move o cursor para a direita) ![Seta Amarela]5D;(img/yellow_arrow.png "Seta Amarela")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Tens de dar mais energia ao Agent para abrir a porta Amarela! Há alçapões por cima do Agent que impedem a luz da Lua de entrar. Talvez possas usá-los para dar energia ao Agent. Utiliza a função \"move_cursor()\" para posicionar o cursor e depois \"open_trapdoor()\" para abrir o alçapão selecionado.]A;]]></Val>
+          <Val><![CDATA[Tens de dar mais energia ao Agent para abrir a porta Amarela! Há alçapões por cima do Agent que impedem a luz da Lua de entrar. Talvez possas usá-los para dar energia ao Agent. Utiliza a função "move_cursor()" para posicionar o cursor e depois "open_trapdoor()" para abrir o alçapão selecionado.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"move_cursor()\" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
+          <Val><![CDATA[A função "move_cursor()" usa um parâmetro para definir a sua direção. Este parâmetro é a cor da seta que representa a direção pretendida.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (move o cursor para a frente) ![Seta Laranja]5D;(img/orange_arrow.png \"Seta Laranja\")]A;]]></Val>
+          <Val><![CDATA[- `orange` (move o cursor para a frente) ![Seta Laranja]5D;(img/orange_arrow.png "Seta Laranja")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (move o cursor para trás) ![Seta Magenta]5D;(img/magenta_arrow.png \"Seta Magenta\")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (move o cursor para trás) ![Seta Magenta]5D;(img/magenta_arrow.png "Seta Magenta")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` (move o cursor para a esquerda) ![Seta Azul]5D;(img/blue_arrow.png \"Seta Azul\")]A;]]></Val>
+          <Val><![CDATA[- `blue` (move o cursor para a esquerda) ![Seta Azul]5D;(img/blue_arrow.png "Seta Azul")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Woah, legs, no more rolling over for this golem! We need to help it safely navigate to the emerald block. When the golem moves onto the pressure plate, the block it needs retracts for a moment. If we wait, it seems to come back! Use the `move_golem_forward()` function to move the golem and the `wait()` function to make it wait for the block to come back!]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[哇，双腿，不要再为这个傀儡打滚了！我们需要帮助它安全地引导到绿宝石方块。当傀儡移动到压力板上时，它需要的方块会缩回片刻。我们稍等一下，它就又回到原位了！使用“move_golem_forward()”函数移动傀儡，然后使用“wait()”函数等待块归位！]]></Val>
+          <Val><![CDATA[哇，双腿，不要再为这个傀儡打滚了！我们需要帮助它安全地引导到绿宝石方块。当傀儡移动到压力板上时，它需要的方块会缩回片刻。我们稍等一下，它就又回到原位了！使用"move_golem_forward()”函数移动傀儡，然后使用"wait()”函数等待块归位！]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />

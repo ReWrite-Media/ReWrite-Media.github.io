@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Flower]5D;(img/blue_flower.png "Blue Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` ![青い花]5D;(img/blue_flower.png "青い花")]A;]]></Val>
+          <Val><![CDATA[- `blue` (青) ![青い花]5D;(img/blue_flower.png "青い花")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="16" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Flower]5D;(img/yellow_flower.png "Yellow Flower") ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` ![黄色い花]5D;(img/yellow_flower.png "黄色い花")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (黄色) ![黄色い花]5D;(img/yellow_flower.png "黄色い花")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red Flower]5D;(img/red_flower.png "Red Flower") ]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `red` ![赤い花]5D;(img/red_flower.png "赤い花") ]]></Val>
+          <Val><![CDATA[- `red` (赤) ![赤い花]5D;(img/red_flower.png "赤い花") ]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />
@@ -147,7 +147,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (カーソルを前方に移動)![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
+          <Val><![CDATA[- `orange` (オレンジ) (カーソルを前方に移動) ![オレンジ矢印]5D;(img/orange_arrow.png "オレンジ矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -165,7 +165,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blue'(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "青矢印")]A;]]></Val>
+          <Val><![CDATA[- `blue`(カーソルを左に移動)![青矢印]5D;(img/blue_arrow.png "青矢印")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

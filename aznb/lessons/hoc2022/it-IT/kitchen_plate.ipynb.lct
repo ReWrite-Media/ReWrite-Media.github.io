@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` ![Freccia magenta]5D;(img/magenta_freccia.png "Freccia magenta")]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Freccia magenta]5D;(img/magenta_freccia.png "Freccia magenta")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `red`]]></Val>
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `arancione` ![Freccia arancione]5D; (img/orange_arrow.png "Freccia arancione")]A;]]></Val>
+          <Val><![CDATA[- 'arancione' ![Freccia arancione]5D;(img/orange_arrow.png "Freccia arancione")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green`]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blu` ![Freccia blu]5D; (img/blue_arrow.png "Freccia blu")]A;]]></Val>
+          <Val><![CDATA[- `blue` (blu) ![Freccia blu]5D; (img/blue_arrow.png "Freccia blu")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue`]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `giallo` ![Freccia gialla]5D;(img/yellow_arrow.png "Freccia gialla")]A;]]></Val>
+          <Val><![CDATA[- `yellow` (giallo) ![Freccia gialla]5D;(img/yellow_arrow.png "Freccia gialla")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow`]A;]]></Val>

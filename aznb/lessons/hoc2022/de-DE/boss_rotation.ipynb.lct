@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- ‚im Uhrzeigersinn‘! [Drehung im Uhrzeigersinn]5D;(img/clockwise_ring.png "Äußerer Ring")]A;]]></Val>
+          <Val><![CDATA[- `im Uhrzeigersinn` ![Drehung im Uhrzeigersinn]5D;(img/clockwise_ring.png "Äußerer Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `middle` ![Mittlerer Ring]5D;(img/middle_ring.png "Mittlerer Ring")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Mittlerer Ring]5D;(img/middle_ring.png "Mittlerer Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

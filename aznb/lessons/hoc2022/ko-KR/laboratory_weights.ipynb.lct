@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `chicken` ![Chicken]5D;(img/chicken_weight.png "Chicken")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `닭` ![닭]5D;(img/chicken_weight.png "닭")]A;]]></Val>
+          <Val><![CDATA[- `chicken` (닭) ![닭]5D;(img/chicken_weight.png "닭")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `sheep` ![Sheep]5D;(img/sheep_weight.png "Sheep")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '양'! [양]5D; (img/sheep_weight.png "양")]A;]]></Val>
+          <Val><![CDATA[- `sheep` (양) ![양]5D; (img/sheep_weight.png "양")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `cow` ![Cow]5D;(img/cow_weight.png "Cow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- '소'! [소]5D; (img/cow_weight.png "소")]]></Val>
+          <Val><![CDATA[- `cow` (소) ![소]5D; (img/cow_weight.png "소")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

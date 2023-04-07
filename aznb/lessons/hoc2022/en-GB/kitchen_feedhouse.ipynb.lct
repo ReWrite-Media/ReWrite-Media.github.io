@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `apple` ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
+          <Val><![CDATA[- `apple` (apple) ![Apple]5D;(img/apple.png "Apple")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />

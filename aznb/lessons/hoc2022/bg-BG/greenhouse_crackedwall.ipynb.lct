@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (придвижва курсора нагоре) ![Orange Arrow]5D;(img/orange_arrow.png "Оранжева стрелка")]A;]]></Val>
+          <Val><![CDATA[- `orange` (oранжева) (придвижва курсора нагоре) ![Orange Arrow]5D;(img/orange_arrow.png "Оранжева стрелка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (придвижва курсора надолу) ![Magenta Arrow]5D;(img/magenta_arrow.png "Стрелка в магента")]A;]]></Val>
+          <Val><![CDATA[- `magenta` (магента) (придвижва курсора надолу) ![Magenta Arrow]5D;(img/magenta_arrow.png "Стрелка в магента")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` (придвижва курсора наляво) ![Blue Arrow]5D;(img/blue_arrow.png "Синя стрелка")]A;]]></Val>
+          <Val><![CDATA[- `blue` ()Синя(придвижва курсора наляво) ![Blue Arrow]5D;(img/blue_arrow.png "Синя стрелка")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -183,7 +183,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use a `for` loop to do one or more actions multiple times.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Използвайте цикъл с „for“, за да извършите едно или повече действия няколко пъти.]]></Val>
+          <Val><![CDATA[Използвайте цикъл с "for", за да извършите едно или повече действия няколко пъти.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="18" />

@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'magenta' ![Magenta pijl]5D;(img/magenta_arrow.png 'Magenta pijl')]]></Val>
+          <Val><![CDATA[- `magenta` (magenta) ![Magenta pijl]5D;(img/magenta_arrow.png "Magenta pijl")]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `red`]]></Val>
@@ -87,7 +87,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'orange' ![Oranje pijl]5D;(img/orange_arrow.png 'Oranje pijl')]A;]]></Val>
+          <Val><![CDATA[- `orange` ![Oranje pijl]5D;(img/orange_arrow.png 'Oranje pijl')]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `green`]A;]]></Val>
@@ -99,7 +99,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'blue' ![Blauwe pijl]5D;(img/blue_arrow.png 'Blauwe pijl')]A;]]></Val>
+          <Val><![CDATA[- `blue` (blauw) ![Blauwe pijl]5D;(img/blue_arrow.png "Blauwe pijl")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `blue`]A;]]></Val>
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'yellow' ![Gele pijl]5D;(img/yellow_arrow.png 'Gele pijl')]A;]]></Val>
+          <Val><![CDATA[- `yellow` (geel) ![Gele pijl]5D;(img/yellow_arrow.png "Gele pijl")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `yellow`]A;]]></Val>

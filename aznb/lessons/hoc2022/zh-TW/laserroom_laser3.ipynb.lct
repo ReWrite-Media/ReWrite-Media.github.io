@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “右“！[右]5D;(img/gray_right.png “右“)]A;]]></Val>
+          <Val><![CDATA[- `right` ![右]5D;(img/gray_right.png "右")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left` ![Left]5D;(img/gray_left.png "Left")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left`！[左]5D;(img/gray_left.png「左」)]]></Val>
+          <Val><![CDATA[- `left` ![左]5D;(img/gray_left.png "左")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “綠色“！[綠色]5D;(img/green_right.png “綠色“)]A;]]></Val>
+          <Val><![CDATA[- `green` (紅色) ![綠色]5D;(img/green_right.png "綠色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow]5D;(img/yellow_right.png "Yellow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黃色“！[黃色]5D;(img/yellow_right.png “黃色“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (黃色) ![黃色]5D;(img/yellow_right.png "黃色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `red` ![Red]5D;(img/red_right.png "Red")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “紅色”！[紅色]5D;(img/red_right.png“紅色”)]A;]]></Val>
+          <Val><![CDATA[- `red` (紅色) ![紅色]5D;(img/red_right.png"紅色")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

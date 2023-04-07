@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Direct the Enderman Butler to the emerald blocks on the other side of the maze! The levers on the wall seem to have a color that matches a set of doorways in the maze. You should flip these levers to create a safe path to direct the Enderman Butler through to the emerald blocks! Then use the `move_enderman_direction()` function to help navigate them through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[将末影人管家引向迷宫另一边的绿宝石方块！墙上的拉杆好像有一种颜色与迷宫中的一组门道相匹配。你应该翻动这些拉杆，创造一条安全的路径，引导末影人管家抵达绿宝石方块！使用“move_enderman_direction()”函数来为它们提供导航，帮它们通过迷宫。]A;]]></Val>
+          <Val><![CDATA[将末影人管家引向迷宫另一边的绿宝石方块！墙上的拉杆好像有一种颜色与迷宫中的一组门道相匹配。你应该翻动这些拉杆，创造一条安全的路径，引导末影人管家抵达绿宝石方块！使用"move_enderman_direction()”函数来为它们提供导航，帮它们通过迷宫。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_enderman_direction()` function takes one parameter that defines which direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“move_enderman_direction()”函数采用一个参数来定义它应该在哪个方向移动。]A;]]></Val>
+          <Val><![CDATA["move_enderman_direction()”函数采用一个参数来定义它应该在哪个方向移动。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向前”]A;]]></Val>
+          <Val><![CDATA[- `forward` (向前)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向后”]A;]]></Val>
+          <Val><![CDATA[- `back` (向后)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向左”]A;]]></Val>
+          <Val><![CDATA[- `left`（向左）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

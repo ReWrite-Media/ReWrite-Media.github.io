@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green Cannon]5D;(img/green_cannon.png "Green Cannon")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „zelená“ ![Zelené dělo]5D;(img/green_cannon.png „Zelené dělo“)❶]]></Val>
+          <Val><![CDATA[- `green` (zelená) ![Zelené dělo]5D;(img/green_cannon.png "Zelené dělo")❶]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` ![Blue Cannon]5D;(img/blue_cannon.png "Blue Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ ![Modré dělo]5D;(img/blue_cannon.png „Modré dělo“)]A;]]></Val>
+          <Val><![CDATA[- `blue` (modrá) ![Modré dělo]5D;(img/blue_cannon.png "Modré dělo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` ![Yellow Cannon]5D;(img/yellow_cannon.png "Yellow Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žlutá“ ![Žluté dělo]5D;(img/yellow_cannon.png „Žluté dělo“)]A;]]></Val>
+          <Val><![CDATA[- `yellow` (žlutá) ![Žluté dělo]5D;(img/yellow_cannon.png "Žluté dělo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` ![Magenta Cannon]5D;(img/magenta_cannon.png "Magenta Cannon")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ ![Purpurové dělo]5D;(img/magenta_cannon.png „Purpurové dělo“)]A;]]></Val>
+          <Val><![CDATA[- `magenta` (purpurová) ![Purpurové dělo]5D;(img/magenta_cannon.png "Purpurové dělo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

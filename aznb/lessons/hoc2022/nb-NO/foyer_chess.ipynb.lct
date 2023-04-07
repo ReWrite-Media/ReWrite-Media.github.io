@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the chess piece forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– 'oransje' (flytter sjakkbrikken fremover) ![Oransje pil]5D; (img/orange_arrow.png "Oransje pil")]A;]]></Val>
+          <Val><![CDATA[– 'oransje' (flytter sjakkbrikken fremover) ![Oransje pil]5D; (img/orange_arrow.png «Oransje pil»)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[– 'konge' ![Konge]5D;(img/king_icon.png "Konge")]A;]]></Val>
+          <Val><![CDATA[- `king` (Konge) ![Konge]5D;(img/king_icon.png "Konge")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- 'dronning' ![Dronning]5D; (img/queen_icon.png "Dronning")]A;]]></Val>
+          <Val><![CDATA[- `queen` (Dronning) ![Dronning]5D; (img/queen_icon.png "Dronning")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

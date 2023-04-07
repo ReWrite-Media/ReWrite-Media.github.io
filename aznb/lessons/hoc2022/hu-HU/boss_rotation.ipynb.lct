@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Itt a lehetőség, hogy elkapd az időügynököket! Menj a főellenség-aréna közepére, és nézz lefelé! A csapda aktiválásához mind a 3 gyűrűt össze kell hangolnod a csapda középső színeivel! Használd a „rotate_ring()” függvényt, hogy elforgasd az egyes gyűrűket az óramutató járásával megegyezően vagy ellentétesen, és összehangold a színeket!]A;]]></Val>
+          <Val><![CDATA[Itt a lehetőség, hogy elkapd az időügynököket! Menj a főellenség-aréna közepére, és nézz lefelé! A csapda aktiválásához mind a 3 gyűrűt össze kell hangolnod a csapda középső színeivel! Használd a "rotate_ring()” függvényt, hogy elforgasd az egyes gyűrűket az óramutató járásával megegyezően vagy ellentétesen, és összehangold a színeket!]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „rotate_ring()” függvény két paramétert fogad. Az első megadja, hogy melyik gyűrűt forgassa, a második pedig azt, hogy milyen irányban.]A;]]></Val>
+          <Val><![CDATA[A "rotate_ring()” függvény két paramétert fogad. Az első megadja, hogy melyik gyűrűt forgassa, a második pedig azt, hogy milyen irányban.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

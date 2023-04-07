@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “黄色”（向右移动光标）！[黄色箭头]5D;(img/yellow_arrow.png "黄色箭头")]]></Val>
+          <Val><![CDATA[- `黄色”（向右移动光标）！[黄色箭头]5D;(img/yellow_arrow.png "黄色箭头")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to open the door by powering all of the lights! Each light you turn on will open the door just a little more. Use the `move_cursor()` function to position the cursor over a light, then use the `turn_light_on()` function to turn on all the lights to open the door! ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[你需要打开所有的灯来打开门！你每打开一盏灯，门就会开大一点。使用“move_cursor()”函数将光标定位在灯上，然后使用“turn_light_on()”函数打开所有灯以打开门！]A;]]></Val>
+          <Val><![CDATA[你需要打开所有的灯来打开门！你每打开一盏灯，门就会开大一点。使用"move_cursor()”函数将光标定位在灯上，然后使用"turn_light_on()”函数打开所有灯以打开门！]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“move_cursor()”函数采用一个定义其方向的参数。该参数即箭头的颜色，表示要移动的方向]A;]]></Val>
+          <Val><![CDATA["move_cursor()”函数采用一个定义其方向的参数。该参数即箭头的颜色，表示要移动的方向]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “橙色”（向上移动光标）！[橙色箭头]5D;(img/orange_arrow.png "橙色箭头")]A;]]></Val>
+          <Val><![CDATA[-“橙色”（向上移动光标）！[橙色箭头]5D;（img/orange_arrow.png "橙色箭头"）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “品红色”（向下移动光标）！[品红色箭头]5D;(img/magenta_arrow.png "品红色箭头")]A;]]></Val>
+          <Val><![CDATA[- `品红色”（向下移动光标）！[品红色箭头]5D;(img/magenta_arrow.png "品红色箭头")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “蓝色”（向左移动光标）！[蓝色箭头]5D;(img/blue_arrow.png "蓝色箭头")]A;]]></Val>
+          <Val><![CDATA[- `蓝色”（向左移动光标）！[蓝色箭头]5D;(img/blue_arrow.png "蓝色箭头")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

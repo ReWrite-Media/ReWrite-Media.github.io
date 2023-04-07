@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You need to get across the bridge, but the wind is too strong! You'll need to place blocks inside the holes where the wind is coming from to block it. Use `move_cursor()` to position the cursor and `place_block()` to place a block in the position you have selected.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Át kell jutnod a hídon, de a szél túl erős! Helyezz el blokkokat a lyukakba, ahonnan a szél befúj, hogy elzárd a nyílásokat. A „move_cursor()” függvénnyel vidd oda a kurzort, a „place_block()” függvénnyel pedig tedd a blokkot a kiválasztott helyre.]A;]]></Val>
+          <Val><![CDATA[Át kell jutnod a hídon, de a szél túl erős! Helyezz el blokkokat a lyukakba, ahonnan a szél befúj, hogy elzárd a nyílásokat. A "move_cursor()” függvénnyel vidd oda a kurzort, a "place_block()” függvénnyel pedig tedd a blokkot a kiválasztott helyre.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A „move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
+          <Val><![CDATA[A "move_cursor()” függvény egy paramétert fogad, amely meghatározza az irányt. Ez a paraméter annak a nyílnak a színe, amely a mozgatás kívánt irányát jelöli.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />

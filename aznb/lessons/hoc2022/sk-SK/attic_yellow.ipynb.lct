@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žltá“ (posunie kurzor doprava) ! [Žltý šíp]5D; (img/yellow_arrow.png „Žltý šíp“)]]></Val>
+          <Val><![CDATA[- `žltá` (posunie kurzor doprava)  ![Žltý šíp]5D; (img/yellow_arrow.png "Žltý šíp")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Budete musieť získať agenta viac energie na otvorenie žltých dverí! Nad agentom sú padacie dvierka, ktoré blokujú príchod mesačného svitu. Možno by ste to mohli použiť na nabíjanie agenta? Pomocou funkcie "move_cursor()" umiestnite kurzor a potom "open_trapdoor()" otvorte vybraté trapdoor.]A;]]></Val>
+          <Val><![CDATA[Budete musieť získať viac energie pre agenta na otvorenie žltých dverí. Nad agentom sú padacie dvere, ktoré blokujú mesačný svit. Možno by ste to mohli použiť na nabitie agenta? Pomocou funkcie "pohnúť_kurzor()" umiestnite kurzor a následne pomocou "otvoriť_padacie_dvere()" otvorte vybraté padacie dvere.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posúva kurzor dopredu) ![Oranžový šíp]5D;(img/orange_arrow.png „Oranžový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `oranžová` (posunie kurzor dopredu) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ (presunie kurzor späť) ! [Purpurový šíp]5D; (img/magenta_arrow.png „Purpurový šíp“)]A;]]></Val>
+          <Val><![CDATA[- `purpurová` (presunie kurzor späť)  ![Purpurový šíp]5D; (img/magenta_arrow.png "Purpurový šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ (pohybuje kurzorom doľava) ! [Modrý šíp]5D; (img/blue_arrow.png „Modrý šíp“)]A;]]></Val>
+          <Val><![CDATA[- `modrá` (pohybuje kurzorom doľava)  ![Modrý šíp]5D; (img/blue_arrow.png "Modrý šíp")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

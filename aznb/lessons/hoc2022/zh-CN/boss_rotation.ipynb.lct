@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `clockwise` ![Clockwise Rotation]5D;(img/clockwise_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “顺时针”！[顺时针旋转]5D;(img/clockwise_ring.png "外侧圆环")]A;]]></Val>
+          <Val><![CDATA[- `顺时针` ![顺时针旋转]5D;(img/clockwise_ring.png "外侧圆环")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `counterclockwise` ![Counterclockwise Rotation]5D;(img/counterclockwise_ring.png "Counterclockwise Rotation")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “逆时针”！[逆时针旋转]5D;(img/counterclockwise_ring.png "逆时针旋转")]]></Val>
+          <Val><![CDATA[- `逆时针` ![逆时针旋转]5D;(img/counterclockwise_ring.png "逆时针旋转")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="14" />
@@ -66,7 +66,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Now's your chance to capture the Time Agents! Head to the center of the boss arena and look down! You'll need to align all 3 rings with the center colors of the trap to activate it! Use the `rotate_ring()` function to rotate each ring either clockwise or counterclockwise to align all the colors!]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[现在轮到你来抓住时间代理机器人了！前往 boss 竞技场的中心，向下看！你将需要将所有 3 个圆环与陷阱的中心颜色一一对应，才能将其激活！使用“rotate_ring()”函数顺时针或逆时针旋转每个圆环，以对齐所有颜色！]A;]]></Val>
+          <Val><![CDATA[现在轮到你来抓住时间代理机器人了！前往 boss 竞技场的中心，向下看！你将需要将所有 3 个圆环与陷阱的中心颜色一一对应，才能将其激活！使用"rotate_ring()”函数顺时针或逆时针旋转每个圆环，以对齐所有颜色！]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `rotate_ring()` function takes two parameters. The first one defines which ring you want to rotate and the second one defines which direction it should rotate in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“rotate_ring()”函数采用两个参数。第一个定义想要旋转的圆环，第二个定义应该旋转的方向。]A;]]></Val>
+          <Val><![CDATA["rotate_ring()”函数采用两个参数。第一个定义想要旋转的圆环，第二个定义应该旋转的方向。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `outer` ![Outer Ring]5D;(img/outer_ring.png "Outer Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “外侧”！[外侧圆环]5D;(img/outer_ring.png "外侧圆环")]A;]]></Val>
+          <Val><![CDATA[- `外侧` ![外侧圆环]5D;(img/outer_ring.png "外侧圆环")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `middle` ![Middle Ring]5D;(img/middle_ring.png "Middle Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “中间”！[中间圆环]5D;(/middle_ring.png "中间圆环")]A;]]></Val>
+          <Val><![CDATA[- `middle` (middle) ![中间圆环]5D;(/middle_ring.png "中间圆环")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `inner` ![Inner Ring]5D;(img/inner_ring.png "Inner Ring")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “内侧”！[内侧圆环]5D;(img/inner_ring.png "内侧圆环")]A;]]></Val>
+          <Val><![CDATA[- `内侧` ![内侧圆环]5D;(img/inner_ring.png "内侧圆环")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

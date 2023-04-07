@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `king` ![King]5D;(img/king_icon.png "King")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `king` ![Король]5D;(img/king_icon.png "Король")]A;]]></Val>
+          <Val><![CDATA[- `king` (Король) ![Король]5D;(img/king_icon.png "Король")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `king`]A;]]></Val>
@@ -132,7 +132,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `queen` ![Queen]5D;(img/queen_icon.png "Queen")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[— `queen` ![Королева]5D;(img/queen_icon.png "Королева")]A;]]></Val>
+          <Val><![CDATA[- `queen` (Королева) ![Королева]5D;(img/queen_icon.png "Королева")]A;]]></Val>
         </Tgt>
         <Prev Cat="Text">
           <Val><![CDATA[- `queen`]A;]]></Val>

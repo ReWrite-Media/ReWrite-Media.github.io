@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Right")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `right` ![Right]5D;(img/gray_right.png "Надясно")]A;]]></Val>
+          <Val><![CDATA[- `right` (надясно) ![Right]5D;(img/gray_right.png "Дясно")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Green")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `green` ![Green]5D;(img/green_right.png "Зелено")]A;]]></Val>
+          <Val><![CDATA[- `green` (зелено) ![Green]5D;(img/green_right.png "Зелено")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -192,7 +192,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Use a `for` loop to do one or more actions multiple times.]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Използвайте цикъл с „for“, за да извършите едно или повече действия няколко пъти.]]></Val>
+          <Val><![CDATA[Използвайте цикъл с "for", за да извършите едно или повече действия няколко пъти.]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="19" />

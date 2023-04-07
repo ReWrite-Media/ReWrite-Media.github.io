@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `fermented spider eye` ![Fermented Spider Eye]5D;(img/fermented_spider_eye.png "Fermented Spider Eye")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `occhio di ragno fermentato` ![Occhio di ragno fermentato]5D;(img/fermented_spider_eye.png "Occhio di ragno fermentato")]A;]]></Val>
+          <Val><![CDATA[- `fermented spider eye` (Occhio di ragno fermentato) ![Occhio di ragno fermentato]5D;(img/fermented_spider_eye.png "Occhio di ragno fermentato")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `phantom membrane` ![Phantom Membrane]5D;(img/phantom_membrane.png "Phantom Membrane")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `membrana fantasma` ![Membrana fantasma]5D;(img/phantom_membrane.png "Membrana fantasma")]A;]]></Val>
+          <Val><![CDATA[- `phantom membrane` (Membrana fantasma) ![Membrana fantasma]5D;(img/phantom_membrane.png "Membrana fantasma")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

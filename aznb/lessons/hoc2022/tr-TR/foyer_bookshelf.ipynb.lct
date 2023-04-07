@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `yellow` (imleci sağa hareket ettirir) ![Sarı Ok]5D; (img/yellow_arrow.png ''Sarı Ok'')]]></Val>
+          <Val><![CDATA[- `yellow` (imleci sağa hareket ettirir) ![Sarı Ok]5D; (img/yellow_arrow.png "Sarı Ok")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `orange` (imleci yukarı doğru hareket ettirir) ![Turuncu Ok]5D; (img/orange_arrow.png ''Turuncu Ok'')]A;]]></Val>
+          <Val><![CDATA[- `orange` (imleci yukarı doğru hareket ettirir) ![Turuncu Ok]5D;(img/orange_arrow.png "Turuncu Ok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `magenta` (imleci aşağı doğru hareket ettirir) ![Eflatun Ok]5D; (img/magenta_arrow.png ''Eflatun Ok'')]A;]]></Val>
+          <Val><![CDATA[- `magenta` (imleci aşağı doğru hareket ettirir) ![Eflatun Ok]5D; (img/magenta_arrow.png "Eflatun Ok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `blue` (imleci sola hareket ettirir) ![Mavi Ok]5D; (img/blue_arrow.png ''Mavi Ok'')]A;]]></Val>
+          <Val><![CDATA[- `blue` (imleci sola hareket ettirir) ![Mavi Ok]5D; (img/blue_arrow.png "Mavi Ok")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

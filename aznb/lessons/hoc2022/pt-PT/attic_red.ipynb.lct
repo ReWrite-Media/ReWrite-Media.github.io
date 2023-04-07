@@ -48,7 +48,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `down`]]></Val>
+          <Val><![CDATA[- `down` (baixo)]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="13" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[To open the Red door, both you and the Agent will have to work together. Flip the level to bring up the iron wall, then move the Agent so it is positioned above the gold blocks in front of the Red door. Use `agent.move()` function to move the agent on the gold blocks. ]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Para abrir a Porta vermelha, tu e o Agent terão de trabalhar em conjunto. Puxa a alavanca para fazer subir a parede de ferro e, em seguida, move o Agent de modo a que fique posicionado por cima dos blocos de ouro em frente à Porta vermelha. Utiliza a função \"agent.move()\" para mover o Agent nos blocos de ouro.]A;]]></Val>
+          <Val><![CDATA[Para abrir a Porta vermelha, tu e o Agent terão de trabalhar em conjunto. Puxa a alavanca para fazer subir a parede de ferro e, em seguida, move o Agent de modo a que fique posicionado por cima dos blocos de ouro em frente à Porta vermelha. Utiliza a função "agent.move()" para mover o Agent nos blocos de ouro.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `agent.move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[A função \"agent.move()\" usa um parâmetro para definir em que direção se deve mover.]A;]]></Val>
+          <Val><![CDATA[A função "agent.move()" usa um parâmetro para definir em que direção se deve mover.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `forward`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `forward`]A;]]></Val>
+          <Val><![CDATA[- `forward` (para a frente)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -111,7 +111,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `back`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `back`]A;]]></Val>
+          <Val><![CDATA[- `back` (para trás)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -120,7 +120,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `left`]A;]]></Val>
+          <Val><![CDATA[- `left` (esquerda)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

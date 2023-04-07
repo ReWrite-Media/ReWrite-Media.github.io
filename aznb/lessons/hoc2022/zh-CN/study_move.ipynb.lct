@@ -12,7 +12,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# Clay Ball Maze]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 粘土球迷宫]A;]]></Val>
+          <Val><![CDATA[# 黏土球迷宫]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="1" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Move the clay ball to the gold block. Use the `clay_ball_move()` function to navigate the ball through the maze.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[将粘土球移动至金色方块。使用“clay_ball_move()”函数引导球穿过迷宫。]A;]]></Val>
+          <Val><![CDATA[将黏土球移动至金色方块。使用 `clay_ball_move()` 功能引导球穿过迷宫。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `clay_ball_move()` function takes one parameter that defines what direction it should move in.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[“clay_ball_move()”函数采用一个参数来定义其应该移动的方向。]A;]]></Val>
+          <Val><![CDATA["clay_ball_move()”函数采用一个参数来定义其应该移动的方向。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `up`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向上”]A;]]></Val>
+          <Val><![CDATA[- `up`（向上）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `down`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向下”]A;]]></Val>
+          <Val><![CDATA[- `down`（向下）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `left`]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- “向左”]A;]]></Val>
+          <Val><![CDATA[- `left`（向左）]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
@@ -129,7 +129,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 将粘土球向上移动]A;]]></Val>
+          <Val><![CDATA[# 将黏土球向上移动]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="12" />
@@ -174,7 +174,7 @@
       <Str Cat="Text">
         <Val><![CDATA[# move the clay ball up]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[# 将粘土球向上移动]A;]]></Val>
+          <Val><![CDATA[# 将黏土球向上移动]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="17" />
@@ -210,7 +210,7 @@
       <Str Cat="Text">
         <Val><![CDATA[Navigate the clay ball through the maze to reach the gold block.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[引导粘土球穿过迷宫，到达金色方块。]A;]]></Val>
+          <Val><![CDATA[引导黏土球穿过迷宫，到达金色方块。]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="21" />

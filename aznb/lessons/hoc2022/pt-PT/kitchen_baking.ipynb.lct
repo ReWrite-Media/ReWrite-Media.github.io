@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `harvest_wheat()` ![Harvest Wheat]5D;(img/bread_wheat.png "Harvest Wheat")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `harvest_wheat()` ![Colher Trigo]5D;(img/bread_wheat.png \"Colher Trigo\")]A;]]></Val>
+          <Val><![CDATA[- `harvest_wheat()` (Colher Trigo) ![Colher Trigo]5D;(img/bread_wheat.png "Colher Trigo")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="6" />
@@ -75,7 +75,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `make_dough()` ![Make Dough]5D;(img/bread_dough.png "Make Dough")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `make_dough()` ![Fazer Massa]5D;(img/bread_dough.png \"Fazer Massa\")]A;]]></Val>
+          <Val><![CDATA[- `make_dough()` ![Fazer Massa]5D;(img/bread_dough.png "Fazer Massa")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `mill_wheat()` ![Mill Wheat]5D;(img/bread_mill.png "Mill Wheat")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- `mill_wheat()` ![Moer Trigo]5D;(img/bread_mill.png \"Moer Trigo\")]]></Val>
+          <Val><![CDATA[- `mill_wheat()` (Moer Trigo) ![Moer Trigo]5D;(img/bread_mill.png "Moer Trigo")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />

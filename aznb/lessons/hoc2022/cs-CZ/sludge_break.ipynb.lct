@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žlutá“ (přesune kurzor doprava) ! [Žlutá šipka]5D; (img/yellow_arrow.png „Žlutá šipka“)]]></Val>
+          <Val><![CDATA[- `žlutá` (přesune kurzor doprava)  ![Žlutá šipka]5D; (img/yellow_arrow.png "Žlutá šipka")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkce „move_cursor()“ přebírá má parametr, který definuje její směr. Tímto parametrem je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
+          <Val><![CDATA[Funkce "move_cursor()" přebírá má parametr, který definuje její směr. Tímto parametrem je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor up) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posune kurzor nahoru) ! [Oranžová šipka]5D; (img/orange_arrow.png „Oranžová šipka“)]A;]]></Val>
+          <Val><![CDATA[- `orange` (posune kurzor nahoru) ![Oranžová šipka]5D;(img/orange_arrow.png „Oranžová šipka“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor down)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ (přesune kurzor dolů) ! [Purpurová šipka]5D; (img/magenta_arrow.png „Purpurová šipka“)]A;]]></Val>
+          <Val><![CDATA[- `purpurová` (přesune kurzor dolů)  ![Purpurová šipka]5D; (img/magenta_arrow.png "Purpurová šipka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ (přesune kurzor doleva) ! [Modrá šipka]5D; (img/blue_arrow.png „Modrá šipka“)]A;]]></Val>
+          <Val><![CDATA[- `modrá` (přesune kurzor doleva)  ![Modrá šipka]5D; (img/blue_arrow.png "Modrá šipka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />

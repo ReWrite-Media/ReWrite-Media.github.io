@@ -30,7 +30,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `yellow` (moves the cursor right)  ![Yellow Arrow]5D;(img/yellow_arrow.png "Yellow Arrow")]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „žlutá“ (přesune kurzor doprava) ! [Žlutá šipka]5D; (img/yellow_arrow.png „Žlutá šipka“)]]></Val>
+          <Val><![CDATA[- `žlutá` (přesune kurzor doprava)  ![Žlutá šipka]5D; (img/yellow_arrow.png "Žlutá šipka")]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="11" />
@@ -39,7 +39,7 @@
       <Str Cat="Text">
         <Val><![CDATA[You'll need to get the Agent more power to open the Yellow door! There are trapdoors above the Agent blocking moonlight from coming in. Maybe you can use that to charge the Agent? Use the `move_cursor()` function to position the cursor and then `open_trapdoor()` to open the selected trapdoor.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[K otevření žlutých dveří bude agent potřebovat víc šťávy! Nad agentem jsou padací dveře, které blokují měsíční svit. Možná byste ho mohli použít k nabití agenta? Pomocí funkce „move_cursor()“ umístěte kurzor a poté funkcí „open_trapdoor()“ otevřete vybrané padací dveře.]A;]]></Val>
+          <Val><![CDATA[K otevření žlutých dveří bude agent potřebovat víc šťávy! Nad agentem jsou padací dveře, které blokují měsíční svit. Možná byste ho mohli použít k nabití agenta? Pomocí funkce "move_cursor()" umístěte kurzor a poté funkcí "open_trapdoor()" otevřete vybrané padací dveře.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="3" />
@@ -57,7 +57,7 @@
       <Str Cat="Text">
         <Val><![CDATA[The `move_cursor()` function takes one parameter that defines its direction. That parameter is the color of the arrow that represents the direction you want to move.]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[Funkce „move_cursor()“ přebírá jeden parametr, který definuje její směr. Tento parametr je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
+          <Val><![CDATA[Funkce "move_cursor()" přebírá jeden parametr, který definuje její směr. Tento parametr je barva šipky, která představuje směr, kterým se chcete pohybovat.]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="5" />
@@ -84,7 +84,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `orange` (moves the cursor forward) ![Orange Arrow]5D;(img/orange_arrow.png "Orange Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „oranžová“ (posune kurzor dopředu) ! [Oranžová šipka]5D; (img/orange_arrow.png „Oranžová šipka“)]A;]]></Val>
+          <Val><![CDATA[- „oranžová“ (posune kurzor dopředu) ![Oranžová šipka]5D;(img/orange_arrow.png „Oranžová šipka“)]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="8" />
@@ -93,7 +93,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `magenta` (moves the cursor back)  ![Magenta Arrow]5D;(img/magenta_arrow.png "Magenta Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „purpurová“ (přesune kurzor zpět) ! [Purpurová šipka]5D; (img/magenta_arrow.png „Purpurová šipka“)]A;]]></Val>
+          <Val><![CDATA[- `purpurová` (přesune kurzor zpět)  ![Purpurová šipka]5D; (img/magenta_arrow.png "Purpurová šipka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="9" />
@@ -102,7 +102,7 @@
       <Str Cat="Text">
         <Val><![CDATA[- `blue` (moves the cursor left)  ![Blue Arrow]5D;(img/blue_arrow.png "Blue Arrow")]A;]]></Val>
         <Tgt Cat="Text" Stat="Loc" Orig="New">
-          <Val><![CDATA[- „modrá“ (přesune kurzor doleva) ! [Modrá šipka]5D; (img/blue_arrow.png „Modrá šipka“)]A;]]></Val>
+          <Val><![CDATA[- `modrá` (přesune kurzor doleva)  ![Modrá šipka]5D; (img/blue_arrow.png "Modrá šipka")]A;]]></Val>
         </Tgt>
       </Str>
       <Disp Icon="Str" Order="10" />
